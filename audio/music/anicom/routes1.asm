@@ -1,0 +1,689 @@
+Music_Routes1:
+	db	$c0
+	dw	Music_Routes1_Ch1
+	db	$01
+	dw	Music_Routes1_Ch2
+	db	$02
+	dw	Music_Routes1_Ch3
+	db	$03
+	dw	Music_Routes1_Ch4
+Music_Routes1_Ch1:
+	db	$da,$00,$e0
+	db	$e5,$77
+	db	$f6,$00
+	db	$e6,$00,$02
+	db	$e1,$0,$43
+; P1-1
+	db	$d8,$8,$77
+	db	$0f
+; P1-2
+.loop2:
+	db	$d5,$20
+	db	$00
+	db	$fd,8
+	dw	.loop2
+; P1-3
+.loop3:
+	db	$40
+	db	$00
+	db	$fd,8
+	dw	.loop3
+; P1-4
+	db	$90
+	db	$00
+	db	$90
+	db	$00
+	db	$90
+	db	$00
+	db	$90
+	db	$00
+	db	$90
+	db	$06
+.mainloop:
+	db	$db,$02
+	db	$e1,$0,$00
+	db	$f5
+; P1-5
+	db	$d8,$8,$a1
+	db	$fe
+	dw	.sub5_11
+; P1-12
+	db	$6b
+	db	$db,$02
+	db	$d8,$8,$a1
+	db	$d4,$61
+	db	$d5,$91
+; P1-13
+	db	$fe
+	dw	.sub5_11
+; P1-20
+	db	$6b
+	db	$db,$02
+	db	$d8,$4,$a1
+	db	$03
+	db	$92
+	db	$db,$01
+	db	$f4
+	db	$dc,$c5
+	db	$d6,$b0
+; P1-21
+	db	$fe
+	dw	.sub21_22
+; P1-23
+	db	$20
+	db	$d6,$be
+	db	$f8,$be
+;		tempo 1
+	db	$f8,$90
+; P1-24
+;		tempo 15
+	db	$f8,$9e
+;		tempo 16
+	db	$f8,$9f
+	db	$b0
+; P1-25
+	db	$fe
+	dw	.sub21_22
+; P1-27
+	db	$20
+	db	$d6,$be
+	db	$f8,$be
+;		tempo 1
+	db	$f8,$d5,$20
+; P1-28
+;		tempo 7
+	db	$f8,$26
+;		tempo 8
+	db	$f8,$27
+	db	$1f
+	db	$00
+	db	$fc
+	dw	.mainloop
+.sub5_11:
+; P1-5
+	db	$21
+	db	$91
+	db	$d4,$61
+	db	$d5,$91
+	db	$11
+	db	$91
+	db	$d4,$41
+	db	$d5,$91
+; P1-6
+	db	$21
+	db	$b1
+	db	$d4,$61
+	db	$d5,$b1
+	db	$11
+	db	$91
+	db	$d4,$41
+	db	$d5,$91
+; P1-7
+	db	$21
+	db	$b1
+	db	$d4,$71
+	db	$d5,$b1
+	db	$21
+	db	$91
+	db	$d4,$61
+	db	$d5,$91
+; P1-8
+	db	$41
+	db	$b1
+	db	$d4,$71
+	db	$d5,$b1
+	db	$41
+	db	$d4,$11
+	db	$91
+	db	$11
+; P1-9
+	db	$d5,$21
+	db	$91
+	db	$d4,$61
+	db	$d5,$91
+	db	$11
+	db	$91
+	db	$d4,$41
+	db	$d5,$91
+; P1-10
+	db	$21
+	db	$b1
+	db	$d4,$61
+	db	$d5,$b1
+	db	$11
+	db	$91
+	db	$d4,$41
+	db	$d5,$91
+; P1-11
+	db	$db,$00
+	db	$d8,$4,$78
+	db	$60
+	db	$70
+	db	$d8,$8,$78
+;		tempo 13
+	db	$f8,$7c
+;		tempo 1
+	db	$f8,$60
+	db	$40
+	db	$ff
+.sub21_22:
+; P1-22
+	db	$f8,$b0
+;		tempo 15
+	db	$f8,$d5,$6e
+	db	$f8,$6e
+;		tempo 1
+	db	$f8,$d6,$90
+; P1-23
+	db	$f8,$90
+;		tempo 15
+	db	$f8,$d5,$6e
+	db	$f8,$6e
+;		tempo 1
+	db	$f8,$70
+	db	$ff
+Music_Routes1_Ch2:
+	db	$f6,$00
+	db	$e1,$0,$43
+	db	$f1
+; P2-1
+	db	$d8,$8,$77
+	db	$fe
+	dw	ROUTES1_BASS1
+; P2-2
+	db	$fe
+	dw	ROUTES1_BASS1
+; P2-3
+.loop3:
+	db	$d5,$20
+	db	$00
+	db	$fd,8
+	dw	.loop3
+; P2-4
+.loop4:
+	db	$20
+	db	$00
+	db	$fd,4
+	dw	.loop4
+	db	$10
+	db	$02
+	db	$db,$01
+	db	$e1,$0,$20
+	db	$d8,$2,$a8
+	db	$9e
+	db	$d4,$50
+.mainloop:
+; P2-5
+	db	$fe
+	dw	.melo5_11
+; P2-12
+	db	$fe
+	dw	.melo12
+	db	$db,$01
+	db	$e1,$0,$20
+	db	$d8,$2,$a8
+	db	$9e
+	db	$d4,$50
+; P2-13
+	db	$fe
+	dw	.melo5_11
+; P2-20
+	db	$fe
+	dw	.melo12
+	db	$d4,$63
+	db	$db,$01
+	db	$e1,$0,$00
+	db	$f4
+	db	$dc,$c5
+	db	$d6,$b1
+	db	$d5,$11
+; P2-21
+	db	$2f
+	db	$10
+	db	$22
+	db	$13
+	db	$d6,$b3
+	db	$93
+; P2-22
+	db	$d8,$8,$c5
+	db	$d5,$1b
+	db	$d6,$41
+	db	$61
+; P2-23
+	db	$79
+	db	$91
+	db	$71
+	db	$61
+; P2-24
+	db	$d8,$4,$c5
+	db	$d5,$20
+	db	$6e
+	db	$10
+	db	$4a
+	db	$61
+	db	$41
+; P2-25
+	db	$2f
+	db	$d6,$b3
+	db	$d5,$13
+	db	$23
+	db	$d6,$93
+; P2-26
+	db	$d8,$8,$c5
+	db	$d5,$1b
+	db	$d6,$61
+	db	$91
+; P2-27
+	db	$79
+	db	$61
+	db	$71
+	db	$91
+; P2-28
+	db	$d8,$4,$c5
+	db	$d5,$40
+	db	$96
+	db	$40
+	db	$96
+	db	$40
+	db	$96
+	db	$db,$01
+	db	$e1,$0,$20
+	db	$f5
+	db	$d8,$2,$a8
+	db	$9e
+	db	$d4,$50
+	db	$fc
+	dw	.mainloop
+.melo5_11:
+; P2-5
+	db	$d8,$4,$a8
+;		tempo 1
+	db	$f8,$50
+;		tempo 7
+	db	$f8,$66
+	db	$93
+	db	$47
+	db	$17
+	db	$23
+; P2-6
+;		tempo 8
+	db	$f8,$27
+;		tempo 4
+	db	$f8,$13
+	db	$d5,$b3
+	db	$93
+	db	$43
+	db	$23
+	db	$b3
+; P2-7
+	db	$f8,$b3
+	db	$f8,$d4,$13
+	db	$d5,$b3
+	db	$97
+	db	$d8,$2,$a8
+	db	$26
+	db	$52
+	db	$d8,$4,$a8
+	db	$62
+	db	$43
+; P2-8
+	db	$f8,$47
+	db	$f8,$0f
+	db	$03
+	db	$d8,$2,$a8
+	db	$d4,$26
+	db	$50
+; P2-9
+	db	$d8,$4,$a8
+;		tempo 1
+	db	$f8,$50
+;		tempo 3
+	db	$f8,$62
+	db	$73
+	db	$93
+	db	$47
+	db	$23
+	db	$13
+	db	$d5,$b3
+; P2-10
+	db	$f8,$b3
+;		tempo 8
+	db	$f8,$97
+	db	$63
+	db	$43
+	db	$23
+	db	$13
+	db	$23
+; P2-11
+;		tempo 16
+	db	$f8,$2f
+	db	$2f
+	db	$ff
+.melo12:
+	db	$2f
+;		tempo 4
+	db	$db,$02
+	db	$dc,$a1
+	db	$f8,$23
+	db	$93
+	db	$ff
+Music_Routes1_Ch3:
+	db	$e2,$1b
+; P3-1
+	db	$d8,$8,$3d
+	db	$fe
+	dw	ROUTES1_BASS1
+; P3-2
+	db	$fe
+	dw	ROUTES1_BASS1
+; P3-3
+	db	$fe
+	dw	ROUTES1_BASS1
+; P3-4
+.loop4:
+	db	$90
+	db	$00
+	db	$fd,4
+	dw	.loop4
+	db	$90
+	db	$02
+	db	$d5,$93
+.mainloop:
+; P3-5
+	db	$e2,$0d
+	db	$fe
+	dw	.bass5_11
+; P3-12
+;		tempo 2
+	db	$fe
+	dw	.bass12
+	db	$41
+	db	$61
+	db	$d6,$91
+; P3-13
+	db	$fe
+	dw	.bass5_11
+; P3-20
+	db	$fe
+	dw	.bass12
+	db	$21
+	db	$e2,$1b
+	db	$13
+; P3-21
+	db	$fe
+	dw	.bass21_22
+; P3-23
+	db	$fe
+	dw	.bass23
+	db	$b1
+	db	$d5,$11
+	db	$e2,$29
+	db	$21
+; P3-24
+;		tempo 4
+	db	$f8,$23
+	db	$e2,$0d
+;		tempo 2
+	db	$f8,$d6,$91
+	db	$d5,$21
+	db	$e2,$37
+	db	$17
+; P3-25
+	db	$fe
+	dw	.bass21_22
+; P3-27
+	db	$fe
+	dw	.bass23
+	db	$71
+	db	$b1
+	db	$d5,$21
+; P3-28
+	db	$d6,$91
+	db	$91
+	db	$91
+	db	$91
+	db	$d5,$91
+	db	$91
+	db	$91
+	db	$91
+	db	$fc
+	dw	.mainloop
+.bass5_11:
+; P3-5
+	db	$d5,$21
+	db	$21
+	db	$21
+	db	$21
+	db	$11
+	db	$11
+	db	$11
+	db	$11
+; P3-6
+	db	$d6,$b1
+	db	$b1
+	db	$b1
+	db	$b1
+	db	$91
+	db	$91
+	db	$d5,$91
+	db	$91
+; P3-7
+	db	$71
+	db	$71
+	db	$71
+	db	$71
+	db	$61
+	db	$61
+	db	$61
+	db	$61
+; P3-8
+	db	$41
+	db	$41
+	db	$41
+	db	$41
+	db	$d6,$91
+	db	$b1
+	db	$d5,$11
+	db	$41
+; P3-9
+	db	$21
+	db	$21
+	db	$21
+	db	$21
+	db	$d6,$91
+	db	$91
+	db	$91
+	db	$91
+; P3-10
+	db	$b1
+	db	$b1
+	db	$b1
+	db	$b1
+	db	$91
+	db	$91
+	db	$91
+	db	$91
+; P3-11
+	db	$71
+	db	$71
+	db	$71
+	db	$e2,$1b
+	db	$d5,$73
+	db	$e2,$0d
+	db	$61
+	db	$41
+	db	$e2,$1b
+	db	$21
+	db	$ff
+.bass12:
+	db	$f8,$21
+	db	$e2,$0d
+	db	$f8,$21
+	db	$21
+	db	$21
+	db	$21
+	db	$ff
+.bass21_22:
+; P3-21
+	db	$e2,$29
+	db	$d6,$b5
+	db	$e2,$1b
+	db	$b3
+	db	$e2,$0d
+	db	$61
+	db	$e2,$1b
+	db	$b3
+; P3-22
+	db	$e2,$29
+	db	$65
+	db	$e2,$1b
+	db	$63
+	db	$e2,$0d
+	db	$d5,$11
+	db	$61
+	db	$11
+	db	$ff
+.bass23:
+	db	$e2,$29
+	db	$d6,$75
+	db	$e2,$1b
+	db	$73
+	db	$e2,$0d
+	db	$ff
+ROUTES1_BASS1:
+.loop1:
+	db	$d6,$90
+	db	$00
+	db	$fd,8
+	dw	.loop1
+	db	$ff
+Music_Routes1_Ch4:
+	db	$e3,$009
+; P4-1
+	db	$d8,$4
+	db	$fe
+	dw	.dr1
+; P4-2
+	db	$fe
+	dw	.dr1
+; P4-3
+	db	$fe
+	dw	.dr1
+; P4-4
+.loop4:
+	db	$71
+	db	$21
+	db	$fd,4
+	dw	.loop4
+	db	$77
+	db	$73
+	db	$71
+	db	$71
+.mainloop:
+.loop5_12:
+; P4-5
+	db	$fe
+	dw	.dr5
+; P4-6
+	db	$fe
+	dw	.dr5
+; P4-7
+	db	$fe
+	dw	.dr5
+; P4-8
+	db	$43
+	db	$23
+	db	$73
+	db	$43
+	db	$73
+	db	$41
+	db	$70
+	db	$70
+	db	$73
+	db	$43
+; P4-9
+	db	$fe
+	dw	.dr5
+; P4-10
+	db	$fe
+	dw	.dr5
+; P4-11
+	db	$43
+	db	$23
+	db	$73
+	db	$23
+	db	$43
+	db	$43
+	db	$73
+	db	$73
+; P4-12
+	db	$73
+	db	$43
+	db	$43
+	db	$73
+	db	$43
+	db	$73
+	db	$73
+	db	$73
+; P4-13
+	db	$fd,2
+	dw	.loop5_12
+.loop21_22:
+; P4-21
+	db	$fe
+	dw	.dr21
+	db	$23
+; P4-22
+	db	$fe
+	dw	.dr21
+	db	$23
+; P4-23
+	db	$fd,3
+	dw	.loop21_22
+; P4-25
+; P4-27
+	db	$fe
+	dw	.dr21
+	db	$23
+; P4-28
+	db	$43
+	db	$23
+	db	$23
+	db	$73
+	db	$23
+	db	$73
+	db	$73
+	db	$71
+	db	$71
+	db	$fc
+	dw	.mainloop
+.dr1:
+.loop1:
+	db	$41
+	db	$21
+	db	$21
+	db	$21
+	db	$fd,4
+	dw	.loop1
+	db	$ff
+.dr5:
+	db	$43
+	db	$23
+	db	$73
+	db	$23
+	db	$43
+	db	$43
+	db	$73
+	db	$23
+	db	$ff
+.dr21:
+	db	$43
+	db	$23
+	db	$23
+	db	$43
+	db	$23
+	db	$43
+	db	$73
+	db	$ff
+
+

@@ -1,0 +1,81 @@
+DevEd for making CryEd.
+Pret and everyone who contributed to pokecrystal, as CryEds audio engine was taken from pokecrystal.
+Dotsarecool for making the Gen 1 cry editor that also works on gen 2 due to the shared engine.
+
+TPPDevs for Phancero's cry.
+
+Pokemon Cry Data:
+	TShadowKnight / Pokemon Space World Crystal:
+		Flambear
+		Volbear
+		Dynabear
+		Cruz
+		Aquacent
+		Aquaria
+		Trifox
+		Orschul
+		Molambino
+		Grotess
+		Parabud
+		Dodaerie
+		Cointen
+		Gatoll
+		Bellboyant
+		Folicorn
+		Turbann
+		Smujj
+		Tiruff
+		Kotora
+		Raitora
+		Kurstraw
+		Pangshi
+		Wolfman
+		Warwolf
+	SourPotato / Pokemon Gold '97 Reforged:
+		Burgela
+		Numpuff
+		Lykwyse
+	Game Freak:
+		Siamais
+		Belmitt
+		Madame
+		Plux
+Pokemon Names:
+	TShadowKnight / Pokemon Space World Crystal:
+		Flambear
+		Trifox
+		Numpuff
+		Lykwyse
+		Bellboyant
+		Belmitt
+		Kurstraw
+		Pangshi
+	Game Freak:
+		Volbear
+		Dynabear
+		Cruz
+		Aquaria
+		Grotess
+		Turbann
+		Kotora
+		Raitora
+		Madame
+		Plux
+		Wolfman
+		Warwolf
+	Nob Ogasawara:
+		Burgela
+		Molambino
+		Angore
+		Sailwing
+		Dodaerie
+		Smujj
+Music:
+	Junichi Masuda
+	Go Ichinose
+	Morikazu Aoki
+	Scott Cheney
+	William Anderson
+	Daniel Ingram
+	Jack Getschman
+	Solo Acapello
