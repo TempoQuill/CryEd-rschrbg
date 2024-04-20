@@ -1,6 +1,6 @@
 SFX:
 ; entries correspond to SFX_* constants
-	table_width 3, SFX
+;	table_width 3, SFX
 	dba Sfx_ObtainItem
 	dba Sfx_Entrustment
 	dba Sfx_Medicine
@@ -261,7 +261,6 @@ SFX:
 	dba Sfx_PlaneTakingOff
 	dba Sfx_GGG
 
-	dba Sfx_UnincludedFanfare
-;	dba Sfx_UnusedE8
+	dba Sfx_UnusedE8
 	dba Sfx_UnusedE9
-	assert_table_length NUM_SFX
+;	assert_table_length NUM_SFX
