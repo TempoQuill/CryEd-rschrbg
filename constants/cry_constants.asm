@@ -56,8 +56,8 @@
 	const CRY_GROWL          ; 30
 	const CRY_CHIKORITA      ; 31
 	const CRY_ROAR_60        ; 32 ; aquaria, bomoca, drython, gobeldorl
-	const CRY_MILTANK        ; 33 ; orkid, syntique, bellboyant, milcalf
-	const CRY_COTTONCAT      ; 34 ; photorden, angore, gatoll
+	const CRY_MILTANK        ; 33 ; bellboyant
+	const CRY_COTTONCAT      ; 34 ; angore, gatoll
 	const CRY_HITMONTOP      ; 35 ; reclinax
 	const CRY_LEDYBA         ; 36
 	const CRY_TIGER          ; 37
@@ -79,7 +79,7 @@
 	const CRY_SPEAROW_OLD    ; 45 ; animadise, marloon
 	const CRY_CROW_OLD       ; 46 ; sweote
 	const CRY_DERBLE_4_OLD   ; 47 ; metabeak, scafarow
-	const CRY_HOOTHOOT_OLD   ; 48 ; noctglide, highpo
+	const CRY_HOOTHOOT_OLD   ; 48 ; photorden, noctglide, highpo
 	const CRY_TIGER_OLD      ; 49 ; dragonisce, rakuki, mightalex
 	const CRY_SNEASEL_OLD    ; 4a ; arlurry
 	const CRY_LEDIURY        ; 4b ; lediury
@@ -98,6 +98,16 @@
 	const CRY_GLABBIT        ; 58 ; glabbit, cirriffon
 	const CRY_GUARNID        ; 59 ; guarnid, flinja, helicelia
 	const CRY_DRISCORINA     ; 5a ; driscorina, shellaptor
+
+	const CRY_ORKID          ; 5b ; orkid, syntique, milcalf
+	const CRY_CROVEN         ; 5c ; 
+	const CRY_CRANEST        ; 5d ; 
+	const CRY_ALREM          ; 5e ; 
+	const CRY_RECLINAX       ; 5f ; 
+	const CRY_SANDSCOUR      ; 60 ; 
+	const CRY_TEAROW         ; 61 ; 
+	const CRY_WINDKITT       ; 62 ; 
+	const CRY_COSMOREAS      ; 63 ; 
 NUM_CRIES EQU const_value
 
 PROTO_CRY_N_A        EQU CRY_NIDORAN_M

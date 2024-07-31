@@ -94,4 +94,13 @@ Cries:
 	dba Cry_Glabbit
 	dba Cry_Guarnid
 	dba Cry_Driscorina
+	dba Cry_Orkid
+	dba Cry_Croven
+	dba Cry_Cranest
+	dba Cry_Alrem
+	dba Cry_Reclinax
+	dba Cry_Sandscour
+	dba Cry_Tearow
+	dba Cry_Windkitt
+	dba Cry_Cosmoreas
 	assert_table_length NUM_CRIES
