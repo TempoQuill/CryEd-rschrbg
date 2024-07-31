@@ -76,11 +76,12 @@ _chan = 2
 HRM_BadGuy_Ch3:
 _chan = 3
 	vibrato 3, 4, 4
-	note_type 12, 2, 5
+	note_type 12, 1, 17
 	octave 3
 	note C#, 2
 	octave 2
 	note G#, 2
+	volume_envelope 2, 5
 	octave 3
 	note G#, 1
 	rest 1
@@ -88,6 +89,7 @@ _chan = 3
 	rest 1
 	note G#, 4
 .mainloop:
+	volume_envelope 1, 17
 	octave 2
 	note C#, 1
 	rest 3

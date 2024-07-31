@@ -84,7 +84,7 @@ _chan = 2
 HRM_Boy_Ch3:
 _chan = 3
 	transpose 1, 0
-	note_type 12, 1, 17
+	note_type 12, 1, 29
 	rest 6
 	octave 4
 	note B_, 1

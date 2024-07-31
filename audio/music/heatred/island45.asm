@@ -410,7 +410,7 @@ _chan = 3
 	note A#, 4
 	vibrato 7, 2, 3
 	volume_envelope 1, 19
-	octave 5
+	octave 4
 	note D#, 12
 	note F_, 12
 	note G_, 8
@@ -419,7 +419,7 @@ _chan = 3
 .sub1:
 	vibrato 7, 2, 3
 	note_type 6, 1, 19
-	octave 5
+	octave 4
 	note G#, 4
 	note D#, 2
 	rest 2
@@ -427,21 +427,21 @@ _chan = 3
 	rest 2
 	note G#, 8
 	note A#, 8
-	octave 6
+	octave 5
 	note C_, 2
 	rest 1
 	note E_, 1
 	note D#, 12
 	note C_, 3
 	rest 5
-	octave 5
+	octave 4
 	note A#, 3
 	rest 5
-	octave 6
+	octave 5
 	note C_, 2
 	rest 2
 	note_type 12, 1, 19
-	octave 5
+	octave 4
 	note G#, 8
 	volume_envelope 2, 19
 	toggle_tie_slur
@@ -450,7 +450,7 @@ _chan = 3
 	note G#, 16
 	note_type 6, 1, 19
 	toggle_tie_slur
-	octave 6
+	octave 5
 	note C#, 16
 	volume_envelope 2, 19
 	toggle_tie_slur
@@ -458,7 +458,7 @@ _chan = 3
 	volume_envelope 1, 19
 	toggle_tie_slur
 	note C_, 4
-	octave 5
+	octave 4
 	note A#, 2
 	rest 2
 	note G#, 16
@@ -482,7 +482,6 @@ _chan = 3
 	note_type 12, 1, 0
 	envelope_sequence 0
 	toggle_tie_slur
-	octave 4
 	note G_, 2
 	sound_ret
 

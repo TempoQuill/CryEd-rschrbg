@@ -386,25 +386,26 @@ _chan = 3
 	note C#, 14
 	rest 6
 	volume_envelope 1, 19
-	note C#, 4
 	octave 5
+	note C#, 4
+	octave 4
 	note B_, 4
 	note A_, 4
 	note B_, 16
 	note F#, 8
-	octave 6
+	octave 5
 	note C_, 1
 	note C#, 7
-	octave 5
+	octave 4
 	note B_, 16
 	note A_, 8
 	note F#, 8
 	note G#, 16
 	note A_, 8
-	octave 6
+	octave 5
 	note C#, 8
 	note C#, 16
-	octave 5
+	octave 4
 	note B_, 16
 	sound_jump .mainloop
 

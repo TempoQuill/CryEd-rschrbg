@@ -209,6 +209,7 @@ _chan = 3
 	note E_, 2
 .mainloop:
 	sound_call .sub1
+	sound_call .sub6
 	sound_call .sub2
 	note D_, 4
 	rest 4
@@ -219,42 +220,15 @@ _chan = 3
 	note D_, 2
 	note E_, 2
 	sound_call .sub1
-	note E_, 2
-	rest 2
-	note G_, 2
-	rest 2
-	note F#, 2
-	rest 2
-	note E_, 2
-	rest 2
-	note D_, 2
-	rest 2
-	note C#, 2
-	rest 2
-	octave 3
-	note B_, 2
-	rest 2
-	octave 4
-	note C#, 2
-	rest 2
-	note B_, 6
-	rest 2
-	octave 3
-	note B_, 1
-	octave 4
-	note C#, 1
-	octave 3
-	note B_, 2
-	note A_, 2
-	octave 4
-	note C#, 2
+	sound_call .sub6
 	sound_call .sub3
 	sound_call .sub4
 	stereo_panning TRUE, TRUE
 	volume_envelope 1, 19
-	octave 5
+	octave 4
 	note D_, 2
 	note E_, 2
+	sound_call .sub1
 	sound_call .sub5
 	sound_call .sub2
 	note D_, 4
@@ -265,36 +239,8 @@ _chan = 3
 	volume_envelope 1, 19
 	note D_, 2
 	note E_, 2
+	sound_call .sub1
 	sound_call .sub5
-	note E_, 2
-	rest 2
-	note G_, 2
-	rest 2
-	note F#, 2
-	rest 2
-	note E_, 2
-	rest 2
-	note D_, 2
-	rest 2
-	note C#, 2
-	rest 2
-	octave 4
-	note B_, 2
-	rest 2
-	octave 5
-	note C#, 2
-	rest 2
-	note B_, 6
-	rest 2
-	octave 4
-	note B_, 1
-	octave 5
-	note C#, 1
-	octave 4
-	note B_, 2
-	note A_, 2
-	octave 5
-	note C#, 2
 	sound_call .sub3
 	sound_call .sub4
 	stereo_panning TRUE, TRUE
@@ -315,26 +261,6 @@ _chan = 3
 	note D_, 2
 	note E_, 2
 	sound_loop 2, .sub1loop1
-	note F#, 2
-	rest 2
-	note F#, 2
-	rest 2
-	note G_, 5
-	rest 1
-	note F#, 2
-	note E_, 4
-	stereo_panning FALSE, TRUE
-	volume_envelope 2, 7
-	octave 3
-	note A_, 2
-	rest 2
-	note A_, 2
-	rest 2
-	stereo_panning TRUE, TRUE
-	volume_envelope 1, 25
-	octave 4
-	note C#, 2
-	note D_, 2
 	sound_ret
 
 .sub2:
@@ -359,6 +285,35 @@ _chan = 3
 	sound_ret
 
 .sub3:
+	note E_, 2
+	rest 2
+	note G_, 2
+	rest 2
+	note F#, 2
+	rest 2
+	note E_, 2
+	rest 2
+	note D_, 2
+	rest 2
+	note C#, 2
+	rest 2
+	octave 3
+	note B_, 2
+	rest 2
+	octave 4
+	note C#, 2
+	rest 2
+	note B_, 6
+	rest 2
+	octave 3
+	note B_, 1
+	octave 4
+	note C#, 1
+	octave 3
+	note B_, 2
+	note A_, 2
+	octave 4
+	note C#, 2
 	note D_, 2
 	rest 2
 	stereo_panning FALSE, TRUE
@@ -370,7 +325,6 @@ _chan = 3
 	rest 2
 	stereo_panning TRUE, TRUE
 	volume_envelope 1, 19
-	octave 5
 	note F#, 2
 	note G_, 2
 	note A_, 2
@@ -381,18 +335,18 @@ _chan = 3
 	rest 2
 	note D_, 2
 	rest 2
-	octave 6
+	octave 5
 	note D_, 2
 	rest 2
 	note C#, 2
 	rest 2
-	octave 5
+	octave 4
 	note B_, 2
 	rest 2
-	octave 6
+	octave 5
 	note C#, 2
 	rest 2
-	octave 5
+	octave 4
 	note A_, 2
 	rest 2
 	note F#, 2
@@ -412,18 +366,18 @@ _chan = 3
 	rest 2
 	note A_, 2
 	rest 2
-	octave 6
+	octave 5
 	note D_, 2
 	rest 2
 	note C#, 2
 	rest 2
-	octave 5
+	octave 4
 	note B_, 4
 	rest 2
 	note G_, 2
 	note A_, 2
 	rest 2
-	octave 6
+	octave 5
 	note D_, 2
 	rest 2
 	note C#, 2
@@ -450,11 +404,25 @@ _chan = 3
 	rest 2
 	note F#, 2
 	rest 2
+	note G_, 5
+	rest 1
 	note F#, 2
+	note E_, 4
+	stereo_panning FALSE, TRUE
+	volume_envelope 2, 7
+	octave 3
+	note A_, 2
 	rest 2
+	note A_, 2
+	rest 2
+	stereo_panning TRUE, TRUE
+	volume_envelope 1, 19
+	octave 4
+	note C#, 2
 	note D_, 2
-	note E_, 2
-	sound_loop 2, .sub5loop1
+	sound_ret
+
+.sub6:
 	note F#, 2
 	rest 2
 	note F#, 2
@@ -471,8 +439,8 @@ _chan = 3
 	note A_, 2
 	rest 2
 	stereo_panning TRUE, TRUE
-	volume_envelope 1, 19
-	octave 5
+	volume_envelope 1, 25
+	octave 4
 	note C#, 2
 	note D_, 2
 	sound_ret

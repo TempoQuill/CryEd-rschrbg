@@ -262,14 +262,17 @@ _chan = 3
 	note G_, 1
 	note F#, 12
 	note F#, 16
+	vibrato 32, 4, 4
 	note_type 8, 1, 19
-	octave 4
+	octave 3
 	note G_, 4
 	note F#, 4
 	note E_, 4
 	note C_, 12
 	rest 3
+	vibrato 32, 2, 4
 	note_type 12, 1, 24
+	octave 4
 	note C_, 1
 	note E_, 1
 	note G_, 1
