@@ -9,105 +9,104 @@
 	const CRY_RHYHORN        ;  4
 	const CRY_GRIMER         ;  5 ; smujj
 	const CRY_VOLTORB        ;  6
-	const CRY_GENGAR         ;  7 ; todbrush
-	const CRY_IVYSAUR_OLD    ;  8 ; willofudd
-	const CRY_NIDOKING       ;  9 ; cranest
-	const CRY_NIDOQUEEN      ;  a ; alphape, cnetir
+	const CRY_GENGAR         ;  7
+	const CRY_IVYSAUR_OLD    ;  8
+	const CRY_NIDOKING       ;  9
+	const CRY_NIDOQUEEN      ;  a ; centir
 	const CRY_EXEGGCUTE      ;  b ; dodaerie
-	const CRY_LICKITUNG      ;  c ; liodew
-	const CRY_EXEGGCUTOR     ;  d ; alrem
+	const CRY_LICKITUNG      ;  c
+	const CRY_EXEGGCUTOR     ;  d
 	const CRY_PIP            ;  e ; lykwyse
 	const CRY_GYAOON         ;  f
-	const CRY_SPEAROW        ; 10 ; croven, astroven
+	const CRY_SPEAROW        ; 10
 	const CRY_RHYDON         ; 11
-	const CRY_TANGELA        ; 12 ; pangshi, choaking
+	const CRY_TANGELA        ; 12 ; pangshi
 	const CRY_BLASTOISE      ; 13
 	const CRY_PINSIR         ; 14
 	const CRY_ARCANINE       ; 15
 	const CRY_SCYTHER        ; 16 ; orschul
-	const CRY_GYARADOS       ; 17 ; tearow, nohtyp
-	const CRY_SHELLDER       ; 18 ; sunthesia
+	const CRY_GYARADOS       ; 17
+	const CRY_SHELLDER       ; 18
 	const CRY_CUBONE         ; 19 ; cointen
-	const CRY_TENTACOOL      ; 1a ; venoknight
+	const CRY_TENTACOOL      ; 1a
 	const CRY_LAPRAS         ; 1b ; raitora
-	const CRY_GASTLY         ; 1c ; whispeon, squidrill
-	const CRY_KARABATHEO     ; 1d ; assembleon
-	const CRY_STARMIE        ; 1e ; parabud, starello
-	const CRY_SLOWBRO        ; 1f ; grotess, tiruff, omanova, houndread
-	const CRY_34             ; 20 ; pinchler
+	const CRY_GASTLY         ; 1c
+	const CRY_KARABATHEO     ; 1d
+	const CRY_STARMIE        ; 1e ; parabud
+	const CRY_SLOWBRO        ; 1f ; grotess, tiruff
+	const CRY_34             ; 20
 ;	const CRY_35
-	const CRY_36             ; 21 ; cruz, aquacent, empeduck, cycorpion
-	const CRY_RATTATA        ; 22 ; ravermin, arbugs
-	const CRY_KINGSAURUS     ; 23 ; selenumia
+	const CRY_36             ; 21 ; cruz, aquacent
+	const CRY_RATTATA        ; 22
+	const CRY_KINGSAURUS     ; 23
 	const CRY_GRAVELER       ; 24 ; trifox
 	const CRY_PONYTA         ; 25 ; folicorn
 
 ; gen 2
 	const CRY_CROW           ; 26 ; burgela
-	const CRY_DERBLE_4       ; 27 ; tieracnid
+	const CRY_DERBLE_4       ; 27
 	const CRY_DERBLE_1       ; 28
 	const CRY_FELINE         ; 29 ; siamais, wolfman
 	const CRY_TYRANITAR      ; 2a
 	const CRY_BLEET_1        ; 2b
 	const CRY_DERBLE_2       ; 2c
 	const CRY_HOOTHOOT       ; 2d
-	const CRY_PHANPY         ; 2e ; kurstraw, coatret
-	const CRY_SLOWKING       ; 2f ; numpuff, turbann, belmitt, donkrank
+	const CRY_PHANPY         ; 2e ; kurstraw
+	const CRY_SLOWKING       ; 2f ; numpuff, turbann, belmitt
 	const CRY_GROWL          ; 30
 	const CRY_CHIKORITA      ; 31
-	const CRY_ROAR_60        ; 32 ; aquaria, bomoca, drython, gobeldorl
+	const CRY_ROAR_60        ; 32 ; aquaria, bomoca, gobeldorl
 	const CRY_MILTANK        ; 33 ; bellboyant
-	const CRY_COTTONCAT      ; 34 ; angore, gatoll
-	const CRY_HITMONTOP      ; 35 ; reclinax
+	const CRY_COTTONCAT      ; 34 ; gatoll
+	const CRY_HITMONTOP      ; 35
 	const CRY_LEDYBA         ; 36
 	const CRY_TIGER          ; 37
-	const CRY_SNEASEL        ; 38 ; quagami
-	const CRY_MANTINE        ; 39 ; molambino, sandscour
+	const CRY_SNEASEL        ; 38
+	const CRY_MANTINE        ; 39 ; molambino
 	const CRY_LUGIA          ; 3a ; dynabear, parbell
 	const CRY_MADAME         ; 3b ; madame
 	const CRY_ROAR_30        ; 3c ; flambear, volbear, warwolf
 	const CRY_ROAR_40        ; 3d
-	const CRY_ROAR_50        ; 3e ; plux, cosmoreas
-	const CRY_SUICUNE        ; 3f ; shuvel, windkitt
-	const CRY_MOUSE          ; 40 ; kotora, unilight
-	const CRY_HO_OH          ; 41 ; laroon
+	const CRY_ROAR_50        ; 3e ; plux
+	const CRY_SUICUNE        ; 3f
+	const CRY_MOUSE          ; 40 ; kotora
+	const CRY_HO_OH          ; 41
 	const CRY_GRANBULL       ; 42
-	const CRY_DONPHAN        ; 43 ; magneven
+	const CRY_DONPHAN        ; 43
 
 ; Gen 3+
-	const CRY_EARTHTRON      ; 44 ; tentacrime, caditin, silvealth
-	const CRY_SPEAROW_OLD    ; 45 ; animadise, marloon
-	const CRY_CROW_OLD       ; 46 ; sweote
-	const CRY_DERBLE_4_OLD   ; 47 ; metabeak, scafarow
-	const CRY_HOOTHOOT_OLD   ; 48 ; photorden, noctglide, highpo
-	const CRY_TIGER_OLD      ; 49 ; dragonisce, rakuki, mightalex
-	const CRY_SNEASEL_OLD    ; 4a ; arlurry
-	const CRY_LEDIURY        ; 4b ; lediury
-	const CRY_YOSHI          ; 4c ; delflap, snoburi, snobuster
-	const CRY_BIG_YOSHI      ; 4d ; porysphia
-	const CRY_FOSSLIX        ; 4e ; fosslix, scooten
-	const CRY_POUCHENT       ; 4f ; pouchent, tiarant, sailwing
-	const CRY_MURPHELT       ; 50 ; murphelt, moscarf, flider
-	const CRY_ASSISDRA       ; 51 ; kaboulder, alidusk, sewma, assisdra
-	const CRY_KICLOUD        ; 52 ; kicloud, magenza
-	const CRY_DUGQUINTET     ; 53 ; dugquintet, quailter, staffbird
-	const CRY_COAZIGOAST     ; 54 ; coazigoast, chrysalty, parrobrass
-	const CRY_APPUCK         ; 55 ; appuck, griflet
-	const CRY_TOUFENSE       ; 56 ; toufense, koalimb, moundiver
-	const CRY_ANTLOG         ; 57 ; antlog, searchle, illusiro
-	const CRY_GLABBIT        ; 58 ; glabbit, cirriffon
-	const CRY_GUARNID        ; 59 ; guarnid, flinja, helicelia
-	const CRY_DRISCORINA     ; 5a ; driscorina, shellaptor
-
-	const CRY_ORKID          ; 5b ; orkid, syntique, milcalf
-	const CRY_CROVEN         ; 5c ; 
-	const CRY_CRANEST        ; 5d ; 
-	const CRY_ALREM          ; 5e ; 
-	const CRY_RECLINAX       ; 5f ; 
-	const CRY_SANDSCOUR      ; 60 ; 
-	const CRY_TEAROW         ; 61 ; 
-	const CRY_WINDKITT       ; 62 ; 
-	const CRY_COSMOREAS      ; 63 ; 
+	const CRY_EARTHTRON      ; 44 ; Tentacrime, Silvealth, Venoknight, Caditin
+	const CRY_SPEAROW_OLD    ; 45 ; Empeduck, Animadise, Marloon
+	const CRY_CROW_OLD       ; 46 ; Donkrank, Sweote
+	const CRY_DERBLE_4_OLD   ; 47 ; Tieracnid, Metabeak, Scafarow
+	const CRY_HOOTHOOT_OLD   ; 48 ; Photorden, Noctglide, Highpo
+	const CRY_TIGER_OLD      ; 49 ; Mightalex, Angore, Rakuki, Dragonisce, Choaking
+	const CRY_SNEASEL_OLD    ; 4a ; Arbugs, Unilight, Magneven, Drython, Arlurry
+	const CRY_LEDIURY        ; 4b ; Quagami, Lediury
+	const CRY_YOSHI          ; 4c ; Snoburi, Snobuster, Delflap
+	const CRY_BIG_YOSHI      ; 4d ; Porysphia
+	const CRY_FOSSLIX        ; 4e ; Fosslix, Scooten
+	const CRY_POUCHENT       ; 4f ; Sailwing, Tiarant, Alphape, Pouchent
+	const CRY_MURPHELT       ; 50 ; Murphelt, Moscarf, Flider
+	const CRY_ASSISDRA       ; 51 ; Liodew, Alidusk, Kaboulder, Sewma, Assisdra
+	const CRY_KICLOUD        ; 52 ; Kicloud, Magenza
+	const CRY_DUGQUINTET     ; 53 ; Quailter, Staffbird, Dugquintet
+	const CRY_COAZIGOAST     ; 54 ; Coazigoast, Chrysalty, Parrobrass
+	const CRY_APPUCK         ; 55 ; Appuck, Griflet
+	const CRY_TOUFENSE       ; 56 ; Moundiver, Toufense, Assembleon, Koalimb
+	const CRY_ANTLOG         ; 57 ; Searchle, Antlog, Illusiro
+	const CRY_GLABBIT        ; 58 ; Pinchler, Coatret, Cirriffon, Glabbit
+	const CRY_GUARNID        ; 59 ; Guarnid, Flinja, Helicelia
+	const CRY_DRISCORINA     ; 5a ; Ravermin, Omanova, Shellaptor, Driscorina
+	const CRY_ORKID          ; 5b ; Orkid, Syntique, Willofudd, Milcalf
+	const CRY_CROVEN         ; 5c ; Croven, Astroven
+	const CRY_CRANEST        ; 5d ; Cranest, Sunthesia, Starello, Whispeon, Houndread, Laroon
+	const CRY_SELENUMIA      ; 5e ; Alrem, Selenumia
+	const CRY_RECLINAX       ; 5f ; Reclinax
+	const CRY_SANDSCOUR      ; 60 ; Sandscour
+	const CRY_TEAROW         ; 61 ; Tearow, Nohtyp
+	const CRY_WINDKITT       ; 62 ; Shuvel, Windkitt, Todbrush
+	const CRY_COSMOREAS      ; 63 ; Cosmoreas, Cycorpion
 NUM_CRIES EQU const_value
 
 PROTO_CRY_N_A        EQU CRY_NIDORAN_M

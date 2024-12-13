@@ -2341,10 +2341,10 @@ Cry_Cranest:
 	channel 6, Cry_Cranest_Ch6
 	channel 8, Cry_Cranest_Ch8
 
-Cry_Alrem:
+Cry_Selenumia:
 	channel_count 2
-	channel 5, Cry_Alrem_Ch5
-	channel 6, Cry_Alrem_Ch6
+	channel 5, Cry_Selenumia_Ch5
+	channel 6, Cry_Selenumia_Ch6
 
 Cry_Reclinax:
 	channel_count 2
@@ -2874,7 +2874,7 @@ Cry_Cranest_Ch8:
 	noise_note 32, 15, 7, 11
 	sound_ret
 
-Cry_Alrem_Ch5:
+Cry_Selenumia_Ch5:
 	duty_cycle_pattern 2, 1, 2, 1
 	square_note 4, 15, 7, 1864
 	square_note 15, 15, 7, 1846
@@ -2885,7 +2885,7 @@ Cry_Alrem_Ch5:
 	square_note 30, 15, 7, 1819
 	sound_ret
 
-Cry_Alrem_Ch6:
+Cry_Selenumia_Ch6:
 	duty_cycle_pattern 0, 3, 0, 0
 	square_note 4, 15, 7, 1791
 	square_note 15, 15, 7, 1773
