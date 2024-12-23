@@ -292,7 +292,7 @@ PokemonCries::
 	mon_cry CRY_MANTINE,      1962,   234 ; MOLAMBINO	; TSK
 	mon_cry CRY_TIGER_OLD,     144,   160 ; ANGORE
 	mon_cry CRY_SLOWBRO,      1231,   373 ; GROTESS		; TSK
-	mon_cry CRY_ALPHAPE,       231,   192 ; SAILWING
+	mon_cry CRY_POUCHENT,      231,   192 ; SAILWING
 	mon_cry CRY_STARMIE,        34,   251 ; PARABUD		; TSK
 	mon_cry CRY_DERBLE_4_OLD, -255,   416 ; TIERACNID
 	mon_cry CRY_DERBLE_4_OLD,   47,   549 ; METABEAK
@@ -322,7 +322,7 @@ PokemonCries::
 	mon_cry CRY_APPUCK,          0,   256 ; APPUCK
 	mon_cry CRY_SELENUMIA,      64,   160 ; ALREM
 	mon_cry CRY_MURPHELT,        0,   256 ; MURPHELT
-	mon_cry CRY_ALPHAPE,        82,   187 ; TIARANT
+	mon_cry CRY_POUCHENT,       82,   187 ; TIARANT
 	mon_cry CRY_EARTHTRON,      40,   171 ; SILVEALTH
 	mon_cry CRY_ANTLOG,        140,   195 ; SEARCHLE
 	mon_cry CRY_SLOWKING,      572,   256 ; BELMITT		; GF
@@ -354,9 +354,9 @@ PokemonCries::
 	mon_cry CRY_EARTHTRON,     128,   171 ; VENOKNIGHT
 	mon_cry CRY_DUGQUINTET,    -48,   384 ; DUGQUINTET
 	mon_cry CRY_SPEAROW_OLD,   192,   251 ; EMPEDUCK
-	mon_cry CRY_ALPHAPE,      2040,   224 ; ALPHAPE
+	mon_cry CRY_POUCHENT,     2040,   224 ; ALPHAPE
 	mon_cry CRY_GLABBIT,      -257,   384 ; PINCHLER
-	mon_cry CRY_ALPHAPE,      1856,   256 ; POUCHENT
+	mon_cry CRY_POUCHENT,     1856,   256 ; POUCHENT
 	mon_cry CRY_DRISCORINA,    472,   208 ; OMANOVA
 	mon_cry CRY_ASSISDRA,      144,   149 ; KABOULDER
 	mon_cry CRY_GLABBIT,        38,   332 ; COATRET
