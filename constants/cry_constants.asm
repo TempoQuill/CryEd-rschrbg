@@ -12,7 +12,7 @@
 	const CRY_GENGAR         ;  7
 	const CRY_IVYSAUR_OLD    ;  8
 	const CRY_NIDOKING       ;  9
-	const CRY_NIDOQUEEN      ;  a ; centir
+	const CRY_NIDOQUEEN      ;  a
 	const CRY_EXEGGCUTE      ;  b ; dodaerie
 	const CRY_LICKITUNG      ;  c
 	const CRY_EXEGGCUTOR     ;  d
@@ -55,7 +55,7 @@
 	const CRY_SLOWKING       ; 2f ; numpuff, turbann, belmitt
 	const CRY_GROWL          ; 30
 	const CRY_CHIKORITA      ; 31
-	const CRY_ROAR_60        ; 32 ; aquaria, bomoca, gobeldorl
+	const CRY_ROAR_60        ; 32 ; aquaria, bomoca
 	const CRY_MILTANK        ; 33 ; bellboyant
 	const CRY_COTTONCAT      ; 34 ; gatoll
 	const CRY_HITMONTOP      ; 35
@@ -63,7 +63,7 @@
 	const CRY_TIGER          ; 37
 	const CRY_SNEASEL        ; 38
 	const CRY_MANTINE        ; 39 ; molambino
-	const CRY_LUGIA          ; 3a ; dynabear, parbell
+	const CRY_LUGIA          ; 3a ; dynabear
 	const CRY_MADAME         ; 3b ; madame
 	const CRY_ROAR_30        ; 3c ; flambear, volbear, warwolf
 	const CRY_ROAR_40        ; 3d
@@ -94,14 +94,14 @@
 	const CRY_COAZIGOAST     ; 54 ; Coazigoast, Chrysalty, Parrobrass
 	const CRY_APPUCK         ; 55 ; Appuck, Griflet
 	const CRY_TOUFENSE       ; 56 ; Moundiver, Toufense, Assembleon, Koalimb
-	const CRY_ANTLOG         ; 57 ; Searchle, Antlog, Illusiro
+	const CRY_ANTLOG         ; 57 ; Searchle, Antlog, Gobeldorl, Illusiro
 	const CRY_GLABBIT        ; 58 ; Pinchler, Coatret, Cirriffon, Glabbit
-	const CRY_GUARNID        ; 59 ; Guarnid, Flinja, Helicelia
+	const CRY_GUARNID        ; 59 ; Guarnid, Flinja, Helicelia, Parbell
 	const CRY_DRISCORINA     ; 5a ; Ravermin, Omanova, Shellaptor, Driscorina
 	const CRY_ORKID          ; 5b ; Orkid, Syntique, Willofudd, Milcalf
 	const CRY_CROVEN         ; 5c ; Croven, Astroven
 	const CRY_CRANEST        ; 5d ; Cranest, Sunthesia, Starello, Whispeon, Houndread, Laroon
-	const CRY_SELENUMIA      ; 5e ; Alrem, Selenumia
+	const CRY_SELENUMIA      ; 5e ; Alrem, Centir, Selenumia
 	const CRY_RECLINAX       ; 5f ; Reclinax
 	const CRY_SANDSCOUR      ; 60 ; Sandscour
 	const CRY_TEAROW         ; 61 ; Tearow, Nohtyp

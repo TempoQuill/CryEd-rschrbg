@@ -387,12 +387,12 @@ PokemonCries::
 	mon_cry CRY_COAZIGOAST,    -51,   230 ; PARROBRASS
 	mon_cry CRY_GUARNID,       -20,   117 ; FLINJA
 	mon_cry CRY_DRISCORINA,    531,   176 ; SHELLAPTOR
-	mon_cry CRY_ROAR_60,      -544,   384 ; GOBELDORL
-	mon_cry CRY_NIDOQUEEN,    -120,   314 ; CENTIR
+	mon_cry CRY_ANTLOG,       1832,   416 ; GOBELDORL
+	mon_cry CRY_SELENUMIA,    -168,   160 ; CENTIR
 	mon_cry CRY_DRISCORINA,     99,   336 ; DRISCORINA
 	mon_cry CRY_SNEASEL_OLD,    96,   320 ; ARLURRY
 	mon_cry CRY_KICLOUD,        96,   274 ; MAGENZA
 	mon_cry CRY_ANTLOG,       -152,   254 ; ILLUSIRO
 	mon_cry CRY_GUARNID,       268,   212 ; HELICELIA
 	mon_cry CRY_SELENUMIA,       0,   256 ; SELENUMIA
-	mon_cry CRY_LUGIA,         488,   195 ; PARBELL
+	mon_cry CRY_GUARNID,      -216,   195 ; PARBELL
