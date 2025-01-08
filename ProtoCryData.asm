@@ -17,7 +17,7 @@
 	mon_cry PROTO_CRY_DERBLE_4,   -$0ae,  $1e2 ; ARIADOS
 	mon_cry PROTO_CRY_KARABATHEO, -$010,  $140 ; CROBAT
 	mon_cry PROTO_CRY_ROAR_60,     $031,  $0c8 ; YANMA
-	mon_cry PROTO_CRY_N_A,         $000,  $000
+	mon_cry PROTO_CRY_N_A,         $000,  $000 ; CHINCHOU
 	mon_cry PROTO_CRY_MOUSE,       $000,  $180 ; PICHU
 	mon_cry PROTO_CRY_COTTONCAT,   $061,  $091 ; CLEFFA
 	mon_cry PROTO_CRY_CHIKORITA,   $0e8,  $0e8 ; IGGLYBUFF
@@ -37,18 +37,18 @@
 	mon_cry PROTO_CRY_COTTONCAT,   $027,  $138 ; SKIPLOOM
 	mon_cry PROTO_CRY_COTTONCAT,   $000,  $180 ; JUMPLUFF
 	mon_cry PROTO_CRY_SNEASEL,     $07d,  $0af ; QUAGSIRE
-	mon_cry PROTO_CRY_N_A,         $000,  $000
+	mon_cry PROTO_CRY_N_A,         $000,  $000 ; SUNKERN
 	mon_cry PROTO_CRY_ROAR_40,    -$020,  $180 ; SUNFLORA
-	mon_cry PROTO_CRY_SLOWKING,     572,   256 ; BELMITT
+	mon_cry PROTO_CRY_SLOWKING,     572,   256 ; BELMITT / LANTURN
 	mon_cry PROTO_CRY_HO_OH,      -$051,  $0e8 ; AIPOM
-	mon_cry PROTO_CRY_MADAME,         0,   256 ; MADAME
+	mon_cry PROTO_CRY_MADAME,         0,   256 ; MADAME / WOOPER
 	mon_cry PROTO_CRY_HO_OH,       $0a2,  $140 ; ESPEON
 	mon_cry PROTO_CRY_FELINE,     -$01e,  $0a0 ; UMBREON
 	mon_cry PROTO_CRY_CROW,       -$01f,  $180 ; MURKROW
 	mon_cry PROTO_CRY_SLOWKING,    $104,  $200 ; SLOWKING
 	mon_cry PROTO_CRY_HOOTHOOT,    $130,  $0e8 ; MISDREAVUS
 	mon_cry PROTO_CRY_HOOTHOOT,    $162,  $100 ; UNOWN
-	mon_cry PROTO_CRY_FELINE,        48,   256 ; SIAMAIS
+	mon_cry PROTO_CRY_FELINE,        48,   256 ; SIAMAIS / WOBBUFFET
 	mon_cry PROTO_CRY_FELINE,      $041,  $200 ; GIRAFARIG
 	mon_cry PROTO_CRY_SLOWKING,    $080,  $100 ; PINECO
 	mon_cry PROTO_CRY_GRANBULL,    $290,  $0a8 ; SHUCKLE
@@ -59,16 +59,16 @@
 	mon_cry PROTO_CRY_GRANBULL,    $000,  $180 ; GRANBULL
 	mon_cry PROTO_CRY_SLOWKING,    $160,  $0e0 ; QWILFISH
 	mon_cry PROTO_CRY_ROAR_50,     $000,  $160 ; SCIZOR
-	mon_cry PROTO_CRY_ROAR_50,      555,   336 ; PLUX
+	mon_cry PROTO_CRY_ROAR_50,      555,   336 ; PLUX / FORRETRESS
 	mon_cry PROTO_CRY_ROAR_50,     $035,  $0e0 ; HERACROSS
 	mon_cry PROTO_CRY_SNEASEL,     $00f,  $0bf ; SNEASEL
 	mon_cry PROTO_CRY_ROAR_30,     $7a2,  $06e ; TEDDIURSA
 	mon_cry PROTO_CRY_ROAR_30,     $640,  $0d8 ; URSARING
-	mon_cry PROTO_CRY_N_A,         $000,  $000
-	mon_cry PROTO_CRY_N_A,         $000,  $000
+	mon_cry PROTO_CRY_N_A,         $000,  $000 ; MAGCARGO
+	mon_cry PROTO_CRY_N_A,         $000,  $000 ; CORSOLA
 	mon_cry PROTO_CRY_GROWL,       $1fe,  $140 ; SWINUB
 	mon_cry PROTO_CRY_SUICUNE,    -$109,  $100 ; PILOSWINE
-	mon_cry PROTO_CRY_SUICUNE,    -$20d,  $1c0 ; MAMOSWINE
+	mon_cry PROTO_CRY_SUICUNE,    -$20d,  $1c0 ; MAMOSWINE / SLUGMA
 	mon_cry PROTO_CRY_ROAR_40,     $00d,  $100 ; REMORAID
 	mon_cry PROTO_CRY_ROAR_60,     $000,  $180 ; OCTILLERY
 	mon_cry PROTO_CRY_ROAR_30,     $002,  $06a ; DELIBIRD
@@ -93,11 +93,11 @@
 	mon_cry PROTO_CRY_TYRANITAR,   $000,  $120 ; ENTEI
 	mon_cry PROTO_CRY_SUICUNE,     $000,  $180 ; SUICUNE
 	mon_cry PROTO_CRY_TYRANITAR,   $05f,  $0d0 ; LARVITAR
-	mon_cry PROTO_CRY_N_A,         $000,  $000
+	mon_cry PROTO_CRY_N_A,         $000,  $000 ; PUPITAR
 	mon_cry PROTO_CRY_TYRANITAR,  -$100,  $180 ; TYRANITAR
 	mon_cry PROTO_CRY_LUGIA,       $000,  $100 ; LUGIA
 	mon_cry PROTO_CRY_HO_OH,       $000,  $180 ; HO_OH
-	mon_cry PROTO_CRY_N_A,         $000,  $000
+	mon_cry PROTO_CRY_N_A,         $000,  $000 ; CELEBI
 	mon_cry PROTO_CRY_N_A,         $000,  $000
 	mon_cry PROTO_CRY_N_A,         $000,  $000
 	mon_cry PROTO_CRY_N_A,         $000,  $000
