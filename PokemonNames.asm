@@ -258,85 +258,85 @@ PokemonNames::
     db      "ORKID     "
     db      "SYNTIQUE  "
     db      "PHOTORDEN "
-    db      "FLAMBEAR  "
-    db      "VOLBEAR   "
-    db      "DYNABEAR  "
-    db      "CRUZ      "
-    db      "AQUACENT  "
-    db      "AQUARIA   "
+    db      "FLAMBEAR  " ; SW97
+    db      "VOLBEAR   " ; SW97
+    db      "DYNABEAR  " ; SW97
+    db      "CRUZ      " ; SW97
+    db      "AQUACENT  " ; SW97
+    db      "AQUARIA   " ; SW97
     db      "CROVEN    "
     db      "ASTROVEN  "
-    db      "NOCTGLIDE " ;
-    db      "SNOBURI   " ;
-    db      "SNOBUSTER " ;
-    db      "ARBUGS    "
-    db      "WILLOFUDD "
-    db      "TRIFOX    "
-    db      "BURGELA   "
-    db      "TENTACRIME" ;
-    db      "NUMPUFF   "
-    db      "MIGHTALEX " ;
+    db      "NOCTGLIDE "
+    db      "SNOBURI   " ; Draft
+    db      "SNOBUSTER " ; Draft
+    db      "ARBUGS    " ; Draft
+    db      "WILLOFUDD " ; Draft
+    db      "TRIFOX    " ; SW97
+    db      "BURGELA   " ; SW97
+    db      "TENTACRIME"
+    db      "NUMPUFF   " ; SW97
+    db      "MIGHTALEX "
     db      "QUAGAMI   "
-    db      "QUAILTER  " ;
-    db      "STAFFBIRD " ;
-    db      "ORSCHUL   "
-    db      "MOUNDIVER " ;
-    db      "MOLAMBINO "
-    db      "ANGORE    "
-    db      "GROTESS   "
-    db      "SAILWING  " ;
-    db      "PARABUD   "
+    db      "QUAILTER  " ; Draft
+    db      "STAFFBIRD " ; Draft
+    db      "ORSCHUL   " ; SW97
+    db      "MOUNDIVER " ; Draft
+    db      "MOLAMBINO " ; SW97
+    db      "ANGORE    " ; SW97
+    db      "GROTESS   " ; SW97
+    db      "SAILWING  " ; Draft
+    db      "PARABUD   " ; SW97
     db      "TIERACNID "
-    db      "METABEAK  " ;
+    db      "METABEAK  "
     db      "CRANEST   "
-    db      "LYKWYSE   "
-    db      "DODAERIE  "
+    db      "LYKWYSE   " ; SW97
+    db      "DODAERIE  " ; SW97
     db      "SUNTHESIA "
-    db      "TOUFENSE  " ;
-    db      "SIAMAIS   "
-    db      "RAKUKI    " ;
-    db      "COINTEN   "
-    db      "GATOLL    "
-    db      "BELLBOYANT"
+    db      "TOUFENSE  " ; Draft
+    db      "SIAMAIS   " ; SW97
+    db      "RAKUKI    " ; Draft
+    db      "COINTEN   " ; SW97
+    db      "GATOLL    " ; SW97
+    db      "BELLBOYANT" ; SW97
     db      "STARELLO  "
     db      "LIODEW    "
     db      "UNILIGHT  "
-    db      "ALIDUSK   " ;
-    db      "LEDIURY   " ;
-    db      "FOLICORN  "
+    db      "ALIDUSK   "
+    db      "LEDIURY   "
+    db      "FOLICORN  " ; SW97
     db      "WHISPEON  "
     db      "ASSEMBLEON"
-    db      "TURBANN   "
-    db      "SMUJJ     "
-    db      "DRAGONISCE" ;
-    db      "KICLOUD   " ;
-    db      "TIRUFF    "
-    db      "APPUCK    " ;
+    db      "TURBANN   " ; SW97
+    db      "SMUJJ     " ; SW97
+    db      "DRAGONISCE"
+    db      "KICLOUD   "
+    db      "TIRUFF    " ; SW97
+    db      "APPUCK    "
     db      "ALREM     "
-    db      "MURPHELT  " ;
-    db      "TIARANT   " ;
-    db      "SILVEALTH " ;
-    db      "SEARCHLE  " ;
-    db      "BELMITT   "
+    db      "MURPHELT  "
+    db      "TIARANT   "
+    db      "SILVEALTH "
+    db      "SEARCHLE  "
+    db      "BELMITT   " ; SW97
     db      "MILCALF   "
-    db      "BOMOCA    "
-    db      "DELFLAP   " ;
-    db      "KOTORA    "
-    db      "RAITORA   "
-    db      "MADAME    "
-    db      "KURSTRAW  "
-    db      "PANGSHI   "
-    db      "SCAFAROW  " ;
+    db      "BOMOCA    " ; SW97
+    db      "DELFLAP   "
+    db      "KOTORA    " ; SW97
+    db      "RAITORA   " ; SW97
+    db      "MADAME    " ; SW97
+    db      "KURSTRAW  " ; SW97
+    db      "PANGSHI   " ; SW97
+    db      "SCAFAROW  " ; Draft
     db      "RECLINAX  "
-    db      "MOSCARF   " ;
-    db      "FLIDER    " ;
-    db      "PLUX      "
+    db      "MOSCARF   " ; Draft
+    db      "FLIDER    " ; Draft
+    db      "PLUX      " ; SW97
     db      "HOUNDREAD "
-    db      "WOLFMAN   "
-    db      "WARWOLF   "
-    db      "PORYSPHIA " ;
+    db      "WOLFMAN   " ; SW97
+    db      "WARWOLF   " ; SW97
+    db      "PORYSPHIA " ; SW97
     db      "RAVERMIN  "
-    db      "FOSSLIX   " ;
+    db      "FOSSLIX   "
     db      "MAGNEVEN  "
     db      "DONKRANK  "
     db      "CHOAKING  "
@@ -344,47 +344,47 @@ PokemonNames::
     db      "TEAROW    "
     db      "NOHTYP    "
     db      "VENOKNIGHT"
-    db      "DUGQUINTET" ;
+    db      "DUGQUINTET"
     db      "EMPEDUCK  "
     db      "ALPHAPE   "
     db      "PINCHLER  "
-    db      "POUCHENT  " ;
+    db      "POUCHENT  "
     db      "OMANOVA   "
-    db      "KABOULDER " ;
+    db      "KABOULDER "
     db      "COATRET   "
     db      "SHUVEL    "
-    db      "COAZIGOAST" ;
-    db      "WINDKITT  "
-    db      "TODBRUSH  "
-    db      "SEWMA     " ;
-    db      "ANIMADISE " ;
-    db      "MARLOON   " ;
-    db      "ASSISDRA  " ;
-    db      "SCOOTEN   " ;
-    db      "SWEOTE    " ;
-    db      "GRIFLET   " ;
-    db      "CIRRIFFON " ;
+    db      "COAZIGOAST" ; Draft
+    db      "WINDKITT  " ; Draft
+    db      "TODBRUSH  " ; Draft
+    db      "SEWMA     "
+    db      "ANIMADISE "
+    db      "MARLOON   "
+    db      "ASSISDRA  "
+    db      "SCOOTEN   "
+    db      "SWEOTE    "
+    db      "GRIFLET   "
+    db      "CIRRIFFON "
     db      "COSMOREAS "
     db      "LAROON    "
-    db      "CADITIN   " ;
-    db      "CHRYSALTY " ;
-    db      "DRYTHON   "
-    db      "ANTLOG    " ;
-    db      "KOALIMB   " ;
-    db      "HIGHPO    " ;
-    db      "GLABBIT   " ;
-    db      "CYCORPION "
-    db      "GUARNID   " ;
-    db      "SQUIDRILL "
-    db      "PARROBRASS" ;
-    db      "FLINJA    " ;
-    db      "SHELLAPTOR" ;
+    db      "CADITIN   "
+    db      "CHRYSALTY "
+    db      "DRYTHON   " ; Draft
+    db      "ANTLOG    " ; Draft
+    db      "KOALIMB   " ; Draft
+    db      "HIGHPO    " ; Draft
+    db      "GLABBIT   " ; Draft
+    db      "CYCORPION " ; Draft
+    db      "GUARNID   " ; Draft
+    db      "SQUIDRILL " ; Draft
+    db      "PARROBRASS" ; Draft
+    db      "FLINJA    " ; Draft
+    db      "SHELLAPTOR" ; Draft
     db      "GOBELDORL "
     db      "CENTIR    "
-    db      "DRISCORINA" ;
-    db      "ARLURRY   " ;
-    db      "MAGENZA   " ;
-    db      "ILLUSIRO  " ;
-    db      "HELICELIA " ;
+    db      "DRISCORINA"
+    db      "ARLURRY   "
+    db      "MAGENZA   "
+    db      "ILLUSIRO  "
+    db      "HELICELIA "
     db      "SELENUMIA "
     db      "PARBELL   "
