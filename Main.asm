@@ -1805,7 +1805,7 @@ MusicViewerTilemap:
     db  " SQ1: P??? VE$?? D? "
     db  " SQ2: P??? VE$?? D? "
     db  " WAV: P??? WT$??    "
-    db  " NOISE:SET? DO$???? "
+    db  " NOISE:SET $? ID $? "
     db  "                    "
     db  "    - CONTROLS -    "
     db  " Left/Right    +- 1 "

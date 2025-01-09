@@ -175,10 +175,7 @@ SetupWAVAndNoise:
     ld      a,[wMusicNoiseSampleSet]
     ld      [de],a
     inc     de
-    ld      a,[wNoiseSampleAddress]
-    ld      [de],a
-    inc     de
-    ld      a,[wNoiseSampleAddress + 1]
+    ld      a,[wChannel4Pitch]
     ld      [de],a
     ret
 
@@ -301,21 +298,12 @@ DisplaySetup:
     ; channel 4 - set
     ld      a,[de]
     inc     de
-    ld      hl,$996a
+    ld      hl,$996c
     call    DrawHexDigit
     ; channel 4 - address
     ld      a,[de]
-    inc     de
-    push    af
-    ld      a,[de]
-    inc     de
-    ld      hl,$996f
-    call    DrawHex
-    pop     af
-    call    DrawHex
-    ld      a,[de]
-    inc     de
-    ld      a,[de]
+    ld      hl,$9972
+    call    DrawHexDigit
     ld      a,[CryEdit_Music+1]
     ld      hl,$984f
     call    DrawHex

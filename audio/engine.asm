@@ -1654,6 +1654,10 @@ GetNoiseSample:
 	and $f
 	ret z
 	; use 'pitch' to seek noise sample set
+	push hl
+	bc_offset CHANNEL_PITCH
+	ld [hl], a
+	pop hl
 	ld e, a
 	ld d, 0
 	add hl, de

@@ -429,5 +429,5 @@ ENDM
 
 MACRO drum_struct
 \1Set::		db
-\1Address::	dw
+\1Pitch::	db
 ENDM
