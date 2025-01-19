@@ -424,6 +424,7 @@ SECTION "Crydata", ROMX, bank[1]
 
 INCLUDE "crydata.asm"
 INCLUDE "protocrydata.asm"
+INCLUDE "basenames.asm"
 
 SECTION "New Sound Effects", ROMX, bank[7]
 
@@ -531,11 +532,15 @@ INCLUDE "audio/music/heatred/credits.asm"
 SECTION "Anicom Music 1", ROMX, bank[11]
 
 INCLUDE "audio/music/anicom/hedgetown.asm"
+INCLUDE "audio/music/anicom/greencity.asm"
+INCLUDE "audio/music/anicom/emeraldcity.asm"
 INCLUDE "audio/music/anicom/aquatown.asm"
 INCLUDE "audio/music/anicom/angelcity.asm"
+INCLUDE "audio/music/anicom/gardenvillage.asm"
 INCLUDE "audio/music/anicom/celltown.asm"
 INCLUDE "audio/music/anicom/routes1.asm"
 INCLUDE "audio/music/anicom/unionstation.asm"
 INCLUDE "audio/music/anicom/gamingandtheater.asm"
 INCLUDE "audio/music/chaos/lookzachog.asm"
 INCLUDE "audio/music/anicom/credits.asm"
+INCLUDE "audio/music/anicom/battlesting.asm"

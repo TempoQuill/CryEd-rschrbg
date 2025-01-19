@@ -1,3 +1,9 @@
+ProtoCry_Roar1:
+	channel_count 3
+	channel 5, ProtoCry_Roar1_Ch5
+	channel 6, ProtoCry_Roar1_Ch6
+	channel 8, ProtoCry_Roar1_Ch8
+
 ProtoCry_Crow:
 	channel_count 3
 	channel 5, ProtoCry_Crow_Ch5
@@ -9,6 +15,23 @@ ProtoCry_Derble4:
 	channel 5, ProtoCry_Derble4_Ch5
 	channel 6, ProtoCry_Derble4_Ch6
 	channel 8, ProtoCry_Derble4_Ch8
+
+ProtoCry_Roar2:
+	channel_count 3
+	channel 5, ProtoCry_Roar2_Ch5
+	channel 6, ProtoCry_Roar2_Ch6
+	channel 8, ProtoCry_Roar2_Ch8
+
+ProtoCry_HOHO_1:
+	channel_count 3
+	channel 5, ProtoCry_HOHO_Ch5
+	channel 6, ProtoCry_HOHO_Ch6
+	channel 8, ProtoCry_HOHO_Ch8
+
+ProtoCry_HOHO_2:
+	channel_count 2
+	channel 5, ProtoCry_HOHO_Ch5
+	channel 6, ProtoCry_HOHO_Ch6
 
 ProtoCry_Hoothoot:
 	channel_count 3
@@ -27,6 +50,23 @@ ProtoCry_Tiger:
 	channel 5, ProtoCry_Tiger_Ch5
 	channel 6, ProtoCry_Tiger_Ch6
 	channel 8, ProtoCry_Tiger_Ch8
+
+ProtoCry_Crocodile:
+	channel_count 3
+	channel 5, ProtoCry_Crocodile_Ch5
+	channel 6, ProtoCry_Crocodile_Ch6
+	channel 8, ProtoCry_Crocodile_Ch8
+
+ProtoCry_MUSI:
+	channel_count 2
+	channel 5, Cry_Derble1_Ch6
+	channel 8, ProtoCry_Roar1_Ch8
+
+ProtoCry_Murkrow:
+	channel_count 3
+	channel 5, ProtoCry_Murkrow_Ch5
+	channel 6, ProtoCry_Ledyba_Ch6
+	channel 8, ProtoCry_Ledyba_Ch8
 
 Cry_Lediury:
 	channel_count 3
@@ -58,6 +98,20 @@ ProtoCry_Tiger_Ch8:
 	noise_note 4, 10, -4, 92
 	noise_note 4, 15, 8, 94
 	noise_note 32, 15, 3, 110
+	sound_ret
+
+ProtoCry_Roar1_Ch5:
+	pitch_offset 32
+ProtoCry_Roar1_Ch6:
+	duty_cycle_pattern 1, 0, 1, 2
+	square_note 2, 15, 1, 1824
+	square_note 4, 15, 7, 1880
+	square_note 16, 15, 2, 1824
+	sound_ret
+ProtoCry_Roar1_Ch8:
+	noise_note 2, 8, 1, 76
+	noise_note 4, 9, 7, 90
+	noise_note 16, 9, 2, 62
 	sound_ret
 
 ProtoCry_Crow_Ch5:
@@ -115,6 +169,38 @@ ProtoCry_Derble4_Ch8:
 	noise_note 6, 9, 3, 0
 	sound_ret
 
+ProtoCry_Roar2_Ch5:
+	pitch_offset 48
+ProtoCry_Roar2_Ch6:
+	duty_cycle_pattern 0, 2, 2, 3
+	square_note 4, 15, 7, 1109
+	square_note 8, 15, 2, 1480
+	square_note 16, 15, 1, 1456
+	sound_ret
+ProtoCry_Roar2_Ch8:
+	noise_note 7, 8, 7, 76
+	noise_note 7, 6, -4, 63
+	noise_note 7, 5, 2, 79
+	sound_ret
+
+ProtoCry_HOHO_Ch5:
+	pitch_offset 32
+	duty_cycle 2
+	sound_jump ProtoCry_HOHO_Ch6_0100
+ProtoCry_HOHO_Ch6:
+	duty_cycle_pattern 0, 1, 2, 3
+ProtoCry_HOHO_Ch6_0100:
+	sound_call Cry_Phanpy_Ch6.body
+	square_note 4, 0, 0, 0
+	sound_loop 2, ProtoCry_HOHO_Ch6_0100
+	sound_ret
+ProtoCry_HOHO_Ch8:
+.loop:
+	sound_call Cry_Phanpy_Ch8
+	noise_note 4, 0, 0, 0
+	sound_loop 2, .loop
+	sound_ret
+
 ProtoCry_Hoothoot_Ch5:
 _chan = 1
 	duty_cycle_pattern 1, 2, 1, 2
@@ -148,6 +234,19 @@ ProtoCry_Hoothoot_Ch8:
 	noise_note 16, 8, 7, 55
 	sound_ret
 
+ProtoCry_Crocodile_Ch5:
+	pitch_offset 32
+ProtoCry_Crocodile_Ch6:
+	duty_cycle_pattern 2, 0, 0, 1
+	square_note 8, 2, -3, 1857
+	square_note 4, 15, 8, 1782
+	square_note 10, 15, 2, 1760
+	sound_ret
+ProtoCry_Crocodile_Ch8:
+	noise_note 8, 3, -5, 80
+	noise_note 14, 7, 2, 66
+	sound_ret
+
 ProtoCry_Ledyba_Ch5:
 _chan = 1
 	pitch_offset 2
@@ -174,6 +273,11 @@ ProtoCry_Ledyba_Ch8:
 	noise_note 1, 8, 0, 16
 	noise_note 4, 8, 7, 0
 	sound_ret
+
+ProtoCry_Murkrow_Ch5:
+	pitch_offset 2
+	duty_cycle 0
+	sound_jump ProtoCry_Ledyba_Ch6.body
 
 Cry_Lediury_Ch5:
 _chan = 1

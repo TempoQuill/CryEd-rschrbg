@@ -338,17 +338,7 @@ CryEdit_PlayMusic:
     ld      e,a
     ld      a,[CryEdit_Music+1]
     ld      d,a
-    ld      hl,MusicFadeData
-    add     hl,de
-    ld      a,[hl]
-    and     $3f
-    ld      [wMusicFade],a
-    jr      z,.normal_play
-    ld      hl,wMusicFadeID
-    ld      [hl],e
-    inc     hl
-    ld      [hl],d
-    ret
+    jp      PlayMusic
 
 .normal_play:
     push    de
@@ -1593,14 +1583,41 @@ CryImporterLoop::
     call    DrawHex
     call    CopyCryData
     ld      de,wCryDisplayData
+    ld      a,[hROMBank]
+    push    af
+    ld      a,BANK(BaseDesignations)
+    ld      [MBC3RomBank],a
     ld      a,[de]
     inc     de
-    ld      hl,$98F1
-    call    DrawHex
+    push    bc
+    ld      l,a
+    ld      c,a
     ld      a,[de]
+    push    de
+    ld      h,a
+    ld      b,a
+    add     hl,hl
+    add     hl,hl
+    add     hl,bc
+    add     hl,hl
+    ld      bc,BaseDesignations
+    add     hl,bc
+    ld      c,l
+    ld      b,h
+    ld      hl,$98E9
+    ld      de,10
+.baseloop
+    ld      a,[bc]
+    sub     $20
+    inc     bc
+    ld      [hli],a
+    dec     e
+    jr      nz,.baseloop
+    pop     de
+    pop     af
+    ld      [MBC3RomBank],a
+    pop     bc
     inc     de
-    ld      hl,$98EF
-    call    DrawHex
     ld      a,[de]
     inc     de
     ld      hl,$9911
@@ -1673,7 +1690,7 @@ CryImporterTilemap::
     db  " ?????????          "
     db  "                    "
     db  "   - CRY VALUES -   "
-    db  " Base         $???? "
+    db  " Base    ?????????? "
     db  " Pitch        $???? "
     db  " Legnth       $???? "
     db  "                    "
@@ -1853,151 +1870,6 @@ INCLUDE "PokemonNames.asm"
 ; ===========
 ; Sound stuff
 ; ===========
-
-MusicFadeData:
-    db      0   ; nothing
-    db      0   ; title
-    db      0   ; op 1
-    db      0   ; op 2
-    db      0   ; main menu
-    db      0   ; heal
-    db      0   ; heal alt
-    db      8   ; route 49
-    db      8   ; route 55
-    db      8   ; equinto league
-    db      8   ; route 61
-    db      8   ; route 52
-    db      0   ; time capsule
-    db      0   ; mom
-    db      0   ; tour
-    db      8   ; house enroute
-    db      8   ; pokecenter
-    db      8   ; delap pokecenter
-    db      8   ; cottage
-    db      8   ; traversal
-    db      0   ; wild
-    db      0   ; trainer
-    db      0   ; leader
-    db      0   ; host battle
-    db      0   ; shaggy
-    db      0   ; parker
-    db      0   ; warden
-    db      0   ; girl
-    db      0   ; sus
-    db      0   ; youth
-    db      0   ; woman
-    db      0   ; sibs
-    db      0   ; host
-    db      0   ; artist
-    db      0   ; havoc
-    db      4   ; rival
-    db      4   ; rival after
-    db      8   ; larch
-    db      0   ; catch vic
-    db      0   ; wild vic
-    db      0   ; trainer vic
-    db      0   ; leader vic
-    db      8   ; gym
-    db      8   ; game corner
-    db      0   ; bike
-    db      12  ; hall of fame
-    db      8   ; oddish
-    db      8   ; golem
-    db      8   ; sunkern
-    db      0   ; evolution
-    db      4   ; credits
-    db      32  ; the end
-    db      8   ; lanawe forst
-    db      8   ; ss vapor
-    db      8   ; lighthouse
-    db      8   ; east coast stop
-    db      8   ; hypercoin
-    db      8   ; mt vacuum
-    db      8   ; overture
-    db      8   ; norgeo
-    db      8   ; portite
-    db      0   ; printer
-    db      0   ; departure
-    db      0   ; surf
-    db      8   ; stamp
-    db      8   ; hideout
-    db      0   ; trade
-    db      0   ; menu
-    db      0   ; watchin' over me
-    db      0   ; medley
-    db      0   ; lullaby
-    db      0   ; march
-
-    db      0   ; zach
-    db      4   ; marloon
-    db      0   ; equine trio
-    db      0   ; chaos intro
-    db      4   ; tegere
-    db      6   ; connecting
-    db      8   ; battle tower
-    db      0   ; mobile menu
-    db      8   ; lobby
-    db      8   ; pokecomcenter
-; heatred
-    db      8   ; pallet
-    db      8   ; pokecenter
-    db      8   ; gym
-    db      8   ; viridian
-    db      8   ; cerulean
-    db      8   ; celadon
-    db      8   ; cinnabar
-    db      8   ; vermillion
-    db      8   ; lavender
-    db      8   ; ss anne
-    db      0   ; oak
-    db      4   ; rival
-    db      4   ; rival l
-    db      0   ; guide
-    db      0   ; event
-    db      0   ; heal
-    db      8   ; route 1
-    db      8   ; route 24
-    db      8   ; route 3
-    db      8   ; route 11
-    db      8   ; league
-
-    db      0   ; gym battle
-    db      0   ; trainer battle
-    db      0   ; wild battle
-    db      0   ; final battle
-    db      0   ; trainer vic
-    db      0   ; wild vic
-    db      0   ; gym vic
-
-    db      0   ; title
-    db      4   ; staff roll
-    db      12  ; hall of fame
-    db      8   ; lab
-    db      0   ; jigglypuff
-    db      0   ; bike
-    db      0   ; surfing
-    db      8   ; game corner
-    db      0   ; opening
-    db      8   ; hideout
-    db      8   ; viridian forest
-    db      8   ; mt. moon
-    db      8   ; mansion
-    db      8   ; pokemon tower
-    db      8   ; silph co.
-    db      0   ; bad guy
-    db      0   ; girl
-    db      0   ; boy
-
-    db      8   ; sevii route
-    db      8   ; island 4/5
-    db      8   ; island 6/7
-
-    db      10  ; fame
-    db      4   ; rival r
-    db      4   ; rival lr
-    db      8   ; ss anne
-    db      0   ; catch vic
-
 
 include     "audio.asm"
 

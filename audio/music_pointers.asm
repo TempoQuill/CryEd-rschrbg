@@ -146,12 +146,12 @@ Music:
 	dba HRM_CatchVictory
 
 	dba Music_Hedgetown
+	dba Music_GreenCity
 	dba Music_Nothing
-	dba Music_Nothing
-	dba Music_Nothing
+	dba Music_EmeraldCity
 	dba Music_Aquatown
 	dba Music_AngelCity
-	dba Music_Nothing
+	dba Music_GardenVillage
 	dba Music_Celltown
 	dba Music_Nothing
 	dba Music_Nothing
@@ -173,3 +173,12 @@ Music:
 	dba Music_Nothing
 	dba Music_Nothing
 	dba Music_AnicomCredits
+	dba Music_Nothing
+	dba Music_Nothing
+	dba Music_Nothing
+	dba Music_Nothing
+	dba Music_Nothing
+	dba Music_Nothing
+	dba Music_Nothing
+	dba Music_Nothing
+	dba Music_BattleSting

@@ -935,8 +935,7 @@ GeneralHandler:
 	ld [hl], a
 	ld d, a
 	bc_offset CHANNEL_PITCH
-	ld a, [hl]
-	ld e, a
+	ld e, [hl]
 	; get final tone
 	call GetPitch
 	ld hl, wCurTrackFrequency

@@ -3,6 +3,10 @@ MACRO mon_cry
 	dw \1, \2, \3
 ENDM
 
+MACRO equinto_dummy_cry
+	mon_cry CRY_YOSHI, 0, 256
+ENDM
+
 PokemonCries::
 ; entries correspond to constants/pokemon_constants.asm
 	mon_cry CRY_GYAOON,       $080,  $081 ; BULBASAUR
@@ -266,12 +270,12 @@ PokemonCries::
 	mon_cry CRY_ORKID,         112,   160 ; ORKID
 	mon_cry CRY_ORKID,          28,   192 ; SYNTIQUE
 	mon_cry CRY_HOOTHOOT_OLD,  205,   256 ; PHOTORDEN
-	mon_cry CRY_ROAR_30,        28,     0 ; FLAMBEAR	; TSK
-	mon_cry CRY_ROAR_30,      1767,   128 ; VOLBEAR		; TSK
-	mon_cry CRY_LUGIA,        3883,   212 ; DYNABEAR	; TSK
-	mon_cry CRY_36,            560,   203 ; CRUZ		; TSK
-	mon_cry CRY_36,            487,   272 ; AQUACENT	; TSK
-	mon_cry CRY_ROAR_60,       802,   349 ; AQUARIA		; TSK
+	mon_cry CRY_ROAR_1_OLD,      0,   496 ; FLAMBEAR
+	mon_cry CRY_ROAR_1_OLD,    -53,   624 ; VOLBEAR
+	mon_cry CRY_ROAR_2_OLD,    224,   624 ; DYNABEAR
+	mon_cry CRY_CROCODILE,    -128,   272 ; CRUZ
+	mon_cry CRY_ROAR_2_OLD,    290,   315 ; AQUACENT
+	mon_cry CRY_ROAR_2_OLD,      0,   447 ; AQUARIA
 	mon_cry CRY_CROVEN,         35,    72 ; CROVEN
 	mon_cry CRY_CROVEN,          0,   387 ; ASTROVEN
 	mon_cry CRY_HOOTHOOT_OLD, -145,   616 ; NOCTGLIDE
@@ -279,46 +283,46 @@ PokemonCries::
 	mon_cry CRY_YOSHI,        -123,   271 ; SNOBUSTER
 	mon_cry CRY_SNEASEL_OLD,  -144,   288 ; ARBUGS
 	mon_cry CRY_ORKID,        -122,   256 ; WILLOFUDD
-	mon_cry CRY_GRAVELER,      162,   176 ; TRIFOX		; TSK
-	mon_cry CRY_CROW,         3916,   272 ; BURGELA		; OVGG
+	mon_cry CRY_TRIFOX,        112,    96 ; TRIFOX
+	mon_cry CRY_ROAR_2_OLD,     96,   256 ; BURGELA
 	mon_cry CRY_EARTHTRON,    -511,   224 ; TENTACRIME
-	mon_cry CRY_SLOWKING,     4046,   352 ; NUMPUFF		; OVGG
+	mon_cry CRY_TIGER_OLD,       0,   256 ; NUMPUFF
 	mon_cry CRY_TIGER_OLD,     752,   135 ; MIGHTALEX
 	mon_cry CRY_LEDIURY,      -458,   428 ; QUAGAMI
 	mon_cry CRY_DUGQUINTET,     32,   382 ; QUAILTER
 	mon_cry CRY_DUGQUINTET,     10,   511 ; STAFFBIRD
-	mon_cry CRY_SCYTHER,       137,   208 ; ORSCHUL		; TSK
+	mon_cry CRY_ROAR_1_OLD,    137,   256 ; ORSCHUL
 	mon_cry CRY_TOUFENSE,      -64,   384 ; MOUNDIVER
-	mon_cry CRY_MANTINE,      1962,   234 ; MOLAMBINO	; TSK
+	mon_cry CRY_ROAR_2_OLD,    400,   160 ; MOLAMBINO
 	mon_cry CRY_TIGER_OLD,     144,   160 ; ANGORE
-	mon_cry CRY_SLOWBRO,      1231,   373 ; GROTESS		; TSK
+	mon_cry CRY_ROAR_2_OLD,   -381,   391 ; GROTESS
 	mon_cry CRY_POUCHENT,      231,   192 ; SAILWING
-	mon_cry CRY_STARMIE,        34,   251 ; PARABUD		; TSK
-	mon_cry CRY_DERBLE_4_OLD, -255,   416 ; TIERACNID
+	mon_cry CRY_WINDKITT,       80,   256 ; PARABUD
+	mon_cry CRY_MURPHELT,     -255,   128 ; TIERACNID
 	mon_cry CRY_DERBLE_4_OLD,   47,   549 ; METABEAK
-	mon_cry CRY_CRANEST,        58,   256 ; CRANEST
-	mon_cry CRY_PIP,           354,   288 ; LYKWYSE		; OVGG
-	mon_cry CRY_EXEGGCUTE,     197,   226 ; DODAERIE	; TSK
-	mon_cry CRY_CRANEST,       -40,   132 ; SUNTHESIA
+	mon_cry CRY_BOMOCA,         58,   256 ; CRANEST
+	mon_cry CRY_SPEAROW_OLD,   463,   121 ; LYKWYSE
+	mon_cry CRY_DODAERIE,      160,   256 ; DODAERIE
+	mon_cry CRY_BOMOCA,        -40,   132 ; SUNTHESIA
 	mon_cry CRY_TOUFENSE,       30,   304 ; TOUFENSE
 	mon_cry CRY_FELINE,         48,   256 ; SIAMAIS		; GF
 	mon_cry CRY_TIGER_OLD,     656,   196 ; RAKUKI
-	mon_cry CRY_CUBONE,        140,   204 ; COINTEN		; TSK
-	mon_cry CRY_COTTONCAT,      76,   320 ; GATOLL		; TSK
-	mon_cry CRY_MILTANK,      2000,   533 ; BELLBOYANT	; TSK
-	mon_cry CRY_CRANEST,       132,   208 ; STARELLO
+	mon_cry CRY_CROCODILE,     144,   160 ; COINTEN
+	mon_cry CRY_CROCODILE,      28,   256 ; GATOLL
+	mon_cry CRY_CROCODILE,     -22,   320 ; BELLBOYANT
+	mon_cry CRY_BOMOCA,        132,   208 ; STARELLO
 	mon_cry CRY_ASSISDRA,     -321,   430 ; LIODEW
 	mon_cry CRY_SNEASEL_OLD,    86,   171 ; UNILIGHT
 	mon_cry CRY_ASSISDRA,       -2,   160 ; ALIDUSK
 	mon_cry CRY_LEDIURY,      -300,   402 ; LEDIURY
-	mon_cry CRY_PONYTA,         32,   192 ; FOLICORN	; TSK
-	mon_cry CRY_CRANEST,       164,   240 ; WHISPEON
+	mon_cry CRY_FOLICORN,      -47,   320 ; FOLICORN
+	mon_cry CRY_BOMOCA,        164,   240 ; WHISPEON
 	mon_cry CRY_TOUFENSE,      224,   288 ; ASSEMBLEON
-	mon_cry CRY_SLOWKING,      198,   448 ; TURBANN		; TSK
-	mon_cry CRY_GRIMER,        284,   185 ; SMUJJ		; TSK
+	mon_cry CRY_GUARNID,       192,   165 ; TURBANN
+	mon_cry CRY_SMUJJ,        -264,   320 ; SMUJJ		; GF
 	mon_cry CRY_TIGER_OLD,     543,   302 ; DRAGONISCE
 	mon_cry CRY_KICLOUD,       208,   170 ; KICLOUD
-	mon_cry CRY_SLOWBRO,        88,   192 ; TIRUFF		; TSK
+	mon_cry CRY_SPEAROW_OLD,   370,   128 ; TIRUFF
 	mon_cry CRY_APPUCK,          0,   256 ; APPUCK
 	mon_cry CRY_SELENUMIA,      64,   160 ; ALREM
 	mon_cry CRY_MURPHELT,        0,   256 ; MURPHELT
@@ -327,21 +331,21 @@ PokemonCries::
 	mon_cry CRY_ANTLOG,        140,   195 ; SEARCHLE
 	mon_cry CRY_SLOWKING,      572,   256 ; BELMITT		; GF
 	mon_cry CRY_ORKID,        -205,   342 ; MILCALF
-	mon_cry CRY_ROAR_60,      1920,   251 ; BOMOCA		; TSK
+	mon_cry CRY_BOMOCA,          0,   256 ; BOMOCA
 	mon_cry CRY_YOSHI,         -24,   208 ; DELFLAP
-	mon_cry CRY_MOUSE,        1908,   576 ; KOTORA		; TSK
-	mon_cry CRY_LAPRAS,       1834,   289 ; RAITORA		; TSK
+	mon_cry CRY_TIGER_OLD,     784,   121 ; KOTORA
+	mon_cry CRY_TIGER_OLD,     352,   372 ; RAITORA
 	mon_cry CRY_MADAME,          0,   256 ; MADAME		; GF
-	mon_cry CRY_PHANPY,        214,   384 ; KURSTRAW	; TSK
-	mon_cry CRY_TANGELA,       523,   384 ; PANGSHI		; TSK
+	mon_cry CRY_SELENUMIA,     256,    48 ; KURSTRAW
+	mon_cry CRY_SELENUMIA,     204,    96 ; PANGSHI
 	mon_cry CRY_DERBLE_4_OLD,  -80,   308 ; SCAFAROW
 	mon_cry CRY_RECLINAX,      556,   193 ; RECLINAX
 	mon_cry CRY_MURPHELT,     -365,   336 ; MOSCARF
 	mon_cry CRY_MURPHELT,     -621,   400 ; FLIDER
 	mon_cry CRY_ROAR_50,       555,   336 ; PLUX		; GF
-	mon_cry CRY_CRANEST,      -272,   256 ; HOUNDREAD
-	mon_cry CRY_FELINE,         13,    96 ; WOLFMAN		; TSK
-	mon_cry CRY_ROAR_30,       262,   192 ; WARWOLF		; TSK
+	mon_cry CRY_BOMOCA,       -272,   256 ; HOUNDREAD
+	mon_cry CRY_SNEASEL_OLD,     6,    96 ; WOLFMAN
+	mon_cry CRY_SNEASEL_OLD,   -23,   160 ; WARWOLF
 	mon_cry CRY_BIG_YOSHI,    1320,   207 ; PORYSPHIA
 	mon_cry CRY_DRISCORINA,    608,   160 ; RAVERMIN
 	mon_cry CRY_FOSSLIX,         0,   256 ; FOSSLIX
@@ -360,7 +364,7 @@ PokemonCries::
 	mon_cry CRY_DRISCORINA,    472,   208 ; OMANOVA
 	mon_cry CRY_ASSISDRA,      144,   149 ; KABOULDER
 	mon_cry CRY_GLABBIT,        38,   332 ; COATRET
-	mon_cry CRY_WINDKITT,     -122,   296 ; SHUVEL
+	mon_cry CRY_FELINE,       -138,   320 ; SHUVEL		; GF
 	mon_cry CRY_COAZIGOAST,      0,   256 ; COAZIGOAST
 	mon_cry CRY_WINDKITT,       16,   240 ; WINDKITT
 	mon_cry CRY_WINDKITT,      -64,   192 ; TODBRUSH
@@ -373,7 +377,7 @@ PokemonCries::
 	mon_cry CRY_APPUCK,        147,   274 ; GRIFLET
 	mon_cry CRY_GLABBIT,       -40,   208 ; CIRRIFFON
 	mon_cry CRY_COSMOREAS,     -33,   192 ; COSMOREAS
-	mon_cry CRY_CRANEST,        86,   337 ; LAROON
+	mon_cry CRY_CROVEN,         52,   339 ; LAROON
 	mon_cry CRY_EARTHTRON,     -16,   192 ; CADITIN
 	mon_cry CRY_COAZIGOAST,   -333,   400 ; CHRYSALTY
 	mon_cry CRY_SNEASEL_OLD,    64,   160 ; DRYTHON

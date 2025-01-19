@@ -73,11 +73,18 @@ Cries:
 
 	dba Cry_Earthtron
 	dba Cry_SpearowOld
+	dba ProtoCry_Roar1
 	dba ProtoCry_Crow
 	dba ProtoCry_Derble4
+	dba ProtoCry_Roar2
+	dba ProtoCry_HOHO_1
 	dba ProtoCry_Hoothoot
+	dba ProtoCry_HOHO_2
+	dba ProtoCry_Crocodile
+	dba ProtoCry_MUSI
 	dba ProtoCry_Tiger
 	dba ProtoCry_Sneasel
+	dba ProtoCry_Murkrow
 	dba Cry_Lediury
 	dba Cry_Yoshi
 	dba Cry_BigYoshi
@@ -96,7 +103,7 @@ Cries:
 	dba Cry_Driscorina
 	dba Cry_Orkid
 	dba Cry_Croven
-	dba Cry_Cranest
+	dba Cry_Bomoca
 	dba Cry_Selenumia
 	dba Cry_Reclinax
 	dba Cry_Sandscour

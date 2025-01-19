@@ -185,7 +185,7 @@ MUSIC_THRESHOLD EQU const_value
 	const MUSIC_WON_NORMAL_BATTLE
 	const MUSIC_WON_MAJOR_BATTLE	; !!!
 	const MUSIC_LEVEL_UP
-	const MUSIC_ENCOUNTER_TRANSITION
+	const MUSIC_BATTLE_STING
 
 ; speical track behavior regarding linked games
 ; doesn't affect map music behavior

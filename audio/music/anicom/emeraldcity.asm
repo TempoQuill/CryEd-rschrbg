@@ -10,12 +10,68 @@ Music_EmeraldCity:
 Music_EmeraldCity_Ch1:
 	db	$da,$00,$c0
 	db	$e5,$77
+	db	$f6,$00
 ; P1-0
-	db	$d8,$c,$00
+	db	$d8,$c,$77
 	db	$01
 .mainloop:
+	db	$f6,$00
 ; P1-1
 	db	$d8,$c,$77
+	db	$fe
+	dw	.sub1_7
+; P1-8
+	db	$15
+	db	$10
+	db	$20
+	db	$11
+	db	$d5,$95
+; P1-9
+	db	$fe
+	dw	.sub1_7
+; P1-16
+	db	$15
+	db	$10
+	db	$20
+	db	$11
+	db	$d5,$93
+	db	$d4,$21
+; P1-17
+	db	$15
+	db	$d5,$b5
+	db	$d4,$13
+; P1-18
+	db	$45
+	db	$85
+	db	$b3
+; P1-19
+	db	$db,$02
+	db	$d8,$6,$78
+	db	$d5,$50
+	db	$6e
+	db	$5f
+; P1-20
+	db	$d8,$c,$78
+	db	$4f
+; P1-21
+	db	$97
+	db	$87
+; P1-22
+	db	$47
+	db	$67
+; P1-23
+	db	$d8,$6,$78
+	db	$50
+	db	$66
+	db	$97
+	db	$d4,$1f
+; P1-24
+	db	$d5,$9f
+	db	$8f
+	db	$fc
+	dw	.mainloop
+.sub1_7:
+; P1-1
 	db	$d5,$43
 	db	$91
 	db	$d4,$13
@@ -40,129 +96,506 @@ Music_EmeraldCity_Ch1:
 	db	$90
 	db	$b0
 ; P1-5
-	db	$13
+	db	$d4,$13
 	db	$d5,$93
 	db	$d4,$43
 	db	$73
 ; P1-6
+	db	$63
+	db	$93
+	db	$51
+	db	$91
+	db	$71
+	db	$51
 ; P1-7
-; P1-8
-; P1-9
-; P1-10
-; P1-11
-; P1-12
-; P1-13
-; P1-14
-; P1-15
-; P1-16
-; P1-17
-; P1-18
-; P1-19
-; P1-20
-; P1-21
-; P1-22
-; P1-23
-; P1-24
-	db	$fc
-	dw	.mainloop
+	db	$43
+	db	$11
+	db	$41
+	db	$81
+	db	$d5,$b1
+	db	$d4,$21
+	db	$41
+	db	$ff
 Music_EmeraldCity_Ch2:
+	db	$db,$02
 ; P2-0
-	db	$d8,$c,$00
-	db	$01
+	db	$d8,$c,$a8
+	db	$d6,$91
 .mainloop:
 ; P2-1
-	db	$d8,$c,$00
-	db	$0f
-; P2-2
-; P2-3
-; P2-4
-; P2-5
-; P2-6
-; P2-7
+	db	$fe
+	dw	.melo1_7
 ; P2-8
+	db	$fe
+	dw	.melo8
+	db	$db,$02
+	db	$d8,$c,$a8
+	db	$d6,$91
 ; P2-9
-; P2-10
-; P2-11
-; P2-12
-; P2-13
-; P2-14
-; P2-15
+	db	$fe
+	dw	.melo1_7
 ; P2-16
+	db	$fe
+	dw	.melo8
+	db	$db,$00
+	db	$e1,$12,$44
+	db	$d8,$c,$a8
+	db	$60
+	db	$80
 ; P2-17
+	db	$95
+	db	$e1,$0,$00
+	db	$60
+	db	$80
+	db	$92
+	db	$82
+	db	$61
 ; P2-18
+	db	$e1,$12,$44
+	db	$87
+	db	$f6,$00
+	db	$e1,$0,$00
+	db	$d8,$c,$77
+	db	$43
+	db	$41
+	db	$db,$00
+	db	$d8,$6,$a8
+	db	$d5,$83
 ; P2-19
+	db	$97
+	db	$23
+	db	$b7
+	db	$e1,$12,$44
+	db	$93
+	db	$d4,$10
+	db	$22
+	db	$13
 ; P2-20
+;		tempo 8
+	db	$f8,$17
+	db	$db,$02
+	db	$e1,$0,$00
+	db	$d8,$6,$78
+;		tempo 1
+	db	$f8,$d5,$c0
+	db	$d4,$16
+	db	$d5,$bb
+	db	$db,$00
+	db	$d8,$6,$a8
+	db	$93
 ; P2-21
+	db	$e1,$d,$44
+	db	$d4,$30
+	db	$4a
+	db	$e1,$12,$44
+	db	$1b
+	db	$e1,$0,$00
+	db	$d5,$b3
+	db	$93
 ; P2-22
+	db	$f8,$93
+;		tempo 1
+	db	$f8,$c0
+	db	$d4,$16
+	db	$e1,$12,$44
+	db	$d5,$bb
+	db	$db,$02
+	db	$e1,$0,$00
+	db	$d8,$6,$78
+	db	$d6,$b7
 ; P2-23
+	db	$dc,$a8
+	db	$d4,$10
+	db	$26
+	db	$e1,$12,$44
+	db	$63
+	db	$4b
+	db	$63
+	db	$43
 ; P2-24
+	db	$47
+	db	$d8,$c,$78
+	db	$d5,$b9
+	db	$e1,$0,$00
+	db	$dc,$a8
+	db	$d6,$b1
 	db	$fc
 	dw	.mainloop
+.melo1_7:
+; P2-1
+	db	$d5,$12
+	db	$e1,$12,$44
+	db	$20
+	db	$41
+	db	$95
+	db	$f6,$00
+	db	$d8,$c,$77
+	db	$d4,$11
+	db	$db,$02
+	db	$d8,$c,$a8
+	db	$d5,$80
+	db	$90
+; P2-2
+	db	$b5
+	db	$47
+	db	$e1,$0d,$44
+	db	$f6,$00
+	db	$d8,$c,$77
+	db	$b0
+	db	$d4,$10
+; P2-3
+	db	$db,$02
+	db	$d8,$6,$a8
+	db	$d5,$a0
+	db	$ba
+	db	$e1,$12,$44
+	db	$41
+	db	$91
+	db	$b3
+	db	$d4,$23
+	db	$43
+	db	$d5,$b3
+; P2-4
+	db	$d4,$1f
+	db	$f6,$00
+	db	$e1,$0,$00
+	db	$d8,$c,$77
+	db	$43
+	db	$11
+	db	$db,$02
+	db	$d8,$c,$a8
+	db	$10
+	db	$20
+; P2-5
+	db	$e1,$12,$44
+	db	$45
+	db	$e1,$0,$00
+	db	$20
+	db	$12
+	db	$d5,$91
+	db	$d4,$40
+	db	$20
+	db	$10
+	db	$e1,$12,$44
+	db	$20
+; P2-6
+	db	$db,$02
+	db	$d8,$6,$a8
+;		tempo 12
+	db	$f8,$2b
+	db	$e1,$0,$00
+;		tempo 2
+	db	$f8,$01
+	db	$d5,$91
+	db	$d4,$23
+	db	$40
+	db	$52
+	db	$43
+	db	$23
+; P2-7
+	db	$13
+	db	$d5,$43
+	db	$93
+	db	$d4,$13
+	db	$d5,$b5
+	db	$45
+	db	$a0
+	db	$b2
+	db	$ff
+.melo8:
+	db	$e1,$12,$44
+	db	$9f
+	db	$f6,$00
+	db	$e1,$0,$00
+	db	$d8,$c,$77
+	db	$d4,$41
+	db	$13
+	db	$ff
 Music_EmeraldCity_Ch3:
 ; P3-0
 	db	$d8,$c,$00
 	db	$01
 .mainloop:
 ; P3-1
-	db	$d8,$c,$00
-	db	$0f
-; P3-2
-; P3-3
-; P3-4
-; P3-5
-; P3-6
-; P3-7
+	db	$e2,$ff
+	db	$d8,$6,$3d
+	db	$fe
+	dw	.bass1_7
 ; P3-8
+	db	$97
+	db	$03
+	db	$91
+	db	$01
+	db	$91
+	db	$01
+	db	$93
+	db	$03
+	db	$91
+	db	$01
 ; P3-9
-; P3-10
-; P3-11
-; P3-12
-; P3-13
-; P3-14
-; P3-15
+	db	$fe
+	dw	.bass1_7
 ; P3-16
+	db	$97
+	db	$03
+	db	$91
+	db	$01
+	db	$91
+	db	$01
+	db	$93
+	db	$43
+	db	$70
+	db	$82
 ; P3-17
+	db	$e2,$09
+.bass17:
+	db	$63
+	db	$63
+	db	$d4,$13
+	db	$d5,$63
+	db	$fd,2
+	dw	.bass17
 ; P3-18
+	db	$13
+	db	$13
+	db	$83
+	db	$13
+	db	$13
+	db	$13
+	db	$83
+	db	$13
 ; P3-19
+	db	$23
+	db	$23
+	db	$93
+	db	$23
+	db	$23
+	db	$23
+	db	$93
+	db	$23
 ; P3-20
+	db	$93
+	db	$93
+	db	$43
+	db	$93
+	db	$83
+	db	$83
+	db	$43
+	db	$83
 ; P3-21
+	db	$63
+	db	$63
+	db	$63
+	db	$63
+	db	$53
+	db	$53
+	db	$53
+	db	$53
 ; P3-22
+	db	$43
+	db	$43
+	db	$43
+	db	$43
+	db	$33
+	db	$33
+	db	$33
+	db	$33
 ; P3-23
+.bass23:
+	db	$23
+	db	$fd,8
+	dw	.bass23
 ; P3-24
+	db	$d6,$b3
+	db	$b3
+	db	$b3
+	db	$b3
+	db	$d5,$43
+	db	$43
+	db	$43
+	db	$43
 	db	$fc
 	dw	.mainloop
+.bass1_7:
+; P3-1
+	db	$d5,$97
+	db	$05
+	db	$41
+	db	$91
+	db	$01
+	db	$93
+	db	$03
+	db	$93
+; P3-2
+	db	$87
+	db	$05
+	db	$41
+	db	$81
+	db	$01
+	db	$83
+	db	$03
+	db	$b3
+; P3-3
+	db	$d4,$47
+	db	$03
+	db	$d5,$b1
+	db	$d4,$41
+	db	$d5,$41
+	db	$01
+	db	$43
+	db	$03
+	db	$43
+; P3-4
+	db	$97
+	db	$03
+	db	$91
+	db	$01
+	db	$95
+	db	$01
+	db	$b2
+	db	$00
+	db	$42
+	db	$00
+; P3-5
+	db	$97
+	db	$05
+	db	$90
+	db	$00
+	db	$91
+	db	$01
+	db	$93
+	db	$03
+	db	$91
+	db	$01
+; P3-6
+	db	$d4,$27
+	db	$03
+	db	$21
+	db	$01
+	db	$d5,$23
+	db	$93
+	db	$d4,$23
+	db	$d5,$23
+; P3-7
+	db	$97
+	db	$05
+	db	$90
+	db	$00
+	db	$41
+	db	$01
+	db	$43
+	db	$03
+	db	$41
+	db	$01
+	db	$ff
 Music_EmeraldCity_Ch4:
+	db	$e3,$009
 ; P4-0
 	db	$d8,$c
 	db	$01
 .mainloop:
 ; P4-1
 	db	$d8,$c
-	db	$0f
+	db	$fe
+	dw	.dr1
 ; P4-2
-; P4-3
+	db	$fe
+	dw	.dr2_3
 ; P4-4
+	db	$41
+	db	$61
+	db	$51
+	db	$60
+	db	$40
+	db	$41
+	db	$41
+	db	$51
+	db	$50
+	db	$50
 ; P4-5
+	db	$fe
+	dw	.dr1
 ; P4-6
-; P4-7
+	db	$fe
+	dw	.dr2_3
 ; P4-8
+	db	$41
+	db	$61
+	db	$51
+	db	$60
+	db	$50
+	db	$50
+	db	$50
+	db	$41
+	db	$51
+	db	$40
+	db	$50
 ; P4-9
-; P4-10
-; P4-11
-; P4-12
-; P4-13
-; P4-14
-; P4-15
-; P4-16
+	db	$fd,2
+	dw	.mainloop
 ; P4-17
-; P4-18
-; P4-19
+	db	$fe
+	dw	.dr17_19
 ; P4-20
+	db	$43
+	db	$51
+	db	$43
+	db	$41
+	db	$51
+	db	$51
 ; P4-21
-; P4-22
-; P4-23
+	db	$fe
+	dw	.dr17_19
 ; P4-24
+	db	$43
+	db	$51
+	db	$41
+	db	$51
+	db	$41
+	db	$50
+	db	$40
+	db	$50
+	db	$50
 	db	$fc
 	dw	.mainloop
+.dr2_3:
+; P4-2
+	db	$41
+	db	$61
+	db	$51
+	db	$61
+	db	$61
+	db	$41
+	db	$51
+	db	$41
+.dr1:
+; P4-3
+	db	$41
+	db	$61
+	db	$51
+	db	$61
+	db	$61
+	db	$41
+	db	$51
+	db	$61
+	db	$ff
+.dr17_19:
+; P4-17
+	db	$45
+	db	$43
+	db	$40
+	db	$40
+	db	$53
+; P4-18
+	db	$fd,2
+	dw	.dr17_19
+; P4-19
+	db	$45
+	db	$41
+	db	$41
+	db	$41
+	db	$51
+	db	$41
+	db	$ff
 
 

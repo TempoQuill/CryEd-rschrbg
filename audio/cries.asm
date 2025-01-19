@@ -488,7 +488,7 @@ _chan = 2
 	square_note 8, 3, -1, 1837
 	square_note 8, 15, 1, 1824
 	sound_ret
-; unreferenced
+Cry_Phanpy_Ch8:
 	noise_note 8, 3, -3, 0
 	noise_note 8, 9, 2, 0
 	sound_ret
@@ -2335,11 +2335,11 @@ Cry_Croven:
 	channel 6, Cry_Croven_Ch6
 	channel 8, Cry_Croven_Ch8
 
-Cry_Cranest:
+Cry_Bomoca:
 	channel_count 3
-	channel 5, Cry_Cranest_Ch5
-	channel 6, Cry_Cranest_Ch6
-	channel 8, Cry_Cranest_Ch8
+	channel 5, Cry_Bomoca_Ch5
+	channel 6, Cry_Bomoca_Ch6
+	channel 8, Cry_Bomoca_Ch8
 
 Cry_Selenumia:
 	channel_count 2
@@ -2848,7 +2848,7 @@ Cry_Croven_Ch8:
 	noise_note 4, 7, 1, 41
 	sound_ret
 
-Cry_Cranest_Ch5:
+Cry_Bomoca_Ch5:
 	duty_cycle_pattern 3, 0, 3, 0
 	square_note 10, 15, 7, 1884
 	square_note 8, 15, 7, 1900
@@ -2857,7 +2857,7 @@ Cry_Cranest_Ch5:
 	square_note 31, 15, 7, 1909
 	sound_ret
 
-Cry_Cranest_Ch6:
+Cry_Bomoca_Ch6:
 	duty_cycle_pattern 1, 1, 2, 1
 	square_note 11, 15, 7, 1800
 	square_note 8, 15, 7, 1830
@@ -2866,7 +2866,7 @@ Cry_Cranest_Ch6:
 	square_note 30, 15, 7, 1846
 	sound_ret
 
-Cry_Cranest_Ch8:
+Cry_Bomoca_Ch8:
 	noise_note 9, 15, 7, 13
 	noise_note 8, 15, 7, 12
 	noise_note 6, 15, 7, 11
