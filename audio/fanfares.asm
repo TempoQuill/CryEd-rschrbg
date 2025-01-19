@@ -121,6 +121,7 @@ _chan = 3
 	sound_ret
 
 Sfx_PokemonAssembled_Ch8:
+_chan = 4
 	set_music
 	sfx_toggle_noise 8
 	drum_speed 6
@@ -438,6 +439,7 @@ _chan = 3
 	sound_ret
 
 Sfx_EggHatched_Ch8:
+_chan = 4
 	set_music
 	sfx_toggle_noise 7
 	drum_speed 6
@@ -1121,6 +1123,7 @@ _chan = 3
 	sound_ret
 
 Sfx_Badge_Ch8:
+_chan = 4
 	set_music
 	sfx_toggle_noise 6
 	drum_speed 3
@@ -1241,6 +1244,7 @@ _chan = 3
 	sound_ret
 
 Sfx_TMHM_Ch8:
+_chan = 4
 	set_music
 	sfx_toggle_noise 7
 	drum_speed 12
@@ -1513,6 +1517,7 @@ _chan = 3
 	sound_ret
 
 Sfx_CompleteDex_Ch8:
+_chan = 4
 	set_music
 	sfx_toggle_noise 7
 	drum_speed 6
@@ -1656,6 +1661,7 @@ _chan = 3
 	sound_ret
 
 Sfx_GameCornerWin_Ch8:
+_chan = 4
 	set_music
 	sfx_toggle_noise 3
 	drum_speed 6

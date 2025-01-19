@@ -493,6 +493,7 @@ Sfx_RBYWhoosh:
 	channel 8, Sfx_RBYWhoosh_Ch8
 
 Sfx_RBYWhoosh_Ch8:
+_chan = 4
 	noise_note 4, 2, -4, 32
 	noise_note 3, 10, 0, 32
 	noise_note 3, 11, 0, 33

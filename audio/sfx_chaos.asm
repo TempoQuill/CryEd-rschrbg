@@ -190,6 +190,7 @@ Sfx_Burnout:
 	channel 8, Sfx_Burnout_Ch8
 
 Sfx_Burnout_Ch8:
+_chan = 4
 	noise_note 1, 1, 8, 0
 	noise_note 1, 2, 8, 1
 	noise_note 1, 3, 8, 3
@@ -220,6 +221,7 @@ Sfx_StopInMidAir:
 	channel 8, Sfx_StopInMidAir_Ch8
 
 Sfx_StopInMidAir_Ch8:
+_chan = 4
 	noise_note 1, 15, 8, 39
 	noise_note 2, 15, 8, 152
 	noise_note 1, 15, 8, 1
@@ -232,6 +234,7 @@ Sfx_Dash:
 	channel 8, Sfx_Dash_Ch8
 
 Sfx_Dash_Ch8:
+_chan = 4
 	noise_note 3, 4, 7, 64
 	noise_note 3, 5, 7, 65
 	noise_note 3, 7, 7, 66
@@ -243,6 +246,7 @@ Sfx_SonicBoom:
 	channel 8, Sfx_SonicBoom_Ch8
 
 Sfx_SonicBoom_Ch8:
+_chan = 4
 	noise_note 2, 13, 4, 103
 	noise_note 2, 15, 1, 2
 	noise_note 4, 13, 7, 111
@@ -290,6 +294,7 @@ Sfx_CatchItem:
 	channel 8, Sfx_CatchItem_Ch8
 
 Sfx_CatchItem_Ch8:
+_chan = 4
 	noise_note 1, 4, -1, 39
 	noise_note 1, 15, 1, 34
 	noise_note 6, 15, 1, 1
@@ -434,6 +439,7 @@ _chan = 1
 	sound_ret
 
 Sfx_PlaneLanding_Ch8:
+_chan = 4
 	noise_note 2, 1, 2, 52
 	noise_note 2, 3, 2, 52
 	noise_note 2, 5, 2, 52
@@ -457,6 +463,7 @@ Sfx_PlaneTakingOff:
 	channel 8, Sfx_PlaneTakingOff_Ch8
 
 Sfx_PlaneTakingOff_Ch8:
+_chan = 4
 	noise_note 5, 15, 7, 87
 	noise_note 5, 15, 7, 94
 	noise_note 5, 15, 7, 93
@@ -511,6 +518,7 @@ _chan = 3
 	sound_ret
 
 Sfx_GGG_Ch8:
+_chan = 4
 	set_music
 	sfx_toggle_noise 1
 	drum_speed 8

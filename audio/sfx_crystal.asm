@@ -30,6 +30,7 @@ Sfx_IntroWhoosh:
 	channel 8, Sfx_IntroWhoosh_Ch8
 
 Sfx_IntroWhoosh_Ch8:
+_chan = 4
 	noise_note 1, 1, 0, 16
 	noise_note 2, 2, 0, 16
 	noise_note 2, 3, 0, 32
@@ -114,6 +115,7 @@ Sfx_IntroSuicune1:
 	channel 8, Sfx_IntroSuicune1_Ch8
 
 Sfx_IntroSuicune1_Ch8:
+_chan = 4
 	noise_note 1, 5, 8, 89
 	noise_note 2, 9, 1, 35
 	sound_ret
@@ -137,6 +139,7 @@ Sfx_IntroSuicune2:
 	channel 8, Sfx_IntroSuicune2_Ch8
 
 Sfx_IntroSuicune2_Ch8:
+_chan = 4
 	noise_note 1, 10, 7, 49
 	noise_note 1, 9, 1, 0
 	noise_note 1, 9, 2, 33
@@ -160,6 +163,7 @@ Sfx_IntroSuicune3:
 	channel 8, Sfx_IntroSuicune3_Ch8
 
 Sfx_IntroSuicune3_Ch8:
+_chan = 4
 	noise_note 1, 8, 8, 49
 	noise_note 8, 3, -1, 17
 	noise_note 4, 10, 4, 16
@@ -186,6 +190,7 @@ Sfx_IntroSuicune4:
 	channel 8, Sfx_IntroSuicune4_Ch8
 
 Sfx_IntroSuicune4_Ch8:
+_chan = 4
 	noise_note 1, 10, 1, 92
 	noise_note 0, 0, 0, 0
 	noise_note 1, 12, 1, 77

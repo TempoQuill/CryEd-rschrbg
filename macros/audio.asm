@@ -43,7 +43,7 @@ MACRO square_note
 	if \3 < 0
 		dn \2, %1000 | (\3 * -1) ; volume envelope
 	else
-		if _chan > 2
+		if _chan == 3
 			db ((\2 & %111) << 5) | \3
 		else
 			dn \2, \3 ; volume envelope

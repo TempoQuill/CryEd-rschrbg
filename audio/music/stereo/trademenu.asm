@@ -993,6 +993,7 @@ _chan = 4
 	sound_ret
 
 Music_TradeMenu_Ch8:
+_chan = 4
 	toggle_noise 2
 	drum_speed 12
 	rest 2

@@ -640,6 +640,7 @@ _chan = 3
 	toggle_music ; unused
 
 Sfx_GetEgg_Ch8:
+_chan = 4
 	toggle_music
 	sfx_toggle_noise 4
 	drum_speed 8
@@ -755,6 +756,7 @@ _chan = 3
 	toggle_music ; unused
 
 Sfx_MoveDeleted_Ch8:
+_chan = 4
 	toggle_music
 	sfx_toggle_noise 3
 	drum_speed 12
@@ -867,6 +869,7 @@ _chan = 3
 	toggle_music ; unused
 
 Sfx_QuitSlots_Ch8:
+_chan = 4
 	toggle_music
 	sfx_toggle_noise 3
 	drum_speed 8
@@ -929,6 +932,7 @@ _chan = 1
 	sound_ret
 
 Sfx_Protect_Ch8:
+_chan = 4
 	noise_note 9, 9, -6, 0
 	noise_note 9, 11, -6, 17
 	sound_loop 6, Sfx_Protect_Ch8
@@ -958,6 +962,7 @@ Sfx_RainDance:
 	channel 8, Sfx_RainDance_Ch8
 
 Sfx_RainDance_Ch8:
+_chan = 4
 	noise_note 11, 7, -5, 80
 	noise_note 6, 7, -5, 79
 	noise_note 11, 7, -7, 71
@@ -983,6 +988,7 @@ _chan = 1
 	sound_ret
 
 Sfx_Aeroblast_Ch8:
+_chan = 4
 	noise_note 4, 15, 8, 108
 	noise_note 4, 12, 8, 92
 	noise_note 4, 7, 8, 91
@@ -994,6 +1000,7 @@ Sfx_Spark:
 	channel 8, Sfx_Spark_Ch8
 
 Sfx_Spark_Ch8:
+_chan = 4
 	noise_note 4, 15, 8, 93
 	noise_note 4, 13, 8, 111
 	sound_loop 2, Sfx_Spark_Ch8
@@ -1014,6 +1021,7 @@ _chan = 1
 	sound_ret
 
 Sfx_Curse_Ch8:
+_chan = 4
 	noise_note 20, 9, -2, 9
 	sound_ret
 
@@ -1031,6 +1039,7 @@ _chan = 1
 	sound_ret
 
 Sfx_Rage_Ch8:
+_chan = 4
 	noise_note 3, 15, 4, 26
 	noise_note 3, 15, 4, 25
 	noise_note 24, 15, 2, 24
@@ -1041,6 +1050,7 @@ Sfx_Thief:
 	channel 8, Sfx_Thief_Ch8
 
 Sfx_Thief_Ch8:
+_chan = 4
 	noise_note 0, 0, 0, 0
 	noise_note 4, 14, 1, 18
 	noise_note 0, 0, 0, 0
@@ -1092,6 +1102,7 @@ _chan = 1
 	sound_ret
 
 Sfx_SpiderWeb_Ch8:
+_chan = 4
 	noise_note 32, 14, -7, 0
 	sound_ret
 
@@ -1121,6 +1132,7 @@ _chan = 1
 	sound_ret
 
 Sfx_MindReader_Ch8:
+_chan = 4
 	noise_note 17, 10, -7, 25
 	noise_note 18, 10, -7, 24
 	sound_ret
@@ -1153,6 +1165,7 @@ Sfx_Snore:
 	channel 8, Sfx_Snore_Ch8
 
 Sfx_Snore_Ch8:
+_chan = 4
 	noise_note 2, 14, -2, 75
 	noise_note 2, 14, -2, 91
 	noise_note 2, 0, 0, 0
@@ -1207,6 +1220,7 @@ _chan = 1
 	sound_ret
 
 Sfx_BellyDrum_Ch8:
+_chan = 4
 	noise_note 12, 11, 1, 108
 	sound_ret
 
@@ -1241,6 +1255,7 @@ _chan = 1
 	sound_ret
 
 Sfx_SludgeBomb_Ch8:
+_chan = 4
 	noise_note 3, 14, 2, 110
 	noise_note 1, 0, 0, 0
 	noise_note 16, 14, 2, 109
@@ -1297,6 +1312,7 @@ Sfx_Outrage:
 	channel 8, Sfx_Outrage_Ch8
 
 Sfx_Outrage_Ch8:
+_chan = 4
 	noise_note 11, 14, -2, 108
 	noise_note 11, 14, -2, 107
 	noise_note 11, 14, -2, 106
@@ -1356,6 +1372,7 @@ _chan = 1
 	sound_ret
 
 Sfx_GigaDrain_Ch8:
+_chan = 4
 	noise_note 4, 12, 8, 68
 	noise_note 20, 12, 8, 80
 	noise_note 20, 12, 8, 82
@@ -1396,6 +1413,7 @@ Sfx_ZapCannon:
 	channel 8, Sfx_ZapCannon_Ch8
 
 Sfx_ZapCannon_Ch8:
+_chan = 4
 	noise_note 2, 14, 1, 73
 	noise_note 0, 0, 0, 0
 	sound_loop 8, Sfx_ZapCannon_Ch8
@@ -1560,6 +1578,7 @@ _chan = 1
 	sound_ret
 
 Sfx_Encore_Ch8:
+_chan = 4
 	noise_note 48, 1, -7, 54
 	noise_note 48, 7, 6, 54
 	sound_ret
@@ -1569,6 +1588,7 @@ Sfx_BeatUp:
 	channel 8, Sfx_BeatUp_Ch8
 
 Sfx_BeatUp_Ch8:
+_chan = 4
 	noise_note 2, 14, 8, 105
 	noise_note 6, 13, 8, 36
 	noise_note 2, 14, 8, 108
@@ -1610,6 +1630,7 @@ _chan = 1
 	sound_ret
 
 Sfx_BatonPass_Ch8:
+_chan = 4
 	noise_note 32, 15, 2, 32
 	sound_ret
 
@@ -1717,6 +1738,7 @@ Sfx_GsIntroCharizardFireball:
 	channel 8, Sfx_GsIntroCharizardFireball_Ch8
 
 Sfx_GsIntroCharizardFireball_Ch8:
+_chan = 4
 	noise_note 8, 12, -7, 77
 	noise_note 8, 15, 1, 55
 .loop1:
@@ -1736,6 +1758,7 @@ Sfx_GsIntroPokemonAppears:
 	channel 8, Sfx_GsIntroPokemonAppears_Ch8
 
 Sfx_GsIntroPokemonAppears_Ch8:
+_chan = 4
 	noise_note 1, 8, 8, 79
 	noise_note 2, 8, -7, 2
 	noise_note 2, 5, -7, 18
@@ -1886,6 +1909,7 @@ _chan = 3
 	toggle_music ; unused
 
 Sfx_DexFanfare140169_Ch8:
+_chan = 4
 	toggle_music
 	sfx_toggle_noise 4
 	drum_speed 12
@@ -1998,6 +2022,7 @@ _chan = 3
 	toggle_music ; unused
 
 Sfx_DexFanfare170199_Ch8:
+_chan = 4
 	toggle_music
 	sfx_toggle_noise 4
 	drum_speed 8
@@ -2124,6 +2149,7 @@ _chan = 3
 	toggle_music ; unused
 
 Sfx_DexFanfare200229_Ch8:
+_chan = 4
 	toggle_music
 	sfx_toggle_noise 4
 	drum_speed 8
@@ -2163,6 +2189,7 @@ Sfx_NotVeryEffective:
 	sound_ret
 
 Sfx_NotVeryEffective_Ch8:
+_chan = 4
 	noise_note 2, 12, 1, 92
 	noise_note 2, 15, 1, 90
 	noise_note 2, 12, 1, 92
@@ -2181,6 +2208,7 @@ Sfx_Damage:
 	sound_ret
 
 Sfx_Damage_Ch8:
+_chan = 4
 	noise_note 1, 10, 1, 68
 	noise_note 1, 15, 1, 60
 	noise_note 5, 13, 1, 52
@@ -2202,6 +2230,7 @@ Sfx_SuperEffective:
 	sound_ret
 
 Sfx_SuperEffective_Ch8:
+_chan = 4
 	noise_note 1, 15, 2, 52
 	noise_note 1, 10, 2, 94
 	noise_note 1, 10, 2, 43
@@ -2261,6 +2290,7 @@ _chan = 1
 	sound_ret
 
 Sfx_SweetScent2_Ch8:
+_chan = 4
 	noise_note 2, 14, 8, 34
 	noise_note 17, 10, -2, 0
 .loop1:
@@ -2358,6 +2388,7 @@ _chan = 1
 	sound_ret
 
 Sfx_TrainArrived_Ch8:
+_chan = 4
 	noise_note 5, 10, -7, 16
 	noise_note 4, 9, -7, 32
 	noise_note 4, 8, -7, 33
@@ -2386,6 +2417,7 @@ _chan = 1
 	sound_ret
 
 Sfx_Menu_Ch8:
+_chan = 4
 	noise_note 1, 14, 2, 51
 	noise_note 8, 14, 1, 34
 	sound_ret
@@ -2415,6 +2447,7 @@ _chan = 3
 	sound_ret
 
 Sfx_PlacePuzzlePieceDown_Ch8:
+_chan = 4
 	noise_note 2, 15, 7, 36
 	noise_note 2, 15, 7, 52
 	noise_note 4, 15, 7, 68
@@ -2423,6 +2456,7 @@ Sfx_PlacePuzzlePieceDown_Ch8:
 	sound_ret
 
 Sfx_EnterDoor_Ch8:
+_chan = 4
 	noise_note 9, 15, 1, 68
 	noise_note 8, 13, 1, 67
 	sound_ret
@@ -2497,6 +2531,7 @@ _chan = 1
 	sound_ret
 
 Sfx_ExitBuilding_Ch8:
+_chan = 4
 	noise_note 2, 15, 1, 84
 	noise_note 12, 7, 1, 35
 	noise_note 2, 11, 1, 84
@@ -2661,6 +2696,7 @@ _chan = 1
 	sound_ret
 
 Sfx_GrassRustle_Ch8:
+_chan = 4
 	noise_note 2, 15, 1, 50
 	noise_note 2, 0, 0, 0
 	noise_note 2, 15, 1, 34
@@ -2668,6 +2704,7 @@ Sfx_GrassRustle_Ch8:
 	sound_ret
 
 Sfx_Fly_Ch8:
+_chan = 4
 	noise_note 2, 15, 1, 18
 	noise_note 2, 0, 0, 0
 	noise_note 2, 10, 1, 18
@@ -2715,6 +2752,7 @@ _chan = 1
 	sound_ret
 
 Sfx_Strength_Ch8:
+_chan = 4
 	noise_note 4, 10, 2, 35
 	noise_note 8, 15, 1, 52
 	noise_note 15, 0, 0, 0
@@ -2796,6 +2834,7 @@ _chan = 1
 	sound_ret
 
 Sfx_BallPoof_Ch8:
+_chan = 4
 	noise_note 15, 10, 2, 34
 	sound_ret
 
@@ -2806,12 +2845,14 @@ _chan = 1
 	sound_ret
 
 Sfx_Unknown3A_Ch8:
+_chan = 4
 	noise_note 4, 15, 5, 51
 	noise_note 8, 15, 4, 34
 	noise_note 15, 15, 2, 33
 	sound_ret
 
 Sfx_Run_Ch8:
+_chan = 4
 	noise_note 2, 6, 1, 35
 	noise_note 2, 10, 1, 51
 	noise_note 2, 12, 1, 51
@@ -2855,6 +2896,7 @@ _chan = 1
 	sound_ret
 
 Sfx_Peck_Ch8:
+_chan = 4
 	noise_note 2, 10, 1, 18
 	sound_ret
 
@@ -2875,31 +2917,37 @@ _chan = 1
 	sound_ret
 
 Sfx_Pound_Ch8:
+_chan = 4
 	noise_note 2, 10, 1, 34
 	sound_ret
 
 Sfx_MovePuzzlePiece_Ch8:
+_chan = 4
 	noise_note 8, 15, 1, 84
 	sound_ret
 
 Sfx_CometPunch_Ch8:
+_chan = 4
 	noise_note 15, 8, -7, 17
 	noise_note 4, 15, -7, 18
 	noise_note 10, 15, 1, 85
 	sound_ret
 
 Sfx_MegaPunch_Ch8:
+_chan = 4
 	noise_note 15, 8, -7, 52
 	noise_note 8, 15, 2, 53
 	noise_note 10, 15, 1, 85
 	sound_ret
 
 Sfx_Scratch_Ch8:
+_chan = 4
 	noise_note 15, 9, -7, 35
 	noise_note 8, 15, 1, 33
 	sound_ret
 
 Sfx_Vicegrip_Ch8:
+_chan = 4
 	noise_note 2, 14, 1, 75
 	noise_note 10, 15, 1, 68
 	noise_note 2, 14, 1, 58
@@ -2907,12 +2955,14 @@ Sfx_Vicegrip_Ch8:
 	sound_ret
 
 Sfx_RazorWind_Ch8:
+_chan = 4
 	noise_note 2, 15, 4, 68
 	noise_note 2, 15, 4, 20
 	noise_note 15, 15, 1, 50
 	sound_ret
 
 Sfx_Cut_Ch8:
+_chan = 4
 	noise_note 4, 8, -7, 85
 	noise_note 2, 15, 4, 68
 	noise_note 8, 15, 4, 34
@@ -2920,6 +2970,7 @@ Sfx_Cut_Ch8:
 	sound_ret
 
 Sfx_WingAttack_Ch8:
+_chan = 4
 	noise_note 8, 4, -7, 35
 	noise_note 4, 12, 4, 34
 	noise_note 6, 15, 2, 35
@@ -2927,6 +2978,7 @@ Sfx_WingAttack_Ch8:
 	sound_ret
 
 Sfx_Whirlwind_Ch8:
+_chan = 4
 	noise_note 8, 4, -7, 51
 	noise_note 4, 12, 4, 34
 	noise_note 6, 15, 2, 35
@@ -2934,6 +2986,7 @@ Sfx_Whirlwind_Ch8:
 	sound_ret
 
 Sfx_Bind_Ch8:
+_chan = 4
 	noise_note 8, 15, -7, 50
 	noise_note 8, 15, 4, 67
 	noise_note 8, 15, 2, 84
@@ -2941,6 +2994,7 @@ Sfx_Bind_Ch8:
 	sound_ret
 
 Sfx_VineWhip_Ch8:
+_chan = 4
 	noise_note 1, 12, 2, 51
 	noise_note 2, 15, 2, 33
 	noise_note 1, 14, 2, 51
@@ -2952,12 +3006,14 @@ Sfx_VineWhip_Ch8:
 	sound_ret
 
 Sfx_DoubleKick_Ch8:
+_chan = 4
 	noise_note 1, 9, 4, 35
 	noise_note 1, 11, 4, 34
 	noise_note 8, 15, 1, 68
 	sound_ret
 
 Sfx_MegaKick_Ch8:
+_chan = 4
 	noise_note 2, 9, 4, 51
 	noise_note 4, 11, 4, 34
 	noise_note 4, 15, 1, 68
@@ -2965,33 +3021,39 @@ Sfx_MegaKick_Ch8:
 	sound_ret
 
 Sfx_Headbutt_Ch8:
+_chan = 4
 	noise_note 4, 15, -7, 85
 	noise_note 8, 15, 1, 101
 	sound_ret
 
 Sfx_HornAttack_Ch8:
+_chan = 4
 	noise_note 2, 8, 4, 67
 	noise_note 2, 12, 4, 34
 	noise_note 8, 15, 2, 52
 	sound_ret
 
 Sfx_Tackle_Ch8:
+_chan = 4
 	noise_note 4, 15, 1, 52
 	noise_note 15, 15, 2, 100
 	sound_ret
 
 Sfx_PoisonSting_Ch8:
+_chan = 4
 	noise_note 2, 15, 1, 34
 	noise_note 15, 15, 2, 18
 	sound_ret
 
 Sfx_Powder_Ch8:
+_chan = 4
 	noise_note 2, 12, 2, 1
 	noise_note 15, 15, 4, 1
 	noise_note 15, 15, 2, 1
 	sound_ret
 
 Sfx_Doubleslap_Ch8:
+_chan = 4
 	noise_note 8, 15, 1, 50
 	noise_note 8, 15, 1, 51
 	sound_ret
@@ -3007,6 +3069,7 @@ _chan = 1
 	sound_ret
 
 Sfx_Bite_Ch8:
+_chan = 4
 	noise_note 0, 13, 1, 66
 	noise_note 4, 10, 1, 50
 	noise_note 0, 13, 1, 34
@@ -3014,6 +3077,7 @@ Sfx_Bite_Ch8:
 	sound_ret
 
 Sfx_JumpKick_Ch8:
+_chan = 4
 	noise_note 3, 9, 2, 49
 	noise_note 3, 11, 2, 50
 	noise_note 3, 12, 2, 51
@@ -3021,11 +3085,13 @@ Sfx_JumpKick_Ch8:
 	sound_ret
 
 Sfx_Stomp_Ch8:
+_chan = 4
 	noise_note 12, 15, 1, 84
 	noise_note 8, 15, 1, 100
 	sound_ret
 
 Sfx_TailWhip_Ch8:
+_chan = 4
 	noise_note 2, 15, 1, 51
 	noise_note 2, 12, 1, 50
 	noise_note 2, 10, 1, 49
@@ -3035,11 +3101,13 @@ Sfx_TailWhip_Ch8:
 
 Sfx_KarateChop_Ch8:
 Sfx_Burn_Ch8:
+_chan = 4
 	noise_note 2, 13, 2, 50
 	noise_note 15, 15, 2, 67
 	sound_ret
 
 Sfx_Submission_Ch8:
+_chan = 4
 	noise_note 2, 15, 2, 67
 	noise_note 4, 11, 5, 50
 	noise_note 9, 8, 6, 49
@@ -3056,11 +3124,13 @@ _chan = 1
 	sound_ret
 
 Sfx_WaterGun_Ch8:
+_chan = 4
 	noise_note 15, 3, -7, 34
 	noise_note 15, 15, 2, 33
 	sound_ret
 
 Sfx_SwordsDance_Ch8:
+_chan = 4
 	noise_note 15, 4, -7, 65
 	noise_note 8, 8, -7, 65
 	noise_note 8, 12, -7, 65
@@ -3069,6 +3139,7 @@ Sfx_SwordsDance_Ch8:
 	sound_ret
 
 Sfx_Thunder_Ch8:
+_chan = 4
 	noise_note 10, 15, -7, 80
 	noise_note 15, 15, -7, 81
 	noise_note 8, 15, 2, 81
@@ -3099,6 +3170,7 @@ _chan = 2
 	sound_ret
 
 Sfx_Supersonic_Ch8:
+_chan = 4
 	noise_note 3, 9, 7, 18
 	noise_note 3, 10, 1, 17
 	sound_loop 10, Sfx_Supersonic_Ch8
@@ -3121,6 +3193,7 @@ _chan = 2
 	sound_ret
 
 Sfx_Leer_Ch8:
+_chan = 4
 	noise_note 1, 13, 1, 73
 	noise_note 1, 13, 1, 41
 	sound_loop 6, Sfx_Leer_Ch8
@@ -3137,6 +3210,7 @@ _chan = 1
 	sound_ret
 
 Sfx_Ember_Ch8:
+_chan = 4
 	noise_note 10, 15, 3, 53
 	noise_note 14, 15, 6, 69
 	sound_loop 4, Sfx_Ember_Ch8
@@ -3167,6 +3241,7 @@ _chan = 2
 	sound_ret
 
 Sfx_Bubblebeam_Ch8:
+_chan = 4
 	noise_note 5, 12, 3, 51
 	noise_note 3, 9, 2, 67
 	noise_note 10, 11, 5, 51
@@ -3187,6 +3262,7 @@ _chan = 1
 	sound_ret
 
 Sfx_HydroPump_Ch8:
+_chan = 4
 	noise_note 3, 6, 2, 34
 	noise_note 3, 10, 2, 50
 	noise_note 3, 13, 2, 51
@@ -3215,6 +3291,7 @@ _chan = 2
 	sound_ret
 
 Sfx_Surf_Ch8:
+_chan = 4
 	noise_note 9, 15, 4, 68
 	noise_note 9, 15, 2, 67
 	noise_note 15, 15, 4, 66
@@ -3243,6 +3320,7 @@ _chan = 2
 	sound_ret
 
 Sfx_Psybeam_Ch8:
+_chan = 4
 	noise_note 2, 13, 1, 74
 	noise_note 2, 13, 2, 42
 	sound_loop 21, Sfx_Psybeam_Ch8
@@ -3269,6 +3347,7 @@ _chan = 2
 	sound_ret
 
 Sfx_Charge_Ch8:
+_chan = 4
 	noise_note 2, 13, 3, 16
 	noise_note 3, 13, 3, 17
 	noise_note 2, 13, 2, 16
@@ -3293,6 +3372,7 @@ _chan = 2
 	sound_ret
 
 Sfx_Thundershock_Ch8:
+_chan = 4
 	noise_note 4, 15, -7, 67
 	noise_note 4, 15, 2, 68
 	sound_loop 9, Sfx_Thundershock_Ch8
@@ -3323,6 +3403,7 @@ _chan = 2
 	sound_ret
 
 Sfx_Psychic_Ch8:
+_chan = 4
 	noise_note 15, 3, -7, 20
 	noise_note 15, 12, -7, 19
 	noise_note 15, 12, -7, 18
@@ -3402,6 +3483,7 @@ _chan = 2
 	sound_ret
 
 Sfx_EggBomb_Ch8:
+_chan = 4
 	noise_note 4, 15, -7, 81
 	noise_note 8, 15, -7, 84
 	noise_note 15, 15, -7, 85
@@ -3482,12 +3564,14 @@ _chan = 2
 	sound_ret
 
 Sfx_HyperBeam_Ch8:
+_chan = 4
 	noise_note 1, 13, 1, 73
 	noise_note 1, 13, 1, 41
 	sound_loop 26, Sfx_HyperBeam_Ch8
 	sound_ret
 
 Sfx_RBYLunge_Ch8:
+_chan = 4
 	noise_note 6, 2, 0, 16
 	noise_note 6, 2, -7, 64
 	noise_note 6, 4, -7, 65
@@ -3499,20 +3583,24 @@ Sfx_RBYLunge_Ch8:
 	sound_ret
 
 Sfx_Unknown61_Ch8:
+_chan = 4
 	noise_note 4, 13, 1, 65
 	sound_ret
 
 Sfx_SwitchPockets_Ch8:
+_chan = 4
 	noise_note 4, 12, 1, 66
 	sound_ret
 
 Sfx_RBYRaise_Ch8:
+_chan = 4
 	noise_note 2, 6, -7, 33
 	noise_note 2, 10, -7, 49
 	noise_note 15, 15, 2, 65
 	sound_ret
 
 Sfx_TitleScreenEntrance_Ch8:
+_chan = 4
 	noise_note 2, 7, 0, 34
 	noise_note 2, 8, 0, 35
 	noise_note 2, 9, 0, 36
@@ -3600,6 +3688,7 @@ _chan = 1
 
 Sfx_Unknown5F_Ch8:
 Sfx_Sandstorm_Ch8:
+_chan = 4
 	noise_note 1, 15, 8, 65
 	noise_note 2, 9, -4, 36
 	noise_note 0, 0, 0, 0
@@ -3635,6 +3724,7 @@ _chan = 3
 	sound_ret
 
 Sfx_Elevator_Ch8:
+_chan = 4
 	noise_note 96, 0, 0, 0
 	noise_note 83, 0, 0, 0
 	sound_ret

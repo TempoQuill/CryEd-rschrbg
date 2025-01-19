@@ -94,6 +94,7 @@ _chan = 2
 	sound_ret
 
 ProtoCry_Tiger_Ch8:
+_chan = 4
 	noise_note 2, 6, -7, 87
 	noise_note 4, 10, -4, 92
 	noise_note 4, 15, 8, 94
@@ -101,14 +102,17 @@ ProtoCry_Tiger_Ch8:
 	sound_ret
 
 ProtoCry_Roar1_Ch5:
+_chan = 1
 	pitch_offset 32
 ProtoCry_Roar1_Ch6:
+_chan = 2
 	duty_cycle_pattern 1, 0, 1, 2
 	square_note 2, 15, 1, 1824
 	square_note 4, 15, 7, 1880
 	square_note 16, 15, 2, 1824
 	sound_ret
 ProtoCry_Roar1_Ch8:
+_chan = 4
 	noise_note 2, 8, 1, 76
 	noise_note 4, 9, 7, 90
 	noise_note 16, 9, 2, 62
@@ -138,6 +142,7 @@ _chan = 2
 	sound_ret
 
 ProtoCry_Crow_Ch8:
+_chan = 4
 	noise_note 1, 9, -1, 108
 	noise_note 1, 9, 2, 92
 	noise_note 10, 6, 2, 76
@@ -163,6 +168,7 @@ _chan = 2
 	sound_ret
 
 ProtoCry_Derble4_Ch8:
+_chan = 4
 	noise_note 3, 9, 2, 16
 	noise_note 1, 3, -1, 0
 	noise_note 5, 6, -1, 16
@@ -170,24 +176,29 @@ ProtoCry_Derble4_Ch8:
 	sound_ret
 
 ProtoCry_Roar2_Ch5:
+_chan = 1
 	pitch_offset 48
 ProtoCry_Roar2_Ch6:
+_chan = 2
 	duty_cycle_pattern 0, 2, 2, 3
 	square_note 4, 15, 7, 1109
 	square_note 8, 15, 2, 1480
 	square_note 16, 15, 1, 1456
 	sound_ret
 ProtoCry_Roar2_Ch8:
+_chan = 4
 	noise_note 7, 8, 7, 76
 	noise_note 7, 6, -4, 63
 	noise_note 7, 5, 2, 79
 	sound_ret
 
 ProtoCry_HOHO_Ch5:
+_chan = 1
 	pitch_offset 32
 	duty_cycle 2
 	sound_jump ProtoCry_HOHO_Ch6_0100
 ProtoCry_HOHO_Ch6:
+_chan = 2
 	duty_cycle_pattern 0, 1, 2, 3
 ProtoCry_HOHO_Ch6_0100:
 	sound_call Cry_Phanpy_Ch6.body
@@ -228,6 +239,7 @@ _chan = 2
 	sound_ret
 
 ProtoCry_Hoothoot_Ch8:
+_chan = 4
 	noise_note 1, 5, 8, 85
 	noise_note 16, 4, 8, 51
 	noise_note 1, 8, 8, 87
@@ -235,14 +247,17 @@ ProtoCry_Hoothoot_Ch8:
 	sound_ret
 
 ProtoCry_Crocodile_Ch5:
+_chan = 1
 	pitch_offset 32
 ProtoCry_Crocodile_Ch6:
+_chan = 2
 	duty_cycle_pattern 2, 0, 0, 1
 	square_note 8, 2, -3, 1857
 	square_note 4, 15, 8, 1782
 	square_note 10, 15, 2, 1760
 	sound_ret
 ProtoCry_Crocodile_Ch8:
+_chan = 4
 	noise_note 8, 3, -5, 80
 	noise_note 14, 7, 2, 66
 	sound_ret
@@ -266,6 +281,7 @@ _chan = 2
 	sound_ret
 
 ProtoCry_Ledyba_Ch8:
+_chan = 4
 	noise_note 3, 5, -1, 33
 	noise_note 3, 8, 1, 0
 	noise_note 2, 2, 0, 0
@@ -275,6 +291,7 @@ ProtoCry_Ledyba_Ch8:
 	sound_ret
 
 ProtoCry_Murkrow_Ch5:
+_chan = 1
 	pitch_offset 2
 	duty_cycle 0
 	sound_jump ProtoCry_Ledyba_Ch6.body
@@ -309,6 +326,7 @@ _chan = 2
 	sound_ret
 
 ProtoCry_Sneasel_Ch8:
+_chan = 4
 	noise_note 2, 5, -3, 4
 	noise_note 4, 6, 8, 19
 	noise_note 8, 6, 8, 32

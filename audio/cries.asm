@@ -193,6 +193,7 @@ _chan = 2
 	sound_ret
 
 Cry_Tiger_Ch8:
+_chan = 4
 	noise_note 10, 13, 6, 106
 	noise_note 6, 11, -4, 108
 	noise_note 6, 14, 2, 92
@@ -224,6 +225,7 @@ _chan = 2
 	sound_ret
 
 Cry_Suicune_Ch8:
+_chan = 4
 	noise_note 2, 14, 8, 59
 .loop:
 	noise_note 1, 15, 1, 78
@@ -254,6 +256,7 @@ _chan = 2
 	sound_ret
 
 Cry_Granbull_Ch8:
+_chan = 4
 	noise_note 3, 15, -7, 75
 	noise_note 3, 14, -7, 76
 	noise_note 32, 11, 5, 95
@@ -282,6 +285,7 @@ _chan = 2
 	sound_ret
 
 Cry_Slowking_Ch8:
+_chan = 4
 	noise_note 2, 8, -2, 93
 	noise_note 2, 9, -2, 76
 	noise_note 5, 9, -2, 93
@@ -318,6 +322,7 @@ _chan = 2
 	sound_ret
 
 Cry_Mouse_Ch8:
+_chan = 4
 	noise_note 2, 11, 8, 1
 	noise_note 2, 11, 8, 25
 	noise_note 2, 12, 8, 24
@@ -349,6 +354,7 @@ _chan = 2
 	sound_ret
 
 Cry_Crow_Ch8:
+_chan = 4
 	noise_note 1, 9, -1, 108
 	noise_note 1, 9, 2, 92
 	noise_note 10, 6, 2, 76
@@ -399,6 +405,7 @@ _chan = 2
 	sound_ret
 
 Cry_Derble4_Ch8:
+_chan = 4
 	noise_note 3, 9, 2, 16
 	noise_note 1, 3, -1, 0
 	noise_note 5, 6, -1, 16
@@ -431,6 +438,7 @@ _chan = 2
 	sound_ret
 
 Cry_Tyranitar_Ch8:
+_chan = 4
 	noise_note 2, 8, -1, 46
 	noise_note 2, 9, -1, 31
 	noise_note 4, 8, -1, 78
@@ -469,6 +477,7 @@ _chan = 2
 	sound_ret
 
 Cry_Hoothoot_Ch8:
+_chan = 4
 	noise_note 1, 6, 8, 54
 	noise_note 16, 8, 8, 106
 	noise_note 1, 9, 8, 94
@@ -489,6 +498,7 @@ _chan = 2
 	square_note 8, 15, 1, 1824
 	sound_ret
 Cry_Phanpy_Ch8:
+_chan = 4
 	noise_note 8, 3, -3, 0
 	noise_note 8, 9, 2, 0
 	sound_ret
@@ -528,6 +538,7 @@ _chan = 2
 
 Cry_Miltank_Ch8:
 Cry_Growl_Ch8:
+_chan = 4
 	noise_note 8, 3, -7, 82
 	noise_note 32, 9, 3, 79
 	sound_ret
@@ -546,6 +557,7 @@ _chan = 2
 	sound_ret
 
 Cry_Chikorita_Ch8:
+_chan = 4
 	noise_note 4, 9, 1, 16
 	noise_note 8, 9, 4, 3
 	sound_ret
@@ -573,6 +585,7 @@ _chan = 2
 	sound_ret
 
 Cry_Feline_Ch8:
+_chan = 4
 	noise_note 4, 2, -1, 0
 	noise_note 2, 3, -1, 1
 	noise_note 2, 4, -1, 2
@@ -591,6 +604,7 @@ _chan = 1
 	sound_ret
 
 Cry_Hitmontop_Ch8:
+_chan = 4
 	noise_note 12, 11, 2, 80
 	noise_note 8, 10, 8, 96
 	noise_note 6, 10, 8, 91
@@ -616,6 +630,7 @@ _chan = 2
 	sound_ret
 
 Cry_Ledyba_Ch8:
+_chan = 4
 	noise_note 3, 5, -1, 33
 	noise_note 3, 8, 1, 0
 	noise_note 2, 2, 0, 0
@@ -651,6 +666,7 @@ _chan = 2
 	sound_ret
 
 Cry_Sneasel_Ch8:
+_chan = 4
 	noise_note 2, 5, -3, 4
 	noise_note 4, 6, 8, 19
 	noise_note 8, 6, 8, 32
@@ -659,6 +675,7 @@ Cry_Sneasel_Ch8:
 	sound_ret
 
 Cry_Donphan_Ch8:
+_chan = 4
 	noise_note 2, 8, -3, 89
 	noise_note 4, 10, 8, 106
 	noise_note 8, 10, 8, 112
@@ -707,6 +724,7 @@ _chan = 2
 	sound_ret
 
 Cry_Lugia_Ch8:
+_chan = 4
 	noise_note 16, 10, 6, 22
 	noise_note 24, 9, 8, 61
 	noise_note 32, 9, 8, 92
@@ -754,6 +772,7 @@ Cry_Roar40_Ch8:
 	sound_ret
 
 Cry_Roar30_Ch8:
+_chan = 4
 	noise_note 8, 10, 6, 58
 	noise_note 8, 10, 1, 90
 	sound_ret
@@ -777,6 +796,7 @@ _chan = 2
 	sound_ret
 
 Cry_Mantine_Ch8:
+_chan = 4
 	sound_call Cry_Roar40_Ch8.body1
 	sound_call Cry_Roar40_Ch8.body2
 	sound_ret
@@ -805,6 +825,7 @@ _chan = 2
 	sound_ret
 
 Cry_Roar50_Ch8:
+_chan = 4
 	noise_note 4, 8, 8, 109
 	noise_note 4, 13, 8, 104
 	noise_note 7, 12, 8, 105
@@ -834,6 +855,7 @@ _chan = 2
 	sound_ret
 
 Cry_Roar60_Ch8:
+_chan = 4
 	noise_note 2, 11, -6, 73
 	noise_note 5, 11, -6, 58
 	noise_note 2, 11, -6, 41
@@ -866,6 +888,7 @@ _chan = 2
 	sound_ret
 
 Cry_Cottoncat_Ch8:
+_chan = 4
 	noise_note 2, 6, 4, 127
 	noise_note 2, 8, 4, 125
 	noise_note 2, 10, 4, 111
@@ -902,6 +925,7 @@ _chan = 2
 	sound_ret
 
 Cry_HoOh_Ch8:
+_chan = 4
 	noise_note 0, 15, 1, 40
 	sound_loop 4, Cry_HoOh_Ch8
 	noise_note 0, 9, 1, 73
@@ -1199,6 +1223,7 @@ _chan = 2
 	sound_ret
 
 Cry_Raichu_Ch8:
+_chan = 4
 	noise_note 2, 15, 2, 60
 	noise_note 8, 14, 4, 62
 	noise_note 15, 13, 7, 60
@@ -1229,6 +1254,7 @@ _chan = 2
 	sound_ret
 
 Cry_Vileplume_Ch8:
+_chan = 4
 	noise_note 3, 15, 2, 60
 	noise_note 13, 14, 6, 44
 	noise_note 15, 13, 7, 60
@@ -1262,6 +1288,7 @@ _chan = 2
 	sound_ret
 
 Cry_Vulpix_Ch8:
+_chan = 4
 	noise_note 15, 14, 4, 60
 	noise_note 10, 12, 7, 76
 	noise_note 10, 12, 7, 60
@@ -1295,6 +1322,7 @@ _chan = 2
 	sound_ret
 
 Cry_Rhydon_Ch8:
+_chan = 4
 	noise_note 2, 15, 2, 76
 	noise_note 6, 14, 6, 58
 	noise_note 4, 13, 7, 58
@@ -1325,6 +1353,7 @@ _chan = 2
 	sound_ret
 
 Cry_Weepinbell_Ch8:
+_chan = 4
 	noise_note 8, 13, 6, 44
 	noise_note 12, 12, 6, 60
 	noise_note 10, 11, 6, 44
@@ -1356,6 +1385,7 @@ _chan = 2
 	sound_ret
 
 Cry_Kangaskhan_Ch8:
+_chan = 4
 	noise_note 12, 14, 4, 76
 	noise_note 10, 12, 7, 92
 	noise_note 12, 11, 6, 76
@@ -1385,6 +1415,7 @@ _chan = 2
 	sound_ret
 
 Cry_Bulbasaur_Ch8:
+_chan = 4
 	noise_note 3, 14, 4, 60
 	noise_note 12, 13, 6, 44
 	noise_note 4, 14, 4, 60
@@ -1419,6 +1450,7 @@ _chan = 2
 	sound_ret
 
 Cry_Spearow_Ch8:
+_chan = 4
 	noise_note 4, 7, 4, 33
 	noise_note 4, 7, 4, 16
 	noise_note 4, 7, 1, 32
@@ -1441,6 +1473,7 @@ _chan = 2
 	sound_ret
 
 Cry_Nidoran_M_Ch8:
+_chan = 4
 	noise_note 3, 10, 1, 28
 	noise_note 14, 9, 4, 44
 	noise_note 8, 8, 1, 28
@@ -1465,6 +1498,7 @@ _chan = 2
 	sound_ret
 
 Cry_Pidgey_Ch8:
+_chan = 4
 	noise_note 2, 6, 1, 50
 	noise_note 2, 6, 1, 33
 	noise_note 8, 6, 1, 17
@@ -1482,6 +1516,7 @@ _chan = 1
 	sound_ret
 
 Cry_Voltorb_Ch8:
+_chan = 4
 	noise_note 8, 13, 4, 140
 	noise_note 4, 14, 2, 156
 	noise_note 15, 12, 6, 140
@@ -1507,6 +1542,7 @@ _chan = 2
 	sound_ret
 
 Cry_Muk_Ch8:
+_chan = 4
 	noise_note 4, 13, 3, 92
 	noise_note 15, 14, 6, 76
 	noise_note 8, 11, 1, 92
@@ -1558,6 +1594,7 @@ _chan = 2
 	sound_ret
 
 Cry_Diglett_Ch8:
+_chan = 4
 	noise_note 15, 0, 8, 0
 	noise_note 4, 0, 8, 0
 	noise_note 4, 13, 1, 76
@@ -1641,6 +1678,7 @@ _chan = 2
 	sound_ret
 
 Cry_Drowzee_Ch8:
+_chan = 4
 	noise_note 6, 13, 2, 28
 	noise_note 9, 11, 1, 44
 	noise_note 8, 12, 2, 44
@@ -1672,6 +1710,7 @@ _chan = 2
 	sound_ret
 
 Cry_Nidoran_F_Ch8:
+_chan = 4
 	noise_note 3, 10, 2, 60
 	noise_note 12, 9, 4, 44
 	noise_note 3, 8, 2, 28
@@ -1704,6 +1743,7 @@ _chan = 2
 	sound_ret
 
 Cry_Nidoqueen_Ch8:
+_chan = 4
 	noise_note 2, 15, 2, 60
 	noise_note 8, 14, 4, 62
 	noise_note 8, 13, 7, 60
@@ -1733,6 +1773,7 @@ _chan = 2
 	sound_ret
 
 Cry_Oddish_Ch8:
+_chan = 4
 	noise_note 12, 14, 6, 76
 	noise_note 11, 13, 7, 92
 	noise_note 15, 12, 2, 76
@@ -1763,6 +1804,7 @@ _chan = 2
 	sound_ret
 
 Cry_Charmander_Ch8:
+_chan = 4
 	noise_note 7, 13, 6, 92
 	noise_note 8, 14, 6, 76
 	noise_note 4, 13, 4, 92
@@ -1805,6 +1847,7 @@ _chan = 2
 	sound_ret
 
 Cry_Caterpie_Ch8:
+_chan = 4
 	noise_note 13, 15, 6, 76
 	noise_note 4, 14, 6, 60
 	noise_note 15, 15, 2, 76
@@ -1831,6 +1874,7 @@ _chan = 2
 	sound_ret
 
 Cry_Lapras_Ch8:
+_chan = 4
 	noise_note 10, 10, 6, 60
 	noise_note 14, 9, 4, 44
 	noise_note 5, 10, 3, 60
@@ -1856,6 +1900,7 @@ _chan = 2
 	sound_ret
 
 Cry_Golem_Ch8:
+_chan = 4
 	noise_note 10, 14, 6, 108
 	noise_note 15, 13, 2, 92
 	noise_note 3, 12, 2, 108
@@ -1885,6 +1930,7 @@ _chan = 2
 	sound_ret
 
 Cry_Blastoise_Ch8:
+_chan = 4
 	noise_note 10, 14, 6, 92
 	noise_note 10, 13, 6, 108
 	noise_note 4, 12, 2, 76
@@ -1910,6 +1956,7 @@ _chan = 2
 	sound_ret
 
 Cry_Pidgeotto_Ch8:
+_chan = 4
 	noise_note 8, 14, 4, 76
 	noise_note 14, 12, 4, 60
 	noise_note 8, 13, 1, 44
@@ -1943,6 +1990,7 @@ _chan = 2
 	sound_ret
 
 Cry_Paras_Ch8:
+_chan = 4
 	noise_note 6, 0, 8, 1
 	noise_note 5, 14, 2, 92
 	noise_note 5, 12, 2, 76
@@ -1977,6 +2025,7 @@ _chan = 2
 	sound_ret
 
 Cry_Weedle_Ch8:
+_chan = 4
 	noise_note 6, 14, 3, 92
 	noise_note 14, 13, 6, 76
 	noise_note 6, 12, 6, 60
@@ -2004,6 +2053,7 @@ _chan = 2
 	sound_ret
 
 Cry_Ekans_Ch8:
+_chan = 4
 	noise_note 14, 15, 7, 124
 	noise_note 12, 15, 6, 108
 	noise_note 9, 14, 4, 124
@@ -2035,6 +2085,7 @@ _chan = 2
 	sound_ret
 
 Cry_Metapod_Ch8:
+_chan = 4
 	noise_note 13, 1, -1, 124
 	noise_note 13, 15, 7, 140
 	noise_note 12, 13, 6, 124
@@ -2065,6 +2116,7 @@ _chan = 2
 	sound_ret
 
 Cry_Venonat_Ch8:
+_chan = 4
 	noise_note 3, 14, 2, 60
 	noise_note 8, 13, 6, 76
 	noise_note 5, 13, 4, 60
@@ -2096,6 +2148,7 @@ _chan = 2
 	sound_ret
 
 Cry_Squirtle_Ch8:
+_chan = 4
 	noise_note 6, 14, 6, 76
 	noise_note 15, 13, 6, 60
 	noise_note 10, 12, 5, 74
@@ -2130,6 +2183,7 @@ _chan = 2
 	sound_ret
 
 Cry_Fearow_Ch8:
+_chan = 4
 	noise_note 6, 14, 3, 76
 	noise_note 4, 12, 3, 60
 	noise_note 5, 13, 4, 60
@@ -2157,6 +2211,7 @@ _chan = 2
 	sound_ret
 
 Cry_Growlithe_Ch8:
+_chan = 4
 	noise_note 5, 12, 4, 70
 	noise_note 13, 10, 5, 68
 	noise_note 8, 12, 4, 69
@@ -2182,6 +2237,7 @@ _chan = 2
 	sound_ret
 
 Cry_Krabby_Ch8:
+_chan = 4
 	noise_note 14, 15, 2, 101
 	noise_note 13, 14, 2, 85
 	noise_note 14, 13, 2, 86
@@ -2233,6 +2289,7 @@ _chan = 2
 	sound_ret
 
 Cry_Rattata_Ch8:
+_chan = 4
 	noise_note 2, 9, 2, 73
 	noise_note 7, 11, 5, 41
 	noise_note 1, 10, 2, 57
@@ -2392,6 +2449,7 @@ _chan = 2
 	sound_ret
 
 Cry_Yoshi_Ch8:
+_chan = 4
 	noise_note 1, 13, 1, 56
 	noise_note 14, 13, 1, 40
 	noise_note 1, 13, 1, 57
@@ -2419,6 +2477,7 @@ _chan = 2
 	sound_ret
 
 Cry_BigYoshi_Ch8:
+_chan = 4
 	noise_note 4, 11, 2, 72
 	noise_note 14, 12, 1, 56
 	noise_note 1, 8, 1, 73
@@ -2437,6 +2496,7 @@ _chan = 1
 	sound_ret
 
 Cry_Fosslix_Ch8:
+_chan = 4
 	noise_note 3, 15, 4, 67
 	noise_note 4, 8, 4, 113
 	noise_note 1, 15, 4, 83
@@ -2547,6 +2607,7 @@ _chan = 1
 	sound_ret
 
 Cry_Kicloud_Ch8:
+_chan = 4
 	noise_note 4, 14, 2, 51
 	noise_note 1, 15, 8, 123
 	noise_note 2, 7, 4, 68
@@ -2633,6 +2694,7 @@ _chan = 2
 	sound_ret
 
 Cry_Coazigoast_Ch8:
+_chan = 4
 	noise_note 10, 5, 2, 38
 	noise_note 10, 8, 1, 1
 	noise_note 10, 8, 1, 0
@@ -2661,6 +2723,7 @@ _chan = 1
 	sound_ret
 
 Cry_Appuck_Ch8:
+_chan = 4
 	noise_note 20, 0, 8, 0
 	noise_note 2, 15, 1, 51
 	noise_note 1, 2, 4, 2
@@ -2740,6 +2803,7 @@ _chan = 1
 
 Cry_Antlog_Ch8:
 Cry_Guarnid_Ch8:
+_chan = 4
 	noise_note 1, 15, 4, 4
 	noise_note 6, 15, 4, 4
 	noise_note 7, 12, 4, 5
@@ -2809,6 +2873,7 @@ _chan = 2
 	sound_ret
 
 Cry_Orkid_Ch6:
+_chan = 2
 	duty_cycle_pattern 1, 1, 1, 0
 	pitch_inc_switch
 	square_note 4, 3, -2, 1853
@@ -2818,6 +2883,7 @@ Cry_Orkid_Ch6:
 	sound_ret
 
 Cry_Orkid_Ch5:
+_chan = 1
 	duty_cycle_pattern 2, 0, 2, 2
 .body
 	square_note 4, 0, 0, 0
@@ -2828,11 +2894,13 @@ Cry_Orkid_Ch5:
 	sound_ret
 
 Cry_Croven_Ch5:
+_chan = 1
 	pitch_inc_switch
 	duty_cycle_pattern 3, 0, 2, 1
 	sound_jump Cry_Croven_Ch6.body
 
 Cry_Croven_Ch6:
+_chan = 2
 	duty_cycle_pattern 1, 3, 2, 1
 .body
 	square_note 10, 14, 7, 1931
@@ -2843,12 +2911,14 @@ Cry_Croven_Ch6:
 	sound_ret
 
 Cry_Croven_Ch8:
+_chan = 4
 	noise_note 4, 7, 4, 42
 	noise_note 4, 7, 4, 25
 	noise_note 4, 7, 1, 41
 	sound_ret
 
 Cry_Bomoca_Ch5:
+_chan = 1
 	duty_cycle_pattern 3, 0, 3, 0
 	square_note 10, 15, 7, 1884
 	square_note 8, 15, 7, 1900
@@ -2858,6 +2928,7 @@ Cry_Bomoca_Ch5:
 	sound_ret
 
 Cry_Bomoca_Ch6:
+_chan = 2
 	duty_cycle_pattern 1, 1, 2, 1
 	square_note 11, 15, 7, 1800
 	square_note 8, 15, 7, 1830
@@ -2867,6 +2938,7 @@ Cry_Bomoca_Ch6:
 	sound_ret
 
 Cry_Bomoca_Ch8:
+_chan = 4
 	noise_note 9, 15, 7, 13
 	noise_note 8, 15, 7, 12
 	noise_note 6, 15, 7, 11
@@ -2875,6 +2947,7 @@ Cry_Bomoca_Ch8:
 	sound_ret
 
 Cry_Selenumia_Ch5:
+_chan = 1
 	duty_cycle_pattern 2, 1, 2, 1
 	square_note 4, 15, 7, 1864
 	square_note 15, 15, 7, 1846
@@ -2886,6 +2959,7 @@ Cry_Selenumia_Ch5:
 	sound_ret
 
 Cry_Selenumia_Ch6:
+_chan = 2
 	duty_cycle_pattern 0, 3, 0, 0
 	square_note 4, 15, 7, 1791
 	square_note 15, 15, 7, 1773
@@ -2897,10 +2971,12 @@ Cry_Selenumia_Ch6:
 	sound_ret
 
 Cry_Reclinax_Ch6:
+_chan = 2
 	pitch_offset 512
 	sound_jump Cry_Hitmontop_Ch5
 
 Cry_Sandscour_Ch5:
+_chan = 1
 	square_note 3, 9, 4, 550
 	square_note 1, 15, 4, 2040
 	square_note 1, 9, 4, 580
@@ -2919,6 +2995,7 @@ Cry_Sandscour_Ch5:
 	sound_ret
 
 Cry_Sandscour_Ch8:
+_chan = 4
 	noise_note 3, 9, 4, 70
 	noise_note 3, 15, 4, 71
 	noise_note 3, 15, 4, 69
@@ -2932,6 +3009,7 @@ Cry_Sandscour_Ch8:
 	sound_ret
 
 Cry_Tearow_Ch6:
+_chan = 2
 	pitch_offset 32
 	sound_jump Cry_Ekans_Ch5
 
@@ -2948,6 +3026,7 @@ _chan = 1
 	sound_ret
 
 Cry_Windkitt_Ch8:
+_chan = 4
 	noise_note 2, 14, 8, 50
 	noise_note 9, 15, 8, 55
 	noise_note 2, 13, 8, 48
