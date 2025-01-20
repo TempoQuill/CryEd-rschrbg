@@ -16,7 +16,7 @@
 	const CRY_EXEGGCUTE      ;  b
 	const CRY_LICKITUNG      ;  c
 	const CRY_EXEGGCUTOR     ;  d
-	const CRY_PIP            ;  e ; ;lykwyse
+	const CRY_PIP            ;  e
 	const CRY_GYAOON         ;  f
 	const CRY_SPEAROW        ; 10
 	const CRY_RHYDON         ; 11
