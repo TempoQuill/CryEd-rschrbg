@@ -338,9 +338,6 @@ CryEdit_PlayMusic:
     ld      e,a
     ld      a,[CryEdit_Music+1]
     ld      d,a
-    jp      PlayMusic
-
-.normal_play:
     push    de
     ld      de,MUSIC_NONE
     call    PlayMusic
@@ -607,14 +604,17 @@ MenuItemPtrs_OptionsMenu::
     dw  .exit
     
 .importCry
+    pop hl
     pop hl  ; stack overflow prevention
     jp  InitCryImporter
 .loadSaveCry
+    pop hl
     pop hl  ; stack overflow prevention
     xor a
     jp  InitLoadSaveScreen
 .musicviewer
     pop hl
+    pop hl  ; stack overflow prevention
     jp  InitMusicViewer
 .stereo
     pop hl
@@ -634,6 +634,7 @@ MenuItemPtrs_OptionsMenu::
     ld      [wOptions],a
     pop     de
     call    PlayMusic
+    pop     hl ; stack overflow prevention
     jp  OptionsMenuLoop
 .exit
     pop hl  ; stack overflow prevention
@@ -802,8 +803,8 @@ LoadSaveScreenLoop:
     ld      [rRAMG],a
     push    hl
     call    LoadSave_CheckIfCryExists
-    jp      nc,.crydoesntexist
     pop     hl
+    jp      nc,.crydoesntexist
     ld      a,[hl+]
     ld      d,0
     ld      e,a
@@ -877,8 +878,8 @@ LoadSaveScreenLoop:
     ld      [rRAMG],a
     push    hl
     call    LoadSave_CheckIfCryExists
-    jr      nc,.crydoesntexist
     pop     hl
+    jr      nc,.crydoesntexist
     ld      a,[hl+]
     ld      [CryEdit_CryBase],a
     ld      a,[hl+]
