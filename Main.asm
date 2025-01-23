@@ -1521,6 +1521,15 @@ CryImporterLoop::
     ld      a,[sys_ImportPos + 1]
     ld      e,a
     dec     de
+    ld      a,d
+    cp      HIGH(NUM_MONS - 1)
+    jr      c,.playcry
+    jr      nz,.nocry
+    ld      a,e
+    cp      LOW(NUM_MONS - 1)
+    jr      c,.playcry
+    jr      nz,.nocry
+.playcry
     call    PlayCry
     jr  .continue
 .importCry
