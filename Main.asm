@@ -1708,17 +1708,13 @@ CryImporterTilemap::
 PrintMonName:
     dec     hl
 	ld      a, h
-	cp      HIGH(NUM_MONS + 99)
+	cp      HIGH(NUM_MONS - 1)
 	jr      c, .continue
 	jr      nz, .noname
 	ld      a, l
-	cp      LOW(NUM_MONS + 99)
-	jr      z, .maybeproto
-	jr      nc, .noname
-.maybeproto
 	cp      LOW(NUM_MONS - 1)
 	jr      c, .continue
-	jr      nz, .proto
+	jr      nz, .noname
 .continue
     ld      d,h
     ld      e,l
@@ -1742,13 +1738,9 @@ PrintMonName:
     ld      a,1
     ld      [rROMB0],a
     ret
-.proto
-	ld      hl, ProtoText
-    jr      .common
 
 .noname
 	ld      hl, OutOfBoundText
-.common
 	ld      d,b
     ld      e,c
     ld      b,10
@@ -1764,8 +1756,6 @@ PrintMonName:
 
 OutOfBoundText:
     db      "-INVALID!-"
-ProtoText:
-    db      "-SW99CRY!-"
 
 ; ============
 ; Sprite stuff

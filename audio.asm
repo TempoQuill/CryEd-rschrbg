@@ -423,7 +423,7 @@ INCLUDE "audio/cries_proto.asm"
 SECTION "Crydata", ROMX, bank[1]
 
 INCLUDE "crydata.asm"
-INCLUDE "protocrydata.asm"
+;INCLUDE "protocrydata.asm"
 INCLUDE "basenames.asm"
 
 SECTION "New Sound Effects", ROMX, bank[7]
