@@ -28,7 +28,7 @@ MACRO stone_evo_script
 	play_sfx SFX_FULL_HEAL
 	wait_sfx
 	wait_script 40
-	evolution_script \1, \2
+	evolution_script            \1, \2
 ENDM
 
 MACRO trade_evo_script
@@ -69,7 +69,7 @@ MACRO trade_evo_script
 	play_sfx SFX_DEX_FANFARE_80_109
 	wait_sfx
 	wait_script 40
-	evolution_script \2, \3
+	evolution_script            \2, \3
 ENDM
 
 UpdateAudioScript:
@@ -360,7 +360,6 @@ CuePointers:
 	dw AudioScript_Evo50
 	dw AudioScript_Evo51
 	dw AudioScript_Evo52
-
 	dw AudioScript_Evo53
 	dw AudioScript_Evo54
 	dw AudioScript_Evo55
@@ -474,83 +473,84 @@ AudioScript_HallOfFame:
 	wait_script 241
 	play_music MUSIC_CREDITS
 	script_end
-AudioScript_Evo1:	evolution_script RATICATE, RAVERMIN
-AudioScript_Evo2:	evolution_script FEAROW, TEAROW
-AudioScript_Evo3:	evolution_script ARBOK, NOHTYP
-AudioScript_Evo4:	evolution_script SANDSLASH, SANDSCOUR
-AudioScript_Evo5:	evolution_script VENOMOTH, VENOKNIGHT
-AudioScript_Evo6:	evolution_script DUGTRIO, DUGQUINTET
-AudioScript_Evo7:	evolution_script KINGLER, PINCHLER
-AudioScript_Evo8:	evolution_script MAROWAK, POUCHENT
-AudioScript_Evo9:	evolution_script WEEZING, CHOAKING
-AudioScript_Evo10:	evolution_script DITTO, LYKWYSE
-AudioScript_Evo11:	evolution_script EEVEE, WHISPEON
-AudioScript_Evo12:	evolution_script EEVEE, ASSEMBLEON
-AudioScript_Evo13:	evolution_script SNORLAX, RECLINAX
-AudioScript_Evo14:	evolution_script FURRET, COATRET
-AudioScript_Evo15:	evolution_script NOCTOWL, NOCTGLIDE
-AudioScript_Evo16:	evolution_script LEDIAN, LEDIURY
-AudioScript_Evo17:	evolution_script ARIADOS, TIERACNID
-AudioScript_Evo18:	evolution_script SHUCKLE, SHUVEL
-AudioScript_Evo19:	evolution_script HOUNDOOM, HOUNDREAD
-AudioScript_Evo20:	evolution_script ORKID, SYNTIQUE
-AudioScript_Evo21:	evolution_script SYNTIQUE, PHOTORDEN
-AudioScript_Evo22:	evolution_script FLAMBEAR, VOLBEAR
-AudioScript_Evo23:	evolution_script VOLBEAR, DYNABEAR
-AudioScript_Evo24:	evolution_script CRUZ, AQUACENT
-AudioScript_Evo25:	evolution_script AQUACENT, AQUARIA
-AudioScript_Evo26:	evolution_script CROVEN, ASTROVEN
-AudioScript_Evo27:	evolution_script SNOBURI, SNOBUSTER
-AudioScript_Evo28:	evolution_script BURGELA, TANGELA
-AudioScript_Evo29:	evolution_script MIGHTALEX, KANGASKHAN
-AudioScript_Evo30:	evolution_script QUAILTER, STAFFBIRD
-AudioScript_Evo31:	evolution_script ORSCHUL, GOLDEEN
-AudioScript_Evo32:	evolution_script MOLAMBINO, ANGORE
-AudioScript_Evo33:	evolution_script PARABUD, PARAS
-AudioScript_Evo34:	evolution_script METABEAK, SKARMORY
-AudioScript_Evo35:	evolution_script METABEAK, CRANEST
-AudioScript_Evo36:	evolution_script DODAERIE, DODUO
-AudioScript_Evo37:	evolution_script SIAMAIS, GIRAFARIG
-AudioScript_Evo38:	evolution_script COINTEN, MEOWTH
-AudioScript_Evo39:	evolution_script GATOLL, BELLBOYANT
-AudioScript_Evo40:	evolution_script FOLICORN, PONYTA
-AudioScript_Evo41:	evolution_script SMUJJ, GRIMER
-AudioScript_Evo42:	evolution_script MILCALF, MILTANK
-AudioScript_Evo43:	evolution_script DELFLAP, DELIBIRD
-AudioScript_Evo44:	evolution_script KURSTRAW, PANGSHI
-AudioScript_Evo45:	evolution_script WOLFMAN, WARWOLF
-AudioScript_Evo46:	evolution_script FOSSLIX, ONIX
-AudioScript_Evo47:	evolution_script WINDKITT, TODBRUSH
-AudioScript_Evo48:	evolution_script GRIFLET, CIRRIFFON
-AudioScript_Evo49:	evolution_script CIRRIFFON, COSMOREAS
-AudioScript_Evo50:	evolution_script LAROON, CADITIN
-AudioScript_Evo51:	evolution_script ARLURRY, MAGENZA
-AudioScript_Evo52:	evolution_script MAGENZA, ILLUSIRO
-AudioScript_Evo53:	stone_evo_script WEEPINBELL, BELMITT
-AudioScript_Evo54:	stone_evo_script TENTACRUEL, TENTACRIME
-AudioScript_Evo55:	stone_evo_script FARFETCH_D, MADAME
-AudioScript_Evo56:	stone_evo_script DEWGONG, LIODEW
-AudioScript_Evo57:	stone_evo_script SHELLDER, TURBANN
-AudioScript_Evo58:	stone_evo_script HYPNO, ALREM
-AudioScript_Evo59:	stone_evo_script STARMIE, STARELLO
-AudioScript_Evo60:	stone_evo_script JYNX, MURPHELT
-AudioScript_Evo61:	stone_evo_script MAGIKARP, MOUNDIVER
-AudioScript_Evo62:	stone_evo_script PORYGON, PORYSPHIA
-AudioScript_Evo63:	stone_evo_script OMASTAR, OMANOVA
-AudioScript_Evo64:	stone_evo_script DRAGONAIR, DRAGONISCE
-AudioScript_Evo65:	stone_evo_script QUAGSIRE, QUAGAMI
-AudioScript_Evo66:	stone_evo_script QWILFISH, NUMPUFF
-AudioScript_Evo67:	stone_evo_script SNOBUSTER, ARBUGS
-AudioScript_Evo68:	stone_evo_script SNOBUSTER, WILLOFUDD
-AudioScript_Evo69:	stone_evo_script TRIFOX, VULPIX
-AudioScript_Evo70:	stone_evo_script ANGORE, GROTESS
-AudioScript_Evo71:	stone_evo_script UNILIGHT, ALIDUSK
-AudioScript_Evo72:	stone_evo_script TIRUFF, GROWLITHE
-AudioScript_Evo73:	stone_evo_script KOTORA, RAITORA
-AudioScript_Evo74:	trade_evo_script TOUFENSE,  GOLDUCK, EMPEDUCK
-AudioScript_Evo75:	trade_evo_script RAKUKI,    PRIMEAPE, ALPHAPE
-AudioScript_Evo76:	trade_evo_script APPUCK,    PINSIR, PLUX
-AudioScript_Evo77:	trade_evo_script KICLOUD,   KABUTOPS, KABOULDER
-AudioScript_Evo78:	trade_evo_script TIARANT,   SUNFLORA, SUNTHESIA
-AudioScript_Evo79:	trade_evo_script SAILWING,  MOSCARF, FLIDER
-AudioScript_Evo80:	trade_evo_script SILVEALTH, CADITIN, CHRYSALTY
+
+AudioScript_Evo1:	evolution_script            RATICATE, RAVERMIN
+AudioScript_Evo2:	evolution_script            FEAROW, TEAROW
+AudioScript_Evo3:	evolution_script            ARBOK, NOHTYP
+AudioScript_Evo4:	evolution_script            SANDSLASH, SANDSCOUR
+AudioScript_Evo5:	evolution_script            VENOMOTH, VENOKNIGHT
+AudioScript_Evo6:	evolution_script            DUGTRIO, DUGQUINTET
+AudioScript_Evo7:	trade_evo_script TOUFENSE,  GOLDUCK, EMPEDUCK
+AudioScript_Evo8:	trade_evo_script RAKUKI,    PRIMEAPE, ALPHAPE
+AudioScript_Evo9:	stone_evo_script            WEEPINBELL, BELMITT
+AudioScript_Evo10:	stone_evo_script            TENTACRUEL, TENTACRIME
+AudioScript_Evo11:	stone_evo_script            FARFETCH_D, MADAME
+AudioScript_Evo12:	stone_evo_script            DEWGONG, LIODEW
+AudioScript_Evo13:	stone_evo_script            SHELLDER, TURBANN
+AudioScript_Evo14:	stone_evo_script            HYPNO, ALREM
+AudioScript_Evo15:	evolution_script            KINGLER, PINCHLER
+AudioScript_Evo16:	evolution_script            MAROWAK, POUCHENT
+AudioScript_Evo17:	evolution_script            WEEZING, CHOAKING
+AudioScript_Evo18:	stone_evo_script            STARMIE, STARELLO
+AudioScript_Evo19:	stone_evo_script            JYNX, MURPHELT
+AudioScript_Evo20:	trade_evo_script APPUCK,    PINSIR, PLUX
+AudioScript_Evo21:	stone_evo_script            MAGIKARP, MOUNDIVER
+AudioScript_Evo22:	evolution_script            DITTO, LYKWYSE
+AudioScript_Evo23:	evolution_script            EEVEE, WHISPEON
+AudioScript_Evo24:	evolution_script            EEVEE, ASSEMBLEON
+AudioScript_Evo25:	stone_evo_script            PORYGON, PORYSPHIA
+AudioScript_Evo26:	stone_evo_script            OMASTAR, OMANOVA
+AudioScript_Evo27:	trade_evo_script KICLOUD,   KABUTOPS, KABOULDER
+AudioScript_Evo28:	evolution_script            SNORLAX, RECLINAX
+AudioScript_Evo29:	stone_evo_script            DRAGONAIR, DRAGONISCE
+AudioScript_Evo30:	evolution_script            FURRET, COATRET
+AudioScript_Evo31:	evolution_script            NOCTOWL, NOCTGLIDE
+AudioScript_Evo32:	evolution_script            LEDIAN, LEDIURY
+AudioScript_Evo33:	evolution_script            ARIADOS, TIERACNID
+AudioScript_Evo34:	trade_evo_script TIARANT,   SUNFLORA, SUNTHESIA
+AudioScript_Evo35:	stone_evo_script            QUAGSIRE, QUAGAMI
+AudioScript_Evo36:	stone_evo_script            QWILFISH, NUMPUFF
+AudioScript_Evo37:	evolution_script            SHUCKLE, SHUVEL
+AudioScript_Evo38:	evolution_script            HOUNDOOM, HOUNDREAD
+AudioScript_Evo39:	evolution_script            ORKID, SYNTIQUE
+AudioScript_Evo40:	evolution_script            SYNTIQUE, PHOTORDEN
+AudioScript_Evo41:	evolution_script            FLAMBEAR, VOLBEAR
+AudioScript_Evo42:	evolution_script            VOLBEAR, DYNABEAR
+AudioScript_Evo43:	evolution_script            CRUZ, AQUACENT
+AudioScript_Evo44:	evolution_script            AQUACENT, AQUARIA
+AudioScript_Evo45:	evolution_script            CROVEN, ASTROVEN
+AudioScript_Evo46:	evolution_script            SNOBURI, SNOBUSTER
+AudioScript_Evo47:	stone_evo_script            SNOBUSTER, ARBUGS
+AudioScript_Evo48:	stone_evo_script            SNOBUSTER, WILLOFUDD
+AudioScript_Evo49:	stone_evo_script            TRIFOX, VULPIX
+AudioScript_Evo50:	evolution_script            BURGELA, TANGELA
+AudioScript_Evo51:	evolution_script            MIGHTALEX, KANGASKHAN
+AudioScript_Evo52:	evolution_script            QUAILTER, STAFFBIRD
+AudioScript_Evo53:	evolution_script            ORSCHUL, GOLDEEN
+AudioScript_Evo54:	evolution_script            MOLAMBINO, ANGORE
+AudioScript_Evo55:	stone_evo_script            ANGORE, GROTESS
+AudioScript_Evo56:	evolution_script            PARABUD, PARAS
+AudioScript_Evo57:	evolution_script            METABEAK, SKARMORY
+AudioScript_Evo58:	evolution_script            METABEAK, CRANEST
+AudioScript_Evo59:	evolution_script            DODAERIE, DODUO
+AudioScript_Evo60:	evolution_script            SIAMAIS, GIRAFARIG
+AudioScript_Evo61:	evolution_script            COINTEN, MEOWTH
+AudioScript_Evo62:	evolution_script            GATOLL, BELLBOYANT
+AudioScript_Evo63:	stone_evo_script            UNILIGHT, ALIDUSK
+AudioScript_Evo64:	evolution_script            FOLICORN, PONYTA
+AudioScript_Evo65:	evolution_script            SMUJJ, GRIMER
+AudioScript_Evo66:	stone_evo_script            TIRUFF, GROWLITHE
+AudioScript_Evo67:	evolution_script            MILCALF, MILTANK
+AudioScript_Evo68:	evolution_script            DELFLAP, DELIBIRD
+AudioScript_Evo69:	stone_evo_script            KOTORA, RAITORA
+AudioScript_Evo70:	evolution_script            KURSTRAW, PANGSHI
+AudioScript_Evo71:	trade_evo_script SAILWING,  MOSCARF, FLIDER
+AudioScript_Evo72:	evolution_script            WOLFMAN, WARWOLF
+AudioScript_Evo73:	evolution_script            FOSSLIX, ONIX
+AudioScript_Evo74:	evolution_script            WINDKITT, TODBRUSH
+AudioScript_Evo75:	evolution_script            GRIFLET, CIRRIFFON
+AudioScript_Evo76:	evolution_script            CIRRIFFON, COSMOREAS
+AudioScript_Evo77:	evolution_script            LAROON, CADITIN
+AudioScript_Evo78:	trade_evo_script SILVEALTH, CADITIN, CHRYSALTY
+AudioScript_Evo79:	evolution_script            ARLURRY, MAGENZA
+AudioScript_Evo80:	evolution_script            MAGENZA, ILLUSIRO
