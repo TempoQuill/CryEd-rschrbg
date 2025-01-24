@@ -267,6 +267,15 @@ FadeInToMusic::
 	ld [wMusicFade], a
 	ret
 
+SkipMusic::
+; Skip a frames of music.
+.loop
+	and a
+	ret z
+	dec a
+	call UpdateSound
+	jr .loop
+
 CheckSFX::
 ; Return carry if any SFX channels are active.
 	ld a, [wChannel5Flags1]
@@ -425,6 +434,10 @@ SECTION "Crydata", ROMX, bank[1]
 INCLUDE "crydata.asm"
 ;INCLUDE "protocrydata.asm"
 INCLUDE "basenames.asm"
+
+SECTION "Audio Scripts", ROMX, bank [1]
+
+INCLUDE "audioscripts.asm"
 
 SECTION "New Sound Effects", ROMX, bank[7]
 

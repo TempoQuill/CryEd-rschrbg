@@ -499,7 +499,7 @@ InitOptionsMenu::
     rst     WaitVBlank
     xor     a
     ldh     [rLCDC],a
-    ld      a,4
+    ld      a,5
     ld      [sys_MenuMax],a
     xor     a
     ld      [sys_MenuPos],a
@@ -601,6 +601,7 @@ MenuItemPtrs_OptionsMenu::
     dw  .loadSaveCry
     dw  .musicviewer
     dw  .stereo
+    dw  .audioscript
     dw  .exit
     
 .importCry
@@ -636,6 +637,10 @@ MenuItemPtrs_OptionsMenu::
     call    PlayMusic
     pop     hl ; stack overflow prevention
     jp  OptionsMenuLoop
+.audioscript
+    pop hl
+    pop hl
+    jp  InitScriptPlayer
 .exit
     pop hl  ; stack overflow prevention
     jp  InitCryEditor
@@ -649,8 +654,8 @@ OptionsMenuTilemap::
     db  "  Load/save cry     "
     db  "  Music viewer      "
     db  "  Toggle stereo     "
+    db  "  Audio scripts     "
     db  "  Exit              "
-    db  "                    "
     db  "                    "
     db  "                    "
     db  "                    "
@@ -666,6 +671,7 @@ OptionsMenu_DescriptionPointers:
     dw  .loadSaveCry
     dw  .msuicviewer
     dw  .stereo
+    dw  .audioscript
     dw  .exit
     
 .importCry
@@ -688,6 +694,11 @@ OptionsMenu_DescriptionPointers:
     db  "monaural and stereo "
     db  "sound.              "
     db  "                    "
+.audioscript
+    db  "Listen to sequences "
+    db  "of canned audio.    "
+    db  "-TIP- Try out in RAM"
+    db  "for fine tuning.    "
 .exit
     db  "Return to the cry   "
     db  "editor/audio player."
@@ -1866,6 +1877,118 @@ NoteNames:
 INCLUDE "SongNames.asm"
 INCLUDE "ComposerCredit.asm"
 INCLUDE "PokemonNames.asm"
+
+InitScriptPlayer:
+    rst     WaitVBlank
+    xor     a
+    ld      [wDisplayScriptID], a
+    ldh     [rLCDC],a
+    ; load font + graphics
+    CopyTileset1BPP Font,0,98
+    ld      hl,ScriptPlayerTilemap
+    call    LoadMapText
+    ; init rendering variables
+    SetDMGPal   rBGP, 0,1,2,3
+    SetDMGPal   rOBP0,0,0,2,3
+    SetDMGPal   rOBP1,0,1,2,3
+    xor     a
+    ldh     [rSCX],a
+    ldh     [rSCY],a
+    ldh     [rWX],a
+    ldh     [rWY],a
+    ld      a,%10010001
+    ldh     [rLCDC],a
+    ld      a,IEF_VBLANK
+    ldh     [rIE],a
+    ei
+    call    UpdateSound
+    cease
+ScriptPlayerLoop:
+    call    RunAudioScript
+    call    UpdateSound
+    ld      hl, wDisplayScriptID
+    ld      a, [sys_btnPress]
+    bit     A_BUTTON_F, a
+    jr      nz, .set
+    bit     START_F, a
+    jr      nz, .set
+    bit     B_BUTTON_F, a
+    jp      nz, PlayTextSoundAndReturn
+    bit     D_UP_F, a
+    jr      nz, .up
+    bit     D_DOWN_F, a
+    jr      nz, .down
+    bit     D_LEFT_F, a
+    jr      nz, .left
+    bit     D_RIGHT_F, a
+    jr      nz, .right
+    jr      .continue
+.set
+    ld      a, [hl]
+    ld      [wAudioScript_Cue], a
+    jr      .continue
+.up
+    ld      a, $10
+    add     [hl]
+    ld      [hl], a
+    jr      .continue
+.down
+    ld      a, $f0
+    add     [hl]
+    ld      [hl], a
+    jr      .continue
+.left
+    dec     [hl]
+    jr      .continue
+.right
+    inc     [hl]
+.continue
+    ld      a, [hl]
+    ld      hl, $9871
+    call    DrawHex
+    cease
+    jp      ScriptPlayerLoop
+
+ScriptPlayerTilemap:
+;        ####################
+    db  "                    "
+    db  "  -SCRIPT--PLAYER-  "
+    db  "                    "
+    db  " SCRIPT ID:     $?? "
+    db  "                    "
+    db  "                    "
+    db  "                    "
+    db  "                    "
+    db  "                    "
+    db  "                    "
+    db  "                    "
+    db  "     -CONTROLS-     "
+    db  "                    "
+    db  " B             Exit "
+    db  " Start/A    Preview "
+    db  " Left/Right     +-1 "
+    db  " Up/Down       +-16 "
+    db  "                    "
+
+RunAudioScript:
+	push hl
+	push de
+	push bc
+	push af
+    ld      a,[hROMBank]
+    push    af
+    ld      a,BANK(UpdateAudioScript)
+    ld      [hROMBank],a
+    ld      [MBC3RomBank],a
+    call    UpdateAudioScript
+    pop     af
+    ld      [hROMBank],a
+    ld      [MBC3RomBank],a
+	pop af
+	pop bc
+	pop de
+	pop hl
+    ret
 
 ; ===========
 ; Sound stuff

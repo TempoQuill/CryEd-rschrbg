@@ -157,6 +157,43 @@ wDisplayWAV::			wav_struct wDisplayWAV
 wDisplayNoise::			drum_struct wDisplayNoise
 wMusicViewerAreaEnd::
 
+wDisplayScriptID::
+
+section "audio script area", WRAM0[$c500]
+
+; 00 - endscript
+; f2 - music off
+; f3 - music on
+; f4 - wait for sfx
+; f5 - skip frames
+; f6 - silence
+; f7 - music
+; f8 - cry
+; f9 - sfx
+; fa - extend script
+; fb - restart script
+; fc - new script
+; fd - offset jump
+; fe - loop
+; ff - loop_end
+wAudioScript_WorkArea:
+wAudioScript_Delay:
+	db
+wAudioScript_Pointer:
+	dw
+wAudioScript_Offset:
+	db
+wAudioScript_LoopOffset:
+	db
+wAudioScript_LoopCounter:
+	db
+wAudioScript_WorkAreaEnd:
+wAudioScript_Cue:
+	db
+wAudioScript_ScriptArea:
+	ds 256
+wAudioScript_ScriptAreaEnd:
+
 section	"Hram", HRAM[$FF80]
 
 INCLUDE "hram.asm"
