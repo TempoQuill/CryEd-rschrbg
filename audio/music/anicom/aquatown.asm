@@ -371,7 +371,7 @@ Music_Aquatown_Ch3:
 	db	$90
 	db	$a0
 	db	$d8,$6,$5b
-;		tempo 10
+;		tempo 9
 	db	$f8,$a8
 	db	$d8,$3,$3d
 ;		tempo 1
