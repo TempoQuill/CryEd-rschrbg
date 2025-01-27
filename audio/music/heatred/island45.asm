@@ -487,7 +487,7 @@ _chan = 3
 
 HRM_Island45_Ch4:
 _chan = 4
-	toggle_noise 8
+	toggle_noise 3
 .mainloop:
 	drum_speed 6
 	sound_call .sub1
@@ -498,17 +498,17 @@ _chan = 4
 	sound_call .sub2
 	sound_call .sub1
 	stereo_panning TRUE, TRUE
-	drum_note 1, 4
+	drum_note 11, 4
 	stereo_panning TRUE, FALSE
-	drum_note 3, 4
-	drum_note 3, 4
+	drum_note 8, 4
+	drum_note 8, 4
 	stereo_panning TRUE, TRUE
-	drum_note 1, 4
-	drum_note 1, 4
-	drum_note 1, 3
-	drum_note 6, 1
-	drum_note 6, 4
-	drum_note 2, 4
+	drum_note 11, 4
+	drum_note 11, 4
+	drum_note 11, 3
+	drum_note 3, 1
+	drum_note 3, 4
+	drum_note 4, 4
 	sound_call .sub1
 	sound_call .sub2
 	sound_call .sub1
@@ -517,131 +517,131 @@ _chan = 4
 	sound_call .sub2
 	sound_call .sub3
 	stereo_panning TRUE, TRUE
-	drum_note 1, 4
-	stereo_panning TRUE, FALSE
-	drum_note 3, 4
-	stereo_panning TRUE, TRUE
-	drum_note 6, 4
-	drum_note 1, 4
-	drum_note 12, 2
-	drum_note 12, 2
-	drum_note 2, 4
 	drum_note 11, 4
-	drum_note 2, 4
+	stereo_panning TRUE, FALSE
+	drum_note 8, 4
+	stereo_panning TRUE, TRUE
+	drum_note 3, 4
+	drum_note 11, 4
+	drum_note 2, 2
+	drum_note 2, 2
+	drum_note 4, 4
+	drum_note 1, 4
+	drum_note 4, 4
 	sound_call .sub4
 	stereo_panning TRUE, TRUE
-	drum_note 1, 4
+	drum_note 11, 4
 	stereo_panning TRUE, FALSE
-	drum_note 3, 4
+	drum_note 8, 4
 	stereo_panning TRUE, TRUE
-	drum_note 6, 4
-	drum_note 1, 4
-	stereo_panning TRUE, FALSE
 	drum_note 3, 4
+	drum_note 11, 4
+	stereo_panning TRUE, FALSE
+	drum_note 8, 4
 	stereo_panning TRUE, TRUE
-	drum_note 6, 4
-	drum_note 6, 4
-	stereo_panning TRUE, FALSE
 	drum_note 3, 4
+	drum_note 3, 4
+	stereo_panning TRUE, FALSE
+	drum_note 8, 4
 	sound_call .sub4
 	stereo_panning TRUE, TRUE
-	drum_note 1, 4
-	stereo_panning TRUE, FALSE
-	drum_note 3, 4
-	stereo_panning TRUE, TRUE
-	drum_note 6, 4
-	drum_note 1, 4
-	drum_note 6, 4
-	drum_note 2, 4
 	drum_note 11, 4
-	drum_note 6, 4
+	stereo_panning TRUE, FALSE
+	drum_note 8, 4
+	stereo_panning TRUE, TRUE
+	drum_note 3, 4
+	drum_note 11, 4
+	drum_note 3, 4
+	drum_note 4, 4
+	drum_note 1, 4
+	drum_note 3, 4
 	sound_call .sub1
 	sound_call .sub2
 	stereo_panning TRUE, TRUE
-	drum_note 1, 4
-	drum_note 2, 4
-	drum_note 6, 4
-	drum_note 1, 4
-	drum_note 1, 4
-	drum_note 1, 4
-	drum_note 6, 4
-	stereo_panning TRUE, FALSE
-	drum_note 3, 4
-	stereo_panning TRUE, TRUE
-	drum_note 1, 4
-	stereo_panning TRUE, FALSE
-	drum_note 3, 4
-	stereo_panning TRUE, TRUE
-	drum_note 6, 4
-	drum_note 1, 4
-	drum_note 12, 2
-	drum_note 12, 2
-	drum_note 6, 4
 	drum_note 11, 4
-	drum_note 6, 4
+	drum_note 4, 4
+	drum_note 3, 4
+	drum_note 11, 4
+	drum_note 11, 4
+	drum_note 11, 4
+	drum_note 3, 4
+	stereo_panning TRUE, FALSE
+	drum_note 8, 4
+	stereo_panning TRUE, TRUE
+	drum_note 11, 4
+	stereo_panning TRUE, FALSE
+	drum_note 8, 4
+	stereo_panning TRUE, TRUE
+	drum_note 3, 4
+	drum_note 11, 4
+	drum_note 2, 2
+	drum_note 2, 2
+	drum_note 3, 4
+	drum_note 1, 4
+	drum_note 3, 4
 	sound_jump .mainloop
 
 .sub1:
 	stereo_panning TRUE, TRUE
-	drum_note 1, 4
+	drum_note 11, 4
 	stereo_panning TRUE, FALSE
-	drum_note 3, 4
-	drum_note 3, 4
+	drum_note 8, 4
+	drum_note 8, 4
 	stereo_panning TRUE, TRUE
-	drum_note 1, 4
+	drum_note 11, 4
 	stereo_panning TRUE, FALSE
-	drum_note 3, 4
-	drum_note 3, 4
+	drum_note 8, 4
+	drum_note 8, 4
 	stereo_panning TRUE, TRUE
-	drum_note 6, 4
-	stereo_panning TRUE, FALSE
 	drum_note 3, 4
+	stereo_panning TRUE, FALSE
+	drum_note 8, 4
 	sound_ret
 
 .sub2:
 	stereo_panning TRUE, TRUE
-	drum_note 1, 4
+	drum_note 11, 4
 	stereo_panning TRUE, FALSE
-	drum_note 3, 4
-	drum_note 3, 4
+	drum_note 8, 4
+	drum_note 8, 4
 	stereo_panning TRUE, TRUE
-	drum_note 1, 4
+	drum_note 11, 4
 	stereo_panning TRUE, FALSE
-	drum_note 3, 4
+	drum_note 8, 4
 	stereo_panning TRUE, TRUE
-	drum_note 1, 4
-	drum_note 6, 4
-	drum_note 1, 4
+	drum_note 11, 4
+	drum_note 3, 4
+	drum_note 11, 4
 	sound_ret
 
 .sub3:
 	stereo_panning TRUE, TRUE
-	drum_note 1, 4
+	drum_note 11, 4
 	stereo_panning TRUE, FALSE
-	drum_note 3, 4
-	drum_note 3, 4
+	drum_note 8, 4
+	drum_note 8, 4
 	stereo_panning TRUE, TRUE
-	drum_note 1, 4
-	drum_note 1, 4
-	drum_note 1, 4
-	drum_note 6, 4
-	stereo_panning TRUE, FALSE
+	drum_note 11, 4
+	drum_note 11, 4
+	drum_note 11, 4
 	drum_note 3, 4
+	stereo_panning TRUE, FALSE
+	drum_note 8, 4
 	sound_ret
 
 .sub4:
 	stereo_panning TRUE, TRUE
-	drum_note 1, 4
+	drum_note 11, 4
 	stereo_panning TRUE, FALSE
-	drum_note 3, 4
+	drum_note 8, 4
 	stereo_panning TRUE, TRUE
-	drum_note 6, 4
-	drum_note 1, 4
-	stereo_panning TRUE, FALSE
 	drum_note 3, 4
+	drum_note 11, 4
+	stereo_panning TRUE, FALSE
+	drum_note 8, 4
 	stereo_panning TRUE, TRUE
-	drum_note 1, 4
-	drum_note 6, 4
-	stereo_panning TRUE, FALSE
+	drum_note 11, 4
 	drum_note 3, 4
+	stereo_panning TRUE, FALSE
+	drum_note 8, 4
 	sound_ret
