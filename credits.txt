@@ -5,41 +5,13 @@ Dotsarecool for making the Gen 1 cry editor that also works on gen 2 due to the 
 TPPDevs for Phancero's cry.
 
 Pokemon Cry Data:
-	TShadowKnight / Pokemon Space World Crystal:
-		Flambear
-		Volbear
-		Dynabear
-		Cruz
-		Aquacent
-		Aquaria
-		Trifox
-		Orschul
-		Molambino
-		Grotess
-		Parabud
-		Dodaerie
-		Cointen
-		Gatoll
-		Bellboyant
-		Folicorn
-		Turbann
-		Smujj
-		Tiruff
-		Kotora
-		Raitora
-		Kurstraw
-		Pangshi
-		Wolfman
-		Warwolf
-	SourPotato / Pokemon Gold '97 Reforged:
-		Burgela
-		Numpuff
-		Lykwyse
 	Game Freak:
 		Siamais
 		Belmitt
 		Madame
 		Plux
+		Smujj
+		Shuvel
 Pokemon Names:
 	TShadowKnight / Pokemon Space World Crystal:
 		Flambear
