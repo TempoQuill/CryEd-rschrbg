@@ -149,6 +149,7 @@ CryEdit_SoundEffect:		ds	1
 CryEdit_Music:			ds	2
 
 wCryDisplayData::		ds	6
+wCryImporterOrder::		ds	1
 
 wMusicViewerArea::
 wDisplaySquare1::		sq_struct wDisplaySquare1

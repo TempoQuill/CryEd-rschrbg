@@ -529,6 +529,7 @@ InitOptionsMenu::
     cease
     call    UpdateSound
     
+    jp      OptionsMenuLoop.continue
 OptionsMenuLoop::
     ld      a,[sys_btnPress]
     bit     A_BUTTON_F,a
@@ -1463,6 +1464,7 @@ InitCryImporter::
     call    UpdateSound
     cease
     call    UpdateSound
+    jp      CryImporterLoop.continue
 
 CryImporterLoop::
     ld      a,[sys_btnPress]
@@ -1471,7 +1473,7 @@ CryImporterLoop::
     bit     B_BUTTON_F,a
     jp      nz,InitCryEditor
     bit     START_F,a
-    jr      nz,.importCry
+    jr      nz,.new_order
     bit     SELECT_F,a
     jp      nz,.previewCry
     ld      hl,sys_ImportPos
@@ -1483,6 +1485,11 @@ CryImporterLoop::
     jr      nz,.add1
     bit     D_LEFT_F,a
     jr      nz,.sub1
+    jp      .continue
+.new_order
+    ld      a,[wCryImporterOrder]
+    xor     1
+    ld      [wCryImporterOrder],a
     jp      .continue
 .add16
     ld      d,[hl]
@@ -1525,13 +1532,14 @@ CryImporterLoop::
     ld      [hl],d
     inc     hl
     ld      [hl],e
-    jr      .continue
+    jp      .continue
 .previewCry
     ld      a,[sys_ImportPos]
     ld      d,a
     ld      a,[sys_ImportPos + 1]
     ld      e,a
     dec     de
+    call    GetNewOrderMon
     ld      a,d
     cp      HIGH(NUM_MONS - 1)
     jr      c,.playcry
@@ -1553,6 +1561,8 @@ CryImporterLoop::
     ld      a,[sys_ImportPos + 1]
     ld      e,a
     dec     de
+    call    GetNewOrderMon
+.importcontinue
     call    PlayCry
 .cryloop
     cease
@@ -1625,7 +1635,7 @@ CryImporterLoop::
     add     hl,bc
     ld      c,l
     ld      b,h
-    ld      hl,$98E9
+    ld      hl,$98C9
     ld      de,10
 .baseloop
     ld      a,[bc]
@@ -1641,18 +1651,18 @@ CryImporterLoop::
     inc     de
     ld      a,[de]
     inc     de
+    ld      hl,$98F1
+    call    DrawHex
+    ld      a,[de]
+    inc     de
+    ld      hl,$98EF
+    call    DrawHex
+    ld      a,[de]
+    inc     de
     ld      hl,$9911
     call    DrawHex
     ld      a,[de]
-    inc     de
     ld      hl,$990F
-    call    DrawHex
-    ld      a,[de]
-    inc     de
-    ld      hl,$9931
-    call    DrawHex
-    ld      a,[de]
-    ld      hl,$992F
     call    DrawHex
     ld      a,[sys_ImportPos]
     ld      h,a
@@ -1670,6 +1680,8 @@ CopyCryData:
     ld      a,BANK(PokemonCries)
     ld      [rROMB0],a
 	ld      [hROMBank],a
+    call    GetNewOrderMon
+.continue
     ld      hl,PokemonCries
     add     hl,de
     add     hl,de
@@ -1709,7 +1721,6 @@ CryImporterTilemap::
     db  "                    "
     db  " Cry ID:      $???? "
     db  " ?????????          "
-    db  "                    "
     db  "   - CRY VALUES -   "
     db  " Base    ?????????? "
     db  " Pitch        $???? "
@@ -1718,7 +1729,8 @@ CryImporterTilemap::
     db  "    - CONTROLS -    "
     db  " Left/Right    +- 1 "
     db  " Up/Down      +- 16 "
-    db  " A/Start     Import "
+    db  " Start        Order "
+    db  " A           Import "
     db  " B             Exit "
     db  " Select     Preview "
     db  "                    "
@@ -1738,6 +1750,10 @@ PrintMonName:
 .continue
     ld      d,h
     ld      e,l
+    call    GetNewOrderMon
+    ld      l,e
+    ld      h,d
+.continue2
     add     hl,hl   ; x2
     add     hl,hl   ; x4
     add     hl,de   ; x5
@@ -1772,6 +1788,27 @@ PrintMonName:
     inc     de
     dec     b
     jr      nz,.nonameloop
+    ret
+
+GetNewOrderMon:
+    ld      a,[wCryImporterOrder]
+    and     a
+    ret     z
+    ld      a,[hROMBank]
+    push    af
+    ld      a,BANK(NewPokedexOrder)
+    ld      [hROMBank],a
+    ld      [MBC3RomBank],a
+    ld      hl,NewPokedexOrder
+    add     hl,de
+    add     hl,de
+    ld      e,[hl]
+    inc     hl
+    ld      d,[hl]
+    pop     af
+    ld      [hROMBank],a
+    ld      [MBC3RomBank],a
+    dec     de
     ret
 
 OutOfBoundText:
@@ -1997,3 +2034,7 @@ RunAudioScript:
 include     "audio.asm"
 
 NUM_MONS = $180 ;put the number of pokemon names added here
+
+SECTION "dex order", ROMX, bank[1]
+
+INCLUDE "data/dex_order_new.asm" 
