@@ -9,6 +9,7 @@ Drumkits:
 	dw Drumkit6
 	dw Drumkit7
 	dw Drumkit8
+; heatred/bladegreen/anicom
 	dw Drumkit9
 	dw Drumkit10
 	dw Drumkit11
