@@ -81,11 +81,11 @@
 	const CRY_CROW_OLD       ; 47 ; Donkrank, Sweote
 	const CRY_DERBLE_4_OLD   ; 48 ; Tieracnid, Metabeak, Scafarow
 	const CRY_ROAR_2_OLD     ; 49 ; Dynabear, Aquacent, Aquaria, Burgela, Molambino, Grotess
-	const CRY_TRIFOX         ; 4a ; Trifox
+	const CRY_HOOTING_1      ; 4a ; Trifox
 	const CRY_HOOTHOOT_OLD   ; 4b ; Photorden, Noctglide, Highpo
-	const CRY_DODAERIE       ; 4c ; Dodaerie
+	const CRY_HOOTING_2      ; 4c ; Dodaerie
 	const CRY_CROCODILE      ; 4d ; Cruz, Cointen, Gatoll, Bellboyant
-	const CRY_SMUJJ          ; 4e ; Smujj
+	const CRY_INSECT         ; 4e ; Smujj
 	const CRY_TIGER_OLD      ; 4f ; Numpuff, Mightalex, Angore, Rakuki, Dragonisce, Kotora, Raitora, Choaking
 	const CRY_SNEASEL_OLD    ; 50 ; Arbugs, Unilight, Wolfman, Warwolf, Magneven, Drython, Arlurry
 	const CRY_FOLICORN       ; 51 ; Folicorn
@@ -159,14 +159,14 @@ PROTO_CRY_ROAR_1     EQU CRY_ROAR_1_OLD
 PROTO_CRY_ROAR_2     EQU CRY_ROAR_2_OLD
 ;PROTO_CRY_BLEET_1    EQU CRY_BLEET_1
 ;PROTO_CRY_DERBLE_2   EQU CRY_DERBLE_2
-PROTO_CRY_HOHO_1     EQU CRY_TRIFOX
+PROTO_CRY_HOOTING_1  EQU CRY_HOOTING_1
 ;PROTO_CRY_PHANPY     EQU CRY_PHANPY
-PROTO_CRY_HOHO_2     EQU CRY_DODAERIE
+PROTO_CRY_HOOTING_2  EQU CRY_HOOTING_2
 ;PROTO_CRY_GROWL      EQU CRY_GROWL
 ;PROTO_CRY_CHIKORITA  EQU CRY_CHIKORITA
 PROTO_CRY_CROCODILE  EQU CRY_CROCODILE
 ;PROTO_CRY_MILTANK    EQU CRY_MILTANK
-PROTO_CRY_MUSI       EQU CRY_SMUJJ
+PROTO_CRY_INSECT     EQU CRY_INSECT
 ;PROTO_CRY_HITMONTOP  EQU CRY_HITMONTOP
 ;PROTO_CRY_LEDYBA     EQU CRY_LEDYBA
 PROTO_CRY_MURKROW    EQU CRY_FOLICORN
