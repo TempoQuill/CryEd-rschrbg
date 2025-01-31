@@ -5,6 +5,7 @@
 	channel 2, 2SMenu_Ch2
 
 2SMenu_Ch1:
+_chan = 1
 	tempo 138
 	volume 7
 	pitch_inc_switch
@@ -105,6 +106,7 @@
 	sound_ret
 
 2SMenu_Ch2:
+_chan = 2
 	duty_cycle 2
 .mainloop:
 	sound_call 2SMenu_Ch1.sub1

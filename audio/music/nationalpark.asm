@@ -6,6 +6,7 @@ Music_NationalPark:
 	channel 4, Music_NationalPark_Ch4
 
 Music_NationalPark_Ch1:
+_chan = 1
 	tempo 192
 	volume 7
 	stereo_panning FALSE, TRUE
@@ -297,6 +298,7 @@ Music_NationalPark_Ch1:
 	sound_ret
 
 Music_NationalPark_Ch2:
+_chan = 2
 	vibrato 20, 2, 4
 	duty_cycle 1
 	note_type 12, 10, 7
@@ -479,6 +481,7 @@ Music_NationalPark_Ch2:
 	sound_ret
 
 Music_NationalPark_Ch3:
+_chan = 3
 	vibrato 22, 2, 4
 	note_type 12, 1, 1
 	octave 4
@@ -617,6 +620,7 @@ Music_NationalPark_Ch3:
 	sound_ret
 
 Music_NationalPark_Ch4:
+_chan = 4
 	toggle_noise 3
 	drum_speed 12
 	rest 2

@@ -4,6 +4,7 @@ Music_MtMoonSquare:
 	channel 2, Music_MtMoonSquare_Ch2
 
 Music_MtMoonSquare_Ch1:
+_chan = 1
 	tempo 112
 	volume 7
 	duty_cycle 2
@@ -55,6 +56,7 @@ Music_MtMoonSquare_Ch1:
 	sound_ret
 
 Music_MtMoonSquare_Ch2:
+_chan = 2
 	duty_cycle 2
 	vibrato 24, 2, 4
 .mainloop:

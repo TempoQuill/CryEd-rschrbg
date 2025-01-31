@@ -13,6 +13,7 @@ Music_StarmanMenu:
 	channel 4, Music_StarmanMenu_Ch4
 
 Music_Starman_Ch1:
+_chan = 1
 	tempo 128
 	volume 7
 	duty_cycle 2
@@ -45,6 +46,7 @@ Music_Starman_Ch1:
 	note E_, 4
 	note E_, 4
 Music_StarmanMenu_Ch1:
+_chan = 1
 	tempo 128
 	volume 7
 	duty_cycle 2
@@ -343,6 +345,7 @@ Music_StarmanMenu_Ch1:
 	sound_loop 0, .mainloop
 
 Music_Starman_Ch2:
+_chan = 2
 	duty_cycle 2
 	vibrato 6, 2, 4
 	note_type 12, 12, 2
@@ -362,6 +365,7 @@ Music_Starman_Ch2:
 	note B_, 4
 	note B_, 4
 Music_StarmanMenu_Ch2:
+_chan = 2
 	duty_cycle 2
 	vibrato 6, 2, 4
 	note_type 12, 12, 2
@@ -793,6 +797,7 @@ Music_StarmanMenu_Ch2:
 	sound_loop 0, .mainloop
 
 Music_Starman_Ch3:
+_chan = 3
 	note_type 12, 1, 0
 	rest 16
 	rest 10
@@ -805,6 +810,7 @@ Music_Starman_Ch3:
 	note D#, 1
 	rest 1
 Music_StarmanMenu_Ch3:
+_chan = 3
 	note_type 12, 1, 0
 .mainloop:
 	octave 4
@@ -1064,7 +1070,7 @@ Music_StarmanMenu_Ch3:
 	rest 1
 	note D#, 1
 	rest 15
-	note_type 12, 1, -3
+	note_type 12, 1, 11
 	octave 5
 	note E_, 1
 	rest 1
@@ -1391,10 +1397,12 @@ Music_StarmanMenu_Ch3:
 	sound_loop 0, .mainloop
 
 Music_Starman_Ch4:
+_chan = 4
 	drum_speed 12
 	rest 16
 	rest 16
 Music_StarmanMenu_Ch4:
+_chan = 4
 	drum_speed 12
 	frame_swap
 	rest 1

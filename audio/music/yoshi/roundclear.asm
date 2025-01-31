@@ -4,6 +4,7 @@ Music_RoundClear:
 	channel 6, Music_RoundClear_Ch6
 
 Music_RoundClear_Ch5:
+_chan = 1
 	sfx_priority_on
 	set_music
 	tempo 128
@@ -34,6 +35,7 @@ Music_RoundClear_Ch5:
 	sound_ret
 
 Music_RoundClear_Ch6:
+_chan = 2
 	set_music
 	duty_cycle 2
 	vibrato 0, 2, 4

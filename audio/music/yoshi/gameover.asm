@@ -5,6 +5,7 @@ Music_GameOver:
 	channel 7, Music_GameOver_Ch7
 
 Music_GameOver_Ch5:
+_chan = 1
 	sfx_priority_on
 	set_music
 	tempo 144
@@ -40,6 +41,7 @@ Music_GameOver_Ch5:
 	sound_ret
 
 Music_GameOver_Ch6:
+_chan = 2
 	set_music
 	duty_cycle 2
 	vibrato 6, 2, 6
@@ -69,6 +71,7 @@ Music_GameOver_Ch6:
 	sound_ret
 
 Music_GameOver_Ch7:
+_chan = 3
 	set_music
 	note_type 12, 1, 0
 	rest 16

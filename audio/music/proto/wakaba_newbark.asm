@@ -6,6 +6,7 @@ Wakaba:
 	channel 4 ; from silents hills draft
 
 Wakaba_Ch1:
+_chan = 1
 	tempo 187
 	volume 7
 	stereo_panning FALSE, TRUE
@@ -137,6 +138,7 @@ Wakaba_Ch1:
 	sound_ret
 
 Wakaba_Ch2:
+_chan = 2
 	stereo_panning TRUE, TRUE
 	vibrato 18, 2, 3
 	note_type 6, 10, 7
@@ -217,6 +219,7 @@ Wakaba_Ch2:
 	sound_jump .mainloop
 
 Wakaba_Ch3:
+_chan = 3
 	stereo_panning TRUE, FALSE
 .mainloop:
 	note_type 12, 1, 0

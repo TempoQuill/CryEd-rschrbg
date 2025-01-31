@@ -6,6 +6,7 @@ Music_ElmsLab:
 	channel 4, Music_ElmsLab_Ch4
 
 Music_ElmsLab_Ch1:
+_chan = 1
 	tempo 144
 	volume 7
 	duty_cycle 3
@@ -184,6 +185,7 @@ Music_ElmsLab_Ch1:
 	sound_jump .mainloop
 
 Music_ElmsLab_Ch2:
+_chan = 2
 	duty_cycle 3
 	vibrato 16, 2, 6
 	stereo_panning FALSE, TRUE
@@ -351,6 +353,7 @@ Music_ElmsLab_Ch2:
 	sound_jump .mainloop
 
 Music_ElmsLab_Ch3:
+_chan = 3
 	stereo_panning FALSE, TRUE
 	note_type 12, 2, 5
 	rest 8
@@ -528,6 +531,7 @@ Music_ElmsLab_Ch3:
 	sound_jump .mainloop
 
 Music_ElmsLab_Ch4:
+_chan = 4
 	stereo_panning TRUE, FALSE
 	toggle_noise 0
 	drum_speed 12

@@ -6,6 +6,7 @@ Music_UnionCave:
 	channel 4, Music_UnionCave_Ch4
 
 Music_UnionCave_Ch1:
+_chan = 1
 	tempo 160
 	volume 7
 	duty_cycle 1
@@ -74,6 +75,7 @@ Music_UnionCave_Ch1:
 	sound_ret
 
 Music_UnionCave_Ch2:
+_chan = 2
 	duty_cycle 3
 	vibrato 8, 2, 4
 .mainloop:
@@ -175,6 +177,7 @@ Music_UnionCave_Ch2:
 	sound_ret
 
 Music_UnionCave_Ch3:
+_chan = 3
 	note_type 12, 1, 6
 	stereo_panning TRUE, FALSE
 .mainloop:
@@ -239,6 +242,7 @@ Music_UnionCave_Ch3:
 	sound_jump .mainloop
 
 Music_UnionCave_Ch4:
+_chan = 4
 	toggle_noise 1
 	drum_speed 12
 .mainloop:

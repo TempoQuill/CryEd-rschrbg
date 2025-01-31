@@ -6,6 +6,7 @@ Music_Aquatown:
 	db	$02
 	dw	Music_Aquatown_Ch3
 Music_Aquatown_Ch1:
+_chan = 1
 	db	$da,$00,$d8
 	db	$e5,$77
 	db	$e2,$30
@@ -155,6 +156,7 @@ Music_Aquatown_Ch1:
 	db	$04
 	db	$ff
 Music_Aquatown_Ch2:
+_chan = 2
 	db	$e2,$ff
 	db	$db,$01
 	db	$e1,$6,$44
@@ -355,6 +357,7 @@ Music_Aquatown_Ch2:
 	db	$c0
 	db	$ff
 Music_Aquatown_Ch3:
+_chan = 3
 	db	$e2,$35
 ; P3-1
 	db	$d8,$6,$5b

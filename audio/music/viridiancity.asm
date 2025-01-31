@@ -6,6 +6,7 @@ Music_ViridianCity:
 	channel 4, Music_ViridianCity_Ch4
 
 Music_ViridianCity_Ch1:
+_chan = 1
 	tempo 157
 	volume 7
 	stereo_panning FALSE, TRUE
@@ -272,6 +273,7 @@ Music_ViridianCity_Ch1:
 	sound_ret
 
 Music_ViridianCity_Ch2:
+_chan = 2
 	vibrato 16, 4, 6
 	duty_cycle 1
 	note_type 12, 11, 7
@@ -507,6 +509,7 @@ Music_ViridianCity_Ch2:
 	sound_ret
 
 Music_ViridianCity_Ch3:
+_chan = 3
 	vibrato 18, 2, 4
 	note_type 12, 1, 3
 	stereo_panning TRUE, TRUE
@@ -689,6 +692,7 @@ Music_ViridianCity_Ch3:
 	sound_ret
 
 Music_ViridianCity_Ch4:
+_chan = 4
 	toggle_noise 3
 	drum_speed 12
 	sound_call .sub1

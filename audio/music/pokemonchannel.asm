@@ -6,6 +6,7 @@ Music_PokemonChannel:
 	channel 4, Music_PokemonChannel_Ch4
 
 Music_PokemonChannel_Ch1:
+_chan = 1
 	tempo 128
 	volume 7
 	vibrato 8, 3, 8
@@ -76,6 +77,7 @@ Music_PokemonChannel_Ch1:
 	sound_ret
 
 Music_PokemonChannel_Ch2:
+_chan = 2
 	duty_cycle 1
 	vibrato 8, 3, 8
 	stereo_panning TRUE, TRUE
@@ -146,6 +148,7 @@ Music_PokemonChannel_Ch2:
 	sound_ret
 
 Music_PokemonChannel_Ch3:
+_chan = 3
 	vibrato 8, 3, 8
 	note_type 12, 2, 5
 	stereo_panning TRUE, FALSE
@@ -202,6 +205,7 @@ Music_PokemonChannel_Ch3:
 	sound_ret
 
 Music_PokemonChannel_Ch4:
+_chan = 4
 	toggle_noise 3
 	drum_speed 12
 .loop1:

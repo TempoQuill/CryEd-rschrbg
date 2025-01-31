@@ -6,6 +6,7 @@ Music_CreditsExt:
 	channel 4, Music_CreditsExt_Ch4
 
 Music_CreditsExt_Ch1:
+_chan = 1
 	tempo 139
 	volume 7
 	stereo_panning FALSE, TRUE
@@ -569,6 +570,7 @@ Music_CreditsExt_Ch1:
 	sound_ret
 
 Music_CreditsExt_Ch2:
+_chan = 2
 	duty_cycle 1
 	vibrato 20, 2, 3
 	note_type 12, 2, -7
@@ -996,6 +998,7 @@ Music_CreditsExt_Ch2:
 	sound_ret
 
 Music_CreditsExt_Ch3:
+_chan = 3
 	vibrato 22, 2, 3
 	note_type 12, 3, 4
 	stereo_panning TRUE, TRUE
@@ -1467,6 +1470,7 @@ Music_CreditsExt_Ch3:
 	sound_ret
 
 Music_CreditsExt_Ch4:
+_chan = 4
 	toggle_noise 3
 	drum_speed 12
 	drum_note 9, 1

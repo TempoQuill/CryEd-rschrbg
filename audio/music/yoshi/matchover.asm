@@ -5,6 +5,7 @@ Music_MatchOver:
 	channel 7, Music_MatchOver_Ch7
 
 Music_MatchOver_Ch5:
+_chan = 1
 	sfx_priority_on
 	set_music
 	tempo 128
@@ -32,6 +33,7 @@ Music_MatchOver_Ch5:
 	sound_ret
 
 Music_MatchOver_Ch6:
+_chan = 2
 	set_music
 	duty_cycle 2
 	vibrato 8, 2, 4
@@ -53,6 +55,7 @@ Music_MatchOver_Ch6:
 	sound_ret
 
 Music_MatchOver_Ch7:
+_chan = 3
 	set_music
 	note_type 12, 1, 0
 	octave 3

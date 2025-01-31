@@ -4,6 +4,7 @@ Music_LookSage:
 	channel 3, Music_LookSage_Ch3
 
 Music_LookSage_Ch1:
+_chan = 1
 	tempo 144
 	stereo_panning FALSE, TRUE
 	volume 7
@@ -123,6 +124,7 @@ Music_LookSage_Ch1:
 	sound_ret
 
 Music_LookSage_Ch3:
+_chan = 3
 	stereo_panning TRUE, FALSE
 	vibrato 22, 2, 3
 	note_type 12, 1, 0

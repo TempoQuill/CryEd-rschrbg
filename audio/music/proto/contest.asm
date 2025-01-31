@@ -6,6 +6,7 @@ Contest:
 	channel 4, Contest_Ch4
 
 Contest_Ch1:
+_chan = 1
 	tempo 144
 	volume 7
 	stereo_panning FALSE, TRUE
@@ -292,6 +293,7 @@ Contest_Ch1:
 	sound_jump .mainloop
 
 Contest_Ch2:
+_chan = 2
 	stereo_panning TRUE, FALSE
 	vibrato 8, 2, 3
 	duty_cycle 1
@@ -581,6 +583,7 @@ Contest_Ch2:
 	sound_ret
 
 Contest_Ch3:
+_chan = 3
 	stereo_panning TRUE, TRUE
 	vibrato 16, 2, 3
 	note_type 12, 1, 4
@@ -924,6 +927,7 @@ Contest_Ch3:
 	sound_jump .mainloop
 
 Contest_Ch4:
+_chan = 4
 	toggle_noise 4
 	drum_speed 6
 .loop1:

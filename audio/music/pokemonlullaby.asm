@@ -5,6 +5,7 @@ Music_PokemonLullaby:
 	channel 3, Music_PokemonLullaby_Ch3
 
 Music_PokemonLullaby_Ch1:
+_chan = 1
 	tempo 224
 	volume 7
 	duty_cycle 3
@@ -55,6 +56,7 @@ Music_PokemonLullaby_Ch1:
 	sound_jump .mainloop
 
 Music_PokemonLullaby_Ch2:
+_chan = 2
 	vibrato 16, 1, 4
 	duty_cycle 0
 	note_type 12, 11, 4
@@ -105,6 +107,7 @@ Music_PokemonLullaby_Ch2:
 	sound_jump .mainloop
 
 Music_PokemonLullaby_Ch3:
+_chan = 3
 	note_type 12, 1, 1
 .mainloop:
 	stereo_panning TRUE, FALSE

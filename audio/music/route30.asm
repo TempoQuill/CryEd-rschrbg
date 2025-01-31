@@ -6,6 +6,7 @@ Music_Route30:
 	channel 4, Music_Route30_Ch4
 
 Music_Route30_Ch1:
+_chan = 1
 	tempo 144
 	volume 7
 	duty_cycle 3
@@ -185,6 +186,7 @@ Music_Route30_Ch1:
 	sound_jump .mainloop
 
 Music_Route30_Ch2:
+_chan = 2
 	duty_cycle 3
 	vibrato 18, 3, 6
 	stereo_panning FALSE, TRUE
@@ -296,6 +298,7 @@ Music_Route30_Ch2:
 	sound_jump .mainloop
 
 Music_Route30_Ch3:
+_chan = 3
 	note_type 12, 2, 7
 	octave 2
 	note G_, 1
@@ -577,6 +580,7 @@ Music_Route30_Ch3:
 	sound_jump .mainloop
 
 Music_Route30_Ch4:
+_chan = 4
 	toggle_noise 3
 	drum_speed 12
 	sound_call .sub1

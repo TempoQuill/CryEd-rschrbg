@@ -6,6 +6,7 @@ Music_BugCatchingContest:
 	channel 4, Music_BugCatchingContest_Ch4
 
 Music_BugCatchingContest_Ch1:
+_chan = 1
 	tempo 144
 	volume 7
 	stereo_panning FALSE, TRUE
@@ -189,6 +190,7 @@ Music_BugCatchingContest_Ch1:
 	sound_jump .mainloop
 
 Music_BugCatchingContest_Ch2:
+_chan = 2
 	stereo_panning TRUE, FALSE
 	vibrato 8, 2, 3
 	duty_cycle 1
@@ -372,6 +374,7 @@ Music_BugCatchingContest_Ch2:
 	sound_ret
 
 Music_BugCatchingContest_Ch3:
+_chan = 3
 	stereo_panning TRUE, TRUE
 	vibrato 16, 2, 3
 	note_type 12, 1, 4
@@ -586,6 +589,7 @@ Music_BugCatchingContest_Ch3:
 	sound_jump .mainloop
 
 Music_BugCatchingContest_Ch4:
+_chan = 4
 	toggle_noise 4
 	drum_speed 6
 	drum_note 2, 1

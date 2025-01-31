@@ -5,6 +5,7 @@ Music_EcruteakCity:
 	channel 3, Music_EcruteakCity_Ch3
 
 Music_EcruteakCity_Ch1:
+_chan = 1
 	tempo 197
 	volume 7
 	stereo_panning FALSE, TRUE
@@ -249,6 +250,7 @@ Music_EcruteakCity_Ch1:
 	sound_ret
 
 Music_EcruteakCity_Ch2:
+_chan = 2
 	vibrato 18, 2, 5
 	duty_cycle 3
 	stereo_panning TRUE, FALSE
@@ -471,6 +473,7 @@ Music_EcruteakCity_Ch2:
 	sound_jump .mainloop
 
 Music_EcruteakCity_Ch3:
+_chan = 3
 	stereo_panning TRUE, TRUE
 .mainloop:
 	vibrato 18, 2, 5

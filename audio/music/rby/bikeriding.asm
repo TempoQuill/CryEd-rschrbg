@@ -6,6 +6,7 @@ Music_RBYBike:
 	channel 4, Music_RBYBike_Ch4
 
 Music_RBYBike_Ch1:
+_chan = 1
 	tempo 144
 	volume 7
 	duty_cycle 3
@@ -159,6 +160,7 @@ Music_RBYBike_Ch1:
 	sound_loop 0, .mainloop
 
 Music_RBYBike_Ch2:
+_chan = 2
 	duty_cycle 2
 	vibrato 6, 1, 5
 	note_type 12, 12, 3
@@ -306,6 +308,7 @@ Music_RBYBike_Ch2:
 	sound_loop 0, .mainloop
 
 Music_RBYBike_Ch3:
+_chan = 3
 	note_type 12, 1, 3
 	rest 2
 .mainloop:
@@ -645,6 +648,7 @@ Music_RBYBike_Ch3:
 	sound_loop 0, .mainloop
 
 Music_RBYBike_Ch4:
+_chan = 4
 	toggle_noise 1
 	drum_speed 12
 	rest 2

@@ -6,6 +6,7 @@ Music_BattleSting:
 	db	$02
 	dw	Music_BattleSting_Ch3
 Music_BattleSting_Ch1:
+_chan = 1
 	db	$da,$00,$c0
 	db	$e5,$77
 	db	$db,$01
@@ -18,6 +19,7 @@ Music_BattleSting_Ch1:
 	db	$d4,$c7
 	db	$ff
 Music_BattleSting_Ch2:
+_chan = 2
 	db	$db,$01
 	db	$d8,$c,$a8
 	db	$d6,$32
@@ -27,6 +29,7 @@ Music_BattleSting_Ch2:
 	db	$57
 	db	$ff
 Music_BattleSting_Ch3:
+_chan = 3
 	db	$d8,$c,$3c
 	db	$01
 	db	$d4,$12

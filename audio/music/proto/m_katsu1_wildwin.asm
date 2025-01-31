@@ -13,6 +13,7 @@ Katsu12:
 	channel 3, Katsu12_Ch3
 
 Katsu1_Ch1:
+_chan = 1
 	tempo 251
 	volume 7
 	pitch_inc_switch
@@ -36,6 +37,7 @@ Katsu1_Ch1:
 	note E_, 1
 	rest 3
 Katsu12_Ch1:
+_chan = 1
 	tempo 251
 	volume 7
 	pitch_inc_switch
@@ -89,6 +91,7 @@ Katsu12_Ch1:
 	sound_ret
 
 Katsu1_Ch2:
+_chan = 2
 	duty_cycle 2
 	vibrato 15, 3, 4
 	note_type 6, 10, 1
@@ -100,6 +103,7 @@ Katsu1_Ch2:
 	volume_envelope 12, 6
 	note B_, 12
 Katsu12_Ch2:
+_chan = 2
 	duty_cycle 2
 	vibrato 15, 9, 4
 .mainloop:
@@ -143,6 +147,7 @@ Katsu12_Ch2:
 	sound_ret
 
 Katsu1_Ch3:
+_chan = 3
 	vibrato 9, 4, 6
 	note_type 3, 1, 6
 	octave 4
@@ -168,6 +173,7 @@ Katsu1_Ch3:
 	volume_envelope 3, 6
 	note E_, 8
 Katsu12_Ch3:
+_chan = 3
 	vibrato 9, 4, 6
 	sound_call .sub2
 	sound_call .sub1
@@ -192,7 +198,7 @@ Katsu12_Ch3:
 	note B_, 1
 	rest 3
 .sub2:
-	note_type 6, 1, -3
+	note_type 6, 1, 11
 	octave 5
 	note B_, 1
 	rest 1

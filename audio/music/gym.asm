@@ -6,6 +6,7 @@ Music_Gym:
 	channel 4, Music_Gym_Ch4
 
 Music_Gym_Ch1:
+_chan = 1
 	tempo 156
 	volume 7
 	stereo_panning FALSE, TRUE
@@ -191,6 +192,7 @@ Music_Gym_Ch1:
 	sound_jump .mainloop
 
 Music_Gym_Ch2:
+_chan = 2
 	duty_cycle 1
 	stereo_panning TRUE, FALSE
 .mainloop:
@@ -369,6 +371,7 @@ Music_Gym_Ch2:
 	sound_ret
 
 Music_Gym_Ch3:
+_chan = 3
 	vibrato 20, 2, 3
 	stereo_panning TRUE, TRUE
 .mainloop:
@@ -503,6 +506,7 @@ Music_Gym_Ch3:
 	sound_ret
 
 Music_Gym_Ch4:
+_chan = 4
 	toggle_noise 4
 .mainloop:
 	drum_speed 12

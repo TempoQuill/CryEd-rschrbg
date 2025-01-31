@@ -5,6 +5,7 @@ Music_RBYSurf:
 	channel 3, Music_RBYSurf_Ch3
 
 Music_RBYSurf_Ch1:
+_chan = 1
 	tempo 160
 	volume 7
 	duty_cycle 3
@@ -121,6 +122,7 @@ Music_RBYSurf_Ch1:
 	sound_loop 0, .mainloop
 
 Music_RBYSurf_Ch2:
+_chan = 2
 	duty_cycle 3
 	vibrato 16, 2, 5
 	note_type 12, 12, 6
@@ -206,6 +208,7 @@ Music_RBYSurf_Ch2:
 	sound_loop 0, .mainloop
 
 Music_RBYSurf_Ch3:
+_chan = 3
 	note_type 12, 1, 0
 	rest 12
 	octave 5

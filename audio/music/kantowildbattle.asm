@@ -6,6 +6,7 @@ Music_KantoWildBattle:
 	channel 4 ; possibly from Viridian City sometime after the Spaceworld 1997 demo
 
 Music_KantoWildBattle_Ch1:
+_chan = 1
 	tempo 112
 	volume 7
 	vibrato 18, 2, 3
@@ -265,6 +266,7 @@ Music_KantoWildBattle_Ch1:
 	sound_ret
 
 Music_KantoWildBattle_Ch2:
+_chan = 2
 	duty_cycle 1
 	vibrato 18, 2, 3
 	note_type 12, 11, 1
@@ -665,6 +667,7 @@ Music_KantoWildBattle_Ch2:
 	sound_ret
 
 Music_KantoWildBattle_Ch3:
+_chan = 3
 	vibrato 20, 2, 3
 	note_type 12, 1, 4
 	octave 3

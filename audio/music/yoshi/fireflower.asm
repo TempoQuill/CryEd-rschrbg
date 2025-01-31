@@ -13,6 +13,7 @@ Music_FireFlowerMenu:
 	channel 4, Music_FireFlowerMenu_Ch4
 
 Music_FireFlower_Ch1:
+_chan = 1
 	tempo 224
 	volume 7
 	duty_cycle 2
@@ -28,6 +29,7 @@ Music_FireFlower_Ch1:
 	note C_, 2
 	note G_, 10
 Music_FireFlowerMenu_Ch1:
+_chan = 1
 	tempo 224
 	volume 7
 	duty_cycle 2
@@ -238,6 +240,7 @@ Music_FireFlowerMenu_Ch1:
 	sound_loop 0, .mainloop
 
 Music_FireFlower_Ch2:
+_chan = 2
 	duty_cycle 2
 	note_type 12, 12, 3
 	octave 4
@@ -260,6 +263,7 @@ Music_FireFlower_Ch2:
 	note F_, 2
 	note G_, 2
 Music_FireFlowerMenu_Ch2:
+_chan = 2
 	duty_cycle 2
 	note_type 12, 12, 3
 	octave 4
@@ -624,12 +628,14 @@ Music_FireFlowerMenu_Ch2:
 	sound_loop 0, .mainloop
 
 Music_FireFlower_Ch3:
+_chan = 3
 	note_type 12, 1, 0
 	vibrato 8, 2, 6
 	rest 4
 	rest 16
 	rest 16
 Music_FireFlowerMenu_Ch3:
+_chan = 3
 	note_type 12, 1, 0
 	vibrato 8, 2, 6
 	rest 16
@@ -849,11 +855,13 @@ Music_FireFlowerMenu_Ch3:
 	sound_loop 0, .mainloop
 
 Music_FireFlower_Ch4:
+_chan = 4
 	drum_speed 12
 	rest 4
 	rest 16
 	rest 16
 Music_FireFlowerMenu_Ch4:
+_chan = 4
 	drum_speed 12
 	frame_swap
 	rest 7

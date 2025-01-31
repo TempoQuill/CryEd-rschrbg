@@ -5,6 +5,7 @@ Music_LakeOfRageRocketRadio:
 	channel 3, Music_LakeOfRageRocketRadio_Ch3
 
 Music_LakeOfRageRocketRadio_Ch1:
+_chan = 1
 	tempo 160
 	volume 7
 	duty_cycle 1
@@ -22,6 +23,7 @@ Music_LakeOfRageRocketRadio_Ch1:
 	sound_jump .mainloop
 
 Music_LakeOfRageRocketRadio_Ch2:
+_chan = 2
 	duty_cycle 1
 	vibrato 19, 14, 8
 	note_type 12, 10, 7
@@ -30,6 +32,7 @@ Music_LakeOfRageRocketRadio_Ch2:
 	sound_jump Music_LakeOfRageRocketRadio_Ch1.mainloop
 
 Music_LakeOfRageRocketRadio_Ch3:
+_chan = 3
 	note_type 12, 2, 6
 	vibrato 16, 4, 4
 	rest 4

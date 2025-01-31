@@ -5,6 +5,7 @@ Music_TrainerVictory:
 	channel 3, Music_TrainerVictory_Ch3
 
 Music_TrainerVictory_Ch1:
+_chan = 1
 	tempo 120
 	volume 7
 	duty_cycle 2
@@ -86,6 +87,7 @@ Music_TrainerVictory_Ch1:
 	sound_ret
 
 Music_TrainerVictory_Ch2:
+_chan = 2
 	vibrato 18, 3, 4
 	duty_cycle 3
 	note_type 8, 13, 1
@@ -144,6 +146,7 @@ Music_TrainerVictory_Ch2:
 	sound_ret
 
 Music_TrainerVictory_Ch3:
+_chan = 3
 	note_type 8, 2, 5
 	octave 3
 	note G_, 6

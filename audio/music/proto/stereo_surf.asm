@@ -7,6 +7,7 @@ Music_Surf:
 	channel 3, Music_Surf_Ch3
 
 Music_Surf_Ch1:
+_chan = 1
 	tempo 245
 	volume 7
 	note_type 12, 10, 4
@@ -197,6 +198,7 @@ Music_Surf_Ch1:
 	sound_ret
 
 Music_Surf_Ch2:
+_chan = 2
 	duty_cycle 2
 	stereo_panning TRUE, TRUE
 	note_type 8, 12, 3
@@ -531,6 +533,7 @@ Music_Surf_Ch2:
 	sound_jump .sub4_f7
 
 Music_Surf_Ch3:
+_chan = 3
 	note_type 3, 1, 4
 	rest 8
 .mainloop:
@@ -607,7 +610,7 @@ Music_Surf_Ch3:
 	note_type 6, 1, 2
 	note D#, 12
 	rest 6
-	note_type 3, 1, -3
+	note_type 3, 1, 11
 	note D#, 4
 	note G_, 4
 	note A#, 3
@@ -653,7 +656,7 @@ Music_Surf_Ch3:
 	note D_, 8
 	rest 4
 	vibrato 3, 1, 3
-	volume_envelope 1, -2
+	volume_envelope 1, 10
 	note G_, 4
 	note G#, 4
 	note A#, 4
@@ -669,7 +672,7 @@ Music_Surf_Ch3:
 	octave 6
 	note F_, 1
 	note F#, 1
-	note_type 6, 1, -2
+	note_type 6, 1, 10
 	note G_, 3
 	note G#, 2
 	note F_, 8

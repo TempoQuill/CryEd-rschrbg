@@ -5,6 +5,7 @@ Music_GoldSilverOpening:
 	channel 3, Music_GoldSilverOpening_Ch3
 
 Music_GoldSilverOpening_Ch1:
+_chan = 1
 	tempo 256
 	volume 7
 	pitch_inc_switch
@@ -130,6 +131,7 @@ Music_GoldSilverOpening_Ch1:
 	sound_ret
 
 Music_GoldSilverOpening_Ch2:
+_chan = 2
 	pitch_inc_switch
 	stereo_panning FALSE, TRUE
 	note_type 12, 11, 7
@@ -310,6 +312,7 @@ Music_GoldSilverOpening_Ch2:
 	sound_ret
 
 Music_GoldSilverOpening_Ch3:
+_chan = 3
 	note_type 6, 1, 0
 	octave 2
 	note D_, 4

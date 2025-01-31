@@ -6,6 +6,7 @@ Music_LookKimonoGirl:
 	channel 4 ; from early placement of Johto Bike
 
 Music_LookKimonoGirl_Ch1:
+_chan = 1
 	tempo 160
 	volume 7
 	stereo_panning FALSE, TRUE
@@ -104,6 +105,7 @@ Music_LookKimonoGirl_Ch1:
 	sound_ret
 
 Music_LookKimonoGirl_Ch2:
+_chan = 2
 	duty_cycle 0
 	note_type 6, 10, 7
 	stereo_panning TRUE, FALSE
@@ -211,6 +213,7 @@ Music_LookKimonoGirl_Ch2:
 	sound_ret
 
 Music_LookKimonoGirl_Ch3:
+_chan = 3
 	stereo_panning TRUE, TRUE
 	vibrato 18, 2, 4
 	note_type 6, 1, 3

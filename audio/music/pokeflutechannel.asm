@@ -5,6 +5,7 @@ Music_PokeFluteChannel:
 	channel 3, Music_PokeFluteChannel_Ch3
 
 Music_PokeFluteChannel_Ch1:
+_chan = 1
 	tempo 240
 	volume 7
 	stereo_panning TRUE, FALSE
@@ -70,6 +71,7 @@ Music_PokeFluteChannel_Ch1:
 	sound_jump .mainloop
 
 Music_PokeFluteChannel_Ch2:
+_chan = 2
 	stereo_panning FALSE, TRUE
 	duty_cycle 3
 	pitch_inc_switch
@@ -171,6 +173,7 @@ Music_PokeFluteChannel_Ch2:
 	sound_jump .mainloop
 
 Music_PokeFluteChannel_Ch3:
+_chan = 3
 	vibrato 16, 1, 4
 	note_type 12, 1, 0
 	sound_call .sub1

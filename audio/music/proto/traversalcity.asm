@@ -7,6 +7,7 @@ Music_TraversalCity:
 	channel 4 ; from Mushroom BGM and Cherrygrove City
 
 Music_TraversalCity_Ch1:
+_chan = 1
 	tempo 239
 	volume 7
 	note_type 12, 10, 3
@@ -146,6 +147,7 @@ Music_TraversalCity_Ch1:
 	sound_ret
 
 Music_TraversalCity_Ch2:
+_chan = 2
 	duty_cycle 2
 	note_type 3, 13, 2
 	octave 3
@@ -300,6 +302,7 @@ Music_TraversalCity_Ch2:
 	sound_jump .mainloop
 
 Music_TraversalCity_Ch3:
+_chan = 3
 	note_type 6, 1, 6
 	rest 12
 	octave 3

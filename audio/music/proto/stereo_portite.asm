@@ -7,6 +7,7 @@ Music_Portite: ; GO ICHINOSE, DANIEL INGRAM(INTRO), MINAKO HAMANO
 	channel 4, Music_Portite_Ch4
 
 Music_Portite_Ch1:
+_chan = 1
 	tempo 153
 	volume 7
 	duty_cycle 3
@@ -255,6 +256,7 @@ Music_Portite_Ch1:
 	sound_ret
 
 Music_Portite_Ch2:
+_chan = 2
 	stereo_panning TRUE, TRUE
 	duty_cycle 3
 	vibrato 18, 4, 4
@@ -409,6 +411,7 @@ Music_Portite_Ch2:
 	sound_ret
 
 Music_Portite_Ch3:
+_chan = 3
 	stereo_panning TRUE, FALSE
 	vibrato 11, 2, 3
 	note_type 12, 2, 3
@@ -709,6 +712,7 @@ Music_Portite_Ch3:
 	sound_ret
 
 Music_Portite_Ch4:
+_chan = 4
 	stereo_panning TRUE, TRUE
 	toggle_noise 5
 	drum_speed 12

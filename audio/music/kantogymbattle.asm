@@ -5,6 +5,7 @@ Music_KantoGymBattle:
 	channel 3, Music_KantoGymBattle_Ch3
 
 Music_KantoGymBattle_Ch1:
+_chan = 1
 	tempo 101
 	volume 7
 	duty_cycle 3
@@ -253,6 +254,7 @@ Music_KantoGymBattle_Ch1:
 	sound_ret
 
 Music_KantoGymBattle_Ch2:
+_chan = 2
 	duty_cycle 3
 	vibrato 8, 3, 6
 	pitch_inc_switch
@@ -436,7 +438,8 @@ Music_KantoGymBattle_Ch2:
 	sound_ret
 
 Music_KantoGymBattle_Ch3:
-	note_type 12, 1, -1
+_chan = 3
+	note_type 12, 1, 9
 	octave 2
 	note E_, 1
 	rest 1

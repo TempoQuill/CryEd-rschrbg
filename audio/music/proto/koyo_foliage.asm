@@ -6,6 +6,7 @@ Koyo:
 	channel 4 ; from Mushroom BGM and Cherrygrove City
 
 Koyo_Ch1:
+_chan = 1
 	tempo 109
 	volume 7
 	duty_cycle 1
@@ -281,6 +282,7 @@ Koyo_Ch1:
 	sound_ret
 
 Koyo_Ch2:
+_chan = 2
 	duty_cycle 2
 	vibrato 13, 2, 4
 	note_type 6, 10, 3
@@ -581,6 +583,7 @@ Koyo_Ch2:
 	sound_ret
 
 Koyo_Ch3:
+_chan = 3
 	vibrato 8, 1, 4
 	note_type 6, 1, 3
 	octave 5

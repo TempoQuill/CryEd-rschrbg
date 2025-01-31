@@ -6,6 +6,7 @@ Music_VictoryRoad:
 	channel 4, Music_VictoryRoad_Ch4
 
 Music_VictoryRoad_Ch1:
+_chan = 1
 	tempo 144
 	volume 7
 	stereo_panning FALSE, TRUE
@@ -65,6 +66,7 @@ Music_VictoryRoad_Ch1:
 	sound_ret
 
 Music_VictoryRoad_Ch2:
+_chan = 2
 	duty_cycle 3
 	vibrato 16, 2, 4
 .mainloop:
@@ -136,6 +138,7 @@ Music_VictoryRoad_Ch2:
 	sound_ret
 
 Music_VictoryRoad_Ch3:
+_chan = 3
 	stereo_panning TRUE, FALSE
 	note_type 12, 2, 8
 .mainloop:
@@ -176,6 +179,7 @@ Music_VictoryRoad_Ch3:
 	sound_ret
 
 Music_VictoryRoad_Ch4:
+_chan = 4
 	toggle_noise 0
 	drum_speed 12
 .mainloop:

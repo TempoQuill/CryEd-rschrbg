@@ -5,6 +5,7 @@ Music_LookPokemaniac:
 	channel 3, Music_LookPokemaniac_Ch3
 
 Music_LookPokemaniac_Ch1:
+_chan = 1
 	stereo_panning FALSE, TRUE
 	tempo 144
 	volume 7
@@ -28,6 +29,7 @@ Music_LookPokemaniac_Ch1:
 	sound_jump .mainloop
 
 Music_LookPokemaniac_Ch2:
+_chan = 2
 	stereo_panning TRUE, TRUE
 	vibrato 2, 3, 3
 	pitch_inc_switch
@@ -79,6 +81,7 @@ Music_LookPokemaniac_Ch2:
 	sound_jump .mainloop
 
 Music_LookPokemaniac_Ch3:
+_chan = 3
 	stereo_panning TRUE, FALSE
 	vibrato 6, 3, 3
 	note_type 12, 1, 5

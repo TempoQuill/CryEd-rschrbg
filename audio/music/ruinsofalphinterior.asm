@@ -5,6 +5,7 @@ Music_RuinsOfAlphInterior:
 	channel 3, Music_RuinsOfAlphInterior_Ch3
 
 Music_RuinsOfAlphInterior_Ch1:
+_chan = 1
 	tempo 224
 	volume 7
 	duty_cycle 0
@@ -14,6 +15,7 @@ Music_RuinsOfAlphInterior_Ch1:
 	sound_jump Music_RuinsOfAlphInterior_Ch2.mainloop
 
 Music_RuinsOfAlphInterior_Ch2:
+_chan = 2
 	pitch_offset 2
 	duty_cycle 0
 	stereo_panning FALSE, TRUE
@@ -36,6 +38,7 @@ Music_RuinsOfAlphInterior_Ch2:
 	sound_jump .mainloop
 
 Music_RuinsOfAlphInterior_Ch3:
+_chan = 3
 	note_type 12, 1, 0
 .mainloop:
 	octave 2

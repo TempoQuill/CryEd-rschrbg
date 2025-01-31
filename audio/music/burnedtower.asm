@@ -6,6 +6,7 @@ Music_BurnedTower:
 	channel 4, Music_BurnedTower_Ch4
 
 Music_BurnedTower_Ch1:
+_chan = 1
 	tempo 168
 	volume 7
 	duty_cycle 1
@@ -100,6 +101,7 @@ Music_BurnedTower_Ch1:
 	sound_jump .mainloop
 
 Music_BurnedTower_Ch2:
+_chan = 2
 	duty_cycle 2
 	vibrato 32, 8, 2
 	pitch_offset 2
@@ -193,6 +195,7 @@ Music_BurnedTower_Ch2:
 	sound_ret
 
 Music_BurnedTower_Ch3:
+_chan = 3
 	stereo_panning FALSE, TRUE
 	note_type 12, 1, 4
 	rest 16
@@ -244,6 +247,7 @@ Music_BurnedTower_Ch3:
 	sound_jump .mainloop
 
 Music_BurnedTower_Ch4:
+_chan = 4
 	toggle_noise 0
 	drum_speed 12
 .loop1:

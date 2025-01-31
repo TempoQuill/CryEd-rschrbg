@@ -8,6 +8,7 @@ Music_GreenCity:
 	db	$03
 	dw	Music_GreenCity_Ch4
 Music_GreenCity_Ch1:
+_chan = 1
 	db	$da,$01,$00
 	db	$e5,$77
 	db	$f1
@@ -99,6 +100,7 @@ Music_GreenCity_Ch1:
 	db	$d5,$33
 	db	$ff
 Music_GreenCity_Ch2:
+_chan = 2
 	db	$db,$01
 ; P2-1
 	db	$d8,$4,$a8
@@ -224,6 +226,7 @@ Music_GreenCity_Ch2:
 	db	$97
 	db	$ff
 Music_GreenCity_Ch3:
+_chan = 3
 	db	$e1,$10,$44
 ; P3-1
 	db	$d8,$8,$59
@@ -354,6 +357,7 @@ Music_GreenCity_Ch3:
 	db	$56
 	db	$ff
 Music_GreenCity_Ch4:
+_chan = 4
 	db	$e3,$009
 ; P4-1
 	db	$d8,$8

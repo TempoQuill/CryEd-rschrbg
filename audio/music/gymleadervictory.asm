@@ -6,6 +6,7 @@ Music_GymLeaderVictory:
 	channel 4, Music_GymLeaderVictory_Ch4
 
 Music_GymLeaderVictory_Ch1:
+_chan = 1
 	tempo 116
 	volume 7
 	vibrato 18, 3, 4
@@ -115,6 +116,7 @@ Music_GymLeaderVictory_Ch1:
 	sound_ret
 
 Music_GymLeaderVictory_Ch2:
+_chan = 2
 	vibrato 18, 3, 4
 	duty_cycle 3
 	note_type 12, 13, 7
@@ -215,6 +217,7 @@ Music_GymLeaderVictory_Ch2:
 	sound_ret
 
 Music_GymLeaderVictory_Ch3:
+_chan = 3
 	note_type 12, 2, 5
 	octave 3
 	note F#, 16
@@ -381,6 +384,7 @@ Music_GymLeaderVictory_Ch3:
 	sound_ret
 
 Music_GymLeaderVictory_Ch4:
+_chan = 4
 	toggle_noise 4
 	drum_speed 12
 	drum_note 12, 16

@@ -5,6 +5,7 @@ Music_DiglettCave:
 	channel 3, Music_DiglettCave_Ch3
 
 Music_DiglettCave_Ch1:
+_chan = 1
 	tempo 144
 	volume 7
 	duty_cycle 1
@@ -192,6 +193,7 @@ Music_DiglettCave_Ch1:
 	sound_loop 0, .mainloop
 
 Music_DiglettCave_Ch2:
+_chan = 2
 	duty_cycle 1
 .mainloop:
 	note_type 12, 12, 3
@@ -391,6 +393,7 @@ Music_DiglettCave_Ch2:
 	sound_loop 0, .mainloop
 
 Music_DiglettCave_Ch3:
+_chan = 3
 	note_type 12, 1, 0
 .mainloop:
 	octave 5

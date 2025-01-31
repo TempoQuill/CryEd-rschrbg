@@ -6,6 +6,7 @@ Music_NewBarkTown: ; leftover from Gold, unused
 	channel 4 ; from older arr
 
 Music_NewBarkTown_Ch1:
+_chan = 1
 	tempo 187
 	volume 7
 	stereo_panning FALSE, TRUE
@@ -158,6 +159,7 @@ Music_NewBarkTown_Ch1:
 	sound_ret
 
 Music_NewBarkTown_Ch2:
+_chan = 2
 	stereo_panning TRUE, TRUE
 	vibrato 18, 2, 3
 	note_type 6, 10, 7
@@ -252,6 +254,7 @@ Music_NewBarkTown_Ch2:
 	sound_ret
 
 Music_NewBarkTown_Ch3:
+_chan = 3
 	stereo_panning TRUE, FALSE
 	note_type 12, 1, 0
 	octave 5

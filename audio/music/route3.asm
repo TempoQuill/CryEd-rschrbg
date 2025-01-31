@@ -6,6 +6,7 @@ Music_Route3:
 	channel 4, Music_Route3_Ch4
 
 Music_Route3_Ch1:
+_chan = 1
 	stereo_panning FALSE, TRUE
 	tempo 160
 	volume 7
@@ -237,6 +238,7 @@ Music_Route3_Ch1:
 	sound_ret
 
 Music_Route3_Ch2:
+_chan = 2
 	stereo_panning TRUE, FALSE
 	note_type 12, 5, -6
 	duty_cycle 2
@@ -353,6 +355,7 @@ Music_Route3_Ch2:
 	sound_ret
 
 Music_Route3_Ch3:
+_chan = 3
 	stereo_panning TRUE, TRUE
 	vibrato 6, 0, 3
 	note_type 12, 1, 3
@@ -480,6 +483,7 @@ Music_Route3_Ch3:
 	sound_ret
 
 Music_Route3_Ch4:
+_chan = 4
 	toggle_noise 4
 	drum_speed 12
 	rest 10

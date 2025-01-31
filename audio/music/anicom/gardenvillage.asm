@@ -6,6 +6,7 @@ Music_GardenVillage:
 	db	$02
 	dw	Music_GardenVillage_Ch3
 Music_GardenVillage_Ch1:
+_chan = 1
 	db	$da,$00,$c0
 	db	$e5,$77
 	db	$f1
@@ -133,6 +134,7 @@ Music_GardenVillage_Ch1:
 	db	$01
 	db	$ff
 Music_GardenVillage_Ch2:
+_chan = 2
 	db	$db,$01
 	db	$e1,$12,$44
 ; P2-0

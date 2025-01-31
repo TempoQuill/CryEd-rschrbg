@@ -6,6 +6,7 @@ Music_LookLass:
 	channel 4, Music_LookLass_Ch4
 
 Music_LookLass_Ch1:
+_chan = 1
 	tempo 132
 	volume 7
 	pitch_inc_switch
@@ -31,6 +32,7 @@ Music_LookLass_Ch1:
 	sound_jump .mainloop
 
 Music_LookLass_Ch2:
+_chan = 2
 	stereo_panning TRUE, FALSE
 	duty_cycle 0
 	note_type 12, 8, 3
@@ -49,6 +51,7 @@ Music_LookLass_Ch2:
 	sound_jump .mainloop
 
 Music_LookLass_Ch3:
+_chan = 3
 	note_type 12, 1, 0
 	rest 8
 	octave 6
@@ -99,6 +102,7 @@ Music_LookLass_Ch3:
 	sound_jump .mainloop
 
 Music_LookLass_Ch4:
+_chan = 4
 	toggle_noise 4
 	drum_speed 12
 	drum_note 1, 16

@@ -6,6 +6,7 @@ Music_RocketHideout:
 	channel 4, Music_RocketHideout_Ch4
 
 Music_RocketHideout_Ch1:
+_chan = 1
 	tempo 144
 	volume 7
 	duty_cycle 3
@@ -121,6 +122,7 @@ Music_RocketHideout_Ch1:
 	sound_jump .mainloop
 
 Music_RocketHideout_Ch2:
+_chan = 2
 	duty_cycle 3
 	pitch_offset 2
 	vibrato 0, 15, 0
@@ -223,7 +225,8 @@ Music_RocketHideout_Ch2:
 	sound_jump .mainloop
 
 Music_RocketHideout_Ch3:
-	note_type 12, 1, -1
+_chan = 3
+	note_type 12, 1, 9
 .mainloop:
 .loop1:
 	octave 2
@@ -276,6 +279,7 @@ Music_RocketHideout_Ch3:
 	sound_jump .mainloop
 
 Music_RocketHideout_Ch4:
+_chan = 4
 	toggle_noise 0
 	drum_speed 12
 	stereo_panning FALSE, TRUE

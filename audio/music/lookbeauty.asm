@@ -6,6 +6,7 @@ Music_LookBeauty:
 	channel 4, Music_LookBeauty_Ch4
 
 Music_LookBeauty_Ch1:
+_chan = 1
 	stereo_panning FALSE, TRUE
 	vibrato 18, 2, 5
 	duty_cycle 2
@@ -78,6 +79,7 @@ Music_LookBeauty_Ch1:
 	sound_jump .mainloop
 
 Music_LookBeauty_Ch2:
+_chan = 2
 	stereo_panning TRUE, FALSE
 	vibrato 16, 2, 3
 	duty_cycle 2
@@ -155,6 +157,7 @@ Music_LookBeauty_Ch2:
 	sound_jump .mainloop
 
 Music_LookBeauty_Ch3:
+_chan = 3
 	stereo_panning TRUE, TRUE
 	vibrato 8, 1, 2
 	note_type 12, 1, 5
@@ -295,6 +298,7 @@ Music_LookBeauty_Ch3:
 	sound_jump .mainloop
 
 Music_LookBeauty_Ch4:
+_chan = 4
 	toggle_noise 3
 	drum_speed 12
 	rest 16

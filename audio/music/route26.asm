@@ -6,6 +6,7 @@ Music_Route26:
 	channel 4, Music_Route26_Ch4
 
 Music_Route26_Ch1:
+_chan = 1
 	stereo_panning FALSE, TRUE
 	vibrato 18, 2, 3
 	tempo 151
@@ -196,6 +197,7 @@ Music_Route26_Ch1:
 	sound_jump .mainloop
 
 Music_Route26_Ch2:
+_chan = 2
 	stereo_panning TRUE, FALSE
 	vibrato 20, 2, 3
 	duty_cycle 2
@@ -354,6 +356,7 @@ Music_Route26_Ch2:
 	sound_ret
 
 Music_Route26_Ch3:
+_chan = 3
 	stereo_panning TRUE, TRUE
 	vibrato 18, 2, 3
 	note_type 12, 1, 4
@@ -548,6 +551,7 @@ Music_Route26_Ch3:
 	sound_ret
 
 Music_Route26_Ch4:
+_chan = 4
 	toggle_noise 4
 	drum_speed 12
 .loop1:

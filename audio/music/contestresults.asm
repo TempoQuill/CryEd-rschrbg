@@ -6,6 +6,7 @@ Music_ContestResults:
 	channel 4, Music_ContestResults_Ch4
 
 Music_ContestResults_Ch1:
+_chan = 1
 	tempo 144
 	volume 7
 	note_type 12, 5, 1
@@ -50,6 +51,7 @@ Music_ContestResults_Ch1:
 	sound_jump .mainloop
 
 Music_ContestResults_Ch2:
+_chan = 2
 	note_type 12, 6, 1
 .mainloop:
 	octave 2
@@ -127,6 +129,7 @@ Music_ContestResults_Ch2:
 	sound_jump .mainloop
 
 Music_ContestResults_Ch3:
+_chan = 3
 	vibrato 8, 2, 4
 	note_type 12, 2, 3
 .mainloop:
@@ -152,6 +155,7 @@ Music_ContestResults_Ch3:
 	sound_jump .mainloop
 
 Music_ContestResults_Ch4:
+_chan = 4
 	toggle_noise 4
 	drum_speed 6
 .mainloop:

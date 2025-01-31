@@ -6,6 +6,7 @@ Music_DarkCave:
 	channel 4, Music_DarkCave_Ch4
 
 Music_DarkCave_Ch1:
+_chan = 1
 	tempo 128
 	volume 7
 	duty_cycle 3
@@ -137,6 +138,7 @@ Music_DarkCave_Ch1:
 	sound_ret
 
 Music_DarkCave_Ch2:
+_chan = 2
 	duty_cycle 1
 	vibrato 18, 3, 6
 	stereo_panning FALSE, TRUE
@@ -347,6 +349,7 @@ Music_DarkCave_Ch2:
 	sound_jump .mainloop
 
 Music_DarkCave_Ch3:
+_chan = 3
 	note_type 12, 2, 7
 .loop1:
 	sound_call .sub3
@@ -458,6 +461,7 @@ Music_DarkCave_Ch3:
 	sound_ret
 
 Music_DarkCave_Ch4:
+_chan = 4
 	toggle_noise 3
 	drum_speed 12
 .mainloop:

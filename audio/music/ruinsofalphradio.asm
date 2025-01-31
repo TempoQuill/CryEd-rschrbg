@@ -5,6 +5,7 @@ Music_RuinsOfAlphRadio:
 	channel 3, Music_RuinsOfAlphRadio_Ch3
 
 Music_RuinsOfAlphRadio_Ch1:
+_chan = 1
 	tempo 160
 	volume 7
 	duty_cycle 0
@@ -48,6 +49,7 @@ Music_RuinsOfAlphRadio_Ch1:
 	sound_ret
 
 Music_RuinsOfAlphRadio_Ch2:
+_chan = 2
 	duty_cycle 1
 	vibrato 1, 14, 0
 .mainloop:
@@ -64,6 +66,7 @@ Music_RuinsOfAlphRadio_Ch2:
 	sound_jump .mainloop
 
 Music_RuinsOfAlphRadio_Ch3:
+_chan = 3
 	note_type 6, 2, 6
 .mainloop:
 	octave 2

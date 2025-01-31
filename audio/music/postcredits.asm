@@ -5,6 +5,7 @@ Music_PostCredits:
 	channel 3 ; last placement of either PokeTower or Silph Co. from RBY
 
 Music_PostCredits_Ch1:
+_chan = 1
 	tempo 271
 	volume 7
 	transpose 0, 3
@@ -131,6 +132,7 @@ Music_PostCredits_Ch1:
 	sound_jump .mainloop
 
 Music_PostCredits_Ch2:
+_chan = 2
 	transpose 0, 3
 	duty_cycle 2
 	note_type 12, 10, 3

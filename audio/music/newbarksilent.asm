@@ -6,6 +6,7 @@ Music_NewBarkTownSilent:
 	channel 4 ; from older arr
 
 Music_NewBarkTownSilent_Ch1:
+_chan = 1
 	tempo 187
 	volume 7
 	stereo_panning FALSE, TRUE
@@ -137,6 +138,7 @@ Music_NewBarkTownSilent_Ch1:
 	sound_ret
 
 Music_NewBarkTownSilent_Ch2:
+_chan = 2
 	stereo_panning TRUE, TRUE
 	vibrato 18, 2, 3
 	note_type 6, 10, 7
@@ -229,6 +231,7 @@ Music_NewBarkTownSilent_Ch2:
 	sound_jump .mainloop
 
 Music_NewBarkTownSilent_Ch3:
+_chan = 3
 	stereo_panning TRUE, FALSE
 .mainloop:
 	note_type 12, 1, 0

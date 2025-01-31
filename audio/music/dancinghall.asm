@@ -6,6 +6,7 @@ Music_DancingHall:
 	channel 4 ; most likely leftover from RBY's Rocket HQ music
 
 Music_DancingHall_Ch1:
+_chan = 1
 	tempo 208
 	volume 7
 	stereo_panning FALSE, TRUE
@@ -88,6 +89,7 @@ Music_DancingHall_Ch1:
 	sound_ret
 
 Music_DancingHall_Ch2:
+_chan = 2
 	stereo_panning TRUE, FALSE
 	note_type 6, 10, 1
 	duty_cycle 0
@@ -220,6 +222,7 @@ Music_DancingHall_Ch2:
 	sound_ret
 
 Music_DancingHall_Ch3:
+_chan = 3
 	stereo_panning TRUE, TRUE
 	vibrato 22, 2, 4
 	note_type 6, 1, 0

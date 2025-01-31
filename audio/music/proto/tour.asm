@@ -7,6 +7,7 @@ Tour:
 	channel 4 ; gen 1 and 2 both had channel 4 in their tour music
 
 Tour_Ch1:
+_chan = 1
 	tempo 265
 	volume 7
 	note_type 6, 0, 0
@@ -102,6 +103,7 @@ Tour_Ch1:
 	sound_ret
 
 Tour_Ch2:
+_chan = 2
 	duty_cycle 1
 	note_type 6, 13, 1
 	octave 4
@@ -274,7 +276,8 @@ Tour_Ch2:
 	sound_ret
 
 Tour_Ch3:
-	note_type 6, 1, -6
+_chan = 3
+	note_type 6, 1, 14
 	octave 6
 	note E_, 1
 	rest 1
@@ -339,7 +342,7 @@ Tour_Ch3:
 	sound_jump Tour_Ch3
 
 .sub1:
-	volume_envelope 1, -4
+	volume_envelope 1, 12
 	octave 4
 	note C#, 1
 	rest 1

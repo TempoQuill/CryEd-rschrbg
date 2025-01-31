@@ -7,6 +7,7 @@ Starman:
 	channel 4 ; Unassigned remix of starman BGM, which had a channel 4
 
 Starman_Ch1:
+_chan = 1
 	tempo 144
 	volume 7
 	pitch_inc_switch
@@ -256,6 +257,7 @@ Starman_Ch1:
 	sound_ret
 
 Starman_Ch2:
+_chan = 2
 	duty_cycle 2
 	note_type 12, 6, 3
 	octave 2
@@ -479,6 +481,7 @@ Starman_Ch2:
 	sound_ret
 
 Starman_Ch3:
+_chan = 3
 	vibrato 11, 2, 3
 	note_type 12, 1, 2
 	octave 5
@@ -621,7 +624,7 @@ Starman_Ch3:
 	sound_loop 2, .loop2
 	note D_, 1
 	rest 3
-	note_type 6, 1, -3
+	note_type 6, 1, 11
 	note G_, 2
 	note F_, 1
 	note E_, 1
@@ -714,14 +717,14 @@ Starman_Ch3:
 	note B_, 4
 	note G_, 4
 	sound_loop 3, .loop3
-	note_type 12, 1, -4
+	note_type 12, 1, 12
 	octave 4
 	note A_, 16
 	note B_, 16
 	sound_jump .mainloop
 
 .sub1:
-	volume_envelope 1, -4
+	volume_envelope 1, 12
 	octave 5
 	note C_, 1
 	rest 1

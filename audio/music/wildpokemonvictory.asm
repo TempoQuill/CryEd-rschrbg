@@ -5,6 +5,7 @@ Music_WildPokemonVictory:
 	channel 3, Music_WildPokemonVictory_Ch3
 
 Music_WildPokemonVictory_Ch1:
+_chan = 1
 	tempo 126
 	volume 7
 	duty_cycle 3
@@ -69,6 +70,7 @@ Music_WildPokemonVictory_Ch1:
 	sound_ret
 
 Music_WildPokemonVictory_Ch2:
+_chan = 2
 	vibrato 18, 2, 4
 	duty_cycle 2
 	note_type 12, 13, 1
@@ -131,6 +133,7 @@ Music_WildPokemonVictory_Ch2:
 	sound_ret
 
 Music_WildPokemonVictory_Ch3:
+_chan = 3
 	note_type 12, 2, 0
 	rest 6
 	octave 6

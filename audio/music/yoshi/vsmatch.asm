@@ -13,6 +13,7 @@ Music_VSMatchPlayer2:
 	channel 4, Music_VSMatchPlayer2_Ch4
 
 Music_VSMatchPlayer1_Ch1:
+_chan = 1
 	tempo 132
 	volume 7
 	duty_cycle 2
@@ -239,6 +240,7 @@ Music_VSMatchPlayer1_Ch1:
 	sound_loop 0, .mainloop
 
 Music_VSMatchPlayer1_Ch2:
+_chan = 2
 	sound_call Music_VSMatchPlayer2_Ch2.sub1
 .mainloop:
 	sound_call Music_VSMatchPlayer2_Ch2.sub2
@@ -248,6 +250,7 @@ Music_VSMatchPlayer1_Ch2:
 	sound_loop 0, .mainloop
 
 Music_VSMatchPlayer2_Ch2:
+_chan = 2
 	note_type 4, 12, 1
 	rest 1
 	toggle_perfect_pitch
@@ -628,9 +631,11 @@ Music_VSMatchPlayer2_Ch2:
 
 
 Music_VSMatchPlayer1_Ch3:
+_chan = 3
 	toggle_perfect_pitch
 
 Music_VSMatchPlayer2_Ch3:
+_chan = 3
 	note_type 6, 1, 0
 	octave 4
 	note E_, 3
@@ -1226,6 +1231,7 @@ Music_VSMatchPlayer2_Ch3:
 
 
 Music_VSMatchPlayer1_Ch4:
+_chan = 4
 	toggle_noise 7
 	sound_call Music_VSMatchPlayer2_Ch4.sub1
 .mainloop:
@@ -1236,6 +1242,7 @@ Music_VSMatchPlayer1_Ch4:
 
 
 Music_VSMatchPlayer2_Ch4:
+_chan = 4
 	toggle_noise 7
 	sound_call .sub1
 .mainloop:

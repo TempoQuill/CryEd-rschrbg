@@ -5,6 +5,7 @@ Music_RivalBattle:
 	channel 3, Music_RivalBattle_Ch3
 
 Music_RivalBattle_Ch1:
+_chan = 1
 	tempo 102
 	volume 7
 	duty_cycle 3
@@ -287,6 +288,7 @@ Music_RivalBattle_Ch1:
 	sound_jump .mainloop
 
 Music_RivalBattle_Ch2:
+_chan = 2
 	duty_cycle 3
 	vibrato 8, 3, 6
 	pitch_inc_switch
@@ -536,7 +538,8 @@ Music_RivalBattle_Ch2:
 	sound_ret
 
 Music_RivalBattle_Ch3:
-	note_type 12, 1, -1
+_chan = 3
+	note_type 12, 1, 9
 	octave 3
 	note F#, 2
 	note A#, 2

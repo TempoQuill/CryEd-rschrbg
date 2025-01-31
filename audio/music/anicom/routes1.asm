@@ -8,6 +8,7 @@ Music_Routes1:
 	db	$03
 	dw	Music_Routes1_Ch4
 Music_Routes1_Ch1:
+_chan = 1
 	db	$da,$00,$e0
 	db	$e5,$77
 	db	$f6,$00
@@ -183,6 +184,7 @@ Music_Routes1_Ch1:
 	db	$f8,$70
 	db	$ff
 Music_Routes1_Ch2:
+_chan = 2
 	db	$f6,$00
 	db	$e1,$0,$43
 	db	$f1
@@ -368,6 +370,7 @@ Music_Routes1_Ch2:
 	db	$93
 	db	$ff
 Music_Routes1_Ch3:
+_chan = 3
 	db	$e2,$1b
 ; P3-1
 	db	$d8,$8,$3d
@@ -558,6 +561,7 @@ ROUTES1_BASS1:
 	dw	.loop1
 	db	$ff
 Music_Routes1_Ch4:
+_chan = 4
 	db	$e3,$009
 ; P4-1
 	db	$d8,$4

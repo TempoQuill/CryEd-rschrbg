@@ -6,6 +6,7 @@ Music_LavenderTown:
 	channel 4 ; from RBY placeholder (rocket HQ and lavender)
 
 Music_LavenderTown_Ch1:
+_chan = 1
 	tempo 160
 	volume 7
 	stereo_panning FALSE, TRUE
@@ -262,6 +263,7 @@ Music_LavenderTown_Ch1:
 	sound_ret
 
 Music_LavenderTown_Ch2:
+_chan = 2
 	duty_cycle 1
 	vibrato 8, 2, 4
 	stereo_panning TRUE, TRUE
@@ -387,6 +389,7 @@ Music_LavenderTown_Ch2:
 	sound_ret
 
 Music_LavenderTown_Ch3:
+_chan = 3
 	vibrato 18, 2, 4
 	note_type 12, 1, 3
 	stereo_panning TRUE, FALSE

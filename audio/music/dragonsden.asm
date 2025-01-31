@@ -6,6 +6,7 @@ Music_DragonsDen:
 	channel 4, Music_DragonsDen_Ch4
 
 Music_DragonsDen_Ch1:
+_chan = 1
 	tempo 144
 	volume 7
 	duty_cycle 0
@@ -60,6 +61,7 @@ Music_DragonsDen_Ch1:
 	sound_ret
 
 Music_DragonsDen_Ch2:
+_chan = 2
 	duty_cycle 0
 	pitch_offset 4
 	stereo_panning FALSE, TRUE
@@ -103,6 +105,7 @@ Music_DragonsDen_Ch2:
 	sound_ret
 
 Music_DragonsDen_Ch3:
+_chan = 3
 	note_type 12, 1, 4
 	octave 4
 	note C#, 2
@@ -156,6 +159,7 @@ Music_DragonsDen_Ch3:
 	sound_jump Music_DragonsDen_Ch3
 
 Music_DragonsDen_Ch4:
+_chan = 4
 	toggle_noise 0
 	drum_speed 12
 	rest 16

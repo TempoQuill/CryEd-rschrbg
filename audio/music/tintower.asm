@@ -6,6 +6,7 @@ Music_TinTower:
 	channel 4, Music_TinTower_Ch4
 
 Music_TinTower_Ch1:
+_chan = 1
 	tempo 208
 	volume 7
 	duty_cycle 3
@@ -97,6 +98,7 @@ Music_TinTower_Ch1:
 	sound_jump .mainloop
 
 Music_TinTower_Ch2:
+_chan = 2
 	duty_cycle 3
 	pitch_offset 2
 	vibrato 24, 4, 4
@@ -186,6 +188,7 @@ Music_TinTower_Ch2:
 	sound_jump .mainloop
 
 Music_TinTower_Ch3:
+_chan = 3
 	note_type 12, 1, 4
 .mainloop:
 	rest 16
@@ -260,6 +263,7 @@ Music_TinTower_Ch3:
 	sound_jump .mainloop
 
 Music_TinTower_Ch4:
+_chan = 4
 	toggle_noise 0
 	drum_speed 12
 .mainloop:

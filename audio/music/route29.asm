@@ -6,6 +6,7 @@ Music_Route29:
 	channel 4, Music_Route29_Ch4
 
 Music_Route29_Ch1:
+_chan = 1
 	tempo 146
 	volume 7
 	duty_cycle 3
@@ -170,6 +171,7 @@ Music_Route29_Ch1:
 	sound_jump .mainloop
 
 Music_Route29_Ch2:
+_chan = 2
 	duty_cycle 3
 	vibrato 18, 3, 6
 	note_type 12, 12, 2
@@ -333,6 +335,7 @@ Music_Route29_Ch2:
 	sound_ret
 
 Music_Route29_Ch3:
+_chan = 3
 	stereo_panning TRUE, FALSE
 	note_type 12, 2, 5
 	vibrato 9, 2, 7
@@ -502,6 +505,7 @@ Music_Route29_Ch3:
 	sound_jump .mainloop
 
 Music_Route29_Ch4:
+_chan = 4
 	stereo_panning FALSE, TRUE
 	toggle_noise 0
 	drum_speed 12

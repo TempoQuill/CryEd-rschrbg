@@ -9,6 +9,7 @@ Music_VSMenu2:
 	channel 2, Music_VSMenu_Ch4
 
 Music_VSMenu_Ch1:
+_chan = 1
 	tempo 144
 	volume 7
 	duty_cycle 2
@@ -106,6 +107,7 @@ Music_VSMenu_Ch1:
 	sound_loop 0, .mainloop
 
 Music_VSMenu_Ch2:
+_chan = 2
 	duty_cycle 2
 	note_type 8, 12, 1
 .mainloop:
@@ -198,6 +200,7 @@ Music_VSMenu_Ch2:
 	sound_loop 0, .mainloop
 
 Music_VSMenu_Ch3:
+_chan = 3
 	tempo 144
 	volume 7
 	duty_cycle 2
@@ -297,6 +300,7 @@ Music_VSMenu_Ch3:
 	sound_loop 0, .mainloop
 
 Music_VSMenu_Ch4:
+_chan = 4
 	duty_cycle 2
 	note_type 12, 12, 1
 	rest 16

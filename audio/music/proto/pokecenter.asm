@@ -7,6 +7,7 @@ PokeCenter:
 	channel 4, PokeCenter_Ch4
 
 PokeCenter_Ch1:
+_chan = 1
 	tempo 144
 	volume 7
 	duty_cycle 3
@@ -157,6 +158,7 @@ PokeCenter_Ch1:
 	sound_jump .mainloop
 
 PokeCenter_Ch2:
+_chan = 2
 	duty_cycle 2
 	note_type 12, 12, 1
 ;	note_type 12, 2, 8
@@ -301,15 +303,16 @@ PokeCenter_Ch2:
 	sound_ret
 
 PokeCenter_Ch3:
+_chan = 3
 	sound_call .sub1
 	note D_, 3
-	volume_envelope 2, -3
+	volume_envelope 2, 11
 	note D_, 1
-	volume_envelope 1, -3
+	volume_envelope 1, 11
 	note F#, 3
-	volume_envelope 2, -3
+	volume_envelope 2, 11
 	note F#, 3
-	volume_envelope 3, -3
+	volume_envelope 3, 11
 	note F#, 3
 	rest 3
 	volume_envelope 1, 0
@@ -337,11 +340,11 @@ PokeCenter_Ch3:
 	note G_, 4
 	note F#, 4
 	sound_call .sub3
-	volume_envelope 1, -3
+	volume_envelope 1, 11
 	note C#, 5
-	volume_envelope 2, -3
+	volume_envelope 2, 11
 	note C#, 5
-	volume_envelope 3, -3
+	volume_envelope 3, 11
 	note C#, 5
 	rest 1
 	sound_call .sub3
@@ -351,69 +354,69 @@ PokeCenter_Ch3:
 	note G_, 4
 	note A_, 4
 	note B_, 5
-	volume_envelope 2, -3
+	volume_envelope 2, 11
 	note B_, 5
-	volume_envelope 3, -3
+	volume_envelope 3, 11
 	note B_, 5
 	rest 1
-	volume_envelope 1, -3
+	volume_envelope 1, 11
 	note A_, 5
-	volume_envelope 2, -3
+	volume_envelope 2, 11
 	note A_, 3
-	volume_envelope 1, -3
+	volume_envelope 1, 11
 	note G_, 4
 	note F#, 4
-	volume_envelope 1, -3
+	volume_envelope 1, 11
 	note G_, 5
-	volume_envelope 2, -3
+	volume_envelope 2, 11
 	note G_, 5
-	volume_envelope 3, -3
+	volume_envelope 3, 11
 	note G_, 5
 	rest 1
 	sound_call .sub4
 	sound_jump PokeCenter_Ch3
 
 .sub1:
-	note_type 6, 1, -3
+	note_type 6, 1, 11
 	octave 5
 	note D_, 3
-	volume_envelope 2, -3
+	volume_envelope 2, 11
 	note D_, 1
-	volume_envelope 1, -3
+	volume_envelope 1, 11
 	octave 4
 	note A_, 3
-	volume_envelope 2, -3
+	volume_envelope 2, 11
 	note A_, 1
-	volume_envelope 1, -3
+	volume_envelope 1, 11
 	octave 5
 	note D_, 3
-	volume_envelope 2, -3
+	volume_envelope 2, 11
 	note D_, 1
-	volume_envelope 1, -3
+	volume_envelope 1, 11
 	note A_, 3
-	volume_envelope 2, -3
+	volume_envelope 2, 11
 	note A_, 3
-	volume_envelope 3, -3
+	volume_envelope 3, 11
 	note A_, 2
-	volume_envelope 1, -3
+	volume_envelope 1, 11
 	note G_, 3
-	volume_envelope 2, -3
+	volume_envelope 2, 11
 	note G_, 3
-	volume_envelope 3, -3
+	volume_envelope 3, 11
 	note G_, 2
-	volume_envelope 1, -3
+	volume_envelope 1, 11
 	note F#, 3
-	volume_envelope 2, -3
+	volume_envelope 2, 11
 	note F#, 1
-	volume_envelope 1, -3
+	volume_envelope 1, 11
 	note E_, 3
-	volume_envelope 2, -3
+	volume_envelope 2, 11
 	note E_, 1
-	volume_envelope 1, -3
+	volume_envelope 1, 11
 	note C#, 3
-	volume_envelope 2, -3
+	volume_envelope 2, 11
 	note C#, 3
-	volume_envelope 3, -3
+	volume_envelope 3, 11
 	note C#, 3
 	rest 3
 	volume_envelope 1, 0
@@ -425,86 +428,87 @@ PokeCenter_Ch3:
 	note G_, 5
 	volume_envelope 2, 0
 	note G_, 3
-	volume_envelope 1, -3
+	volume_envelope 1, 11
 	octave 5
 	note C#, 3
-	volume_envelope 2, -3
+	volume_envelope 2, 11
 	note C#, 1
-	volume_envelope 1, -3
+	volume_envelope 1, 11
 	octave 4
 	note A_, 3
-	volume_envelope 2, -3
+	volume_envelope 2, 11
 	note A_, 1
-	volume_envelope 1, -3
+	volume_envelope 1, 11
 	octave 5
 	note C#, 3
-	volume_envelope 2, -3
+	volume_envelope 2, 11
 	note C#, 1
-	volume_envelope 1, -3
+	volume_envelope 1, 11
 	note F#, 3
-	volume_envelope 2, -3
+	volume_envelope 2, 11
 	note F#, 3
-	volume_envelope 3, -3
+	volume_envelope 3, 11
 	note F#, 2
-	volume_envelope 1, -3
+	volume_envelope 1, 11
 	note E_, 3
-	volume_envelope 2, -3
+	volume_envelope 2, 11
 	note E_, 3
-	volume_envelope 3, -3
+	volume_envelope 3, 11
 	note E_, 2
-	volume_envelope 1, -3
+	volume_envelope 1, 11
 	note C#, 3
-	volume_envelope 2, -3
+	volume_envelope 2, 11
 	note C#, 1
-	volume_envelope 1, -3
+	volume_envelope 1, 11
 	sound_ret
 
 .sub2:
-	volume_envelope 1, -3
+	volume_envelope 1, 11
 	octave 5
 	note F#, 5
-	volume_envelope 2, -3
+	volume_envelope 2, 11
 	note F#, 5
-	volume_envelope 3, -3
+	volume_envelope 3, 11
 	note F#, 5
 	rest 1
-	volume_envelope 1, -3
+	volume_envelope 1, 11
 	note A_, 5
-	volume_envelope 2, -3
+	volume_envelope 2, 11
 	note A_, 5
-	volume_envelope 3, -3
+	volume_envelope 3, 11
 	note A_, 5
 	rest 1
-	volume_envelope 1, -3
+	volume_envelope 1, 11
 	note G_, 4
 	sound_ret
 
 .sub3:
-	volume_envelope 1, -3
+	volume_envelope 1, 11
 	note E_, 5
-	volume_envelope 2, -3
+	volume_envelope 2, 11
 	note E_, 5
-	volume_envelope 3, -3
+	volume_envelope 3, 11
 	note E_, 5
 	rest 1
 	sound_ret
 
 .sub4:
-	volume_envelope 1, -3
+	volume_envelope 1, 11
 	note F#, 4
 	note G_, 4
 	note F#, 4
 	note E_, 4
 .sub5:
 	note D_, 5
-	volume_envelope 2, -3
+	volume_envelope 2, 11
 	note D_, 5
-	volume_envelope 3, -3
+	volume_envelope 3, 11
 	note D_, 5
 	rest 1
 	sound_ret
 
 PokeCenter_Ch4:
+_chan = 4
 	toggle_noise 1
 	drum_speed 12
 .mainloop:

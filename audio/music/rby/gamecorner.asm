@@ -5,6 +5,7 @@ Music_GameCornerRBY:
 	channel 3, Music_GameCornerRBY_Ch3
 
 Music_GameCornerRBY_Ch1:
+_chan = 1
 	tempo 120
 	volume 7
 	duty_cycle 3
@@ -188,6 +189,7 @@ Music_GameCornerRBY_Ch1:
 	sound_loop 0, .mainloop
 
 Music_GameCornerRBY_Ch2:
+_chan = 2
 	duty_cycle 2
 	vibrato 10, 2, 3
 	note_type 12, 12, 6
@@ -346,6 +348,7 @@ Music_GameCornerRBY_Ch2:
 	sound_loop 0, .mainloop
 
 Music_GameCornerRBY_Ch3:
+_chan = 3
 	note_type 12, 1, 3
 	octave 5
 	note C#, 1

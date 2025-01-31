@@ -13,6 +13,7 @@ Music_MushroomMenu:
 	channel 4, Music_MushroomMenu_Ch4
 
 Music_Mushroom_Ch1:
+_chan = 1
 	tempo 146
 	volume 7
 	duty_cycle 2
@@ -40,6 +41,7 @@ Music_Mushroom_Ch1:
 	note G_, 6
 	note D_, 6
 Music_MushroomMenu_Ch1:
+_chan = 1
 	tempo 146
 	volume 7
 	duty_cycle 2
@@ -489,6 +491,7 @@ Music_MushroomMenu_Ch1:
 	sound_loop 0, .mainloop
 
 Music_Mushroom_Ch2:
+_chan = 2
 	duty_cycle 2
 	note_type 8, 12, 2
 	octave 4
@@ -510,6 +513,7 @@ Music_Mushroom_Ch2:
 	octave 3
 	note G_, 6
 Music_MushroomMenu_Ch2:
+_chan = 2
 	duty_cycle 2
 	note_type 8, 12, 2
 .mainloop:
@@ -1046,7 +1050,8 @@ Music_MushroomMenu_Ch2:
 	sound_loop 0, .mainloop
 
 Music_Mushroom_Ch3:
-	note_type 8, 1, -4
+_chan = 3
+	note_type 8, 1, 12
 	rest 16
 	rest 6
 	octave 4
@@ -1061,7 +1066,8 @@ Music_Mushroom_Ch3:
 	note B_, 2
 	rest 4
 Music_MushroomMenu_Ch3:
-	note_type 8, 1, -4
+_chan = 3
+	note_type 8, 1, 12
 .mainloop:
 	octave 4
 	note D_, 2
@@ -1463,12 +1469,14 @@ Music_MushroomMenu_Ch3:
 
 
 Music_Mushroom_Ch4:
+_chan = 4
 	drum_speed 8
 	rest 16
 	rest 8
 	rest 8
 	rest 16
 Music_MushroomMenu_Ch4:
+_chan = 4
 	drum_speed 8
 	frame_swap
 	rest 5

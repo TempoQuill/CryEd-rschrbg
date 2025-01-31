@@ -7,6 +7,7 @@ Katsu3:
 	channel 4, Katsu3_Ch4
 
 Katsu3_Ch1:
+_chan = 1
 	tempo 245
 	volume 7
 	duty_cycle 3
@@ -105,6 +106,7 @@ Katsu3_Ch1:
 	sound_ret
 
 Katsu3_Ch2:
+_chan = 2
 	duty_cycle 2
 	vibrato 15, 7, 5
 	note_type 6, 12, 7
@@ -219,8 +221,9 @@ Katsu3_Ch2:
 	sound_ret
 
 Katsu3_Ch3:
+_chan = 3
 	vibrato 9, 1, 3
-	note_type 6, 1, -6
+	note_type 6, 1, 14
 	octave 5
 	note A_, 6
 	note F#, 1
@@ -232,19 +235,19 @@ Katsu3_Ch3:
 	octave 6
 	note D_, 1
 	note F#, 6
-	note_type 3, 1, -6
+	note_type 3, 1, 14
 	note F#, 7
-	volume_envelope 2, -6
+	volume_envelope 2, 14
 	note F#, 7
-	volume_envelope 3, -6
+	volume_envelope 3, 14
 	note F#, 6
-	note_type 6, 1, -3
+	note_type 6, 1, 11
 .mainloop:
 	sound_call .sub2
 	sound_call .sub1
 	note D_, 1
 	rest 5
-	volume_envelope 1, -2
+	volume_envelope 1, 10
 	note B_, 1
 	octave 6
 	note C#, 1
@@ -252,7 +255,7 @@ Katsu3_Ch3:
 	sound_call .sub1
 	note D_, 1
 	rest 7
-	volume_envelope 1, -4
+	volume_envelope 1, 12
 	sound_call .sub3
 	note F#, 4
 	note E_, 4
@@ -270,7 +273,7 @@ Katsu3_Ch3:
 	note D_, 14
 	note E_, 2
 	note D_, 12
-	volume_envelope 1, -3
+	volume_envelope 1, 11
 	octave 5
 	note G_, 1
 	note A_, 1
@@ -332,6 +335,7 @@ Katsu3_Ch3:
 	sound_ret
 
 Katsu3_Ch4:
+_chan = 4
 	toggle_noise 6
 	drum_speed 3
 	drum_note 7, 16

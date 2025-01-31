@@ -6,6 +6,7 @@ Music_LookRocket:
 	channel 4, Music_LookRocket_Ch4
 
 Music_LookRocket_Ch1:
+_chan = 1
 	tempo 123
 	volume 7
 	transpose 0, 2
@@ -87,6 +88,7 @@ Music_LookRocket_Ch1:
 	sound_ret
 
 Music_LookRocket_Ch2:
+_chan = 2
 	transpose 0, 2
 	vibrato 4, 6, 4
 	duty_cycle 3
@@ -198,6 +200,7 @@ Music_LookRocket_Ch2:
 	sound_ret
 
 Music_LookRocket_Ch3:
+_chan = 3
 	transpose 0, 2
 	vibrato 4, 2, 2
 	note_type 12, 1, 4
@@ -345,6 +348,7 @@ Music_LookRocket_Ch3:
 	sound_ret
 
 Music_LookRocket_Ch4:
+_chan = 4
 	toggle_noise 3
 	drum_speed 12
 	rest 2

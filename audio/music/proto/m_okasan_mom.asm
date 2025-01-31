@@ -6,6 +6,7 @@ Okasan:
 	channel 3, Okasan_Ch3
 
 Okasan_Ch1:
+_chan = 1
 	tempo 265
 	volume 7
 	duty_cycle 2
@@ -24,6 +25,7 @@ Okasan_Ch1:
 	sound_jump .mainloop
 
 Okasan_Ch2:
+_chan = 2
 	duty_cycle 3
 	note_type 3, 13, 2
 	octave 2
@@ -63,7 +65,8 @@ Okasan_Ch2:
 	sound_ret
 
 Okasan_Ch3:
-	note_type 3, 1, -6
+_chan = 3
+	note_type 3, 1, 14
 	octave 4
 	note B_, 1
 	octave 5
@@ -71,13 +74,13 @@ Okasan_Ch3:
 	note G#, 1
 	note A_, 1
 	note B_, 2
-	volume_envelope 2, -6
+	volume_envelope 2, 14
 	note B_, 2
-	volume_envelope 3, -6
+	volume_envelope 3, 14
 	note B_, 2
 	rest 6
 .mainloop:
-	volume_envelope 1, -4
+	volume_envelope 1, 12
 	octave 4
 	note C#, 2
 	rest 2

@@ -5,6 +5,7 @@ Music_FinalBattle:
 	channel 3, Music_FinalBattle_Ch3
 
 Music_FinalBattle_Ch1:
+_chan = 1
 	tempo 112
 	volume 7
 	duty_cycle 3
@@ -386,6 +387,7 @@ Music_FinalBattle_Ch1:
 	sound_loop 0, .mainloop
 
 Music_FinalBattle_Ch2:
+_chan = 2
 	duty_cycle 3
 	vibrato 8, 2, 5
 	note_type 12, 12, 2
@@ -741,6 +743,7 @@ Music_FinalBattle_Ch2:
 	sound_ret
 
 Music_FinalBattle_Ch3:
+_chan = 3
 	note_type 12, 1, 1
 	octave 4
 	note E_, 4

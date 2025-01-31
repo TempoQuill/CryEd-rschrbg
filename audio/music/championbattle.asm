@@ -5,6 +5,7 @@ Music_ChampionBattle:
 	channel 3, Music_ChampionBattle_Ch3
 
 Music_ChampionBattle_Ch1:
+_chan = 1
 	tempo 98
 	volume 7
 	duty_cycle 3
@@ -296,6 +297,7 @@ Music_ChampionBattle_Ch1:
 	sound_ret
 
 Music_ChampionBattle_Ch2:
+_chan = 2
 	duty_cycle 3
 	vibrato 8, 3, 6
 	pitch_inc_switch
@@ -541,6 +543,7 @@ Music_ChampionBattle_Ch2:
 	sound_ret
 
 Music_ChampionBattle_Ch3:
+_chan = 3
 	note_type 12, 1, 4
 .loop1:
 	octave 3

@@ -5,6 +5,7 @@ Music_LookYoungster:
 	channel 3, Music_LookYoungster_Ch3
 
 Music_LookYoungster_Ch1:
+_chan = 1
 	tempo 118
 	volume 7
 	stereo_panning FALSE, TRUE
@@ -63,6 +64,7 @@ Music_LookYoungster_Ch1:
 ;	sound_ret
 
 Music_LookYoungster_Ch2:
+_chan = 2
 	stereo_panning TRUE, FALSE
 	vibrato 18, 2, 6
 	duty_cycle 1
@@ -161,6 +163,7 @@ Music_LookYoungster_Ch2:
 ;	sound_ret
 
 Music_LookYoungster_Ch3:
+_chan = 3
 	stereo_panning TRUE, TRUE
 	vibrato 2, 2, 4
 	note_type 12, 2, 5

@@ -6,6 +6,7 @@ Music_GoldenrodCity:
 	channel 4, Music_GoldenrodCity_Ch4
 
 Music_GoldenrodCity_Ch1:
+_chan = 1
 	stereo_panning FALSE, TRUE
 	tempo 176
 	volume 7
@@ -174,6 +175,7 @@ Music_GoldenrodCity_Ch1:
 	sound_ret
 
 Music_GoldenrodCity_Ch2:
+_chan = 2
 	stereo_panning TRUE, FALSE
 	vibrato 18, 2, 3
 	duty_cycle 2
@@ -265,6 +267,7 @@ Music_GoldenrodCity_Ch2:
 	sound_ret
 
 Music_GoldenrodCity_Ch3:
+_chan = 3
 	stereo_panning TRUE, TRUE
 	vibrato 8, 2, 3
 	note_type 12, 2, 5
@@ -386,6 +389,7 @@ Music_GoldenrodCity_Ch3:
 	sound_ret
 
 Music_GoldenrodCity_Ch4:
+_chan = 4
 	toggle_noise 3
 	drum_speed 12
 	rest 16

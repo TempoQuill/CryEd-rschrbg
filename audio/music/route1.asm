@@ -6,6 +6,7 @@ Music_Route1:
 	channel 4 ; from RBY placeholder
 
 Music_Route1_Ch1:
+_chan = 1
 	stereo_panning FALSE, TRUE
 	tempo 184
 	volume 7
@@ -204,6 +205,7 @@ Music_Route1_Ch1:
 	sound_jump .mainloop
 
 Music_Route1_Ch2:
+_chan = 2
 	stereo_panning TRUE, FALSE
 	vibrato 18, 2, 2
 	duty_cycle 2
@@ -377,6 +379,7 @@ Music_Route1_Ch2:
 	sound_ret
 
 Music_Route1_Ch3:
+_chan = 3
 	stereo_panning TRUE, TRUE
 	vibrato 16, 2, 3
 	note_type 12, 2, 5

@@ -7,6 +7,7 @@ Music_UnusedSong2:
 	channel 3, Music_UnusedSong_Ch2
 
 Music_UnusedSong_Ch1:
+_chan = 1
 	tempo 144
 	volume 7
 	vibrato 5, 1, 6
@@ -188,6 +189,7 @@ Music_UnusedSong_Ch1:
 	sound_loop 0, .mainloop
 
 Music_UnusedSong_Ch2:
+_chan = 2
 	tempo 144
 	volume 7
 	toggle_perfect_pitch

@@ -6,6 +6,7 @@ Music_Evolution:
 	channel 4, Music_Evolution_Ch4
 
 Music_Evolution_Ch1:
+_chan = 1
 	tempo 132
 	volume 7
 	vibrato 6, 3, 4
@@ -65,6 +66,7 @@ Music_Evolution_Ch1:
 	sound_ret
 
 Music_Evolution_Ch2:
+_chan = 2
 	duty_cycle 2
 	vibrato 8, 2, 5
 	note_type 12, 10, 2
@@ -119,6 +121,7 @@ Music_Evolution_Ch2:
 	sound_ret
 
 Music_Evolution_Ch3:
+_chan = 3
 	note_type 12, 1, 6
 	rest 8
 .mainloop:
@@ -186,6 +189,7 @@ Music_Evolution_Ch3:
 	sound_ret
 
 Music_Evolution_Ch4:
+_chan = 4
 	toggle_noise 5
 	drum_speed 12
 	rest 8

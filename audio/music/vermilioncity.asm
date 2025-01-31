@@ -6,6 +6,7 @@ Music_VermilionCity:
 	channel 4 ; from RBY placeholder
 
 Music_VermilionCity_Ch1:
+_chan = 1
 	stereo_panning FALSE, TRUE
 	tempo 176
 	volume 7
@@ -138,6 +139,7 @@ Music_VermilionCity_Ch1:
 	sound_ret
 
 Music_VermilionCity_Ch2:
+_chan = 2
 	stereo_panning TRUE, TRUE
 	duty_cycle 3
 	note_type 12, 7, 7
@@ -221,6 +223,7 @@ Music_VermilionCity_Ch2:
 	sound_ret
 
 Music_VermilionCity_Ch3:
+_chan = 3
 	stereo_panning TRUE, FALSE
 	vibrato 34, 2, 3
 	note_type 12, 2, 5

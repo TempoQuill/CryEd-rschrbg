@@ -6,6 +6,7 @@ Music_Route2:
 	channel 4, Music_Route2_Ch4
 
 Music_Route2_Ch1:
+_chan = 1
 	tempo 151
 	volume 7
 	stereo_panning FALSE, TRUE
@@ -160,6 +161,7 @@ Music_Route2_Ch1:
 	sound_ret
 
 Music_Route2_Ch2:
+_chan = 2
 	stereo_panning TRUE, TRUE
 	vibrato 8, 2, 4
 	note_type 12, 11, 2
@@ -294,6 +296,7 @@ Music_Route2_Ch2:
 	sound_ret
 
 Music_Route2_Ch3:
+_chan = 3
 	stereo_panning TRUE, FALSE
 	vibrato 22, 1, 5
 	note_type 12, 1, 4
@@ -451,6 +454,7 @@ Music_Route2_Ch3:
 	sound_ret
 
 Music_Route2_Ch4:
+_chan = 4
 	toggle_noise 5
 	drum_speed 12
 .loop1:

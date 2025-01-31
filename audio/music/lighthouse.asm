@@ -6,6 +6,7 @@ Music_Lighthouse:
 	channel 4, Music_Lighthouse_Ch4
 
 Music_Lighthouse_Ch1:
+_chan = 1
 	tempo 144
 	volume 7
 	duty_cycle 3
@@ -130,6 +131,7 @@ Music_Lighthouse_Ch1:
 	sound_jump .mainloop
 
 Music_Lighthouse_Ch2:
+_chan = 2
 	duty_cycle 3
 	pitch_offset 2
 	vibrato 16, 4, 5
@@ -212,7 +214,8 @@ Music_Lighthouse_Ch2:
 	sound_jump .mainloop
 
 Music_Lighthouse_Ch3:
-	note_type 12, 1, -1
+_chan = 3
+	note_type 12, 1, 9
 	stereo_panning TRUE, FALSE
 .mainloop:
 	octave 2
@@ -290,6 +293,7 @@ Music_Lighthouse_Ch3:
 	sound_jump .mainloop
 
 Music_Lighthouse_Ch4:
+_chan = 4
 	toggle_noise 0
 	drum_speed 12
 .mainloop:

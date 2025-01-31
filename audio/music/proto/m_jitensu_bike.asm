@@ -7,6 +7,7 @@ Jitensu:
 	channel 4, Jitensu_Ch4
 	
 Jitensu_Ch1:
+_chan = 1
 	tempo 139
 	volume 7
 	duty_cycle 3
@@ -166,6 +167,7 @@ Jitensu_Ch1:
 	sound_ret
 
 Jitensu_Ch2:
+_chan = 2
 	duty_cycle 3
 	note_type 6, 10, 1
 .loop1:
@@ -349,6 +351,7 @@ Jitensu_Ch2:
 	sound_ret
 
 Jitensu_Ch3:
+_chan = 3
 	vibrato 10, 1, 3
 	note_type 6, 1, 4
 	octave 5
@@ -375,7 +378,7 @@ Jitensu_Ch3:
 	rest 6
 .mainloop:
 	sound_call .sub1
-	volume_envelope 1, -4
+	volume_envelope 1, 12
 	octave 5
 	note G_, 1
 	note A_, 1
@@ -390,7 +393,7 @@ Jitensu_Ch3:
 	sound_call .sub2
 	note A_, 2
 	note B_, 6
-	volume_envelope 1, -4
+	volume_envelope 1, 12
 	octave 6
 	note G_, 1
 	note A_, 1
@@ -406,22 +409,22 @@ Jitensu_Ch3:
 	note E_, 2
 	note F#, 2
 	sound_call .sub1
-	note_type 8, 1, -4
+	note_type 8, 1, 12
 	octave 5
 	note A_, 1
 	octave 6
 	note D_, 1
 	note F#, 1
-	note_type 6, 1, -4
+	note_type 6, 1, 12
 	note A_, 5
-	volume_envelope 2, -4
+	volume_envelope 2, 12
 	note A_, 5
-	volume_envelope 3, -4
+	volume_envelope 3, 12
 	note A_, 2
 	sound_call .sub2
 	note D_, 2
 	note G_, 4
-	volume_envelope 1, -4
+	volume_envelope 1, 12
 	octave 5
 	note B_, 1
 	octave 6
@@ -541,6 +544,7 @@ Jitensu_Ch3:
 	sound_ret
 
 Jitensu_Ch4:
+_chan = 4
 	toggle_noise 6
 	drum_speed 12
 	rest 16

@@ -5,6 +5,7 @@ Music_LookOfficer:
 	channel 3, Music_LookOfficer_Ch3
 
 Music_LookOfficer_Ch1:
+_chan = 1
 	tempo 116
 	volume 7
 	pitch_inc_switch
@@ -36,6 +37,7 @@ Music_LookOfficer_Ch1:
 	sound_jump .mainloop
 
 Music_LookOfficer_Ch2:
+_chan = 2
 	vibrato 18, 3, 4
 	duty_cycle 3
 	note_type 12, 11, 7
@@ -96,6 +98,7 @@ Music_LookOfficer_Ch2:
 	sound_ret
 
 Music_LookOfficer_Ch3:
+_chan = 3
 	vibrato 20, 1, 4
 	stereo_panning TRUE, FALSE
 	note_type 12, 1, 4

@@ -6,6 +6,7 @@ Music_GameCorner:
 	channel 4, Music_GameCorner_Ch4
 
 Music_GameCorner_Ch1:
+_chan = 1
 	tempo 147
 	volume 7
 	stereo_panning FALSE, TRUE
@@ -135,6 +136,7 @@ Music_GameCorner_Ch1:
 	sound_ret
 
 Music_GameCorner_Ch2:
+_chan = 2
 	stereo_panning TRUE, TRUE
 	vibrato 8, 2, 4
 	note_type 12, 10, 1
@@ -317,6 +319,7 @@ Music_GameCorner_Ch2:
 	sound_ret
 
 Music_GameCorner_Ch3:
+_chan = 3
 	vibrato 8, 2, 2
 	note_type 12, 1, 4
 	rest 8
@@ -657,6 +660,7 @@ Music_GameCorner_Ch3:
 	sound_ret
 
 Music_GameCorner_Ch4:
+_chan = 4
 	toggle_noise 3
 	drum_speed 12
 	drum_speed 8

@@ -5,6 +5,7 @@ Music_JohtoTrainerBattle:
 	channel 3, Music_JohtoTrainerBattle_Ch3
 
 Music_JohtoTrainerBattle_Ch1:
+_chan = 1
 	tempo 102
 	volume 7
 	duty_cycle 3
@@ -452,6 +453,7 @@ Music_JohtoTrainerBattle_Ch1:
 	sound_ret
 
 Music_JohtoTrainerBattle_Ch2:
+_chan = 2
 	duty_cycle 3
 	vibrato 8, 3, 6
 	pitch_inc_switch
@@ -900,7 +902,8 @@ Music_JohtoTrainerBattle_Ch2:
 	sound_ret
 
 Music_JohtoTrainerBattle_Ch3:
-	note_type 12, 1, -1
+_chan = 3
+	note_type 12, 1, 9
 	octave 4
 	note E_, 1
 	note D#, 1

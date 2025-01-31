@@ -6,6 +6,7 @@ Music_RocketTheme:
 	channel 4, Music_RocketTheme_Ch4
 
 Music_RocketTheme_Ch1:
+_chan = 1
 	tempo 128
 	volume 7
 	duty_cycle 3
@@ -155,6 +156,7 @@ Music_RocketTheme_Ch1:
 	sound_ret
 
 Music_RocketTheme_Ch2:
+_chan = 2
 	stereo_panning TRUE, TRUE
 	vibrato 4, 6, 4
 	duty_cycle 3
@@ -331,6 +333,7 @@ Music_RocketTheme_Ch2:
 	sound_ret
 
 Music_RocketTheme_Ch3:
+_chan = 3
 	stereo_panning TRUE, FALSE
 	vibrato 4, 2, 2
 	note_type 12, 1, 4
@@ -444,6 +447,7 @@ Music_RocketTheme_Ch3:
 	sound_jump .mainloop
 
 Music_RocketTheme_Ch4:
+_chan = 4
 	toggle_noise 3
 	drum_speed 12
 	rest 2

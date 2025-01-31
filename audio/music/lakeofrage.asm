@@ -6,6 +6,7 @@ Music_LakeOfRage:
 	channel 4, Music_LakeOfRage_Ch4
 
 Music_LakeOfRage_Ch1:
+_chan = 1
 	tempo 144
 	volume 7
 	duty_cycle 3
@@ -95,6 +96,7 @@ Music_LakeOfRage_Ch1:
 	sound_jump .mainloop
 
 Music_LakeOfRage_Ch2:
+_chan = 2
 	duty_cycle 3
 	vibrato 32, 4, 4
 	stereo_panning TRUE, TRUE
@@ -184,6 +186,7 @@ Music_LakeOfRage_Ch2:
 	sound_jump .mainloop
 
 Music_LakeOfRage_Ch3:
+_chan = 3
 	stereo_panning FALSE, TRUE
 	note_type 12, 1, 6
 	octave 3
@@ -297,6 +300,7 @@ Music_LakeOfRage_Ch3:
 	sound_jump .mainloop
 
 Music_LakeOfRage_Ch4:
+_chan = 4
 	stereo_panning TRUE, FALSE
 	toggle_noise 3
 	drum_speed 12

@@ -6,6 +6,7 @@ Music_KantoTrainerBattle:
 	channel 4 ; from Viridian City in the Spaceworld 1997 demo
 
 Music_KantoTrainerBattle_Ch1:
+_chan = 1
 	tempo 114
 	volume 7
 	transpose 1, 11
@@ -465,6 +466,7 @@ Music_KantoTrainerBattle_Ch1:
 	sound_jump .mainloop
 
 Music_KantoTrainerBattle_Ch2:
+_chan = 2
 	transpose 1, 11
 	vibrato 6, 3, 6
 	duty_cycle 1
@@ -917,6 +919,7 @@ Music_KantoTrainerBattle_Ch2:
 	sound_jump .mainloop
 
 Music_KantoTrainerBattle_Ch3:
+_chan = 3
 	transpose 1, 11
 	vibrato 18, 2, 3
 	note_type 12, 1, 5

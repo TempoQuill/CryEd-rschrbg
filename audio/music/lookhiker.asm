@@ -6,6 +6,7 @@ Music_LookHiker:
 	channel 4, Music_LookHiker_Ch4
 
 Music_LookHiker_Ch1:
+_chan = 1
 	tempo 132
 	volume 7
 	pitch_inc_switch
@@ -33,6 +34,7 @@ Music_LookHiker_Ch1:
 	sound_jump .mainloop
 
 Music_LookHiker_Ch2:
+_chan = 2
 	duty_cycle 0
 	note_type 12, 10, 1
 	rest 4
@@ -69,6 +71,7 @@ Music_LookHiker_Ch2:
 	sound_jump .mainloop
 
 Music_LookHiker_Ch3:
+_chan = 3
 	vibrato 18, 2, 4
 	stereo_panning TRUE, FALSE
 	note_type 12, 1, 4
@@ -103,6 +106,7 @@ Music_LookHiker_Ch3:
 	sound_ret
 
 Music_LookHiker_Ch4:
+_chan = 4
 	toggle_noise 3
 	drum_speed 12
 	drum_note 6, 4

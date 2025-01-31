@@ -5,6 +5,7 @@ YDemo:
 	channel 3, YDemo_Ch3
 
 YDemo_Ch1:
+_chan = 1
 	tempo 267
 	volume 7
 	pitch_offset -1
@@ -129,6 +130,7 @@ YDemo_Ch1:
 	sound_ret
 
 YDemo_Ch2:
+_chan = 2
 	duty_cycle 2
 	note_type 6, 10, 2
 .loop1:
@@ -319,6 +321,7 @@ YDemo_Ch2:
 	sound_ret
 
 YDemo_Ch3:
+_chan = 3
 	vibrato 10, 1, 3
 	note_type 3, 1, 2
 	octave 4

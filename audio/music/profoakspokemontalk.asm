@@ -7,6 +7,7 @@ Music_ProfOaksPokemonTalk:
 ; strangely enough, the placeholder music doesn't even have this unused byte
 
 Music_ProfOaksPokemonTalk_Ch1:
+_chan = 1
 	tempo 164
 	volume 7
 	stereo_panning FALSE, TRUE
@@ -134,6 +135,7 @@ Music_ProfOaksPokemonTalk_Ch1:
 	sound_jump .mainloop
 
 Music_ProfOaksPokemonTalk_Ch2:
+_chan = 2
 	vibrato 8, 2, 4
 	duty_cycle 3
 	note_type 12, 10, 7
@@ -209,6 +211,7 @@ Music_ProfOaksPokemonTalk_Ch2:
 	sound_jump .mainloop
 
 Music_ProfOaksPokemonTalk_Ch3:
+_chan = 3
 	vibrato 6, 3, 8
 	note_type 12, 2, 5
 	stereo_panning TRUE, FALSE

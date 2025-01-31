@@ -6,6 +6,7 @@ Music_CherrygroveCity:
 	channel 4, Music_CherrygroveCity_Ch4
 
 Music_CherrygroveCity_Ch1:
+_chan = 1
 	tempo 152
 	volume 7
 	duty_cycle 3
@@ -94,6 +95,7 @@ Music_CherrygroveCity_Ch1:
 	sound_jump .mainloop
 
 Music_CherrygroveCity_Ch2:
+_chan = 2
 	duty_cycle 3
 	vibrato 16, 3, 6
 	stereo_panning FALSE, TRUE
@@ -174,6 +176,7 @@ Music_CherrygroveCity_Ch2:
 	sound_jump .mainloop
 
 Music_CherrygroveCity_Ch3:
+_chan = 3
 	note_type 12, 1, 6
 	rest 4
 	octave 4
@@ -284,6 +287,7 @@ Music_CherrygroveCity_Ch3:
 	sound_jump .mainloop
 
 Music_CherrygroveCity_Ch4:
+_chan = 4
 	toggle_noise 3
 	drum_speed 12
 	rest 16

@@ -6,6 +6,7 @@ Music_HallOfFame:
 	channel 4, Music_HallOfFame_Ch4
 
 Music_HallOfFame_Ch1:
+_chan = 1
 	tempo 112
 	volume 7
 	duty_cycle 2
@@ -48,6 +49,7 @@ Music_HallOfFame_Ch1:
 	sound_jump .mainloop
 
 Music_HallOfFame_Ch2:
+_chan = 2
 	vibrato 8, 2, 5
 	duty_cycle 3
 .mainloop:
@@ -78,6 +80,7 @@ Music_HallOfFame_Ch2:
 	sound_jump .mainloop
 
 Music_HallOfFame_Ch3:
+_chan = 3
 	note_type 12, 2, 8
 .loop1:
 	octave 3
@@ -136,6 +139,7 @@ Music_HallOfFame_Ch3:
 	sound_jump Music_HallOfFame_Ch3
 
 Music_HallOfFame_Ch4:
+_chan = 4
 	toggle_noise 5
 	drum_speed 12
 	rest 16

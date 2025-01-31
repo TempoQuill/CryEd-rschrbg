@@ -6,6 +6,7 @@ Music_Surf:
 	channel 4 ; possibly early placement of Azalea Town music
 
 Music_Surf_Ch1:
+_chan = 1
 	tempo 108
 	volume 7
 	note_type 12, 10, 7
@@ -339,6 +340,7 @@ Music_Surf_Ch1:
 	sound_ret
 
 Music_Surf_Ch2:
+_chan = 2
 	note_type 12, 12, 2
 	stereo_panning TRUE, FALSE
 	duty_cycle 2
@@ -542,6 +544,7 @@ Music_Surf_Ch2:
 	sound_ret
 
 Music_Surf_Ch3:
+_chan = 3
 	stereo_panning TRUE, TRUE
 	note_type 12, 1, 5
 	vibrato 22, 2, 3

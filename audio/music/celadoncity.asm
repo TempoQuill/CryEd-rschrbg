@@ -5,6 +5,7 @@ Music_CeladonCity:
 	channel 3, Music_CeladonCity_Ch3
 
 Music_CeladonCity_Ch1:
+_chan = 1
 	tempo 146
 	volume 7
 	pitch_inc_switch
@@ -141,6 +142,7 @@ Music_CeladonCity_Ch1:
 	sound_ret
 
 Music_CeladonCity_Ch2:
+_chan = 2
 	vibrato 18, 3, 4
 	duty_cycle 2
 	stereo_panning TRUE, FALSE
@@ -266,6 +268,7 @@ Music_CeladonCity_Ch2:
 	sound_ret
 
 Music_CeladonCity_Ch3:
+_chan = 3
 	vibrato 18, 2, 4
 .mainloop:
 	note_type 12, 2, 5

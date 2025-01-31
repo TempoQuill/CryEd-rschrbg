@@ -6,6 +6,7 @@ Music_ShowMeAround:
 	channel 4, Music_ShowMeAround_Ch4
 
 Music_ShowMeAround_Ch1:
+_chan = 1
 	tempo 144
 	volume 7
 	stereo_panning FALSE, TRUE
@@ -63,6 +64,7 @@ Music_ShowMeAround_Ch1:
 	sound_ret
 
 Music_ShowMeAround_Ch2:
+_chan = 2
 	stereo_panning TRUE, TRUE
 	duty_cycle 2
 	note_type 12, 11, 1
@@ -179,6 +181,7 @@ Music_ShowMeAround_Ch2:
 	sound_ret
 
 Music_ShowMeAround_Ch3:
+_chan = 3
 	stereo_panning TRUE, FALSE
 	vibrato 16, 2, 2
 	note_type 6, 2, 5
@@ -299,6 +302,7 @@ Music_ShowMeAround_Ch3:
 	sound_ret
 
 Music_ShowMeAround_Ch4:
+_chan = 4
 	toggle_noise 3
 	drum_speed 12
 	rest 16

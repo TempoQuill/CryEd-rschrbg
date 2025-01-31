@@ -3,6 +3,7 @@ Music_Printer:
 	channel 3, Music_Printer_Ch3
 
 Music_Printer_Ch3:
+_chan = 3
 	tempo 256
 	note_type 12, 2, 0
 	octave 4

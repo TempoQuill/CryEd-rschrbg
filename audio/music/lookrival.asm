@@ -6,6 +6,7 @@ Music_LookRival:
 	channel 4, Music_LookRival_Ch4
 
 Music_LookRival_Ch1:
+_chan = 1
 	tempo 112
 	volume 7
 	duty_cycle 1
@@ -116,6 +117,7 @@ Music_LookRival_Ch1:
 	sound_jump .mainloop
 
 Music_LookRival_Ch2:
+_chan = 2
 	duty_cycle 3
 	vibrato 8, 3, 6
 	stereo_panning TRUE, FALSE
@@ -204,6 +206,7 @@ Music_LookRival_Ch2:
 	sound_jump .mainloop
 
 Music_LookRival_Ch3:
+_chan = 3
 	note_type 12, 2, 8
 	rest 2
 	octave 4
@@ -320,6 +323,7 @@ Music_LookRival_Ch3:
 	sound_ret
 
 Music_LookRival_Ch4:
+_chan = 4
 	stereo_panning TRUE, FALSE
 	toggle_noise 3
 	drum_speed 12

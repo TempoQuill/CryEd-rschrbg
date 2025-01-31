@@ -5,6 +5,7 @@ Music_ProfOak:
 	channel 3, Music_ProfOak_Ch3
 
 Music_ProfOak_Ch1:
+_chan = 1
 	tempo 118
 	volume 7
 	vibrato 18, 3, 4
@@ -101,6 +102,7 @@ Music_ProfOak_Ch1:
 	sound_ret
 
 Music_ProfOak_Ch2:
+_chan = 2
 	vibrato 18, 3, 4
 	duty_cycle 3
 	note_type 12, 10, 8
@@ -203,6 +205,7 @@ Music_ProfOak_Ch2:
 	sound_jump .mainloop
 
 Music_ProfOak_Ch3:
+_chan = 3
 	stereo_panning FALSE, TRUE
 	note_type 12, 1, 4
 	rest 4

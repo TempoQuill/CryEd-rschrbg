@@ -7,6 +7,7 @@ Keiro29:
 	channel 4, Keiro29_Ch4
 
 Keiro29_Ch1:
+_chan = 1
 	tempo 149
 	volume 7
 	pitch_inc_switch
@@ -116,6 +117,7 @@ Keiro29_Ch1:
 	sound_ret
 
 Keiro29_Ch2:
+_chan = 2
 	duty_cycle 2
 	note_type 12, 12, 2
 .mainloop:
@@ -217,6 +219,7 @@ Keiro29_Ch2:
 	sound_ret
 
 Keiro29_Ch3:
+_chan = 3
 	vibrato 11, 3, 3
 	note_type 12, 1, 3
 .mainloop:
@@ -258,6 +261,7 @@ Keiro29_Ch3:
 	sound_jump .mainloop
 
 Keiro29_Ch4:
+_chan = 4
 	toggle_noise 0
 	drum_speed 12
 	rest 4

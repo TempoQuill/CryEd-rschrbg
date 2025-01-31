@@ -5,6 +5,7 @@ Music_RGOldHeal:
 	channel 3, Music_RGOldHeal_Ch3
 
 Music_RGOldHeal_Ch1:
+_chan = 1
 	tempo 144
 	volume 7
 	vibrato 8, 2, 4
@@ -26,6 +27,7 @@ Music_RGOldHeal_Ch1:
 	sound_ret
 
 Music_RGOldHeal_Ch2:
+_chan = 2
 	vibrato 5, 1, 5
 	note_type 12, 13, 4
 	duty_cycle 2
@@ -44,6 +46,7 @@ Music_RGOldHeal_Ch2:
 	sound_ret
 
 Music_RGOldHeal_Ch3:
+_chan = 3
 	note_type 12, 1, 0
 	octave 4
 	note E_, 2

@@ -6,6 +6,7 @@ Music_GoldSilverOpening2:
 	channel 4, Music_GoldSilverOpening2_Ch4
 
 Music_GoldSilverOpening2_Ch1:
+_chan = 1
 	tempo 92
 	volume 7
 	duty_cycle 3
@@ -54,6 +55,7 @@ Music_GoldSilverOpening2_Ch1:
 	sound_ret
 
 Music_GoldSilverOpening2_Ch2:
+_chan = 2
 	duty_cycle 3
 	vibrato 20, 1, 4
 	stereo_panning TRUE, FALSE
@@ -106,6 +108,7 @@ Music_GoldSilverOpening2_Ch2:
 	sound_ret
 
 Music_GoldSilverOpening2_Ch3:
+_chan = 3
 	note_type 12, 1, 7
 	rest 8
 	octave 2
@@ -184,6 +187,7 @@ Music_GoldSilverOpening2_Ch3:
 	sound_ret
 
 Music_GoldSilverOpening2_Ch4:
+_chan = 4
 	toggle_noise 0
 	drum_speed 6
 	drum_note 4, 2

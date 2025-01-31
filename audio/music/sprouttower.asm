@@ -6,6 +6,7 @@ Music_SproutTower:
 	channel 4, Music_SproutTower_Ch4
 
 Music_SproutTower_Ch1:
+_chan = 1
 	tempo 176
 	volume 7
 	duty_cycle 3
@@ -63,6 +64,7 @@ Music_SproutTower_Ch1:
 	sound_jump .mainloop
 
 Music_SproutTower_Ch2:
+_chan = 2
 	duty_cycle 3
 	pitch_inc_switch
 	vibrato 8, 4, 8
@@ -140,6 +142,7 @@ Music_SproutTower_Ch2:
 	sound_jump .mainloop
 
 Music_SproutTower_Ch3:
+_chan = 3
 	vibrato 20, 14, 8
 	note_type 12, 1, 4
 	octave 3
@@ -220,6 +223,7 @@ Music_SproutTower_Ch3:
 	sound_jump .mainloop
 
 Music_SproutTower_Ch4:
+_chan = 4
 	toggle_noise 0
 	drum_speed 12
 	rest 4

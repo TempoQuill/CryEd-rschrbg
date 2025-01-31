@@ -6,6 +6,7 @@ Music_PokemonMarch:
 	channel 4, Music_PokemonMarch_Ch4
 
 Music_PokemonMarch_Ch1:
+_chan = 1
 	tempo 144
 	volume 7
 	stereo_panning TRUE, FALSE
@@ -122,6 +123,7 @@ Music_PokemonMarch_Ch1:
 	sound_ret
 
 Music_PokemonMarch_Ch2:
+_chan = 2
 	duty_cycle 2
 	vibrato 16, 2, 2
 	note_type 12, 11, 2
@@ -233,6 +235,7 @@ Music_PokemonMarch_Ch2:
 	sound_jump .mainloop
 
 Music_PokemonMarch_Ch3:
+_chan = 3
 	stereo_panning FALSE, TRUE
 	note_type 12, 1, 6
 	rest 16
@@ -395,6 +398,7 @@ Music_PokemonMarch_Ch3:
 	sound_ret
 
 Music_PokemonMarch_Ch4:
+_chan = 4
 	stereo_panning TRUE, FALSE
 	toggle_noise 5
 	drum_speed 8

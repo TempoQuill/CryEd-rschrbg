@@ -4,6 +4,7 @@ Music_JigglypuffSong:
 	channel 2, Music_JigglypuffSong_Ch2
 
 Music_JigglypuffSong_Ch1:
+_chan = 1
 	tempo 144
 	volume 7
 	vibrato 8, 2, 4
@@ -26,6 +27,7 @@ Music_JigglypuffSong_Ch1:
 	sound_ret
 
 Music_JigglypuffSong_Ch2:
+_chan = 2
 	vibrato 5, 1, 5
 	duty_cycle 2
 	duty_cycle_pattern 0, 0, 2, 2

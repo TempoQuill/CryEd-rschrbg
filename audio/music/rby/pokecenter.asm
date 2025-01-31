@@ -5,6 +5,7 @@ Music_Pokecenter:
 	channel 3, Music_Pokecenter_Ch3
 
 Music_Pokecenter_Ch1:
+_chan = 1
 	tempo 144
 	volume 7
 	duty_cycle 3
@@ -154,6 +155,7 @@ Music_Pokecenter_Ch1:
 	sound_loop 0, .mainloop
 
 Music_Pokecenter_Ch2:
+_chan = 2
 	vibrato 8, 2, 5
 .mainloop:
 	sound_call .sub1

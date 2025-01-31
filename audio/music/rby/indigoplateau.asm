@@ -6,6 +6,7 @@ Music_IndigoPlateau:
 	channel 4, Music_IndigoPlateau_Ch4
 
 Music_IndigoPlateau_Ch1:
+_chan = 1
 	tempo 132
 	volume 7
 	duty_cycle 3
@@ -92,6 +93,7 @@ Music_IndigoPlateau_Ch1:
 	sound_ret
 
 Music_IndigoPlateau_Ch2:
+_chan = 2
 	duty_cycle 3
 	vibrato 8, 2, 5
 	note_type 12, 12, 2
@@ -151,6 +153,7 @@ Music_IndigoPlateau_Ch2:
 	sound_ret
 
 Music_IndigoPlateau_Ch3:
+_chan = 3
 	note_type 12, 1, 0
 	octave 4
 	note D_, 2

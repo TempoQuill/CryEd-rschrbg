@@ -5,6 +5,7 @@ Music_Mom:
 	channel 4, Music_Mom_Ch4
 
 Music_Mom_Ch2:
+_chan = 2
 	tempo 144
 	volume 7
 	stereo_panning FALSE, TRUE
@@ -33,6 +34,7 @@ Music_Mom_Ch2:
 	sound_jump .mainloop
 
 Music_Mom_Ch3:
+_chan = 3
 	stereo_panning TRUE, FALSE
 	note_type 6, 2, 5
 	octave 3
@@ -78,6 +80,7 @@ Music_Mom_Ch3:
 	sound_jump .mainloop
 
 Music_Mom_Ch4:
+_chan = 4
 	toggle_noise 3
 	drum_speed 12
 	rest 6

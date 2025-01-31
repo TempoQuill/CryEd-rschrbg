@@ -7,6 +7,7 @@ Gym:
 	channel 4, Gym_Ch4
 
 Gym_Ch1:
+_chan = 1
 	tempo 153
 	volume 7
 	duty_cycle 2
@@ -214,6 +215,7 @@ Gym_Ch1:
 	sound_ret
 
 Gym_Ch2:
+_chan = 2
 	duty_cycle 3
 	vibrato 8, 6, 2
 	note_type 6, 12, 2
@@ -392,42 +394,43 @@ Gym_Ch2:
 	sound_ret
 
 Gym_Ch3:
+_chan = 3
 	vibrato 8, 2, 3
-	note_type 12, 1, -2
+	note_type 12, 1, 10
 	octave 6
 	note D_, 2
-	volume_envelope 1, -4
+	volume_envelope 1, 12
 	octave 4
 	note D_, 1
 	note D_, 1
 	note D_, 1
 	rest 1
-	volume_envelope 1, -2
+	volume_envelope 1, 10
 	octave 5
 	note A_, 1
 	octave 6
 	note D_, 1
 	note C_, 2
-	volume_envelope 1, -4
+	volume_envelope 1, 12
 	octave 4
 	note C_, 1
 	note C_, 1
 	note C_, 1
 	rest 1
-	volume_envelope 1, -2
+	volume_envelope 1, 10
 	octave 5
 	note A_, 1
 	octave 6
 	note C_, 1
 	octave 5
 	note B_, 2
-	volume_envelope 1, -4
+	volume_envelope 1, 12
 	octave 3
 	note G_, 1
 	note G_, 1
 	note G_, 1
 	rest 1
-	volume_envelope 1, -2
+	volume_envelope 1, 10
 	octave 5
 	note B_, 1
 	note B_, 1
@@ -456,7 +459,7 @@ Gym_Ch3:
 	note C#, 2
 	sound_loop 4, .loop1
 	vibrato 8, 1, 3
-	volume_envelope 1, -6
+	volume_envelope 1, 14
 	sound_call .sub1
 	note F#, 1
 	rest 1
@@ -512,6 +515,7 @@ Gym_Ch3:
 	sound_ret
 
 Gym_Ch4:
+_chan = 4
 	toggle_noise 6
 	drum_speed 12
 .mainloop:

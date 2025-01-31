@@ -5,6 +5,7 @@ Music_PalletTown:
 	channel 3, Music_PalletTown_Ch3
 
 Music_PalletTown_Ch1:
+_chan = 1
 	tempo 188
 	volume 7
 	vibrato 18, 2, 4
@@ -120,6 +121,7 @@ Music_PalletTown_Ch1:
 	sound_jump .mainloop
 
 Music_PalletTown_Ch2:
+_chan = 2
 	vibrato 18, 4, 4
 	duty_cycle 2
 	stereo_panning TRUE, FALSE
@@ -245,6 +247,7 @@ Music_PalletTown_Ch2:
 	sound_jump .mainloop
 
 Music_PalletTown_Ch3:
+_chan = 3
 	vibrato 20, 2, 4
 .mainloop:
 	note_type 12, 1, 0

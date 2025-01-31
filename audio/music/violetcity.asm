@@ -6,6 +6,7 @@ Music_VioletCity:
 	channel 4, Music_VioletCity_Ch4
 
 Music_VioletCity_Ch1:
+_chan = 1
 	tempo 164
 	volume 7
 	vibrato 18, 2, 5
@@ -298,6 +299,7 @@ Music_VioletCity_Ch1:
 	sound_jump .mainloop
 
 Music_VioletCity_Ch2:
+_chan = 2
 	vibrato 18, 2, 4
 	duty_cycle 2
 	note_type 12, 12, 7
@@ -504,6 +506,7 @@ Music_VioletCity_Ch2:
 	sound_jump .mainloop
 
 Music_VioletCity_Ch3:
+_chan = 3
 	note_type 12, 2, 5
 	rest 16
 	rest 6
@@ -707,6 +710,7 @@ Music_VioletCity_Ch3:
 	sound_ret
 
 Music_VioletCity_Ch4:
+_chan = 4
 	toggle_noise 3
 	drum_speed 12
 	drum_note 4, 2

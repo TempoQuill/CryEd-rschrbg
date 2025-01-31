@@ -8,6 +8,7 @@ Music_EmeraldCity:
 	db	$03
 	dw	Music_EmeraldCity_Ch4
 Music_EmeraldCity_Ch1:
+_chan = 1
 	db	$da,$00,$c0
 	db	$e5,$77
 	db	$f6,$00
@@ -117,6 +118,7 @@ Music_EmeraldCity_Ch1:
 	db	$41
 	db	$ff
 Music_EmeraldCity_Ch2:
+_chan = 2
 	db	$db,$02
 ; P2-0
 	db	$d8,$c,$a8
@@ -489,6 +491,7 @@ Music_EmeraldCity_Ch3:
 	db	$01
 	db	$ff
 Music_EmeraldCity_Ch4:
+_chan = 4
 	db	$e3,$009
 ; P4-0
 	db	$d8,$c

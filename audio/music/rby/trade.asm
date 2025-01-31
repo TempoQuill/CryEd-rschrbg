@@ -6,6 +6,7 @@ Music_RBYTradeFanMade:
 	channel 4, Music_RBYTradeFanMade_Ch4
 
 Music_RBYTradeFanMade_Ch1:
+_chan = 1
 	tempo 144
 	volume 7
 	old_panning %1101, %1110
@@ -189,6 +190,7 @@ Music_RBYTradeFanMade_Ch1:
 	sound_loop 0, .mainloop
 
 Music_RBYTradeFanMade_Ch2:
+_chan = 2
 	duty_cycle 1
 	toggle_perfect_pitch
 	vibrato 6, 1, 5
@@ -341,6 +343,7 @@ Music_RBYTradeFanMade_Ch2:
 	sound_loop 0, .mainloop
 
 Music_RBYTradeFanMade_Ch3:
+_chan = 3
 	note_type 12, 1, 0
 .mainloop:
 	octave 4
@@ -475,6 +478,7 @@ Music_RBYTradeFanMade_Ch3:
 	sound_loop 0, .mainloop
 
 Music_RBYTradeFanMade_Ch4:
+_chan = 4
 	toggle_noise 0
 	drum_speed 12
 .mainloop:

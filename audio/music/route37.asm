@@ -6,6 +6,7 @@ Music_Route37:
 	channel 4, Music_Route37_Ch4
 
 Music_Route37_Ch1:
+_chan = 1
 	tempo 144
 	volume 7
 	duty_cycle 3
@@ -129,6 +130,7 @@ Music_Route37_Ch1:
 	sound_ret
 
 Music_Route37_Ch2:
+_chan = 2
 	duty_cycle 3
 	vibrato 28, 1, 2
 	note_type 12, 12, 2
@@ -287,6 +289,7 @@ Music_Route37_Ch2:
 	sound_ret
 
 Music_Route37_Ch3:
+_chan = 3
 	stereo_panning TRUE, FALSE
 	note_type 12, 1, 4
 .loop1:
@@ -394,6 +397,7 @@ Music_Route37_Ch3:
 	sound_ret
 
 Music_Route37_Ch4:
+_chan = 4
 	stereo_panning FALSE, TRUE
 	toggle_noise 0
 .mainloop:

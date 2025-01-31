@@ -6,6 +6,7 @@ Music_TitleScreen:
 	channel 4, Music_TitleScreen_Ch4
 
 Music_TitleScreen_Ch1:
+_chan = 1
 	tempo 256
 	volume 7
 	duty_cycle 3
@@ -311,6 +312,7 @@ Music_TitleScreen_Ch1:
 	sound_ret
 
 Music_TitleScreen_Ch2:
+_chan = 2
 	duty_cycle 3
 	vibrato 20, 1, 2
 	note_type 12, 12, 7
@@ -611,6 +613,7 @@ Music_TitleScreen_Ch2:
 	sound_ret
 
 Music_TitleScreen_Ch3:
+_chan = 3
 	stereo_panning FALSE, TRUE
 	vibrato 16, 1, 4
 	pitch_inc_switch
@@ -950,6 +953,7 @@ Music_TitleScreen_Ch3:
 	sound_ret
 
 Music_TitleScreen_Ch4:
+_chan = 4
 	toggle_noise 5
 	stereo_panning TRUE, FALSE
 	drum_speed 12

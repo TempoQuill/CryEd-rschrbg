@@ -6,6 +6,7 @@ Music_PokemonCenter:
 	channel 4, Music_PokemonCenter_Ch4
 
 Music_PokemonCenter_Ch1:
+_chan = 1
 	tempo 152
 	volume 7
 	duty_cycle 2
@@ -151,6 +152,7 @@ Music_PokemonCenter_Ch1:
 	sound_jump .mainloop
 
 Music_PokemonCenter_Ch2:
+_chan = 2
 	vibrato 16, 2, 5
 .mainloop:
 	stereo_panning TRUE, TRUE
@@ -250,6 +252,7 @@ Music_PokemonCenter_Ch2:
 	sound_ret
 
 Music_PokemonCenter_Ch3:
+_chan = 3
 	note_type 12, 2, 8
 .mainloop:
 	stereo_panning TRUE, FALSE
@@ -393,6 +396,7 @@ Music_PokemonCenter_Ch3:
 	sound_ret
 
 Music_PokemonCenter_Ch4:
+_chan = 4
 	toggle_noise 3
 	drum_speed 12
 	stereo_panning TRUE, TRUE
