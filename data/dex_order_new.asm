@@ -153,7 +153,7 @@ NewPokedexOrder:
 	; middle bugs
 	dw VENONAT
 	dw VENOMOTH
-	dw VENOKNIGHT
+	dw VENOCLOTH
 	dw SCYTHER
 	dw SCIZOR
 	dw PINSIR
@@ -188,7 +188,7 @@ NewPokedexOrder:
 	dw NINETALES
 	dw WINDKITT
 	dw TODBRUSH
-	dw TIRUFF
+	dw RUFFY
 	dw GROWLITHE
 	dw ARCANINE
 	dw STANTLER

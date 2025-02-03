@@ -12,6 +12,11 @@ Pokemon Cry Data:
 		Plux
 		Smujj
 		Shuvel
+Pokemon Cry Bases:
+	Game Freak:
+		0 - 84
+	Tempo Quill:
+		85 - 106
 Pokemon Names:
 	TShadowKnight / Pokemon Space World Crystal:
 		Flambear

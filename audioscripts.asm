@@ -580,7 +580,7 @@ AudioScript_Evo1:	evolution_script            RATICATE, RAVERMIN
 AudioScript_Evo2:	evolution_script            FEAROW, TEAROW
 AudioScript_Evo3:	evolution_script            ARBOK, NOHTYP
 AudioScript_Evo4:	evolution_script            SANDSLASH, SANDSCOUR
-AudioScript_Evo5:	evolution_script            VENOMOTH, VENOKNIGHT
+AudioScript_Evo5:	evolution_script            VENOMOTH, VENOCLOTH
 AudioScript_Evo6:	evolution_script            DUGTRIO, DUGQUINTET
 AudioScript_Evo7:	trade_evo_script TOUFENSE,  GOLDUCK, EMPEDUCK
 AudioScript_Evo8:	trade_evo_script RAKUKI,    PRIMEAPE, ALPHAPE
@@ -641,7 +641,7 @@ AudioScript_Evo62:	evolution_script            GATOLL, BELLBOYANT
 AudioScript_Evo63:	stone_evo_script            UNILIGHT, ALIDUSK
 AudioScript_Evo64:	evolution_script            FOLICORN, PONYTA
 AudioScript_Evo65:	evolution_script            SMUJJ, GRIMER
-AudioScript_Evo66:	stone_evo_script            TIRUFF, GROWLITHE
+AudioScript_Evo66:	stone_evo_script            RUFFY, GROWLITHE
 AudioScript_Evo67:	evolution_script            MILCALF, MILTANK
 AudioScript_Evo68:	evolution_script            DELFLAP, DELIBIRD
 AudioScript_Evo69:	stone_evo_script            KOTORA, RAITORA

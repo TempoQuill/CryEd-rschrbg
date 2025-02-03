@@ -310,7 +310,7 @@ PokemonNames::
     db      "SMUJJ     " ; SW97
     db      "DRAGONISCE"
     db      "KICLOUD   "
-    db      "TIRUFF    " ; SW97
+    db      "RUFFY    " ; SW97
     db      "APPUCK    "
     db      "ALREM     "
     db      "MURPHELT  "
@@ -343,7 +343,7 @@ PokemonNames::
     db      "SANDSCOUR "
     db      "TEAROW    "
     db      "NOHTYP    "
-    db      "VENOKNIGHT"
+    db      "VENOCLOTH "
     db      "DUGQUINTET"
     db      "EMPEDUCK  "
     db      "ALPHAPE   "

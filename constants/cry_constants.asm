@@ -75,8 +75,8 @@
 	const CRY_DONPHAN        ; 43
 
 ; Gen 3+
-	const CRY_EARTHTRON      ; 44 ; Tentacrime, Silvealth, Venoknight, Caditin
-	const CRY_SPEAROW_OLD    ; 45 ; Lykwyse, Tiruff, Empeduck, Animadise, Marloon
+	const CRY_EARTHTRON      ; 44 ; Tentacrime, Silvealth, Venocloth, Caditin
+	const CRY_SPEAROW_OLD    ; 45 ; Lykwyse, Ruffy, Empeduck, Animadise, Marloon
 	const CRY_ROAR_1_OLD     ; 46 ; Flambear, Volbear, Orschul
 	const CRY_CROW_OLD       ; 47 ; Donkrank, Sweote
 	const CRY_DERBLE_4_OLD   ; 48 ; Tieracnid, Metabeak, Scafarow
