@@ -352,37 +352,34 @@ INCLUDE "audio/music/stereo/lanaweforest.asm"
 INCLUDE "audio/music/stereo/gymbattle.asm"
 INCLUDE "audio/music/stereo/parkerbattle.asm"
 INCLUDE "audio/music/stereo/ssvapor.asm"
+INCLUDE "audio/music/stereo/lighthouse.asm"
 INCLUDE "audio/music/stereo/cottagetown.asm"
-INCLUDE "audio/music/stereo/portitecity.asm"
+INCLUDE "audio/music/stereo/traversalcity.asm"
 INCLUDE "audio/music/stereo/titlescreen.asm"
 INCLUDE "audio/music/stereo/dilappokecenter.asm"
 INCLUDE "audio/music/stereo/trainervictory.asm"
-INCLUDE "audio/music/stereo/watchinovermejingle.asm"
-INCLUDE "audio/music/stereo/timecapsulemenu.asm"
-INCLUDE "audio/music/stereo/pokeflutemedley.asm"
-INCLUDE "audio/music/stereo/bestfriendslullaby.asm"
-INCLUDE "audio/music/stereo/morninginequintomarch.asm"
+INCLUDE "audio/music/stereo/trademenu.asm"
 
 SECTION "Songs 2", ROMX,bank[5]
 
 INCLUDE "audio/music/stereo/pokecenter.asm"
 INCLUDE "audio/music/stereo/lookgirl.asm"
 INCLUDE "audio/music/stereo/lookwarden.asm"
-INCLUDE "audio/music/stereo/eastcoaststop.asm"
 INCLUDE "audio/music/stereo/mtvacuum.asm"
 INCLUDE "audio/music/stereo/hurryalong.asm"
 INCLUDE "audio/music/stereo/gamecorner.asm"
 INCLUDE "audio/music/stereo/bicycle.asm"
-INCLUDE "audio/music/stereo/lighthouse.asm"
+INCLUDE "audio/music/stereo/watchinovermejingle.asm"
+INCLUDE "audio/music/stereo/route53.asm"
 INCLUDE "audio/music/stereo/equintoleague.asm"
+INCLUDE "audio/music/stereo/route61.asm"
 INCLUDE "audio/music/stereo/hideout.asm"
 INCLUDE "audio/music/stereo/lookwoman.asm"
-INCLUDE "audio/music/stereo/route61.asm"
 INCLUDE "audio/music/stereo/lookartist.asm"
 INCLUDE "audio/music/stereo/healalternate.asm"
 INCLUDE "audio/music/stereo/houseenroute.asm"
 INCLUDE "audio/music/stereo/lookpartyhost.asm"
-INCLUDE "audio/music/stereo/route53.asm"
+INCLUDE "audio/music/stereo/timecapsulemenu.asm"
 
 SECTION "Songs 3", ROMX,bank[2]
 
@@ -397,6 +394,7 @@ INCLUDE "audio/music/stereo/theend.asm"
 
 SECTION "Songs 4", ROMX,bank[6]
 
+INCLUDE "audio/music/stereo/eastcoaststop.asm"
 INCLUDE "audio/music/stereo/hypercoincity.asm"
 INCLUDE "audio/music/stereo/wildvictory.asm"
 INCLUDE "audio/music/stereo/gymvictory.asm"
@@ -407,20 +405,22 @@ INCLUDE "audio/music/stereo/rival.asm"
 INCLUDE "audio/music/stereo/surf.asm"
 INCLUDE "audio/music/stereo/golempalace.asm"
 INCLUDE "audio/music/stereo/norgeotown.asm"
-INCLUDE "audio/music/stereo/traversalcity.asm"
+INCLUDE "audio/music/stereo/portitecity.asm"
 INCLUDE "audio/music/stereo/sunkernswamp.asm"
 INCLUDE "audio/music/stereo/wildbattle.asm"
 INCLUDE "audio/music/stereo/trainerbattle.asm"
 INCLUDE "audio/music/stereo/lookyouth.asm"
 INCLUDE "audio/music/stereo/mom.asm"
-INCLUDE "audio/music/stereo/trademenu.asm"
-INCLUDE "audio/music/stereo/departure.asm"
+INCLUDE "audio/music/stereo/bestfriendslullaby.asm"
+INCLUDE "audio/music/stereo/morninginequintomarch.asm"
 INCLUDE "audio/music/stereo/rayshadeopening1.asm"
 INCLUDE "audio/music/stereo/rayshadeopening2.asm"
 INCLUDE "audio/music/stereo/lookmaniac.asm"
 INCLUDE "audio/music/stereo/lookhavoc.asm"
 INCLUDE "audio/music/stereo/teamhavoctheme.asm"
 INCLUDE "audio/music/stereo/mainmenu.asm"
+INCLUDE "audio/music/stereo/departure.asm"
+INCLUDE "audio/music/stereo/pokeflutemedley.asm"
 
 SECTION "Sound Effects", ROMX,bank[3]
 
@@ -454,7 +454,7 @@ Sfx_UnusedE9:
 	channel 7, Sfx_UnusedE9_Ch7
 
 
-SECTION "Chaos Audio", ROMX, bank[5]
+SECTION "Chaos Audio", ROMX, bank[7]
 
 INCLUDE "audio/music/chaos/mobilelinkballad.asm"
 INCLUDE "audio/music/chaos/atthebattletower.asm"

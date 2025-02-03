@@ -1,3 +1,9 @@
+MACRO hall_of_famer
+	wait_script 241
+	play_cry \1
+	wait_sfx
+ENDM
+
 MACRO evolution_script
 	play_music MUSIC_NONE
 	play_sfx SFX_POKEBALLS_PLACED_ON_TABLE
@@ -305,9 +311,13 @@ GetAudioScriptByte:
 
 CuePointers:
 	dw wAudioScript_ScriptArea
+	dw AudioScript_CatchTutorial
+	dw AudioScript_EggCrack
 	dw AudioScript_WinNewLevel
 	dw AudioScript_ChaosIntro
 	dw AudioScript_HallOfFame
+	dw AudioScript_BigYoshi
+	dw AudioScript_Yoshi
 	dw AudioScript_Evo1
 	dw AudioScript_Evo2
 	dw AudioScript_Evo3
@@ -389,6 +399,110 @@ CuePointers:
 	dw AudioScript_Evo79
 	dw AudioScript_Evo80
 
+AudioScript_CatchTutorial:
+	play_music MUSIC_WILD_BATTLE
+	wait_script 241
+	play_cry CROVEN
+	wait_sfx
+	wait_script 40 ; Wild CROVEN appeared!
+	wait_script 15
+	; down/right - cursor to PACK
+	wait_script 15
+	; a - into PACK menu
+	play_sfx SFX_READ_TEXT
+	wait_sfx
+	wait_script 15
+	; right - to BALLs
+	play_sfx SFX_SWITCH_POCKETS
+	wait_sfx
+	wait_script 15
+	; a - select POKE BALL
+	play_sfx SFX_READ_TEXT
+	wait_sfx
+	wait_script 15
+	; a - use POKE BALL
+	play_sfx SFX_READ_TEXT
+	wait_sfx
+	wait_script 40 ; Dude used POKe BALL!
+	play_sfx SFX_THROW_BALL
+	wait_sfx
+	wait_script 40
+	play_sfx SFX_BALL_POOF
+	wait_sfx
+	wait_script 40
+	play_sfx SFX_BALL_CLOSE
+	wait_sfx
+	wait_script 20
+	play_sfx SFX_BALL_BOUNCE
+	wait_sfx
+	wait_script 20
+
+	script_loop 3
+	play_sfx SFX_BALL_SHAKE
+	wait_sfx
+	wait_script 40
+	break_loop
+
+	wait_script 40 ; Gotcha! CROVEN was caught!
+	play_music MUSIC_NONE
+	play_sfx SFX_GET_EGG_FROM_DAY_CARE_MAN
+	wait_sfx
+	play_music MUSIC_CAPTURE
+	wait_script 40
+	; a
+	play_sfx SFX_READ_TEXT
+	wait_sfx
+	wait_script 15
+	fade MUSIC_ROUTE_49, 4
+	script_end
+
+AudioScript_EggCrack:
+	script_loop 3
+	play_sfx SFX_EGG_CRACK
+	wait_sfx
+	break_loop
+	script_end
+
+AudioScript_Yoshi:
+	play_sfx SFX_MIMIC_D3
+	wait_script 8
+
+	wait_script 16
+	play_sfx SFX_RECOVER
+	wait_script 48
+	play_sfx SFX_YOSHI
+	script_end
+
+AudioScript_BigYoshi:
+	play_sfx SFX_MIMIC_D3
+	wait_script 8
+
+	play_sfx SFX_MIMIC_D4
+	wait_script 8
+	play_sfx SFX_MIMIC_D5
+	wait_script 8
+
+	play_sfx SFX_MIMIC_D6
+	wait_script 8
+	play_sfx SFX_MIMIC_D7
+	wait_script 8
+
+	play_sfx SFX_MIMIC_D8
+	wait_script 8
+	play_sfx SFX_MIMIC_D9
+	wait_script 8
+
+	script_loop 6
+	play_sfx SFX_EXP_BAR_FULL
+	wait_script 8
+	break_loop
+
+	wait_script 16
+	play_sfx SFX_RECOVER
+	wait_script 48
+	play_sfx SFX_BIG_YOSHI
+	script_end
+
 AudioScript_WinNewLevel:
 	play_music MUSIC_WILD_VICTORY
 	wait_script 40
@@ -446,24 +560,12 @@ AudioScript_ChaosIntro:
 
 AudioScript_HallOfFame:
 	play_music MUSIC_HALL_OF_FAME
-	wait_script 241
-	play_cry MADAME
-	wait_sfx
-	wait_script 241
-	play_cry DYNABEAR
-	wait_sfx
-	wait_script 241
-	play_cry COAZIGOAST
-	wait_sfx
-	wait_script 241
-	play_cry SHUVEL
-	wait_sfx
-	wait_script 241
-	play_cry GIRAFARIG
-	wait_sfx
-	wait_script 241
-	play_cry PANGSHI
-	wait_sfx
+	hall_of_famer ANTLOG
+	hall_of_famer TODBRUSH
+	hall_of_famer KICLOUD
+	hall_of_famer APPUCK
+	hall_of_famer ILLUSIRO
+	hall_of_famer SANDSCOUR
 	wait_script 241
 	wait_script 64
 	play_music MUSIC_NONE

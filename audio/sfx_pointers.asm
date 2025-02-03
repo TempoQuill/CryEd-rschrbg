@@ -20,13 +20,13 @@ SFX:
 	dba Sfx_PokeBall
 	dba Sfx_Prize
 ; leftover from G/S
-	dba Sfx_3rdPlace
-	dba Sfx_GetEgg
-	dba Sfx_MoveDeleted
-	dba Sfx_QuitSlots
-	dba Sfx_DexFanfare140169
-	dba Sfx_DexFanfare170199
-	dba Sfx_DexFanfare200229
+;	dba Sfx_3rdPlace
+;	dba Sfx_GetEgg
+;	dba Sfx_MoveDeleted
+;	dba Sfx_QuitSlots
+;	dba Sfx_DexFanfare140169
+;	dba Sfx_DexFanfare170199
+;	dba Sfx_DexFanfare200229
 ; normal SFX
 	dba Sfx_PokeballsPlacedOnTable
 	dba Sfx_Potion
@@ -263,4 +263,6 @@ SFX:
 
 	dba Sfx_UnusedE8
 	dba Sfx_UnusedE9
+	dba Cry_Yoshi
+	dba Cry_BigYoshi
 ;	assert_table_length NUM_SFX
