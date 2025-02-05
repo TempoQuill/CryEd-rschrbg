@@ -310,7 +310,7 @@ PokemonNames::
     db      "SMUJJ     " ; SW97
     db      "DRAGONISCE"
     db      "KICLOUD   "
-    db      "RUFFY    " ; SW97
+    db      "RUFFY     " ; SW97
     db      "APPUCK    "
     db      "ALREM     "
     db      "MURPHELT  "
