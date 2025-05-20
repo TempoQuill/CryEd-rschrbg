@@ -162,6 +162,8 @@ wDisplayScriptID::
 
 section "audio script area", WRAM0[$c500]
 
+wCryModifier:
+	ds 4
 ; 00 - endscript
 ; f2 - music off
 ; f3 - music on
@@ -178,6 +180,8 @@ section "audio script area", WRAM0[$c500]
 ; fe - loop
 ; ff - loop_end
 wAudioScript_WorkArea:
+wAudioScript_Stack:
+	dw
 wAudioScript_Delay:
 	db
 wAudioScript_Pointer:

@@ -2297,8 +2297,7 @@ Music_Tempo:
 	ld d, a
 	call GetMusicByte
 	ld e, a
-	call SetGlobalTempo
-	ret
+	jp SetGlobalTempo
 
 Music_Octave:
 ; set octave based on lo nybble of the command

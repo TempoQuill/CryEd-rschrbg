@@ -1,5 +1,7 @@
-script_cmd_start EQU $f2
+script_cmd_start EQU $f0
 	const_def script_cmd_start
+	const break_exp_cmd		;f0
+	const modify_cry_cmd		;f1
 	const music_off_cmd		;f2
 	const music_on_cmd		;f3
 	const wait_sfx_cmd		;f4
@@ -9,7 +11,7 @@ script_cmd_start EQU $f2
 	const play_cry_cmd		;f8
 	const play_sfx_cmd		;f9
 	const script_extend_cmd		;fa
-	const script_restart_cmd	;fb
+	const script_call_cmd		;fb
 	const new_script_cmd		;fc
 	const offset_jump_cmd		;fd
 	const script_loop_cmd		;fe
@@ -18,6 +20,17 @@ script_end_cmd EQU const_value & $ff
 
 MACRO script_end
 	db script_end_cmd
+ENDM
+
+MACRO break_exp
+	db break_exp_cmd
+ENDM
+
+MACRO modify_cry
+	db modify_cry_cmd
+	dw \1 ; pitch
+	dw \2 ; length
+	dw \3 ; mon ID
 ENDM
 
 MACRO music_off
@@ -62,8 +75,8 @@ MACRO script_extend
 	db script_extend_cmd
 ENDM
 
-MACRO script_restart
-	db script_restart_cmd
+MACRO script_call
+	db script_call_cmd
 	dw \1 ; pointer
 ENDM
 

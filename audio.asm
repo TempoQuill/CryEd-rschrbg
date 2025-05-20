@@ -96,6 +96,71 @@ PlayMusic::
 	pop hl
 	ret
 
+PlayModifiedCry:
+; de - base cry
+; bc - modifier pointer
+	push hl
+	push de
+	push bc
+	push af
+
+	ldh a, [hROMBank]
+	push af
+
+	; Cries are stuck in one bank.
+	ld a, BANK(PokemonCries)
+	ldh [hROMBank], a
+	ld [MBC3RomBank], a
+
+	ld bc, wCryModifier
+	ld hl, PokemonCries
+rept 6
+	add hl, de
+endr
+
+	ld e, [hl]
+	inc hl
+	ld d, [hl]
+	inc hl
+
+	ld a, [bc]
+	add [hl]
+	inc bc
+	inc hl
+	ld [wCryPitch], a
+	ld a, [bc]
+	adc [hl]
+	inc bc
+	inc hl
+	ld [wCryPitch + 1], a
+	ld a, [bc]
+	add [hl]
+	inc bc
+	inc hl
+	ld [wCryLength], a
+	ld a, [bc]
+	adc [hl]
+	inc bc
+	inc hl
+	ld [wCryLength + 1], a
+
+	ld a, BANK(_PlayCry)
+	ldh [hROMBank], a
+	ld [MBC3RomBank], a
+
+	call _PlayCry
+
+	pop af
+	ldh [hROMBank], a
+	ld [MBC3RomBank], a
+
+	pop af
+	pop bc
+	pop de
+	pop hl
+	ret
+
+
 PlayCry::
 ; Play cry de.
 

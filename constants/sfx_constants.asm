@@ -117,14 +117,15 @@
 	const SFX_SING                        ; 68
 	const SFX_HYPER_BEAM                  ; 69
 	const SFX_SHINE                       ; 6a
-	const SFX_UNKNOWN_5F                  ; 6b
-	const SFX_UNKNOWN_60                  ; 6c
-	const SFX_UNKNOWN_61                  ; 6d
+	const SFX_PSI_UNUSED                  ; 6b
+	const SFX_RB_DEMO_LUNGE               ; 6c
+	const SFX_NIDORAN_HIP                 ; 6d
 	const SFX_SWITCH_POCKETS              ; 6e
-	const SFX_UNKNOWN_63                  ; 6f
+SFX_NIDORAN_HOP EQU SFX_SWITCH_POCKETS
+	const SFX_RB_VERSION_NAME_ENTRANCE    ; 6f
 	const SFX_BURN                        ; 70
 	const SFX_TITLE_SCREEN_ENTRANCE       ; 71
-	const SFX_UNKNOWN_66                  ; 72
+	const SFX_RBY_STOP_SLOTS              ; 72
 	const SFX_GET_COIN_FROM_SLOTS         ; 73
 	const SFX_PAY_DAY_GS                  ; 74
 	const SFX_METRONOME                   ; 75
@@ -149,7 +150,7 @@
 	const SFX_SWEET_KISS                  ; 88
 	const SFX_SWEET_KISS_2                ; 89
 	const SFX_BELLY_DRUM                  ; 8a
-	const SFX_UNKNOWN_7F                  ; 8b
+	const SFX_TOXIC                       ; 8b
 	const SFX_SLUDGE_BOMB                 ; 8c
 	const SFX_FORESIGHT                   ; 8d
 	const SFX_SPITE                       ; 8e
@@ -191,24 +192,24 @@
 	const SFX_TRAIN_ARRIVED               ; b2
 	const SFX_STOP_SLOT                   ; b3
 	const SFX_2_BOOPS                     ; b4
-	const SFX_GLASS_TING                  ; b5
-	const SFX_GLASS_TING_2                ; b6
 
 ; new to Crystal
+	const SFX_GLASS_TING                  ; b5
+	const SFX_GLASS_TING_2                ; b6
 	const SFX_INTRO_UNOWN_1               ; b7
 	const SFX_INTRO_UNOWN_2               ; b8
 	const SFX_INTRO_UNOWN_3               ; b9
-	const SFX_DITTO_POP_UP                ; ba
+	const SFX_SHOCK_EMOTE                 ; ba
 	const SFX_DITTO_TRANSFORM             ; bb
 	const SFX_INTRO_SUICUNE_1             ; bc
-	const SFX_INTRO_PICHU                 ; bd
+	const SFX_EMOTE                       ; bd
 	const SFX_INTRO_SUICUNE_2             ; be
 	const SFX_INTRO_SUICUNE_3             ; bf
 	const SFX_DITTO_BOUNCE                ; c0
 	const SFX_INTRO_SUICUNE_4             ; c1
 	const SFX_GAME_FREAK_PRESENTS         ; c2
 	const SFX_TINGLE                      ; c3
-	const SFX_UNKNOWN_CB                  ; c4
+	const SFX_INTRO_WHOOSH                ; c4
 	const SFX_TWO_PC_BEEPS                ; c5
 	const SFX_4_NOTE_DITTY                ; c6
 	const SFX_TWINKLE                     ; c7

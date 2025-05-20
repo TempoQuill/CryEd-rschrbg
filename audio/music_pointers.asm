@@ -25,9 +25,9 @@ Music:
 	dba Music_WildBattle
 	dba Music_TrainerBattle
 	dba Music_GymBattle
+	dba Music_ParkerBattle
 	dba Music_PartyHostBattle
 	dba Music_ShaggyBattle
-	dba Music_ParkerBattle
 	dba Music_LookWarden
 	dba Music_LookGirl
 	dba Music_LookManiac
