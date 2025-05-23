@@ -1,0 +1,973 @@
+Music_GroveCity:
+	channel_count 4
+	channel 1, Music_GroveCity_Ch1
+	channel 2, Music_GroveCity_Ch2
+	channel 3, Music_GroveCity_Ch3
+	channel 4, Music_GroveCity_Ch4
+
+Music_GroveCity_Ch1:
+_chan = 1
+	db	$da,$01,$00
+	db	$e5,$77
+	db	$db,$02
+; P1-1
+	db	$d8,$8,$71
+	db	$d4,$80
+	db	$d3,$10
+	db	$30
+	db	$80
+	db	$d4,$80
+	db	$d3,$10
+	db	$30
+	db	$80
+	db	$d4,$80
+	db	$d3,$10
+	db	$30
+	db	$80
+	db	$d4,$80
+	db	$d3,$10
+	db	$d4,$c0
+	db	$a0
+; P1-2
+	db	$80
+	db	$c0
+	db	$d3,$30
+	db	$80
+	db	$d4,$80
+	db	$c0
+	db	$d3,$30
+	db	$80
+	db	$c0
+	db	$80
+	db	$30
+	db	$d4,$c0
+	db	$d3,$30
+	db	$d4,$c0
+	db	$db,$01
+	db	$d8,$8,$97
+	db	$d5,$50
+	db	$60
+.mainloop:
+	db	$f6,$00
+; P1-3
+	db	$d8,$8,$97
+	db	$fe
+	dw	.sub3_5
+; P1-6
+	db	$15
+	db	$10
+	db	$60
+	db	$a0
+	db	$d4,$10
+	db	$d5,$a0
+	db	$60
+	db	$10
+	db	$d6,$60
+	db	$d5,$10
+	db	$60
+; P1-7
+	db	$d4,$13
+	db	$d5,$63
+	db	$32
+	db	$52
+	db	$31
+; P1-8
+	db	$15
+	db	$83
+	db	$11
+	db	$d4,$11
+	db	$d5,$c0
+	db	$80
+; P1-9
+	db	$a3
+	db	$d4,$13
+	db	$33
+	db	$11
+	db	$10
+	db	$30
+; P1-10
+	db	$11
+	db	$d5,$30
+	db	$80
+	db	$d4,$11
+	db	$d5,$30
+	db	$80
+	db	$d4,$33
+	db	$d5,$31
+	db	$50
+	db	$60
+; P1-11
+	db	$fe
+	dw	.sub3_5
+; P1-14
+	db	$15
+	db	$10
+	db	$60
+	db	$a0
+	db	$d4,$10
+	db	$d5,$a0
+	db	$60
+	db	$a0
+	db	$d6,$a0
+	db	$d5,$60
+	db	$80
+; P1-15
+	db	$a3
+	db	$d4,$13
+	db	$d5,$93
+	db	$d4,$11
+	db	$d5,$61
+; P1-16
+	db	$53
+	db	$33
+	db	$23
+	db	$83
+; P1-17
+	db	$a1
+	db	$11
+	db	$61
+	db	$a1
+	db	$92
+	db	$b2
+	db	$61
+; P1-18
+	db	$51
+	db	$d6,$80
+	db	$d5,$10
+	db	$50
+	db	$10
+	db	$50
+	db	$80
+	db	$d4,$11
+	db	$db,$02
+	db	$d8,$4,$a1
+	db	$10
+	db	$30
+	db	$50
+	db	$88
+; P1-19
+	db	$e1,$10,$44
+	db	$d8,$8,$88
+	db	$d5,$1f
+; P1-20
+	db	$e1,$c,$44
+	db	$d8,$4,$88
+	db	$20
+	db	$36
+;		tempo 16
+	db	$f8,$3f
+	db	$f6,$00
+	db	$e1,$0,$00
+	db	$dc,$97
+;		tempo 4
+	db	$f8,$33
+	db	$d6,$c1
+	db	$d5,$11
+; P1-21
+	db	$db,$02
+	db	$e1,$c,$44
+	db	$d8,$4,$88
+	db	$20
+	db	$3e
+;		tempo 16
+	db	$f8,$3f
+; P1-22
+	db	$e1,$10,$44
+	db	$d8,$8,$88
+;		tempo 14
+	db	$f8,$1d
+	db	$01
+; P1-23
+	db	$e1,$c,$44
+	db	$d8,$4,$88
+	db	$50
+	db	$6e
+	db	$e1,$10,$44
+	db	$1f
+; P1-24
+	db	$f8,$1f
+	db	$e1,$c,$44
+;		tempo 1
+	db	$f8,$70
+	db	$8e
+; P1-25
+	db	$e1,$10,$44
+	db	$ab
+	db	$c0
+	db	$e1,$c,$44
+	db	$d4,$1e
+	db	$d5,$c1
+	db	$d4,$11
+; P1-26
+	db	$e1,$10,$44
+	db	$d8,$8,$88
+	db	$d5,$cd
+	db	$01
+; P1-27
+	db	$e1,$c,$44
+	db	$d8,$4,$88
+	db	$c0
+	db	$d4,$1e
+	db	$e1,$10,$44
+	db	$d5,$8f
+; P1-28
+	db	$f8,$8f
+;		tempo 12
+	db	$f8,$5b
+	db	$31
+	db	$51
+; P1-29
+	db	$6f
+	db	$d4,$1f
+; P1-30
+	db	$f8,$1f
+	db	$13
+	db	$f8,$d5,$13
+	db	$40
+	db	$52
+	db	$63
+; P1-31
+	db	$e1,$0,$00
+	db	$70
+	db	$8a
+	db	$63
+	db	$83
+	db	$a7
+	db	$e1,$c,$44
+	db	$c0
+	db	$d4,$12
+; P1-32
+;		tempo 12
+	db	$f8,$1b
+	db	$e1,$0,$00
+;		tempo 2
+	db	$f8,$31
+	db	$11
+	db	$d5,$c7
+	db	$53
+	db	$33
+; P1-33
+	db	$e1,$10,$44
+	db	$d8,$8,$88
+	db	$5b
+	db	$f6,$00
+	db	$e1,$0,$00
+	db	$dc,$97
+	db	$81
+	db	$61
+; P1-34
+	db	$55
+	db	$d6,$81
+	db	$d5,$15
+	db	$50
+	db	$60
+	db	$fc
+	dw	.mainloop
+.sub3_5:
+; P1-3
+	db	$d5,$81
+	db	$11
+	db	$81
+	db	$d4,$10
+	db	$30
+	db	$52
+	db	$12
+	db	$30
+	db	$50
+; P1-4
+	db	$31
+	db	$d5,$30
+	db	$80
+	db	$c0
+	db	$30
+	db	$d6,$c0
+	db	$d5,$30
+	db	$80
+	db	$30
+	db	$d6,$80
+	db	$c0
+	db	$d5,$31
+	db	$d6,$c0
+	db	$d5,$10
+; P1-5
+	db	$31
+	db	$30
+	db	$80
+	db	$b1
+	db	$b0
+	db	$d4,$10
+	db	$30
+	db	$d5,$b0
+	db	$80
+	db	$30
+	db	$80
+	db	$30
+	db	$d6,$b0
+	db	$d5,$30
+	db	$ff
+Music_GroveCity_Ch2:
+_chan = 2
+	db	$db,$01
+	db	$e1,$c,$44
+; P2-1
+	db	$d8,$4,$48
+	db	$d5,$c0
+	db	$d4,$16
+	db	$e1,$0,$44
+	db	$dc,$58
+	db	$17
+	db	$dc,$58
+	db	$17
+	db	$dc,$68
+	db	$13
+	db	$e1,$10,$44
+	db	$dc,$78
+	db	$31
+	db	$11
+; P2-2
+	db	$d8,$8,$78
+	db	$d5,$cb
+	db	$01
+	db	$db,$00
+	db	$dc,$a8
+	db	$10
+	db	$30
+.mainloop:
+; P2-3
+	db	$fe
+	dw	.melo3_5
+; P2-6
+	db	$fe
+	dw	.melo6_9
+; P2-10
+	db	$8b
+	db	$f6,$00
+	db	$e1,$0,$00
+	db	$dc,$97
+	db	$c1
+	db	$db,$00
+	db	$e1,$10,$44
+	db	$dc,$a8
+	db	$10
+	db	$30
+; P2-11
+	db	$fe
+	dw	.melo3_5
+; P2-14
+	db	$e1,$10,$44
+	db	$d8,$8,$a8
+	db	$67
+	db	$f6,$00
+	db	$e1,$0,$00
+	db	$dc,$97
+	db	$63
+	db	$d4,$13
+; P2-15
+	db	$db,$00
+	db	$e1,$10,$44
+	db	$dc,$a8
+	db	$d5,$65
+	db	$e1,$0,$00
+	db	$30
+	db	$50
+	db	$62
+	db	$82
+	db	$91
+; P2-16
+	db	$e1,$10,$44
+	db	$85
+	db	$e1,$0,$00
+	db	$61
+	db	$53
+	db	$f6,$00
+	db	$dc,$97
+	db	$21
+	db	$db,$00
+	db	$e1,$10,$44
+	db	$dc,$a8
+	db	$d6,$a0
+	db	$c0
+; P2-17
+	db	$d5,$14
+	db	$00
+	db	$e1,$0,$00
+	db	$11
+	db	$32
+	db	$52
+	db	$31
+; P2-18
+	db	$e1,$10,$44
+	db	$1b
+	db	$db,$02
+	db	$e1,$0,$00
+	db	$dc,$a1
+	db	$d3,$11
+	db	$db,$00
+	db	$e1,$10,$44
+	db	$dc,$a8
+	db	$d5,$10
+	db	$30
+; P2-19
+	db	$fe
+	dw	.melo3_5
+; P2-22
+	db	$fe
+	dw	.melo6_9
+; P2-26
+	db	$8b
+	db	$01
+	db	$50
+	db	$60
+; P2-27
+	db	$e1,$c,$44
+	db	$d8,$4,$a8
+	db	$70
+	db	$8a
+	db	$e1,$10,$44
+	db	$5f
+	db	$31
+	db	$11
+; P2-28
+	db	$d8,$8,$a8
+;		tempo 12
+	db	$f8,$1b
+;		tempo 2
+	db	$f8,$01
+	db	$d4,$10
+	db	$30
+; P2-29
+	db	$d8,$4,$a8
+	db	$1b
+	db	$e1,$0,$00
+	db	$d5,$87
+	db	$57
+	db	$e1,$c,$44
+	db	$20
+	db	$32
+; P2-30
+	db	$d8,$8,$a8
+	db	$38
+	db	$00
+	db	$e1,$0,$00
+	db	$d8,$4,$a8
+	db	$d6,$93
+	db	$c0
+	db	$d5,$12
+	db	$33
+; P2-31
+	db	$40
+	db	$5a
+	db	$33
+	db	$53
+	db	$63
+	db	$53
+	db	$e1,$10,$44
+	db	$33
+; P2-32
+;		tempo 12
+	db	$f8,$3b
+	db	$db,$02
+	db	$dc,$58
+;		tempo 2
+	db	$f8,$c1
+	db	$a1
+	db	$83
+	db	$63
+	db	$db,$00
+	db	$dc,$a8
+	db	$d6,$83
+	db	$c1
+	db	$d5,$11
+; P2-33
+	db	$d8,$8,$a8
+	db	$1b
+	db	$f6,$00
+	db	$e1,$0,$00
+	db	$dc,$97
+	db	$51
+	db	$31
+; P2-34
+	db	$17
+	db	$d6,$55
+	db	$db,$00
+	db	$dc,$a8
+	db	$d5,$10
+	db	$30
+	db	$fc
+	dw	.mainloop
+.melo3_5:
+	db	$db,$00
+	db	$e1,$10,$44
+; P2-3
+	db	$dc,$a8
+	db	$d5,$54
+	db	$00
+	db	$50
+	db	$60
+	db	$e1,$0,$00
+	db	$82
+	db	$a2
+	db	$80
+	db	$60
+; P2-4
+	db	$e1,$10,$44
+	db	$8b
+	db	$f6,$00
+	db	$e1,$0,$00
+	db	$dc,$97
+	db	$81
+	db	$80
+	db	$a0
+; P2-5
+	db	$db,$00
+	db	$dc,$a8
+	db	$84
+	db	$00
+	db	$80
+	db	$a0
+	db	$d8,$1,$a8
+	db	$80
+;		tempo 16
+	db	$f8,$8f
+	db	$83
+	db	$f8,$93
+	db	$a0
+;		tempo 16
+	db	$f8,$af
+	db	$d8,$2,$a8
+;		tempo 11
+	db	$f8,$8a
+	db	$ff
+.melo6_9:
+	db	$e1,$10,$44
+; P2-6
+	db	$d8,$8,$a8
+	db	$67
+	db	$f6,$00
+	db	$e1,$0,$00
+	db	$dc,$97
+	db	$63
+	db	$a3
+; P2-7
+	db	$db,$00
+	db	$e1,$10,$44
+	db	$d8,$4,$a8
+	db	$3a
+	db	$00
+	db	$e1,$0,$00
+	db	$33
+	db	$65
+	db	$70
+	db	$84
+	db	$63
+; P2-8
+	db	$e1,$10,$44
+	db	$d8,$8,$a8
+	db	$5c
+	db	$00
+	db	$80
+	db	$50
+; P2-9
+	db	$75
+	db	$a7
+	db	$80
+	db	$a0
+	db	$ff
+Music_GroveCity_Ch3:
+_chan = 3
+; P3-1
+	db	$d8,$4,$79
+	db	$d5,$8f
+	db	$dc,$59
+;		tempo 15
+	db	$f8,$8e
+;		tempo 1
+	db	$f8,$00
+; P3-2
+	db	$8f
+	db	$dc,$3b
+;		tempo 12
+	db	$f8,$8b
+	db	$dc,$3d
+;		tempo 2
+	db	$f8,$d6,$81
+	db	$c1
+.mainloop:
+; P3-3
+	db	$fe
+	dw	.bass3
+; P3-4
+	db	$fe
+	dw	.bass4
+; P3-5
+	db	$fe
+	dw	.bass5_10
+; P3-11
+	db	$fe
+	dw	.bass3
+; P3-12
+	db	$fe
+	dw	.bass4
+; P3-13
+	db	$b6
+	db	$06
+	db	$b0
+	db	$00
+	db	$b1
+	db	$01
+	db	$b5
+	db	$01
+	db	$b3
+; P3-14
+	db	$a7
+	db	$03
+	db	$ad
+	db	$01
+	db	$81
+	db	$a1
+; P3-15
+	db	$d5,$37
+	db	$05
+	db	$30
+	db	$00
+	db	$21
+	db	$01
+	db	$25
+	db	$01
+	db	$23
+; P3-16
+	db	$17
+	db	$d6,$c7
+	db	$a7
+	db	$57
+; P3-17
+	db	$68
+	db	$04
+	db	$60
+	db	$00
+	db	$63
+	db	$93
+	db	$d5,$20
+	db	$36
+; P3-18
+	db	$17
+	db	$05
+	db	$d6,$81
+	db	$d5,$11
+	db	$01
+	db	$13
+	db	$d6,$87
+; P3-19
+	db	$fe
+	dw	.bass3
+; P3-20
+	db	$fe
+	dw	.bass4
+; P3-21
+	db	$fe
+	dw	.bass5_10
+; P3-27
+	db	$fe
+	dw	.bass3
+; P3-28
+	db	$d6,$b6
+	db	$06
+	db	$81
+	db	$b1
+	db	$01
+	db	$b5
+	db	$01
+	db	$81
+	db	$b1
+; P3-29
+	db	$a6
+	db	$06
+	db	$a0
+	db	$00
+	db	$a1
+	db	$01
+	db	$a5
+	db	$01
+	db	$a3
+; P3-30
+	db	$97
+	db	$03
+	db	$9d
+	db	$01
+	db	$91
+	db	$d5,$31
+; P3-31
+	db	$17
+	db	$03
+	db	$11
+	db	$01
+	db	$13
+	db	$53
+	db	$83
+	db	$d6,$83
+; P3-32
+;		tempo 8
+	db	$f8,$87
+;		tempo 4
+	db	$f8,$03
+	db	$81
+	db	$01
+	db	$87
+	db	$d5,$20
+	db	$32
+	db	$d6,$83
+; P3-33
+	db	$d5,$17
+	db	$03
+	db	$11
+	db	$01
+	db	$70
+	db	$82
+	db	$11
+	db	$01
+	db	$83
+	db	$c3
+; P3-34
+	db	$d4,$1b
+	db	$d5,$83
+	db	$1b
+	db	$d6,$81
+	db	$c1
+	db	$fc
+	dw	.mainloop
+.bass3:
+	db	$d5,$16
+	db	$06
+	db	$d6,$81
+	db	$d5,$11
+	db	$01
+	db	$15
+	db	$01
+	db	$13
+	db	$ff
+.bass4:
+	db	$d6,$c6
+	db	$06
+	db	$81
+	db	$c1
+	db	$01
+	db	$c5
+	db	$01
+	db	$81
+	db	$c1
+	db	$ff
+.bass5_10:
+; P3-5
+	db	$b6
+	db	$06
+	db	$b0
+	db	$00
+	db	$d8,$1,$3d
+	db	$b0
+;		tempo 16
+	db	$f8,$bf
+	db	$b3
+	db	$f8,$c3
+	db	$d5,$10
+;		tempo 16
+	db	$f8,$1f
+	db	$d8,$2,$3d
+;		tempo 11
+	db	$f8,$d6,$ba
+; P3-6
+	db	$d8,$4,$3d
+	db	$a7
+	db	$03
+	db	$ab
+	db	$63
+	db	$83
+; P3-7
+	db	$96
+	db	$06
+	db	$61
+	db	$91
+	db	$01
+	db	$93
+	db	$d5,$63
+	db	$93
+; P3-8
+	db	$8b
+	db	$1b
+	db	$70
+	db	$86
+; P3-9
+	db	$36
+	db	$06
+	db	$d6,$a1
+	db	$d5,$31
+	db	$01
+	db	$35
+	db	$01
+	db	$d6,$73
+; P3-10
+	db	$83
+	db	$d5,$33
+	db	$83
+	db	$a3
+	db	$b0
+	db	$c6
+	db	$83
+	db	$33
+	db	$ff
+Music_GroveCity_Ch4:
+_chan = 4
+	db	$e3,$00b
+; P4-1
+	db	$d8,$4
+	db	$0f
+	db	$0f
+; P4-2
+	db	$0f
+	db	$10
+	db	$10
+	db	$20
+	db	$20
+	db	$30
+	db	$30
+	db	$40
+	db	$40
+	db	$50
+	db	$50
+	db	$60
+	db	$60
+	db	$70
+	db	$70
+	db	$80
+	db	$80
+	db	$e3
+.mainloop:
+	db	$e3,$00c
+; P4-3
+	db	$fe
+	dw	.dr3
+; P4-4
+	db	$fe
+	dw	.dr4
+; P4-5
+	db	$fe
+	dw	.dr3
+; P4-6
+	db	$fe
+	dw	.dr6
+; P4-7
+	db	$fe
+	dw	.dr3
+; P4-8
+	db	$fe
+	dw	.dr4
+; P4-9
+	db	$fe
+	dw	.dr3
+; P4-10
+	db	$33
+	db	$61
+	db	$31
+	db	$13
+	db	$fe
+	dw	.dr10
+; P4-11
+	db	$fe
+	dw	.dr3
+; P4-12
+	db	$fe
+	dw	.dr4
+; P4-13
+	db	$fe
+	dw	.dr13
+	db	$31
+	db	$11
+	db	$63
+; P4-14
+	db	$fe
+	dw	.dr6
+; P4-15
+	db	$fe
+	dw	.dr3
+; P4-16
+	db	$fe
+	dw	.dr4
+; P4-17
+	db	$fe
+	dw	.dr13
+	db	$13
+	db	$41
+	db	$21
+; P4-18
+	db	$13
+	db	$21
+	db	$31
+	db	$11
+	db	$11
+	db	$fe
+	dw	.dr10
+; P4-19
+	db	$e3
+	db	$fc
+	dw	.mainloop
+.dr3:
+	db	$33
+	db	$61
+	db	$31
+	db	$13
+	db	$33
+	db	$53
+	db	$41
+	db	$31
+	db	$13
+	db	$63
+	db	$ff
+.dr4:
+	db	$33
+	db	$61
+	db	$31
+	db	$13
+	db	$33
+	db	$53
+	db	$41
+	db	$31
+	db	$13
+	db	$61
+	db	$41
+	db	$ff
+.dr6:
+	db	$33
+	db	$61
+	db	$31
+	db	$13
+	db	$33
+	db	$13
+	db	$31
+	db	$21
+	db	$11
+	db	$11
+	db	$61
+	db	$11
+	db	$ff
+.dr10:
+	db	$31
+	db	$20
+	db	$20
+	db	$11
+	db	$21
+	db	$11
+	db	$21
+	db	$21
+	db	$11
+	db	$11
+	db	$11
+	db	$ff
+.dr13:
+	db	$33
+	db	$61
+	db	$31
+	db	$13
+	db	$33
+	db	$53
+	db	$41
+	db	$31
+	db	$ff

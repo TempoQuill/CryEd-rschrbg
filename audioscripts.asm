@@ -291,6 +291,7 @@ GetAudioScriptByte:
 
 CuePointers:
 	dw wAudioScript_ScriptArea
+	dw AnicomTest_SFX
 	dw AudioScript_IntoRoute49
 	dw AudioScript_PhillipsHouseCutscene
 	dw AudioScript_OutOfPhillipsHouse
@@ -3885,4 +3886,13 @@ BattleAnim_ShowMon_1:
 	wait_script 1
 	wait_script 4
 	wait_script 1
+	script_end
+
+AnicomTest_SFX:
+	play_music MUSIC_VIRIDIAN_CITY
+	wait_script 58
+	script_loop 255
+	play_sfx $f7
+	wait_script 60
+	break_loop
 	script_end

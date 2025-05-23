@@ -106,6 +106,7 @@ NOISE_CHAN_F EQU 2 ; bit set in CHAN5-CHAN7
 	const SOUND_PLUCK_HANDLING  ; 3
 	const SOUND_FIFTHS_PLUCK    ; 4
 	const SOUND_TIE             ; 5
+	const SOUND_RESTORE         ; 6
 
 ; NoteFlags
 	const_def

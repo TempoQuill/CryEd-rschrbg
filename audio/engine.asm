@@ -175,6 +175,8 @@ _UpdateSound::
 	bc_offset CHANNEL_NOTE_FLAGS
 	xor a
 	ld [hl], a
+	bc_offset CHANNEL_FLAGS3
+	res SOUND_RESTORE, [hl]
 .nextchannel
 	; next channel
 	bc_offset CHANNEL_STRUCT_LENGTH
@@ -830,6 +832,8 @@ LoadNote:
 	bc_offset CHANNEL_FLAGS3
 	bit SOUND_TIE, [hl]
 	jr z, .vibrato
+	bit SOUND_RESTORE, [hl]
+	ret nz
 	bc_offset CHANNEL_NOTE_FLAGS
 	res NOTE_NOISE_SAMPLING, [hl]
 	set NOTE_FREQ_OVERRIDE, [hl]
@@ -1550,9 +1554,16 @@ RestoreVolume:
 	ret
 
 ParseSFXOrCry:
-	; turn noise sampling on
+	; load third flag array
+	bc_offset CHANNEL_FLAGS3
+	ld a, [hl]
+	; turn noise sampling/freq on
 	bc_offset CHANNEL_NOTE_FLAGS
+	set NOTE_FREQ_OVERRIDE, [hl] ; in case we tie
+	bit SOUND_TIE, a
+	jr nz, .tie
 	set NOTE_NOISE_SAMPLING, [hl] ; noise sample
+.tie:
 	; update note duration
 	ld a, [wCurMusicByte]
 	call SetNoteDuration ; top nybble only applied to SFX / cries
@@ -3142,8 +3153,8 @@ RestoreMusicChannel:
 	ld a, [hl]
 	and a
 	jr z, .skip_restore
-.no_staccato
 	; yes
+.no_staccato
 	; are we on the WAV channel?
 	ld a, [wCurChannel]
 	maskbits NUM_MUSIC_CHANS
@@ -3164,6 +3175,8 @@ RestoreMusicChannel:
 	; WAV/flat volume, pre-staccato, non-rest
 	bc_offset CHANNEL_NOTE_FLAGS
 	set NOTE_NOISE_SAMPLING, [hl]
+	bc_offset CHANNEL_FLAGS3
+	set SOUND_RESTORE, [hl]
 .skip_restore
 	ret
 

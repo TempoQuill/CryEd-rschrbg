@@ -261,6 +261,8 @@ SFX:
 	dba Sfx_PlaneTakingOff
 	dba Sfx_GGG
 
+	dba SFX_AnicomText
+
 	dba Sfx_UnusedE8
 	dba Sfx_UnusedE9
 	dba Cry_Yoshi

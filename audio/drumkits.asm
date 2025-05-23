@@ -13,6 +13,7 @@ Drumkits:
 	dw Drumkit9
 	dw Drumkit10
 	dw Drumkit11
+	dw Drumkit12
 
 ; gen 1
 Drumkit0:
@@ -537,12 +538,22 @@ Drumkit11:
 	dw Anicom_GroveSnare4
 	dw Anicom_Snare5
 	dw Anicom_GroveSnare6
+	dw Anicom_Snare8
 	dw Anicom_GroveSnare8
+Drumkit12:
+	dw NoPerc1
 	dw Anicom_Snare2
-	dw Anicom_HihatClose1
-	dw Anicom_HihatClose2
-	dw Anicom_GroveKick1
+	dw Anicom_Snare5
 	dw Anicom_GroveKick2
+	dw Anicom_GroveKick1
+	dw Anicom_HihatClose2
+	dw Anicom_HihatClose1
+	dw NoPerc1
+	dw NoPerc1
+	dw NoPerc1
+	dw NoPerc1
+	dw NoPerc1
+	dw NoPerc1
 
 Anicom_GroveSnare1:
 	noise_note 0, 1, 1, 0
