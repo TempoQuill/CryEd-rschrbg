@@ -154,9 +154,9 @@ SetupWAVAndNoise:
     ld      [de],a
     inc     de
     and     $1f
-    cp      SG_TRUMPET
+    cp      RSE_TRUMPET
     jr      z, .adapt
-    cp      SG_FLUTE
+    cp      RSE_FLUTE
     jr      nz, .skip_octave_adaptation
 .adapt
     ld      hl,wDisplayWAVOctave

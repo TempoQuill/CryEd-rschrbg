@@ -1,0 +1,144 @@
+Music_Hospital:
+	channel_count 3
+	channel 1, Music_Hospital_Ch1
+	channel 2, Music_Hospital_Ch2
+	channel 3, Music_Hospital_Ch3
+
+Music_Hospital_Ch1:
+	db	$da,$01,$00
+	db	$e5,$77
+	db	$f1
+	db	$f6,$00
+.mainloop:
+; P1-1
+	db	$d8,$8,$47
+	db	$d5,$65
+	db	$b1
+	db	$d4,$31
+	db	$d5,$61
+	db	$33
+; P1-2
+	db	$65
+	db	$a1
+	db	$d4,$11
+	db	$d5,$a1
+	db	$63
+; P1-3
+	db	$67
+	db	$b7
+; P1-4
+	db	$b5
+	db	$b3
+	db	$61
+	db	$31
+	db	$61
+; P1-5
+	db	$55
+	db	$81
+	db	$17
+; P1-6
+	db	$d6,$b1
+	db	$d5,$61
+	db	$b1
+	db	$d4,$10
+	db	$d5,$b0
+	db	$a1
+	db	$81
+	db	$61
+	db	$11
+; P1-7
+	db	$35
+	db	$67
+	db	$61
+; P1-8
+	db	$85
+	db	$d8,$1,$47
+	db	$d3,$14
+	db	$34
+	db	$15
+	db	$d4,$bf
+	db	$8f
+	db	$6f
+	db	$4f
+	db	$fc
+	dw	.mainloop
+Music_Hospital_Ch2:
+	db	$f6,$00
+.mainloop:
+; P2-1
+	db	$d8,$4,$67
+	db	$d4,$3b
+	db	$6b
+	db	$d5,$b7
+; P2-2
+	db	$d4,$1b
+	db	$6b
+	db	$15
+	db	$30
+	db	$10
+; P2-3
+	db	$d5,$bb
+	db	$d4,$37
+	db	$33
+	db	$43
+	db	$63
+; P2-4
+	db	$8b
+	db	$6b
+	db	$d5,$a7
+; P2-5
+	db	$d8,$8,$67
+	db	$b9
+	db	$a1
+	db	$b1
+	db	$d4,$11
+; P2-6
+	db	$35
+	db	$40
+	db	$30
+	db	$17
+; P2-7
+	db	$dc,$47
+	db	$d6,$b5
+	db	$d5,$33
+	db	$d6,$b1
+	db	$d5,$31
+	db	$11
+; P2-8
+	db	$d6,$b5
+	db	$d8,$1,$47
+	db	$d4,$a4
+	db	$b4
+	db	$a5
+	db	$8f
+	db	$4f
+	db	$d5,$bf
+	db	$8f
+	db	$fc
+	dw	.mainloop
+Music_Hospital_Ch3:
+	db	$e1,$10,$54
+.mainloop:
+; P3-1
+	db	$d8,$8,$5b
+	db	$d5,$bf
+; P3-2
+	db	$af
+; P3-3
+	db	$87
+	db	$67
+; P3-4
+	db	$47
+	db	$37
+; P3-5
+	db	$1f
+; P3-6
+	db	$6f
+; P3-7
+	db	$d6,$bf
+; P3-8
+	db	$d5,$4f
+	db	$fc
+	dw	.mainloop
+
+

@@ -79,7 +79,7 @@
 	const CRY_SPEAROW_OLD    ; 45 ; Lykwyse, Ruffy, Empeduck, Animadise, Marloon
 	const CRY_ROAR_1_OLD     ; 46 ; Flambear, Volbear, Orschul
 	const CRY_CROW_OLD       ; 47 ; Donkrank, Sweote
-	const CRY_DERBLE_4_OLD   ; 48 ; Tieracnid, Metabeak, Scafarow
+	const CRY_DERBLE_4_OLD   ; 48 ; Metabeak, Scafarow
 	const CRY_ROAR_2_OLD     ; 49 ; Dynabear, Aquacent, Aquaria, Burgela, Molambino, Grotess
 	const CRY_HOOTING_1      ; 4a ; Trifox
 	const CRY_HOOTHOOT_OLD   ; 4b ; Photorden, Noctglide, Highpo
@@ -94,7 +94,7 @@
 	const CRY_BIG_YOSHI      ; 54 ; Porysphia
 	const CRY_FOSSLIX        ; 55 ; Fosslix, Scooten
 	const CRY_POUCHENT       ; 56 ; Sailwing, Tiarant, Alphape, Pouchent
-	const CRY_MURPHELT       ; 57 ; Murphelt, Moscarf, Flider
+	const CRY_MURPHELT       ; 57 ; Tieracnid, Murphelt, Moscarf, Flider
 	const CRY_ASSISDRA       ; 58 ; Liodew, Alidusk, Kaboulder, Sewma, Assisdra
 	const CRY_KICLOUD        ; 59 ; Kicloud, Magenza
 	const CRY_DUGQUINTET     ; 5a ; Quailter, Staffbird, Dugquintet
@@ -108,11 +108,11 @@
 	const CRY_ORKID          ; 62 ; Orkid, Syntique, Willofudd, Milcalf
 	const CRY_CROVEN         ; 63 ; Croven, Astroven, Laroon
 	const CRY_BOMOCA         ; 64 ; Cranest, Sunthesia, Starello, Whispeon, Bomoca, Houndread
-	const CRY_SELENUMIA      ; 65 ; Alrem, Kurstraw, Pangshi Centir, Selenumia
+	const CRY_SELENUMIA      ; 65 ; Alrem, Kurstraw, Pangshi, Centir, Selenumia
 	const CRY_RECLINAX       ; 66 ; Reclinax
 	const CRY_SANDSCOUR      ; 67 ; Sandscour
 	const CRY_TEAROW         ; 68 ; Tearow, Nohtyp
-	const CRY_WINDKITT       ; 69 ; Parabud Windkitt, Todbrush, Squidrill
+	const CRY_WINDKITT       ; 69 ; Parabud, Windkitt, Todbrush, Squidrill
 	const CRY_COSMOREAS      ; 6a ; Cosmoreas, Cycorpion
 NUM_CRIES EQU const_value
 

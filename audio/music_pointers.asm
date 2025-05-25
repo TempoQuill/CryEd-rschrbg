@@ -147,7 +147,7 @@ Music:
 
 	dba Music_Hedgetown
 	dba Music_GreenCity
-	dba Music_Nothing
+	dba Music_MarbleTown
 	dba Music_EmeraldCity
 	dba Music_Aquatown
 	dba Music_AngelCity
@@ -163,7 +163,7 @@ Music:
 	dba Music_UnionStation
 	dba Music_GamingAndTheater
 	dba Music_Nothing
-	dba Music_Nothing
+	dba Music_Hospital
 	dba Music_Home
 	dba Music_Nothing ; uncomposed
 	dba Music_Nothing ; uncomposed
@@ -180,5 +180,5 @@ Music:
 	dba Music_Nothing ; uncomposed
 	dba Music_Nothing
 	dba Music_Nothing ; uncomposed
-	dba Music_Nothing
+	dba Music_NextLevel
 	dba Music_BattleSting

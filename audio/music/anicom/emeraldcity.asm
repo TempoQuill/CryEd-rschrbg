@@ -11,6 +11,7 @@ Music_EmeraldCity_Ch1:
 _chan = 1
 	db	$da,$00,$c0
 	db	$e5,$77
+	db	$d9,$17
 	db	$f6,$00
 ; P1-0
 	db	$d8,$c,$77
@@ -119,6 +120,7 @@ _chan = 1
 	db	$ff
 Music_EmeraldCity_Ch2:
 _chan = 2
+	db	$d9,$17
 	db	$db,$02
 ; P2-0
 	db	$d8,$c,$a8
@@ -314,6 +316,7 @@ _chan = 2
 	db	$13
 	db	$ff
 Music_EmeraldCity_Ch3:
+	db	$d9,$17
 ; P3-0
 	db	$d8,$c,$00
 	db	$01

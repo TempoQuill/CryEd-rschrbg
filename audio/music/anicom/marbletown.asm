@@ -1,0 +1,410 @@
+Music_MarbleTown:
+	channel_count 4
+	channel 1, Music_MarbleTown_Ch1
+	channel 2, Music_MarbleTown_Ch2
+	channel 3, Music_MarbleTown_Ch3
+	channel 4, Music_MarbleTown_Ch4
+
+Music_MarbleTown_Ch1:
+_chan = 1
+	db	$da,$00,$c0
+	db	$e5,$77
+	db	$f1
+	db	$db,$01
+; P1-0
+	db	$d8,$c,$88
+	db	$d5,$40
+	db	$60
+.mainloop:
+; P1-1
+	db	$d5,$8b
+	db	$43
+; P1-2
+	db	$1b
+	db	$03
+; P1-3
+	db	$89
+	db	$d6,$b1
+	db	$d5,$31
+	db	$61
+; P1-4
+	db	$8b
+	db	$db,$00
+	db	$e1,$12,$74
+	db	$d6,$91
+	db	$81
+; P1-5
+	db	$d5,$3b
+	db	$e1,$0,$00
+	db	$d6,$b3
+; P1-6
+	db	$e1,$12,$74
+	db	$d5,$17
+	db	$d6,$87
+; P1-7
+	db	$af
+; P1-8
+	db	$d5,$47
+	db	$37
+; P1-9
+	db	$db,$02
+	db	$e1,$0,$00
+	db	$dc,$a1
+	db	$fe
+	dw	.sub9
+; P1-10
+.sub10:
+	db	$90
+	db	$b0
+	db	$90
+	db	$b0
+	db	$d4,$40
+	db	$d5,$b0
+	db	$90
+	db	$b0
+	db	$fd,2
+	dw	.sub10
+; P1-11
+	db	$fe
+	dw	.sub9
+; P1-12
+	db	$fe
+	dw	.sub9
+; P1-13
+.sub13:
+	db	$80
+	db	$b0
+	db	$80
+	db	$b0
+	db	$d4,$30
+	db	$d5,$b0
+	db	$80
+	db	$b0
+	db	$fd,2
+	dw	.sub13
+; P1-14
+	db	$fe
+	dw	.sub9
+; P1-15
+.sub15:
+	db	$60
+	db	$a0
+	db	$60
+	db	$a0
+	db	$d4,$10
+	db	$d5,$a0
+	db	$60
+	db	$a0
+	db	$fd,2
+	dw	.sub15
+; P1-16
+	db	$db,$01
+	db	$dc,$a7
+	db	$47
+	db	$35
+	db	$dc,$88
+	db	$40
+	db	$60
+	db	$fc
+	dw	.mainloop
+.sub9:
+	db	$80
+	db	$b0
+	db	$80
+	db	$b0
+	db	$d4,$40
+	db	$d5,$b0
+	db	$80
+	db	$b0
+	db	$fd,2
+	dw	.sub9
+	db	$ff
+Music_MarbleTown_Ch2:
+_chan = 2
+	db	$db,$00
+	db	$e1,$12,$54
+; P2-0
+	db	$d8,$c,$a8
+	db	$d5,$80
+	db	$90
+.mainloop:
+; P2-1
+	db	$d8,$c,$a8
+	db	$bd
+	db	$90
+	db	$80
+; P2-2
+	db	$97
+	db	$e1,$0,$00
+	db	$03
+	db	$43
+; P2-3
+	db	$e1,$f,$54
+	db	$d8,$6,$a8
+	db	$a0
+	db	$b2
+;		tempo 16
+	db	$f8,$bf
+;		tmepo 4
+	db	$e1,$12,$54
+	db	$f8,$43
+	db	$b3
+	db	$d4,$33
+; P2-4
+	db	$4f
+	db	$07
+	db	$d5,$63
+	db	$43
+; P2-5
+	db	$d8,$c,$a8
+	db	$bb
+	db	$33
+; P2-6
+	db	$47
+	db	$03
+	db	$11
+	db	$41
+; P2-7
+	db	$85
+	db	$45
+	db	$61
+	db	$41
+; P2-8
+	db	$87
+	db	$63
+	db	$01
+	db	$db,$01
+	db	$e1,$0,$00
+	db	$40
+	db	$60
+; P2-9
+	db	$8b
+	db	$63
+; P2-10
+	db	$47
+	db	$13
+	db	$01
+	db	$41
+; P2-11
+	db	$d8,$8,$a8
+	db	$88
+	db	$42
+	db	$83
+	db	$63
+	db	$83
+; P2-12
+	db	$d8,$c,$a8
+	db	$47
+	db	$05
+	db	$11
+; P2-13
+	db	$85
+	db	$65
+	db	$01
+	db	$10
+	db	$30
+; P2-14
+	db	$43
+	db	$31
+	db	$13
+	db	$01
+	db	$11
+	db	$41
+; P2-15
+	db	$d8,$8,$a8
+	db	$85
+	db	$45
+	db	$13
+	db	$43
+	db	$83
+; P2-16
+	db	$d8,$c,$a8
+	db	$6b
+	db	$01
+	db	$db,$00
+	db	$e1,$12,$54
+	db	$80
+	db	$90
+	db	$fc
+	dw	.mainloop
+Music_MarbleTown_Ch3:
+_chan = 3
+; P3-0
+	db	$d8,$6,$3d
+	db	$03
+.mainloop:
+; P3-1
+	db	$fe
+	dw	.bass1_2
+; P3-3
+	db	$d5,$47
+	db	$40
+	db	$02
+	db	$47
+	db	$e2,$11
+	db	$43
+	db	$e2,$23
+	db	$37
+; P3-4
+	db	$fe
+	dw	.bass4
+; P3-5
+	db	$d6,$87
+	db	$80
+	db	$02
+	db	$e2,$35
+	db	$8b
+	db	$e2,$11
+	db	$83
+	db	$d5,$33
+; P3-6
+	db	$fe
+	dw	.bass6_8
+; P3-9
+	db	$fe
+	dw	.bass1_2
+; P3-11
+	db	$e2,$ff
+	db	$d5,$48
+	db	$02
+	db	$e2,$23
+	db	$47
+	db	$e2,$11
+	db	$43
+	db	$e2,$23
+	db	$37
+; P3-12
+	db	$fe
+	dw	.bass4
+; P3-13
+	db	$e2,$35
+	db	$d6,$88
+	db	$02
+	db	$8b
+	db	$e2,$11
+	db	$83
+	db	$d5,$33
+; P3-14
+	db	$fe
+	dw	.bass6_8
+; P3-17
+	db	$fc
+	dw	.mainloop
+.bass1_2:
+; P3-1
+	db	$e2,$23
+	db	$d5,$47
+	db	$40
+	db	$02
+	db	$47
+	db	$e2,$11
+	db	$43
+	db	$e2,$23
+	db	$d6,$87
+; P3-2
+	db	$97
+	db	$90
+	db	$02
+	db	$e2,$20
+	db	$d5,$30
+	db	$46
+	db	$e2,$11
+	db	$63
+	db	$e2,$23
+	db	$d6,$97
+	db	$ff
+.bass4:
+	db	$e2,$35
+	db	$1b
+	db	$e2,$32
+	db	$70
+	db	$8a
+	db	$e2,$23
+	db	$17
+	db	$ff
+.bass6_8:
+; P3-6
+	db	$e2,$23
+	db	$17
+	db	$e2,$0e
+	db	$70
+	db	$82
+	db	$e2,$23
+	db	$17
+	db	$e2,$11
+	db	$13
+	db	$e2,$23
+	db	$47
+; P3-7
+	db	$d6,$67
+	db	$e2,$11
+	db	$63
+	db	$e2,$35
+	db	$d5,$1b
+	db	$e2,$23
+	db	$67
+; P3-8
+.loop8:
+	db	$e2,$11
+	db	$d6,$b3
+	db	$fd,8
+	dw	.loop8
+	db	$ff
+Music_MarbleTown_Ch4:
+_chan = 4
+	db	$e3,$009
+; P4-0
+	db	$d8,$c
+	db	$01
+.mainloop:
+; P4-1
+	db	$fe
+	dw	.dr1
+	db	$b1
+; P4-2
+	db	$fe
+	dw	.dr1
+	db	$41
+; P4-3
+	db	$fe
+	dw	.dr1
+	db	$b1
+; P4-4
+	db	$fe
+	dw	.dr1
+	db	$71
+; P4-5
+	db	$fe
+	dw	.dr1
+	db	$b1
+; P4-6
+	db	$fe
+	dw	.dr1
+	db	$41
+; P4-7
+	db	$fe
+	dw	.dr1
+	db	$b1
+; P4-8
+	db	$41
+	db	$b1
+	db	$71
+	db	$41
+	db	$71
+	db	$71
+	db	$71
+	db	$71
+; P4-9
+	db	$fc
+	dw	.mainloop
+.dr1:
+	db	$41
+	db	$b1
+	db	$71
+	db	$b1
+	db	$b1
+	db	$41
+	db	$71
+	db	$ff
+
+

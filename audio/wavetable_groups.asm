@@ -11,11 +11,11 @@ WaveTableSequences:
 
 GenericWaveSequence:
 	wav_note RED_POKECENTER
-	wav_note RED_OAK
-	wav_note RED_PALLET
-	wav_note RED_CELADON
-	wav_note RED_RIVAL
-	wav_note RED_CELADON
-	wav_note RED_PALLET
-	wav_note RED_OAK
+	wav_note RED_PROFESSOR_OAK
+	wav_note RED_PALLET_TOWN
+	wav_note RED_CELADON_CITY
+	wav_note RED_RIVAL_BLUE
+	wav_note RED_CELADON_CITY
+	wav_note RED_PALLET_TOWN
+	wav_note RED_PROFESSOR_OAK
 	env_loop

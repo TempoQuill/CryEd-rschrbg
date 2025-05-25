@@ -148,38 +148,38 @@ MUSIC_ON_F EQU 0
 
 ; ch3 wavetable constants
 	const_def
-	const RED_POKECENTER ; 0:  02468acefffeeddccba9876544332211
-	const RED_OAK        ; 1:  02468aceeffffeeeddcba98765432211
-	const RED_PALLET     ; 2:  1369bdeeeeffffeddeffffeeeedb9631
-	const RED_CELADON    ; 3:  02468acdeffedeffeedcba9876543210
-	const RED_RIVAL      ; 4:  012345678acdeef77feedca876543210
-	const PIN_LOW        ; 5:  0011223344332211ffeeccaa88aaccee
-	const GOLD_ALPH      ; 6:  02468acecba98765fffeeddc44332211
-	const GOLD_DARK_CAVE ; 7:  c0a987f5fffeeddc443322f102468ace
-	const GOLD_MT_MOON   ; 8:  4433221f00468acef8feeddccba98765
-	const GOLD_JOHTO_GYM ; 9:  110000080013579ab4baa99887654321
-	const RAY_HAVOC      ; a:  012345678acdeeffffeedca876543210
-	const YNT_STARMAN    ; b:  bbffffffffffffbb4400000000000044
-	const YNT_MUSHROOM   ; c:  011234579bdffedcba98765443322111
-	const RAY_CREDITS    ; d:  8899aabbccbbaa997766442200224466
-	const RAY_NORGEO     ; e:  aabbddeeffeeddbb9988553300335588
-	const RAY_CASTLE_1   ; f:  04878cb77bfcaca548cbbfc85aca5851
-	const RAY_CASTLE_2   ; 10: 9befe9532369a8531037985321257aa8
-	const SG_BASS        ; 11: 63001245555433334567678beffdba98
-	const SG_SYNTH       ; 12: adedccccb5017dfc524affb658dfec99
-	const SG_FLUTE       ; 13: 65543321100000123579bdefffedca98 
-	const SG_PAD         ; 14: 889abbcdeeefffffc500001122345567
-	const SG_LUTE        ; 15: 940000000138dfffffffffeeeeeeeeec
-	const SG_ORGAN       ; 16: 7656606beefefcc8a756602553347564
-	const SG_SINE        ; 17: 75421100001124578abdeffffffedba8
-	const SG_TRUMPET     ; 18: 765321004cfeedba875431003dffedb9
-	const U_PAD          ; 19: 5468aefdb87546665454434651012103
-	const U_VOX          ; 1a: 259dffdb988999888899999898875200
-	const TA_PAD         ; 1b: 88a8aceefa853267855010578c863334
-	const WAV_DO_NOT_USE ; 1c: 9975410147cfffecba99989999999889
-	const AAOO_INSIDE    ; 1d: 78778765776522357aeffed853101256
-	const RSE_ORGAN      ; 1e: 20037acceffda8898656775457875333
-	const FRLG_DIST_LOW  ; 1f: 8993122a997203042367b89b5486bfff
+	const RED_POKECENTER     ; 0:  02468acefffeeddccba9876544332211
+	const RED_PROFESSOR_OAK  ; 1:  02468aceeffffeeeddcba98765432211
+	const RED_PALLET_TOWN    ; 2:  1369bdeeeeffffeddeffffeeeedb9631
+	const RED_CELADON_CITY   ; 3:  02468acdeffedeffeedcba9876543210
+	const RED_RIVAL_BLUE     ; 4:  012345678acdeef77feedca876543210
+	const PINBALL_LOW        ; 5:  0011223344332211ffeeccaa88aaccee
+	const GOLD_CHERRYGROVE   ; 6:  02468acecba98765fffeeddc44332211
+	const GOLD_DARK_CAVE     ; 7:  c0a987f5fffeeddc443322f102468ace
+	const GOLD_MT_MOON       ; 8:  4433221f00468acef8feeddccba98765
+	const GOLD_VS_JOHTO_GYM  ; 9:  110000080013579ab4baa99887654321
+	const RAY_TEAM_HAVOC     ; a:  012345678acdeeffffeedca876543210
+	const YOSHI_NT_STARMAN   ; b:  bbffffffffffffbb4400000000000044
+	const YOSHI_NT_MUSHROOM  ; c:  011234579bdffedcba98765443322111
+	const RAY_CREDITS        ; d:  8899aabbccbbaa997766442200224466
+	const RAY_NORGEO_TOWN    ; e:  aabbddeeffeeddbb9988553300335588
+	const RAY_CASTLE_1       ; f:  04878cb77bfcaca548cbbfc85aca5851
+	const RAY_CASTLE_2       ; 10: 9befe9532369a8531037985321257aa8
+	const SPEEDYG_LGB_BASS   ; 11: 63001245555433334567678beffdba98
+	const SPEEDYG_LGB_SYNTH  ; 12: adedccccb5017dfc524affb658dfec99
+	const RSE_FLUTE          ; 13: 9dffda99974201369dffdb9997520136
+	const RSE_ACCORDION      ; 14: 7778ba9984200253333487679aefffea
+	const RSE_NYLON_GUITAR   ; 15: 11000123679abcdffffedbbbbba86422
+	const SPEEDYG_LGB_ORGAN  ; 16: 7656606beefefcc8a756602553347564
+	const SPEEDYG_LGB_SINE   ; 17: 75421100001124578abdeffffffedba8
+	const RSE_TRUMPET        ; 18: fededc8039ffdefffeddec913affdeff
+	const UTOPIA_COAN_PAD    ; 19: 5468aefdb87546665454434651012103
+	const UTOPIA_COAN_VOX    ; 1a: 259dffdb988999888899999898875200
+	const PANEL_DE_PON_PAD   ; 1b: 88a8aceefa853267855010578c863334
+	const B303_HRII_BASS     ; 1c: 9975410147cfffecba99989999999889
+	const AAOO_INSIDE_BASS   ; 1d: 78778765776522357aeffed853101256
+	const RSE_ORGAN          ; 1e: 20037acceffda8898656775457875333
+	const FRLG_DISTORTED_LOW ; 1f: 8993122a997203042367b89b5486bfff
 NUM_WAVS EQU const_value
 
 ; ch3 masks
